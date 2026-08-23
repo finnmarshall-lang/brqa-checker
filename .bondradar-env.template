@@ -1,0 +1,3 @@
+# Copy to ~/.bondradar-env, fill in values, then: chmod 600 ~/.bondradar-env
+BR_USERNAME=you@9fin.com
+BR_PASSWORD=
