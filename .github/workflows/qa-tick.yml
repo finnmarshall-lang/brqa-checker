@@ -1,0 +1,63 @@
+name: BR QA Checker
+
+on:
+  schedule:
+    # Every 10 minutes. GitHub's scheduler can lag by a few minutes under load;
+    # for tighter cadence you'd need an external cron. This is fine for BR QA.
+    - cron: '*/10 * * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: qa-tick
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Claude CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run one tick
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          BR_USERNAME: ${{ secrets.BR_USERNAME }}
+          BR_PASSWORD: ${{ secrets.BR_PASSWORD }}
+        run: |
+          mkdir -p logs
+          echo "=== tick $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" | tee -a logs/tick.log
+          claude -p "$(cat tick_prompt.txt)" --dangerously-skip-permissions 2>&1 | tee -a logs/tick.log
+          echo "=== done $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" | tee -a logs/tick.log
+
+      - name: Commit updated state.json
+        run: |
+          git config user.name "brqa-bot"
+          git config user.email "brqa-bot@users.noreply.github.com"
+          if git diff --quiet state.json 2>/dev/null; then
+            echo "state.json unchanged"
+          else
+            git add state.json
+            git commit -m "state: tick $(date -u +%Y-%m-%dT%H:%M:%SZ)" || true
+            git push || true
+          fi
