@@ -1,54 +1,35 @@
 {
-  "1786982090.275099": {
-    "br_id": 14620462,
-    "checked_at": "2026-08-17T16:34:00Z",
-    "issuer": "Ameren Illinois",
-    "verdict": "clean"
-  },
-  "1786982337.512849": {
-    "br_id": 14620437,
-    "checked_at": "2026-08-17T16:34:00Z",
-    "issuer": "MetLife FA-backed",
-    "verdict": "clean"
-  },
-  "1786983069.036039": {
-    "br_id": 14620499,
-    "checked_at": "2026-08-17T16:34:00Z",
-    "issuer": "Bunge Ltd Finance",
-    "note": "Guidance — retracted CUSIP flag (CUSIP not required in BR)",
-    "verdict": "clean"
-  },
   "1786983437.109249": {
     "br_id": 14620504,
     "checked_at": "2026-08-17T17:03:00Z",
     "issuer": "Gray Media",
-    "note": "Price Talk — Ba3/B+ ratings missing",
+    "note": "Price Talk \u2014 Ba3/B+ ratings missing",
     "verdict": "flagged"
   },
   "1786983577.708409": {
     "br_id": 14620453,
     "checked_at": "2026-08-17T17:03:00Z",
     "issuer": "Bank of New York Mellon",
-    "note": "Final Terms — Tranche B missing MWC",
+    "note": "Final Terms \u2014 Tranche B missing MWC",
     "verdict": "flagged"
   },
   "1786983736.457619": {
     "checked_at": "2026-08-17T17:03:00Z",
-    "note": "Blue Owl — text is in attachment, cannot QA",
+    "note": "Blue Owl \u2014 text is in attachment, cannot QA",
     "verdict": "skipped"
   },
   "1786983932.385059": {
     "br_id": 14620493,
     "checked_at": "2026-08-17T17:03:00Z",
     "issuer": "Blackstone Private Credit",
-    "note": "Launched — headline typo 'a T+205bp'",
+    "note": "Launched \u2014 headline typo 'a T+205bp'",
     "verdict": "flagged"
   },
   "1786983943.563419": {
     "br_id": 14620483,
     "checked_at": "2026-08-17T17:03:00Z",
     "issuer": "Evergy",
-    "note": "Launched — denoms missing",
+    "note": "Launched \u2014 denoms missing",
     "verdict": "flagged"
   },
   "1786984038.214959": {
@@ -68,7 +49,7 @@
     "br_id": 14620221,
     "checked_at": "2026-08-17T17:03:00Z",
     "issuer": "ICICI Bank",
-    "note": "Priced — 'T4' typo, should be '(T+4)'",
+    "note": "Priced \u2014 'T4' typo, should be '(T+4)'",
     "verdict": "flagged"
   },
   "1786984884.895899": {
@@ -82,49 +63,49 @@
     "br_id": 14620499,
     "checked_at": "2026-08-17T17:03:00Z",
     "issuer": "Bunge Ltd Finance",
-    "note": "Launch — retracted CUSIP flag (CUSIP not required in BR)",
+    "note": "Launch \u2014 retracted CUSIP flag (CUSIP not required in BR)",
     "verdict": "clean"
   },
   "1786985287.268549": {
     "br_id": 14620437,
     "checked_at": "2026-08-17T17:03:00Z",
     "issuer": "MetLife FA-backed",
-    "note": "Launch — dual-tranche",
+    "note": "Launch \u2014 dual-tranche",
     "verdict": "clean"
   },
   "1786985959.921739": {
     "br_id": 14620468,
     "checked_at": "2026-08-17T18:20:00Z",
     "issuer": "Blue Owl Technology",
-    "note": "Launched tap — USD400m/USD200m size ambiguity in BR",
+    "note": "Launched tap \u2014 USD400m/USD200m size ambiguity in BR",
     "verdict": "flagged"
   },
   "1786986223.018399": {
     "br_id": 14620493,
     "checked_at": "2026-08-17T18:20:00Z",
     "issuer": "Blackstone Private Credit",
-    "note": "Launch → Priced — 'a T+205bp' headline typo now fixed",
+    "note": "Launch \u2192 Priced \u2014 'a T+205bp' headline typo now fixed",
     "verdict": "clean"
   },
   "1786986271.803149": {
     "br_id": 14620271,
     "checked_at": "2026-08-17T18:20:00Z",
     "issuer": "National Australia Bank",
-    "note": "Priced — book line should read 'Books last heard over USD2.23bn.' with no 'Book update:' prefix",
+    "note": "Priced \u2014 book line should read 'Books last heard over USD2.23bn.' with no 'Book update:' prefix",
     "verdict": "flagged"
   },
   "1786986608.181369": {
     "br_id": 14620483,
     "checked_at": "2026-08-17T18:20:00Z",
     "issuer": "Evergy",
-    "note": "Launch — denoms now fixed",
+    "note": "Launch \u2014 denoms now fixed",
     "verdict": "clean"
   },
   "1786988372.510379": {
     "br_id": 14620453,
     "checked_at": "2026-08-17T18:20:00Z",
     "issuer": "Bank of New York Mellon",
-    "note": "Launch — Tranche B MWC now fixed",
+    "note": "Launch \u2014 Tranche B MWC now fixed",
     "verdict": "clean"
   },
   "1786988679.460609": {
@@ -145,14 +126,14 @@
     "br_id": 14620462,
     "checked_at": "2026-08-17T18:20:00Z",
     "issuer": "Ameren Illinois",
-    "note": "Priced — 'Sale into Canada' should be removed",
+    "note": "Priced \u2014 'Sale into Canada' should be removed",
     "verdict": "flagged"
   },
   "1786990250.172319": {
     "br_id": 14620493,
     "checked_at": "2026-08-17T18:34:00Z",
     "issuer": "Blackstone Private Credit",
-    "note": "Priced (originally :eyes:, now ✅)",
+    "note": "Priced (originally :eyes:, now \u2705)",
     "verdict": "clean"
   },
   "1786990423.707239": {
@@ -166,14 +147,14 @@
     "br_id": 14620437,
     "checked_at": "2026-08-17T18:45:00Z",
     "issuer": "MetLife FA-backed",
-    "note": "Priced (originally :eyes:, now ✅)",
+    "note": "Priced (originally :eyes:, now \u2705)",
     "verdict": "clean"
   },
   "1786990789.756709": {
     "br_id": 14620445,
     "checked_at": "2026-08-17T18:45:00Z",
     "issuer": "Athene Global",
-    "note": "Launched — 'Sale into Canada' should be removed",
+    "note": "Launched \u2014 'Sale into Canada' should be removed",
     "verdict": "flagged"
   },
   "1786991805.424029": {
@@ -201,7 +182,7 @@
     "br_id": 14620445,
     "checked_at": "2026-08-17T19:45:00Z",
     "issuer": "Athene Global",
-    "note": "Priced — tap arithmetic present ($200m→outstanding $1.2bn), Sale into Canada now removed",
+    "note": "Priced \u2014 tap arithmetic present ($200m\u2192outstanding $1.2bn), Sale into Canada now removed",
     "verdict": "clean"
   },
   "1786996739.149939": {
@@ -215,27 +196,27 @@
     "br_id": 14620468,
     "checked_at": "2026-08-17T20:53:00Z",
     "issuer": "Blue Owl Technology",
-    "note": "Priced tap — $400m→$900m outstanding, prior ambiguity fixed",
+    "note": "Priced tap \u2014 $400m\u2192$900m outstanding, prior ambiguity fixed",
     "verdict": "clean"
   },
   "1787034944.442189": {
     "br_id": 14620676,
     "checked_at": "2026-08-18T06:45:00Z",
     "issuer": "Lloyds Bank",
-    "note": "Guidance — attachment unreadable, BR-internal only",
+    "note": "Guidance \u2014 attachment unreadable, BR-internal only",
     "verdict": "clean"
   },
   "1787035181.097999": {
     "br_id": 14620686,
     "checked_at": "2026-08-18T07:32:00Z",
     "issuer": "AUSCAP",
-    "note": "Mandated tap — retracted quotes flag (correct convention when quoting bank's mandate)",
+    "note": "Mandated tap \u2014 retracted quotes flag (correct convention when quoting bank's mandate)",
     "verdict": "clean"
   },
   "1787035643.602479": {
     "checked_at": "2026-08-18T07:32:00Z",
     "issuer": "DekaBank",
-    "note": "Book stats message — no term-sheet update to QA",
+    "note": "Book stats message \u2014 no term-sheet update to QA",
     "verdict": "skipped"
   },
   "1787035915.575629": {
@@ -270,19 +251,19 @@
     "br_id": 14620338,
     "checked_at": "2026-08-18T07:32:00Z",
     "issuer": "Development Bank of Japan",
-    "note": "Guidance — Sale into Canada should be removed; prefix + wording flags both retracted (fine pre-pricing)",
+    "note": "Guidance \u2014 Sale into Canada should be removed; prefix + wording flags both retracted (fine pre-pricing)",
     "verdict": "flagged"
   },
   "1787037009.049359": {
     "br_id": 14620425,
     "checked_at": "2026-08-18T07:32:00Z",
     "issuer": "World Bank",
-    "note": "Guidance — retracted 'Book update:' prefix flag (prefix is fine at Guidance for IOIs); 'Todays' typo still stands",
+    "note": "Guidance \u2014 retracted 'Book update:' prefix flag (prefix is fine at Guidance for IOIs); 'Todays' typo still stands",
     "verdict": "flagged"
   },
   "1787037461.476069": {
     "checked_at": "2026-08-18T07:32:00Z",
-    "note": "Forwarded message — source unreadable",
+    "note": "Forwarded message \u2014 source unreadable",
     "verdict": "skipped"
   },
   "1787037465.360289": {
@@ -310,14 +291,14 @@
     "br_id": 14620720,
     "checked_at": "2026-08-18T07:32:00Z",
     "issuer": "Continental AG",
-    "note": "IPTs — Baa2//BBB double-slash formatting",
+    "note": "IPTs \u2014 Baa2//BBB double-slash formatting",
     "verdict": "flagged"
   },
   "1787038204.736879": {
     "br_id": 14620725,
     "checked_at": "2026-08-18T07:47:00Z",
     "issuer": "United Overseas Bank",
-    "note": "IPTs — was skipped earlier (eyes only), now ✅",
+    "note": "IPTs \u2014 was skipped earlier (eyes only), now \u2705",
     "verdict": "clean"
   },
   "1787038468.321329": {
@@ -331,21 +312,21 @@
     "br_id": 14620681,
     "checked_at": "2026-08-18T07:47:00Z",
     "issuer": "E.ON",
-    "note": "Spread set — trailing comma at end of message",
+    "note": "Spread set \u2014 trailing comma at end of message",
     "verdict": "flagged"
   },
   "1787038994.425689": {
     "br_id": 14620737,
     "checked_at": "2026-08-18T07:50:00Z",
     "issuer": "Deutsche Telekom",
-    "note": "IPTs — was skipped earlier (eyes only), now ✅",
+    "note": "IPTs \u2014 was skipped earlier (eyes only), now \u2705",
     "verdict": "clean"
   },
   "1787040128.108749": {
     "br_id": 14611523,
     "checked_at": "2026-08-18T08:03:00Z",
     "issuer": "Korea SMEs & Startups Agency",
-    "note": "Timing update — 'andor' x2, KOSMEs missing apostrophe, ratings label format, HSBC BD missing parens/ampersand",
+    "note": "Timing update \u2014 'andor' x2, KOSMEs missing apostrophe, ratings label format, HSBC BD missing parens/ampersand",
     "verdict": "flagged"
   },
   "1787040889.571169": {
@@ -365,14 +346,14 @@
   "1787041105.926339": {
     "checked_at": "2026-08-18T08:23:00Z",
     "issuer": "Housing and Development Board",
-    "note": "Books-subject msg has only :eyes:, no ✅ yet",
+    "note": "Books-subject msg has only :eyes:, no \u2705 yet",
     "verdict": "skipped"
   },
   "1787041199.878219": {
     "br_id": 14620745,
     "checked_at": "2026-08-18T08:35:00Z",
     "issuer": "Vida Group Holdings",
-    "note": "Priced AT1 — missing headline; missing timing line",
+    "note": "Priced AT1 \u2014 missing headline; missing timing line",
     "verdict": "flagged"
   },
   "1787041433.434809": {
@@ -400,14 +381,14 @@
     "br_id": 14620725,
     "checked_at": "2026-08-18T08:58:00Z",
     "issuer": "United Overseas Bank",
-    "note": "Book Update — GBP1.25bn+",
+    "note": "Book Update \u2014 GBP1.25bn+",
     "verdict": "clean"
   },
   "1787043420.194829": {
     "br_id": 14620753,
     "checked_at": "2026-08-18T09:11:00Z",
     "issuer": "MassMutual Global Funding",
-    "note": "Mandated (was earlier :eyes:, now ✅)",
+    "note": "Mandated (was earlier :eyes:, now \u2705)",
     "verdict": "clean"
   },
   "1787043672.818509": {
@@ -421,90 +402,90 @@
     "br_id": 14620676,
     "checked_at": "2026-08-18T09:11:00Z",
     "issuer": "Lloyds Bank",
-    "note": "Book Update — opening 'Guidance is' should be 'Guidance remains'; Book Update capitalization",
+    "note": "Book Update \u2014 opening 'Guidance is' should be 'Guidance remains'; Book Update capitalization",
     "verdict": "flagged"
   },
   "1787043996.166539": {
     "br_id": 14620697,
     "checked_at": "2026-08-18T09:11:00Z",
     "issuer": "SpareBank 1 Sor-Norge",
-    "note": "Book Update €1.25bn+",
+    "note": "Book Update \u20ac1.25bn+",
     "verdict": "clean"
   },
   "1787044083.049399": {
     "br_id": 14620681,
     "checked_at": "2026-08-18T09:19:00Z",
     "issuer": "E.ON",
-    "note": "Priced — ISIN CH1564882012 missing (earlier trailing-comma flag now fixed)",
+    "note": "Priced \u2014 ISIN CH1564882012 missing (earlier trailing-comma flag now fixed)",
     "verdict": "flagged"
   },
   "1787044415.486219": {
     "br_id": 14620410,
     "checked_at": "2026-08-18T09:19:00Z",
     "issuer": "Germany Aug 2056 tap",
-    "note": "Final Terms — size set EUR4bn, books closed €38bn",
+    "note": "Final Terms \u2014 size set EUR4bn, books closed \u20ac38bn",
     "verdict": "clean"
   },
   "1787044889.989979": {
     "br_id": 14620338,
     "checked_at": "2026-08-18T09:32:00Z",
     "issuer": "Development Bank of Japan",
-    "note": "Final Terms — Sale into Canada + 11:UKT typo",
+    "note": "Final Terms \u2014 Sale into Canada + 11:UKT typo",
     "verdict": "flagged"
   },
   "1787045113.895929": {
     "br_id": 14620355,
     "checked_at": "2026-08-18T09:32:00Z",
     "issuer": "Luso Intl Banking (CNH tranche)",
-    "note": "FPG multi-tranche — same BR entry as USD; missing slashes, T5, Issuers apostrophe, Listing (Clearing flag retracted)",
+    "note": "FPG multi-tranche \u2014 same BR entry as USD; missing slashes, T5, Issuers apostrophe, Listing (Clearing flag retracted)",
     "verdict": "flagged"
   },
   "1787045346.114379": {
     "br_id": 14620355,
     "checked_at": "2026-08-18T09:32:00Z",
     "issuer": "Luso Intl Banking (USD tranche)",
-    "note": "FPG multi-tranche — missing slashes, T5, Issuers apostrophe, Listing (Clearing flag retracted)",
+    "note": "FPG multi-tranche \u2014 missing slashes, T5, Issuers apostrophe, Listing (Clearing flag retracted)",
     "verdict": "flagged"
   },
   "1787045414.288029": {
     "br_id": 14620715,
     "checked_at": "2026-08-18T09:32:00Z",
     "issuer": "Belfius Bank",
-    "note": "Book Update €1bn+",
+    "note": "Book Update \u20ac1bn+",
     "verdict": "clean"
   },
   "1787045467.563079": {
     "br_id": 14620623,
     "checked_at": "2026-08-18T09:45:00Z",
     "issuer": "CITIC Securities International",
-    "note": "FPG — T5, Issuers/Guarantors apostrophes, ratings label format, JLM figure digit swap 036 vs 063",
+    "note": "FPG \u2014 T5, Issuers/Guarantors apostrophes, ratings label format, JLM figure digit swap 036 vs 063",
     "verdict": "flagged"
   },
   "1787045540.535489": {
     "br_id": 14620425,
     "checked_at": "2026-08-18T09:45:00Z",
     "issuer": "World Bank",
-    "note": "Spread set — 'area' leftover in opening",
+    "note": "Spread set \u2014 'area' leftover in opening",
     "verdict": "flagged"
   },
   "1787045979.075449": {
     "br_id": 14620227,
     "checked_at": "2026-08-18T09:45:00Z",
     "issuer": "Kotak Mahindra Bank",
-    "note": "FPG — Issuers apostrophe, ratings label format, HSBC BD",
+    "note": "FPG \u2014 Issuers apostrophe, ratings label format, HSBC BD",
     "verdict": "flagged"
   },
   "1787046263.334079": {
     "checked_at": "2026-08-18T09:45:00Z",
     "issuer": "KfW",
-    "note": "Final Terms msg has only :eyes:, no ✅ yet",
+    "note": "Final Terms msg has only :eyes:, no \u2705 yet",
     "verdict": "skipped"
   },
   "1787046271.220489": {
     "br_id": 14620710,
     "checked_at": "2026-08-18T09:56:00Z",
     "issuer": "Bank of New Zealand",
-    "note": "Final Terms €1bn at MS+28bp",
+    "note": "Final Terms \u20ac1bn at MS+28bp",
     "verdict": "clean"
   },
   "1787046495.064199": {
@@ -517,28 +498,28 @@
     "br_id": 14611523,
     "checked_at": "2026-08-18T10:02:00Z",
     "issuer": "KOSME",
-    "note": "FPG — earlier andor/HSBC BD fixed; KOSMEs apostrophe still open, ratings slash, subhect typo",
+    "note": "FPG \u2014 earlier andor/HSBC BD fixed; KOSMEs apostrophe still open, ratings slash, subhect typo",
     "verdict": "flagged"
   },
   "1787047252.479589": {
     "br_id": 14620791,
     "checked_at": "2026-08-18T10:16:00Z",
     "issuer": "Republic of Finland",
-    "note": "Mandated (was earlier :eyes:, now ✅)",
+    "note": "Mandated (was earlier :eyes:, now \u2705)",
     "verdict": "clean"
   },
   "1787047577.050099": {
     "br_id": 14620697,
     "checked_at": "2026-08-18T10:16:00Z",
     "issuer": "SpareBank 1 Sor-Norge",
-    "note": "Final Terms €500m MS+50bp",
+    "note": "Final Terms \u20ac500m MS+50bp",
     "verdict": "clean"
   },
   "1787048265.574089": {
     "br_id": 14620410,
     "checked_at": "2026-08-18T10:26:00Z",
     "issuer": "Germany Aug 2056 tap",
-    "note": "Allocations out — final books",
+    "note": "Allocations out \u2014 final books",
     "verdict": "clean"
   },
   "1787048705.392039": {
@@ -558,7 +539,7 @@
   "1787048978.984719": {
     "checked_at": "2026-08-18T10:37:00Z",
     "issuer": "Nationwide CCDS",
-    "note": "Equity re-sale per Finn — not a BR bond deal",
+    "note": "Equity re-sale per Finn \u2014 not a BR bond deal",
     "verdict": "skipped"
   },
   "1787049090.769989": {
@@ -571,7 +552,7 @@
   "1787049180.831429": {
     "checked_at": "2026-08-18T10:37:00Z",
     "issuer": "n/a",
-    "note": "Ryan's chat message asking about Nationwide QA — not a term sheet",
+    "note": "Ryan's chat message asking about Nationwide QA \u2014 not a term sheet",
     "verdict": "skipped"
   },
   "1787049773.715689": {
@@ -606,7 +587,7 @@
     "br_id": 14620410,
     "checked_at": "2026-08-18T11:03:00Z",
     "issuer": "Germany Aug 2056 tap",
-    "note": "Priced — tap arithmetic explicit, no prefix at Priced, Final books over",
+    "note": "Priced \u2014 tap arithmetic explicit, no prefix at Priced, Final books over",
     "verdict": "clean"
   },
   "1787051872.193629": {
@@ -655,40 +636,40 @@
     "br_id": 14620710,
     "checked_at": "2026-08-18T11:40:00Z",
     "issuer": "Bank of New Zealand",
-    "note": "Allocations — Final books over with JLM",
+    "note": "Allocations \u2014 Final books over with JLM",
     "verdict": "clean"
   },
   "1787053651.912659": {
     "br_id": 14620823,
     "checked_at": "2026-08-18T11:56:00Z",
     "issuer": "Asian Development Bank",
-    "note": "Mandate added to history post-hoc — already present in BR deal history",
+    "note": "Mandate added to history post-hoc \u2014 already present in BR deal history",
     "verdict": "clean"
   },
   "1787053954.987259": {
     "checked_at": "2026-08-18T11:56:00Z",
     "issuer": "Jefferson Capital",
-    "note": "Sr Notes offering — only :eyes: no ✅",
+    "note": "Sr Notes offering \u2014 only :eyes: no \u2705",
     "verdict": "skipped"
   },
   "1787054075.611159": {
     "checked_at": "2026-08-18T11:56:00Z",
     "issuer": "n/a",
-    "note": "Chris's chat about HDB — not a term sheet",
+    "note": "Chris's chat about HDB \u2014 not a term sheet",
     "verdict": "skipped"
   },
   "1787054265.124089": {
     "br_id": 14620432,
     "checked_at": "2026-08-18T12:19:00Z",
     "issuer": "KfW",
-    "note": "Allocations — Books closed over €26bn (incl €1.4bn JLM)",
+    "note": "Allocations \u2014 Books closed over \u20ac26bn (incl \u20ac1.4bn JLM)",
     "verdict": "clean"
   },
   "1787054465.481799": {
     "br_id": 14620697,
     "checked_at": "2026-08-18T12:19:00Z",
     "issuer": "SpareBank 1 Sor-Norge",
-    "note": "Allocations — flagged after retraction: 'Final books EUR900m+' should be 'Final books over EUR900m' (word 'over' must be spelled out)",
+    "note": "Allocations \u2014 flagged after retraction: 'Final books EUR900m+' should be 'Final books over EUR900m' (word 'over' must be spelled out)",
     "verdict": "flagged"
   },
   "1787054486.566129": {
@@ -702,7 +683,7 @@
     "br_id": 14620737,
     "checked_at": "2026-08-18T12:19:00Z",
     "issuer": "Deutsche Telekom",
-    "note": "Final Terms — ratings dropped from body",
+    "note": "Final Terms \u2014 ratings dropped from body",
     "verdict": "flagged"
   },
   "1787055111.311159": {
@@ -716,62 +697,62 @@
     "br_id": 14620710,
     "checked_at": "2026-08-18T12:30:00Z",
     "issuer": "Bank of New Zealand",
-    "note": "Priced €1bn 5y CB at MS+28bp; correctly no prefix at Priced + Final books over",
+    "note": "Priced \u20ac1bn 5y CB at MS+28bp; correctly no prefix at Priced + Final books over",
     "verdict": "clean"
   },
   "1787055391.371999": {
     "br_id": 14620853,
     "checked_at": "2026-08-18T12:30:00Z",
     "issuer": "Santander",
-    "note": "IPTs — flagged: 'multi-tranche' should be 'dual-tranche' (only 2 tranches: 4NC3 + 8NC7)",
+    "note": "IPTs \u2014 flagged: 'multi-tranche' should be 'dual-tranche' (only 2 tranches: 4NC3 + 8NC7)",
     "verdict": "flagged"
   },
   "1787055518.990679": {
     "br_id": 14611902,
     "checked_at": "2026-08-18T12:30:00Z",
     "issuer": "QTS",
-    "note": "IPTs — Baa3//BBB- double slash rating",
+    "note": "IPTs \u2014 Baa3//BBB- double slash rating",
     "verdict": "flagged"
   },
   "1787055975.280939": {
     "br_id": 14620369,
     "checked_at": "2026-08-18T12:30:00Z",
     "issuer": "Rentenbank",
-    "note": "Allocations — Final books over €3bn with JLM",
+    "note": "Allocations \u2014 Final books over \u20ac3bn with JLM",
     "verdict": "clean"
   },
   "1787056039.331509": {
     "br_id": 14620384,
     "checked_at": "2026-08-18T12:40:00Z",
     "issuer": "Sika Capital",
-    "note": "Timing Update — dual-tranche correctly used",
+    "note": "Timing Update \u2014 dual-tranche correctly used",
     "verdict": "clean"
   },
   "1787056294.012289": {
     "br_id": 14620227,
     "checked_at": "2026-08-18T12:40:00Z",
     "issuer": "Kotak Mahindra Bank",
-    "note": "Launched — flagged after retraction: headline says 'Final Terms' but body opens 'Launched:' — should be 'Launched at T+108bp'",
+    "note": "Launched \u2014 flagged after retraction: headline says 'Final Terms' but body opens 'Launched:' \u2014 should be 'Launched at T+108bp'",
     "verdict": "flagged"
   },
   "1787056385.326009": {
     "checked_at": "2026-08-18T12:40:00Z",
     "issuer": "ADB",
-    "note": "Has :no_entry_sign: — deal pulled/not proceeded",
+    "note": "Has :no_entry_sign: \u2014 deal pulled/not proceeded",
     "verdict": "skipped"
   },
   "1787057104.346989": {
     "br_id": 14620715,
     "checked_at": "2026-08-18T12:52:00Z",
     "issuer": "Belfius Bank",
-    "note": "Allocations — attachment source, BR-internal only",
+    "note": "Allocations \u2014 attachment source, BR-internal only",
     "verdict": "clean"
   },
   "1787057110.160609": {
     "br_id": 14620345,
     "checked_at": "2026-08-18T12:52:00Z",
     "issuer": "Raiffeisen Bank Romania",
-    "note": "Allocations — Final books over €1.3bn",
+    "note": "Allocations \u2014 Final books over \u20ac1.3bn",
     "verdict": "clean"
   },
   "1787057255.705419": {
@@ -792,7 +773,7 @@
     "br_id": 14620697,
     "checked_at": "2026-08-18T13:03:00Z",
     "issuer": "SpareBank 1 Sor-Norge",
-    "note": "Priced — 'Final books EUR900m' missing 'over'",
+    "note": "Priced \u2014 'Final books EUR900m' missing 'over'",
     "verdict": "flagged"
   },
   "1787057928.483509": {
@@ -806,7 +787,7 @@
     "br_id": 14620415,
     "checked_at": "2026-08-18T13:03:00Z",
     "issuer": "EIB",
-    "note": "Allocations — 'Book update: Book update:' duplicated prefix",
+    "note": "Allocations \u2014 'Book update: Book update:' duplicated prefix",
     "verdict": "flagged"
   },
   "1787058012.769019": {
@@ -820,21 +801,21 @@
     "br_id": 14620715,
     "checked_at": "2026-08-18T13:29:00Z",
     "issuer": "Belfius Bank",
-    "note": "Priced — missing 'Priced:' opener; body starts with 'EUR750m' directly",
+    "note": "Priced \u2014 missing 'Priced:' opener; body starts with 'EUR750m' directly",
     "verdict": "flagged"
   },
   "1787059713.650759": {
     "br_id": 14620737,
     "checked_at": "2026-08-18T13:40:00Z",
     "issuer": "Deutsche Telekom",
-    "note": "Allocations — earlier missing-ratings flag now fixed",
+    "note": "Allocations \u2014 earlier missing-ratings flag now fixed",
     "verdict": "clean"
   },
   "1787059828.910919": {
     "br_id": 14620720,
     "checked_at": "2026-08-18T13:40:00Z",
     "issuer": "Continental AG",
-    "note": "Allocations — Final books over €1.9bn at reoffer",
+    "note": "Allocations \u2014 Final books over \u20ac1.9bn at reoffer",
     "verdict": "clean"
   },
   "1787059917.527219": {
@@ -854,27 +835,27 @@
   "1787059953.500329": {
     "checked_at": "2026-08-18T13:40:00Z",
     "issuer": "Nationwide CCDS",
-    "note": "Equity re-sale allocations — skip per rule",
+    "note": "Equity re-sale allocations \u2014 skip per rule",
     "verdict": "skipped"
   },
   "1787060199.361389": {
     "br_id": 14620227,
     "checked_at": "2026-08-18T13:50:00Z",
     "issuer": "Kotak Mahindra Bank",
-    "note": "Priced — headline/body stage mismatch flag now fixed",
+    "note": "Priced \u2014 headline/body stage mismatch flag now fixed",
     "verdict": "clean"
   },
   "1787060458.020659": {
     "br_id": 14620338,
     "checked_at": "2026-08-18T13:50:00Z",
     "issuer": "Development Bank of Japan",
-    "note": "Allocations — Sale into Canada flag now fixed",
+    "note": "Allocations \u2014 Sale into Canada flag now fixed",
     "verdict": "clean"
   },
   "1787061227.843329": {
     "checked_at": "2026-08-18T14:04:00Z",
     "issuer": "United Overseas Bank",
-    "note": "Priced msg has only :eyes:, no ✅ yet",
+    "note": "Priced msg has only :eyes:, no \u2705 yet",
     "verdict": "skipped"
   },
   "1787061290.926059": {
@@ -887,7 +868,7 @@
   "1787061576.952869": {
     "checked_at": "2026-08-18T14:04:00Z",
     "issuer": "Nationwide CCDS",
-    "note": "Equity re-sale Priced msg — skip per rule",
+    "note": "Equity re-sale Priced msg \u2014 skip per rule",
     "verdict": "skipped"
   },
   "1787062008.839619": {
@@ -997,7 +978,7 @@
     "br_id": 14630041,
     "checked_at": "2026-08-18T20:20:00Z",
     "issuer": "Jefferson Capital",
-    "note": "Tap Priced — senior unsecured duplicated",
+    "note": "Tap Priced \u2014 senior unsecured duplicated",
     "verdict": "flagged"
   },
   "1787121076.233679": {
@@ -1228,7 +1209,7 @@
     "br_id": 14630099,
     "checked_at": "2026-08-19T10:22:00Z",
     "issuer": "SpareBank 1 Boligkreditt",
-    "note": "priceEvolution typo MS+323 → MS+23",
+    "note": "priceEvolution typo MS+323 \u2192 MS+23",
     "verdict": "flagged"
   },
   "1787133658.026579": {
@@ -1284,7 +1265,7 @@
     "br_id": 14620643,
     "checked_at": "2026-08-19T10:42:00Z",
     "issuer": "HSBC Holdings",
-    "note": "Tranche A structure 4NC5 → 4NC3",
+    "note": "Tranche A structure 4NC5 \u2192 4NC3",
     "verdict": "flagged"
   },
   "1787135393.459129": {
@@ -1340,7 +1321,7 @@
     "br_id": 14620758,
     "checked_at": "2026-08-19T11:24:00Z",
     "issuer": "Land NRW",
-    "note": "Allocations Out — Santander B&D fix carrying",
+    "note": "Allocations Out \u2014 Santander B&D fix carrying",
     "verdict": "clean"
   },
   "1787137754.853099": {
@@ -1368,7 +1349,7 @@
     "br_id": 14630107,
     "checked_at": "2026-08-19T11:44:00Z",
     "issuer": "Mizuho FG",
-    "note": "Final Terms: T-B structure 11.5NC10 retracted (8-char field cap) — clean",
+    "note": "Final Terms: T-B structure 11.5NC10 retracted (8-char field cap) \u2014 clean",
     "verdict": "clean"
   },
   "1787139483.694149": {
@@ -1403,7 +1384,7 @@
     "br_id": 14630248,
     "checked_at": "2026-08-19T12:22:00Z",
     "issuer": "Northern Oil & Gas",
-    "note": "First HY deal — IPTs clean",
+    "note": "First HY deal \u2014 IPTs clean",
     "verdict": "clean"
   },
   "1787141635.929469": {
@@ -1417,7 +1398,7 @@
     "br_id": 14630129,
     "checked_at": "2026-08-19T12:22:00Z",
     "issuer": "Jyske Realkredit",
-    "note": "Jyske Allocs Out: `Books over` → `Final books over EUR2.1bn (incl. EUR145m JLM interest)` (source says Final books). Prefix `Book update:` fine at Allocs Out (partial retraction).",
+    "note": "Jyske Allocs Out: `Books over` \u2192 `Final books over EUR2.1bn (incl. EUR145m JLM interest)` (source says Final books). Prefix `Book update:` fine at Allocs Out (partial retraction).",
     "verdict": "flagged"
   },
   "1787142085.093799": {
@@ -1431,14 +1412,14 @@
     "br_id": 14630138,
     "checked_at": "2026-08-19T12:41:00Z",
     "issuer": "LHV",
-    "note": "Allocations — earlier USD→EUR fix applied",
+    "note": "Allocations \u2014 earlier USD\u2192EUR fix applied",
     "verdict": "clean"
   },
   "1787142749.291429": {
     "br_id": 14620847,
     "checked_at": "2026-08-19T12:41:00Z",
     "issuer": "OCBC",
-    "note": "OCBC Allocs Out: ISIN duplicated; `Books over GBP1.475bn+` → `Final books over GBP1.475bn (excl. JLM interest)` (source Final Books, drop `+`). Prefix `Book update:` fine at Allocs Out (partial retraction).",
+    "note": "OCBC Allocs Out: ISIN duplicated; `Books over GBP1.475bn+` \u2192 `Final books over GBP1.475bn (excl. JLM interest)` (source Final Books, drop `+`). Prefix `Book update:` fine at Allocs Out (partial retraction).",
     "verdict": "flagged"
   },
   "1787143211.670699": {
@@ -1466,14 +1447,14 @@
     "br_id": 14620516,
     "checked_at": "2026-08-19T13:12:00Z",
     "issuer": "Tractor Supply",
-    "note": "Tractor Supply IPTs clean — bookOrRating WF/BOA is valid (≤3 bank shorthand)",
+    "note": "Tractor Supply IPTs clean \u2014 bookOrRating WF/BOA is valid (\u22643 bank shorthand)",
     "verdict": "clean"
   },
   "1787144096.641489": {
     "br_id": 14630261,
     "checked_at": "2026-08-19T13:12:00Z",
     "issuer": "Wisconsin Electric",
-    "note": "Wisconsin IPTs clean — bookOrRating BOFA/TD/WFC is valid (≤3 bank shorthand)",
+    "note": "Wisconsin IPTs clean \u2014 bookOrRating BOFA/TD/WFC is valid (\u22643 bank shorthand)",
     "verdict": "clean"
   },
   "1787144370.068409": {
@@ -1487,14 +1468,14 @@
     "br_id": 14630138,
     "checked_at": "2026-08-19T13:12:00Z",
     "issuer": "LHV",
-    "note": "LHV Priced clean — Priced source silent on JLM, body can omit book line (retracted earlier flag)",
+    "note": "LHV Priced clean \u2014 Priced source silent on JLM, body can omit book line (retracted earlier flag)",
     "verdict": "clean"
   },
   "1787145745.081199": {
     "br_id": 14630156,
     "checked_at": "2026-08-19T13:30:00Z",
     "issuer": "Tatra banka",
-    "note": "Tatra Allocs Out: `Books over Final books` → `Books closed over EUR2.1bn (incl. EUR175m JLM interest)` (source says closed); fix `Incl` casing. Prefix `Book update:` is fine at Allocs Out (partial retraction).",
+    "note": "Tatra Allocs Out: `Books over Final books` \u2192 `Books closed over EUR2.1bn (incl. EUR175m JLM interest)` (source says closed); fix `Incl` casing. Prefix `Book update:` is fine at Allocs Out (partial retraction).",
     "verdict": "flagged"
   },
   "1787146456.840879": {
@@ -1515,7 +1496,7 @@
     "br_id": 14620830,
     "checked_at": "2026-08-19T14:17:00Z",
     "issuer": "CPPIB",
-    "note": "Allocs Out clean; `(excl JLM)` is acceptable shorthand — flag retracted",
+    "note": "Allocs Out clean; `(excl JLM)` is acceptable shorthand \u2014 flag retracted",
     "verdict": "clean"
   },
   "1787147033.843509": {
@@ -1571,14 +1552,14 @@
     "br_id": 14630118,
     "checked_at": "2026-08-19T15:07:00Z",
     "issuer": "CA Home Loan SFH",
-    "note": "Priced multi-tranche: missing (B&D/DM) on CACIB Global Coordinator; `Final Books` should be lowercase; T-A `04/29 → April 2029` and T-C `08/36 → August 2036` in benchmark date",
+    "note": "Priced multi-tranche: missing (B&D/DM) on CACIB Global Coordinator; `Final Books` should be lowercase; T-A `04/29 \u2192 April 2029` and T-C `08/36 \u2192 August 2036` in benchmark date",
     "verdict": "flagged"
   },
   "1787149992.045489": {
     "br_id": 14620210,
     "checked_at": "2026-08-19T14:40:00Z",
     "issuer": "Wealthspire",
-    "note": "Wealthspire HY IPTs clean — ratings carry from prior BR update (dealHistoryEntries)",
+    "note": "Wealthspire HY IPTs clean \u2014 ratings carry from prior BR update (dealHistoryEntries)",
     "verdict": "clean"
   },
   "1787150505.304959": {
@@ -1606,7 +1587,7 @@
     "br_id": 14620823,
     "checked_at": "2026-08-19T15:37:00Z",
     "issuer": "ADB",
-    "note": "ADB Priced: BMO missing (B&D/DM); finalBooks 4900 should be 9400 (data-entry bug). `Final books over` at Priced is fine — retracted (Launched source said closed with JLM)",
+    "note": "ADB Priced: BMO missing (B&D/DM); finalBooks 4900 should be 9400 (data-entry bug). `Final books over` at Priced is fine \u2014 retracted (Launched source said closed with JLM)",
     "verdict": "flagged"
   },
   "1787153845.513779": {
@@ -1627,14 +1608,14 @@
     "br_id": 14630266,
     "checked_at": "2026-08-19T16:28:00Z",
     "issuer": "MassMutual USD",
-    "note": "Guidance clean — T-B structure 3y FRN fix now applied",
+    "note": "Guidance clean \u2014 T-B structure 3y FRN fix now applied",
     "verdict": "clean"
   },
   "1787156545.466489": {
     "br_id": 14630261,
     "checked_at": "2026-08-19T16:28:00Z",
     "issuer": "Wisconsin Electric",
-    "note": "Launched clean — bookOrRating BOFA/TD/WFC retraction learning applied",
+    "note": "Launched clean \u2014 bookOrRating BOFA/TD/WFC retraction learning applied",
     "verdict": "clean"
   },
   "1787159192.517229": {
@@ -1746,7 +1727,7 @@
     "br_id": 14630492,
     "checked_at": "2026-08-21T11:31:00Z",
     "issuer": "Agence France Locale",
-    "note": "Allocations Out — Bookrunners line missing (B&D & DM) annotation on Deutsche Bank; source at this stage discloses `DB B&D / DM`. Headline + body-otherwise + tranche form (v14630601, priceEvolution=OAT+16, timing=launched, JT-LEADS) + IG flags all clean.",
+    "note": "Allocations Out \u2014 Bookrunners line missing (B&D & DM) annotation on Deutsche Bank; source at this stage discloses `DB B&D / DM`. Headline + body-otherwise + tranche form (v14630601, priceEvolution=OAT+16, timing=launched, JT-LEADS) + IG flags all clean.",
     "verdict": "flagged"
   },
   "1787312523.549339": {
@@ -1780,31 +1761,31 @@
   "1787318769.215179": {
     "checked_at": "2026-08-21T13:38:00Z",
     "issuer": "Chris Shiells IG Weekly request",
-    "note": "Chat request to Bloomberg bot for IG Weekly — not a term sheet, no BR deal to QA.",
+    "note": "Chat request to Bloomberg bot for IG Weekly \u2014 not a term sheet, no BR deal to QA.",
     "verdict": "skipped"
   },
   "1787319283.447059": {
     "checked_at": "2026-08-21T14:50:54Z",
     "issuer": "Finn Marshall confirmation",
-    "note": "Comment \"that looks like everything\" with +1 reaction — not a term sheet, no white_check_mark.",
+    "note": "Comment \"that looks like everything\" with +1 reaction \u2014 not a term sheet, no white_check_mark.",
     "verdict": "skipped"
   },
   "1787320806.686889": {
     "checked_at": "2026-08-21T14:50:54Z",
     "issuer": "US Pipeline bot",
-    "note": "Bot ping \"Send US Pipeline\" — not a term sheet.",
+    "note": "Bot ping \"Send US Pipeline\" \u2014 not a term sheet.",
     "verdict": "skipped"
   },
   "1787320813.777149": {
     "checked_at": "2026-08-21T14:50:54Z",
     "issuer": "Redemption Checks bot",
-    "note": "Bot message linking Google Sheet — not a term sheet.",
+    "note": "Bot message linking Google Sheet \u2014 not a term sheet.",
     "verdict": "skipped"
   },
   "1787323783.091579": {
     "checked_at": "2026-08-21T14:50:54Z",
     "issuer": "Chris Shiells CEEMEA Weekly request",
-    "note": "Chat request to Bloomberg-EM bot for CEEMEA Weekly — not a term sheet; reaction is raised_hands not white_check_mark.",
+    "note": "Chat request to Bloomberg-EM bot for CEEMEA Weekly \u2014 not a term sheet; reaction is raised_hands not white_check_mark.",
     "verdict": "skipped"
   },
   "1787324410.797309": {
@@ -1815,42 +1796,42 @@
     "br_id": 14620791,
     "checked_at": "2026-08-21T15:15:00Z",
     "issuer": "Republic of Finland",
-    "note": "Book stats — EUR4bn 7y SSA at MS+15bp; pricedDeal 14630257 all fields clean; statsCategories GEOGRAPHY (8 items, sum 100.0) + INVESTOR (6 items, sum 100.0) match Danske recap (CBK/OI 43%, bank treasury 24%); 5 JLMs; deal-level flags all clean",
+    "note": "Book stats \u2014 EUR4bn 7y SSA at MS+15bp; pricedDeal 14630257 all fields clean; statsCategories GEOGRAPHY (8 items, sum 100.0) + INVESTOR (6 items, sum 100.0) match Danske recap (CBK/OI 43%, bank treasury 24%); 5 JLMs; deal-level flags all clean",
     "verdict": "clean"
   },
   "1787324566.628599": {
     "br_id": 14630129,
     "checked_at": "2026-08-21T15:15:00Z",
     "issuer": "Jyske Realkredit",
-    "note": "Book stats — EUR500m 5y CB at MS+17bp; pricedDeal 14630273 all fields clean, covered=true, additionalInfo=MC; statsCategories GEOGRAPHY (Nordics 40, DACH 34) + INVESTOR (5 items each sum 100.0) match Danske recap; 5 JLMs (Danske/DZ/Erste/Jyske/RBC); coveredBonds=true, opCo/holdCo false (Danish)",
+    "note": "Book stats \u2014 EUR500m 5y CB at MS+17bp; pricedDeal 14630273 all fields clean, covered=true, additionalInfo=MC; statsCategories GEOGRAPHY (Nordics 40, DACH 34) + INVESTOR (5 items each sum 100.0) match Danske recap; 5 JLMs (Danske/DZ/Erste/Jyske/RBC); coveredBonds=true, opCo/holdCo false (Danish)",
     "verdict": "clean"
   },
   "1787553382.290039": {
     "br_id": 14630707,
     "checked_at": "2026-08-24T07:16:20Z",
     "issuer": "Lansforsakringar Hypotek AB (publ)",
-    "note": "Mandated stage (dealHistoryEntries[0]); EUR500m (WNG) 5y Swedish CB; 6 JLMs JT-LEADS; deal has since correctly progressed to Guidance MS+24bp area — not a defect; mandate quote verbatim, tranche form/deal flags all clean",
+    "note": "Mandated stage (dealHistoryEntries[0]); EUR500m (WNG) 5y Swedish CB; 6 JLMs JT-LEADS; deal has since correctly progressed to Guidance MS+24bp area \u2014 not a defect; mandate quote verbatim, tranche form/deal flags all clean",
     "verdict": "clean"
   },
   "1787553871.767689": {
     "br_id": 14630712,
     "checked_at": "2026-08-24T07:16:20Z",
     "issuer": "Korea Housing Finance Corporation",
-    "note": "Guidance stage (EM); EUR bmk 3y Social CB at MS+24bp area; 6 JLMs; ratings Aaa/AAA (M/S) bookOrRating field correct; regionAsia=true correct; headline/body use 'IPG'/'Initial price guidance' wording instead of house-style 'Guidance'/'Guidance is' (confirmed against 4 other same-batch covered-bond Guidance updates) — flagged",
+    "note": "Guidance stage (EM); EUR bmk 3y Social CB at MS+24bp area; 6 JLMs; ratings Aaa/AAA (M/S) bookOrRating field correct; regionAsia=true correct; headline/body use 'IPG'/'Initial price guidance' wording instead of house-style 'Guidance'/'Guidance is' (confirmed against 4 other same-batch covered-bond Guidance updates) \u2014 flagged",
     "verdict": "flagged"
   },
   "1787554096.465489": {
     "br_id": 14630717,
     "checked_at": "2026-08-24T07:16:20Z",
     "issuer": "Nordea Bank Abp",
-    "note": "IPTs stage; CHF150m+ 8y Green Senior Preferred at SARON MS+60bp area; 2 bookrunners DB/UBS; headline/tranche form/deal flags all clean; source Covenants line 'PP, Clean-up Call' — body carries CUC but drops the PP (Poison Put / COC) covenant entirely — flagged",
+    "note": "IPTs stage; CHF150m+ 8y Green Senior Preferred at SARON MS+60bp area; 2 bookrunners DB/UBS; headline/tranche form/deal flags all clean; source Covenants line 'PP, Clean-up Call' \u2014 body carries CUC but drops the PP (Poison Put / COC) covenant entirely \u2014 flagged",
     "verdict": "flagged"
   },
   "1787554256.766859": {
     "br_id": 14630722,
     "checked_at": "2026-08-24T07:16:20Z",
     "issuer": "Bayerische Landesbank (BayernLB)",
-    "note": "Mandated stage (dealHistoryEntries[0]); EUR bmk 4y Oepfe; 5 JLMs JT-LEADS; deal has since correctly progressed to Guidance MS+15bp area — not a defect; mandate-era headline/body/tranche form/deal flags all clean",
+    "note": "Mandated stage (dealHistoryEntries[0]); EUR bmk 4y Oepfe; 5 JLMs JT-LEADS; deal has since correctly progressed to Guidance MS+15bp area \u2014 not a defect; mandate-era headline/body/tranche form/deal flags all clean",
     "verdict": "clean"
   },
   "1787554435.075639": {
@@ -1871,14 +1852,14 @@
     "br_id": 14630736,
     "checked_at": "2026-08-24T07:16:20Z",
     "issuer": "Axactor ASA",
-    "note": "Mandated stage; EUR50m (exp.) tap of 2030s (ACR06); 3 JLMs Arctic/DNB Carnegie/Nordea; HY flags/expectedPageId(HYRE5)/tranche form all clean; headline reads '** Bond Radar: Axactor EUR50m (exp.) 2030 tap: Mandated' with stray self-referential 'Bond Radar:' text — flagged",
+    "note": "Mandated stage; EUR50m (exp.) tap of 2030s (ACR06); 3 JLMs Arctic/DNB Carnegie/Nordea; HY flags/expectedPageId(HYRE5)/tranche form all clean; headline reads '** Bond Radar: Axactor EUR50m (exp.) 2030 tap: Mandated' with stray self-referential 'Bond Radar:' text \u2014 flagged",
     "verdict": "flagged"
   },
   "1787555303.990469": {
     "br_id": 14630741,
     "checked_at": "2026-08-24T07:16:20Z",
     "issuer": "AstraZeneca Finance LLC",
-    "note": "IPTs stage; 4-tranche EUR bmk (long 3y/6y/9y/12y) at MS+60/80/95-100/115bp; headline/body/deal-flags all clean; Tranche A bookOrRating shows ticker form BARC/GS/MS while B/C/D show JT-LEADS for the identical 3-bank set (161/198/199) — inconsistent, flagged",
+    "note": "IPTs stage; 4-tranche EUR bmk (long 3y/6y/9y/12y) at MS+60/80/95-100/115bp; headline/body/deal-flags all clean; Tranche A bookOrRating shows ticker form BARC/GS/MS while B/C/D show JT-LEADS for the identical 3-bank set (161/198/199) \u2014 inconsistent, flagged",
     "verdict": "flagged"
   },
   "1787555646.077239": {
@@ -2021,7 +2002,7 @@
   },
   "1787562301.794509": {
     "checked_at": "2026-08-24T11:03:21Z",
-    "note": "Internal chat instruction (pipeline housekeeping), not a term sheet — no BR deal to QA.",
+    "note": "Internal chat instruction (pipeline housekeeping), not a term sheet \u2014 no BR deal to QA.",
     "verdict": "skipped"
   },
   "1787562353.424359": {
@@ -2042,28 +2023,28 @@
     "br_id": 14630657,
     "checked_at": "2026-08-24T12:22:57Z",
     "issuer": "Zhangzhou Jiulongjiang Group Co., Ltd.",
-    "note": "Timing update — Books subject at 17:45 HKT correctly recorded (headline/body/stage word all correct), but banks.active[] has 23 IDs vs 24 bookrunners named in body; deal has since advanced to FPG 1.98%",
+    "note": "Timing update \u2014 Books subject at 17:45 HKT correctly recorded (headline/body/stage word all correct), but banks.active[] has 23 IDs vs 24 bookrunners named in body; deal has since advanced to FPG 1.98%",
     "verdict": "flagged"
   },
   "1787563111.141559": {
     "br_id": 14630717,
     "checked_at": "2026-08-24T12:22:57Z",
     "issuer": "Nordea Bank Abp",
-    "note": "UPDATE #2 (min size CHF175mm→CHF200mm, spread unchanged MS+60bp, books close 11:30 CET) correctly published; deal has since priced at SARON+60bp CHF200m, priced-deal form and tranche history all consistent, no flags.",
+    "note": "UPDATE #2 (min size CHF175mm\u2192CHF200mm, spread unchanged MS+60bp, books close 11:30 CET) correctly published; deal has since priced at SARON+60bp CHF200m, priced-deal form and tranche history all consistent, no flags.",
     "verdict": "clean"
   },
   "1787563464.089809": {
     "br_id": 14630851,
     "checked_at": "2026-08-24T12:22:57Z",
     "issuer": "Interparking SA",
-    "note": "Mandate-stage dual-tranche (5y+8y) EUR deal QA'd clean — headline, body, tranche form, and deal-level flags all matched source term sheet; no defects found.",
+    "note": "Mandate-stage dual-tranche (5y+8y) EUR deal QA'd clean \u2014 headline, body, tranche form, and deal-level flags all matched source term sheet; no defects found.",
     "verdict": "clean"
   },
   "1787563551.950879": {
     "br_id": 14630762,
     "checked_at": "2026-08-24T12:22:57Z",
     "issuer": "Nippon Life Insurance Company",
-    "note": "Book update (Books >EUR2bn) at dealHistoryEntries id 8885 QA'd clean — book line, timing, tranche form, and deal-level flags all correct; deal has since progressed to Final Terms (MS+153bp), noted informationally only.",
+    "note": "Book update (Books >EUR2bn) at dealHistoryEntries id 8885 QA'd clean \u2014 book line, timing, tranche form, and deal-level flags all correct; deal has since progressed to Final Terms (MS+153bp), noted informationally only.",
     "verdict": "clean"
   },
   "1787563755.716709": {
@@ -2098,7 +2079,7 @@
     "br_id": 14630731,
     "checked_at": "2026-08-24T13:20:00Z",
     "issuer": "Commerzbank AG",
-    "note": "Final terms — headline stage word mis-cased \"Final Terms\" should be \"Final terms\" (house style lowercase t); body/tranche/flags otherwise clean",
+    "note": "Final terms \u2014 headline stage word mis-cased \"Final Terms\" should be \"Final terms\" (house style lowercase t); body/tranche/flags otherwise clean",
     "verdict": "flagged"
   },
   "1787564479.338989": {
@@ -2133,14 +2114,14 @@
     "br_id": 14630752,
     "checked_at": "2026-08-24T14:08:41Z",
     "issuer": "VUB banka",
-    "note": "Final terms EUR750m 5y CB at MS+33bp — timing line \"12.15 CET\" should be \"12.15 CEST\" (August = summer time); source carries same error but BR should still correct it; body/tranche/flags otherwise clean",
+    "note": "Final terms EUR750m 5y CB at MS+33bp \u2014 timing line \"12.15 CET\" should be \"12.15 CEST\" (August = summer time); source carries same error but BR should still correct it; body/tranche/flags otherwise clean",
     "verdict": "flagged"
   },
   "1787565837.932479": {
     "br_id": 14630717,
     "checked_at": "2026-08-24T13:52:28Z",
     "issuer": "Nordea Bank Abp",
-    "note": "Priced CHF200m 8y Green Senior Preferred at SARON+60bp — headline still reads stale \"SARON MS+60bp\", body + priced-deal spread field already correctly simplified to SARON+60bp; priced-deal form (id 14630885) otherwise all clean",
+    "note": "Priced CHF200m 8y Green Senior Preferred at SARON+60bp \u2014 headline still reads stale \"SARON MS+60bp\", body + priced-deal spread field already correctly simplified to SARON+60bp; priced-deal form (id 14630885) otherwise all clean",
     "verdict": "flagged"
   },
   "1787566703.978329": {
@@ -2320,21 +2301,21 @@
     "br_id": 14630707,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "Lansforsakringar Hypotek",
-    "note": "Allocations-out (BR advanced to Priced) — priceEvolution[0] wrong level at Guidance timestamp",
+    "note": "Allocations-out (BR advanced to Priced) \u2014 priceEvolution[0] wrong level at Guidance timestamp",
     "verdict": "flagged"
   },
   "1787576215.720499": {
     "br_id": 14630731,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "Commerzbank",
-    "note": "Priced — mortgage covered bond, clean",
+    "note": "Priced \u2014 mortgage covered bond, clean",
     "verdict": "clean"
   },
   "1787576277.878159": {
     "br_id": 14630712,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "KHFC",
-    "note": "Priced — stray Book update: prefix should be dropped (final books+JLM already established)",
+    "note": "Priced \u2014 stray Book update: prefix should be dropped (final books+JLM already established)",
     "verdict": "flagged"
   },
   "1787576897.472539": {
@@ -2355,7 +2336,7 @@
     "br_id": 14630707,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "Lansforsakringar Hypotek",
-    "note": "Priced — priceEvolution[0] wrong level at Guidance timestamp",
+    "note": "Priced \u2014 priceEvolution[0] wrong level at Guidance timestamp",
     "verdict": "flagged"
   },
   "1787578615.082329": {
@@ -2376,21 +2357,21 @@
     "br_id": 14630797,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "PKO Bank Polski",
-    "note": "Allocation — finalBooks null on priced-deal form despite Final books language",
+    "note": "Allocation \u2014 finalBooks null on priced-deal form despite Final books language",
     "verdict": "flagged"
   },
   "1787580086.728639": {
     "br_id": 14630792,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "Clarion Funding",
-    "note": "Priced — Books last heard over correctly applied, clean",
+    "note": "Priced \u2014 Books last heard over correctly applied, clean",
     "verdict": "clean"
   },
   "1787580317.072489": {
     "br_id": 14630722,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "BayernLB",
-    "note": "Book stats — finalBooks null on priced-deal form despite Final books language; stats sum to 100%",
+    "note": "Book stats \u2014 finalBooks null on priced-deal form despite Final books language; stats sum to 100%",
     "verdict": "flagged"
   },
   "1787580623.435839": {
@@ -2404,7 +2385,7 @@
     "br_id": 14630757,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "Koninklijke Philips (PHIANA)",
-    "note": "Allocations out — dealHistoryEntries missing the Guidance-stage entry (MS+90a)",
+    "note": "Allocations out \u2014 dealHistoryEntries missing the Guidance-stage entry (MS+90a)",
     "verdict": "flagged"
   },
   "1787580839.154049": {
@@ -2418,7 +2399,7 @@
     "br_id": 14630797,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "PKO Bank Polski",
-    "note": "Priced — finalBooks null on priced-deal form",
+    "note": "Priced \u2014 finalBooks null on priced-deal form",
     "verdict": "flagged"
   },
   "1787582524.259869": {
@@ -2452,14 +2433,33 @@
     "br_id": 14630643,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "Sumitomo Mitsui Trust",
-    "note": "Guidance multi-tranche — Sale into Canada language present, should be removed (reconciled post-hoc: bot reply already existed from a prior crashed tick)",
+    "note": "Guidance multi-tranche \u2014 Sale into Canada language present, should be removed (reconciled post-hoc: bot reply already existed from a prior crashed tick)",
     "verdict": "flagged"
   },
   "1787587666.817119": {
     "br_id": 14630674,
     "checked_at": "2026-08-24T16:21:54Z",
     "issuer": "JERA Co",
-    "note": "Priced — ISIN missing from body, run-on sentence typo, priceEvolution missing final T+90 entry",
+    "note": "Priced \u2014 ISIN missing from body, run-on sentence typo, priceEvolution missing final T+90 entry",
     "verdict": "flagged"
+  },
+  "1787588148.136229": {
+    "br_id": 14630657,
+    "checked_at": "2026-08-24T17:00:17Z",
+    "issuer": "Zhangzhou Jiulongjiang Group",
+    "verdict": "clean"
+  },
+  "1787588576.113599": {
+    "br_id": 14630572,
+    "checked_at": "2026-08-24T17:00:17Z",
+    "issuer": "Union Bank of India",
+    "verdict": "flagged",
+    "note": "Priced book-line retains pre-pricing Book update: prefix"
+  },
+  "1787589496.015529": {
+    "br_id": 14630657,
+    "checked_at": "2026-08-24T17:00:17Z",
+    "issuer": "Zhangzhou Jiulongjiang Group",
+    "verdict": "clean"
   }
 }
