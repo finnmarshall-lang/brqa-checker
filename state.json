@@ -1,25 +1,4 @@
 {
-  "1786993226.520829": {
-    "br_id": 14620478,
-    "checked_at": "2026-08-17T19:24:00Z",
-    "issuer": "Corebridge Financial",
-    "note": "Priced",
-    "verdict": "clean"
-  },
-  "1786994160.476059": {
-    "br_id": 14620453,
-    "checked_at": "2026-08-17T19:24:00Z",
-    "issuer": "Bank of New York Mellon",
-    "note": "Priced (multi-tranche)",
-    "verdict": "clean"
-  },
-  "1786994360.052289": {
-    "br_id": 14620445,
-    "checked_at": "2026-08-17T19:45:00Z",
-    "issuer": "Athene Global",
-    "note": "Priced \u2014 tap arithmetic present ($200m\u2192outstanding $1.2bn), Sale into Canada now removed",
-    "verdict": "clean"
-  },
   "1786996739.149939": {
     "br_id": 14620499,
     "checked_at": "2026-08-17T20:53:00Z",
@@ -2302,6 +2281,13 @@
     "checked_at": "2026-08-24T17:35:13Z",
     "issuer": "Sumitomo Mitsui Trust",
     "note": "Launched multi-tranche \u2014 Sale into Canada language present, should be removed (reconciled post-hoc: bot reply already existed in thread from a prior tick whose state.json commit was lost)",
+    "verdict": "flagged"
+  },
+  "1787599397.901719": {
+    "br_id": 14630643,
+    "checked_at": "2026-08-24T19:59:21Z",
+    "issuer": "Sumitomo Mitsui Trust",
+    "note": "Priced (multi-tranche) \u2014 Sale into Canada language still present; Tranche A priced-deal opCo mistakenly true (reconciled post-hoc: bot reply already existed in thread from a prior tick whose state.json commit was lost)",
     "verdict": "flagged"
   }
 }
