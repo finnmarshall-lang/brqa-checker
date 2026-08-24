@@ -2001,5 +2001,61 @@
   "1787324410.797309": {
     "checked_at": "2026-08-21T15:01:34Z",
     "verdict": "skipped"
+  },
+  "1787555303.990469": {
+    "checked_at": "2026-08-24T07:16:20Z",
+    "verdict": "flagged",
+    "issuer": "AstraZeneca Finance LLC",
+    "br_id": 14630741,
+    "note": "IPTs stage; 4-tranche EUR bmk (long 3y/6y/9y/12y) at MS+60/80/95-100/115bp; headline/body/deal-flags all clean; Tranche A bookOrRating shows ticker form BARC/GS/MS while B/C/D show JT-LEADS for the identical 3-bank set (161/198/199) \u2014 inconsistent, flagged"
+  },
+  "1787555048.531769": {
+    "checked_at": "2026-08-24T07:16:20Z",
+    "verdict": "flagged",
+    "issuer": "Axactor ASA",
+    "br_id": 14630736,
+    "note": "Mandated stage; EUR50m (exp.) tap of 2030s (ACR06); 3 JLMs Arctic/DNB Carnegie/Nordea; HY flags/expectedPageId(HYRE5)/tranche form all clean; headline reads '** Bond Radar: Axactor EUR50m (exp.) 2030 tap: Mandated' with stray self-referential 'Bond Radar:' text \u2014 flagged"
+  },
+  "1787554548.827039": {
+    "checked_at": "2026-08-24T07:16:20Z",
+    "verdict": "clean",
+    "issuer": "Commerzbank AG",
+    "br_id": 14630731,
+    "note": "Guidance stage; EUR bmk 5y Hypfe at MS+23bp area; 7 bookrunners JT-LEADS; ISIN DE000CZ46C35; headline/body/tranche form/deal flags all clean; coveredBonds=true"
+  },
+  "1787554435.075639": {
+    "checked_at": "2026-08-24T07:16:20Z",
+    "verdict": "clean",
+    "issuer": "Raiffeisen Landesbank Vorarlberg",
+    "br_id": 14630588,
+    "note": "Guidance stage (mandated 21 Aug, progressed today); EUR300m 5y CB at MS+27bp area; 5 JLMs JT-LEADS; ISIN AT0000A3WV33; headline/body/tranche form/deal flags all clean"
+  },
+  "1787554256.766859": {
+    "checked_at": "2026-08-24T07:16:20Z",
+    "verdict": "clean",
+    "issuer": "Bayerische Landesbank (BayernLB)",
+    "br_id": 14630722,
+    "note": "Mandated stage (dealHistoryEntries[0]); EUR bmk 4y Oepfe; 5 JLMs JT-LEADS; deal has since correctly progressed to Guidance MS+15bp area \u2014 not a defect; mandate-era headline/body/tranche form/deal flags all clean"
+  },
+  "1787554096.465489": {
+    "checked_at": "2026-08-24T07:16:20Z",
+    "verdict": "flagged",
+    "issuer": "Nordea Bank Abp",
+    "br_id": 14630717,
+    "note": "IPTs stage; CHF150m+ 8y Green Senior Preferred at SARON MS+60bp area; 2 bookrunners DB/UBS; headline/tranche form/deal flags all clean; source Covenants line 'PP, Clean-up Call' \u2014 body carries CUC but drops the PP (Poison Put / COC) covenant entirely \u2014 flagged"
+  },
+  "1787553871.767689": {
+    "checked_at": "2026-08-24T07:16:20Z",
+    "verdict": "flagged",
+    "issuer": "Korea Housing Finance Corporation",
+    "br_id": 14630712,
+    "note": "Guidance stage (EM); EUR bmk 3y Social CB at MS+24bp area; 6 JLMs; ratings Aaa/AAA (M/S) bookOrRating field correct; regionAsia=true correct; headline/body use 'IPG'/'Initial price guidance' wording instead of house-style 'Guidance'/'Guidance is' (confirmed against 4 other same-batch covered-bond Guidance updates) \u2014 flagged"
+  },
+  "1787553382.290039": {
+    "checked_at": "2026-08-24T07:16:20Z",
+    "verdict": "clean",
+    "issuer": "Lansforsakringar Hypotek AB (publ)",
+    "br_id": 14630707,
+    "note": "Mandated stage (dealHistoryEntries[0]); EUR500m (WNG) 5y Swedish CB; 6 JLMs JT-LEADS; deal has since correctly progressed to Guidance MS+24bp area \u2014 not a defect; mandate quote verbatim, tranche form/deal flags all clean"
   }
 }
