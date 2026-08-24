@@ -44,27 +44,17 @@ jobs:
       - name: Install Claude CLI
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Cache Playwright browsers
-        id: playwright-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-chromium-v1
-
-      - name: Install Playwright (pip)
+      - name: Install Playwright (pip only)
+        # We deliberately do NOT run `playwright install chromium` — that's a
+        # ~300MB download every cold run (Chrome 184MB + Headless Shell 115MB
+        # + FFmpeg 2MB) that eats the whole job budget and prevents the
+        # actions/cache post step from ever populating a warm cache, so the
+        # tick never actually runs. GH Actions runners ship with Google
+        # Chrome pre-installed, and refresh_cookies.py launches with
+        # channel="chrome" first, falling back to the bundled Chromium only
+        # if that fails. On this runner it doesn't fail — so pip alone is
+        # enough.
         run: pip install playwright
-
-      - name: Install Playwright system deps + Chromium
-        run: |
-          # System libs always (they aren't cacheable). Skip browser download
-          # when the cache restored it — saves ~90s per tick.
-          if [ -d ~/.cache/ms-playwright ] && [ "$(ls -A ~/.cache/ms-playwright 2>/dev/null)" ]; then
-            echo "Playwright browsers cache hit — installing OS deps only."
-            python -m playwright install-deps chromium
-          else
-            echo "No Playwright cache — full install."
-            python -m playwright install --with-deps chromium
-          fi
 
       - name: Restore BR cookies cache
         id: cookies-cache
