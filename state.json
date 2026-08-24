@@ -1,78 +1,4 @@
 {
-  "1786983437.109249": {
-    "br_id": 14620504,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "Gray Media",
-    "note": "Price Talk \u2014 Ba3/B+ ratings missing",
-    "verdict": "flagged"
-  },
-  "1786983577.708409": {
-    "br_id": 14620453,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "Bank of New York Mellon",
-    "note": "Final Terms \u2014 Tranche B missing MWC",
-    "verdict": "flagged"
-  },
-  "1786983736.457619": {
-    "checked_at": "2026-08-17T17:03:00Z",
-    "note": "Blue Owl \u2014 text is in attachment, cannot QA",
-    "verdict": "skipped"
-  },
-  "1786983932.385059": {
-    "br_id": 14620493,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "Blackstone Private Credit",
-    "note": "Launched \u2014 headline typo 'a T+205bp'",
-    "verdict": "flagged"
-  },
-  "1786983943.563419": {
-    "br_id": 14620483,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "Evergy",
-    "note": "Launched \u2014 denoms missing",
-    "verdict": "flagged"
-  },
-  "1786984038.214959": {
-    "br_id": 14620488,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "Boston Properties",
-    "note": "BR advanced to Priced",
-    "verdict": "clean"
-  },
-  "1786984168.302679": {
-    "br_id": 14620473,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "Southern California Gas",
-    "verdict": "clean"
-  },
-  "1786984755.142929": {
-    "br_id": 14620221,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "ICICI Bank",
-    "note": "Priced \u2014 'T4' typo, should be '(T+4)'",
-    "verdict": "flagged"
-  },
-  "1786984884.895899": {
-    "br_id": 14620478,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "Corebridge Financial",
-    "note": "BR advanced to Final Terms",
-    "verdict": "clean"
-  },
-  "1786985225.340659": {
-    "br_id": 14620499,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "Bunge Ltd Finance",
-    "note": "Launch \u2014 retracted CUSIP flag (CUSIP not required in BR)",
-    "verdict": "clean"
-  },
-  "1786985287.268549": {
-    "br_id": 14620437,
-    "checked_at": "2026-08-17T17:03:00Z",
-    "issuer": "MetLife FA-backed",
-    "note": "Launch \u2014 dual-tranche",
-    "verdict": "clean"
-  },
   "1786985959.921739": {
     "br_id": 14620468,
     "checked_at": "2026-08-17T18:20:00Z",
@@ -2453,13 +2379,20 @@
     "br_id": 14630572,
     "checked_at": "2026-08-24T17:00:17Z",
     "issuer": "Union Bank of India",
-    "verdict": "flagged",
-    "note": "Priced book-line retains pre-pricing Book update: prefix"
+    "note": "Priced book-line retains pre-pricing Book update: prefix",
+    "verdict": "flagged"
   },
   "1787589496.015529": {
     "br_id": 14630657,
     "checked_at": "2026-08-24T17:00:17Z",
     "issuer": "Zhangzhou Jiulongjiang Group",
     "verdict": "clean"
+  },
+  "1787591396.186019": {
+    "br_id": 14630643,
+    "checked_at": "2026-08-24T17:35:13Z",
+    "issuer": "Sumitomo Mitsui Trust",
+    "note": "Launched multi-tranche \u2014 Sale into Canada language present, should be removed (reconciled post-hoc: bot reply already existed in thread from a prior tick whose state.json commit was lost)",
+    "verdict": "flagged"
   }
 }
