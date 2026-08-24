@@ -30,3 +30,4 @@
 - [Quote BR body in every thread finding](feedback_bondradar_quote_body_in_thread.md) — every QA finding (clean AND flagged) must include the full BR headline + message body verbatim in a Slack blockquote.
 - [Check dealHistoryEntries before flagging missing fields](feedback_bondradar_check_deal_history.md) — ratings/bookrunners/format etc. carry forward from earlier stage updates; walk history before flagging a body as "missing X".
 - [Benchmark date format: spell out month + year](feedback_bondradar_benchmark_date_format.md) — `OBL 2.1% April 2029`, not `04/29`. Flag MM/YY shorthand in spread refs.
+- [WNG counts as size set](feedback_bondradar_wng_size_set.md) — `EUR500m (WNG)` + `Spread set` = Final Terms / Launched, not Spread Set. Don't call Final Terms premature.
