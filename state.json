@@ -2158,5 +2158,61 @@
     "checked_at": "2026-08-24T11:03:21Z",
     "verdict": "skipped",
     "note": "Internal chat instruction (pipeline housekeeping), not a term sheet \u2014 no BR deal to QA."
+  },
+  "1787561005.940059": {
+    "checked_at": "2026-08-24T11:56:00Z",
+    "verdict": "flagged",
+    "issuer": "ICICI Bank IFSC",
+    "br_id": 14630835,
+    "note": "Priced USD1bn 5y at 5.41%; priced-deal 14630839 opCo:true incorrectly ticked (Indian bank, not on OpCo/HoldCo whitelist) - only real flag; headline/body/ratings/ISIN/bookrunner count all clean"
+  },
+  "1787561028.884589": {
+    "checked_at": "2026-08-24T11:56:00Z",
+    "verdict": "clean",
+    "issuer": "Nordea Bank Abp",
+    "br_id": 14630717,
+    "note": "Spread set update #1 (CHF175m min, SARON MS+60bp) - matched via dealHistoryEntries id 8862; headline/body/ratings/bookrunners all clean; deal has since priced (id 14630885) with no issues seen there either"
+  },
+  "1787561069.390569": {
+    "checked_at": "2026-08-24T11:56:00Z",
+    "verdict": "clean",
+    "issuer": "Korea Housing Finance Corporation",
+    "br_id": 14630712,
+    "note": "Book update (Books over EUR1.75bn incl EUR255m JLM) at MS+24bp area guidance-remains; tranche form + 6 JLM count + EM ratings triple all clean"
+  },
+  "1787561198.245379": {
+    "checked_at": "2026-08-24T11:56:00Z",
+    "verdict": "clean",
+    "issuer": "Bank Leumi le-Israel",
+    "br_id": 14630820,
+    "note": "New mandate, EUR bmk 3y structured covered bond; quoted mandate text verbatim; EM ratings triple Aa3//AA- correct M/S/F order; 4 JLM count matches"
+  },
+  "1787561835.155629": {
+    "checked_at": "2026-08-24T11:56:00Z",
+    "verdict": "clean",
+    "issuer": "Ile-de-France Mobilites",
+    "br_id": 14630825,
+    "note": "New mandate, EUR long 10y EuGB benchmark; quoted mandate text verbatim; JT-LEADS correct (5 JLMs on HG deal); 5 JLM count matches"
+  },
+  "1787562111.712129": {
+    "checked_at": "2026-08-24T11:56:00Z",
+    "verdict": "clean",
+    "issuer": "ING-DiBa AG",
+    "br_id": 14630830,
+    "note": "New mandate, Green EUR 5y benchmark Hypothekenpfandbrief; coveredBonds:true correct; JT-LEADS correct (7 JLMs); 7 JLM count matches"
+  },
+  "1787562353.424359": {
+    "checked_at": "2026-08-24T11:56:00Z",
+    "verdict": "clean",
+    "issuer": "TRATON Finance Luxembourg",
+    "br_id": 14630843,
+    "note": "New corp mandate, GBP benchmark long 4y senior unsecured; quoted mandate text verbatim; bank-ticker BARC/DB correct (2 JLMs, <=3)"
+  },
+  "1787562372.966789": {
+    "checked_at": "2026-08-24T11:56:00Z",
+    "verdict": "clean",
+    "issuer": "BayernLB",
+    "br_id": 14630722,
+    "note": "Book update/Spread fixed (MS+10bp, EUR bmk size still open, Books over EUR1.25bn incl EUR200m JLM); matched via dealHistoryEntries id 8865; tranche snapshot + 5 JLM count clean"
   }
 }
