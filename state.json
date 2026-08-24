@@ -1,46 +1,4 @@
 {
-  "1786985959.921739": {
-    "br_id": 14620468,
-    "checked_at": "2026-08-17T18:20:00Z",
-    "issuer": "Blue Owl Technology",
-    "note": "Launched tap \u2014 USD400m/USD200m size ambiguity in BR",
-    "verdict": "flagged"
-  },
-  "1786986223.018399": {
-    "br_id": 14620493,
-    "checked_at": "2026-08-17T18:20:00Z",
-    "issuer": "Blackstone Private Credit",
-    "note": "Launch \u2192 Priced \u2014 'a T+205bp' headline typo now fixed",
-    "verdict": "clean"
-  },
-  "1786986271.803149": {
-    "br_id": 14620271,
-    "checked_at": "2026-08-17T18:20:00Z",
-    "issuer": "National Australia Bank",
-    "note": "Priced \u2014 book line should read 'Books last heard over USD2.23bn.' with no 'Book update:' prefix",
-    "verdict": "flagged"
-  },
-  "1786986608.181369": {
-    "br_id": 14620483,
-    "checked_at": "2026-08-17T18:20:00Z",
-    "issuer": "Evergy",
-    "note": "Launch \u2014 denoms now fixed",
-    "verdict": "clean"
-  },
-  "1786988372.510379": {
-    "br_id": 14620453,
-    "checked_at": "2026-08-17T18:20:00Z",
-    "issuer": "Bank of New York Mellon",
-    "note": "Launch \u2014 Tranche B MWC now fixed",
-    "verdict": "clean"
-  },
-  "1786988679.460609": {
-    "br_id": 14620478,
-    "checked_at": "2026-08-17T18:20:00Z",
-    "issuer": "Corebridge Financial",
-    "note": "Launch",
-    "verdict": "clean"
-  },
   "1786989290.233949": {
     "br_id": 14620488,
     "checked_at": "2026-08-17T18:20:00Z",
