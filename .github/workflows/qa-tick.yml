@@ -2,9 +2,13 @@ name: BR QA Checker
 
 on:
   schedule:
-    # Every 10 minutes. GitHub's scheduler can lag by a few minutes under load;
-    # for tighter cadence you'd need an external cron. This is fine for BR QA.
-    - cron: '*/10 * * * *'
+    # Two offset entries — effective cadence is every 5 minutes (12 ticks/hr).
+    # GitHub's scheduler often skips slots under load; two schedules give
+    # more chances to fire without hitting the single 10-min cron floor.
+    # With per-tick cap of 15 messages, steady-state capacity is
+    # 12 × 15 = 180 messages/hour, well above BR volume.
+    - cron: '0,10,20,30,40,50 * * * *'
+    - cron: '5,15,25,35,45,55 * * * *'
   workflow_dispatch: {}
 
 concurrency:
@@ -14,7 +18,7 @@ concurrency:
 jobs:
   tick:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     permissions:
       contents: write
 
