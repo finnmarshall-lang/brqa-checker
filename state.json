@@ -2275,5 +2275,10 @@
     "issuer": "Sumitomo Mitsui Trust",
     "note": "Priced (multi-tranche) \u2014 Sale into Canada language still present; Tranche A priced-deal opCo mistakenly true (reconciled post-hoc: bot reply already existed in thread from a prior tick whose state.json commit was lost)",
     "verdict": "flagged"
+  },
+  "1787601606.751689": {
+    "checked_at": "2026-08-24T22:03:15Z",
+    "note": "Bot operational note (\"Send all pipelines to BBG before going off\") \u2014 not a term-sheet body, no BBG forward markers, no file attachment",
+    "verdict": "skipped"
   }
 }
