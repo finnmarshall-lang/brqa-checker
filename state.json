@@ -1,31 +1,4 @@
 {
-  "1786974167.415059": {
-    "br_id": 14620276,
-    "checked_at": "2026-08-17T14:14:11Z",
-    "issuer": "Credit Agricole",
-    "note": "originally flagged Fxd-to-Frn structure; retracted \u2014 that's intentional omission, not a BR error",
-    "verdict": "clean"
-  },
-  "1786974920.615429": {
-    "br_id": 14620281,
-    "checked_at": "2026-08-17T14:14:08Z",
-    "issuer": "ABN AMRO",
-    "verdict": "clean"
-  },
-  "1786975061.046069": {
-    "br_id": 14620271,
-    "checked_at": "2026-08-17T14:14:06Z",
-    "issuer": "National Australia Bank",
-    "note": "USD/EUR currency mismatch on books; 'Books above' vs 'Books over'",
-    "verdict": "flagged"
-  },
-  "1786978616.856129": {
-    "br_id": 14620271,
-    "checked_at": "2026-08-17T15:12:00Z",
-    "issuer": "National Australia Bank",
-    "note": "Final Terms \u2014 headline typo 'at t SMS+50bp'; 'Books above' vs 'Books over'",
-    "verdict": "flagged"
-  },
   "1786982090.275099": {
     "br_id": 14620462,
     "checked_at": "2026-08-17T16:34:00Z",
@@ -2238,102 +2211,129 @@
     "verdict": "flagged"
   },
   "1787571071.247429": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630774,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "Eastern Power Networks",
     "verdict": "clean"
   },
   "1787571195.640739": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630797,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "PKO Bank Polski",
     "note": "Societe Generale missing (B&D) tag in Joint Leads list",
     "verdict": "flagged"
   },
   "1787571250.050229": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630931,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "World Bank",
     "verdict": "clean"
   },
   "1787571465.003959": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630657,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "Zhangzhou Jiulongjiang Group",
     "note": "issuer rating field garbled (drops Lianhe rating); banks.active count 23 vs 24 named JLMs",
     "verdict": "flagged"
   },
   "1787572410.809549": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630757,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "Koninklijke Philips",
     "note": "headline casing 'Final Terms' should be 'Final terms'",
     "verdict": "flagged"
   },
   "1787572423.931789": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630722,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "BayernLB",
     "verdict": "clean"
   },
   "1787572846.877479": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630588,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "RLB Vorarlberg",
     "verdict": "clean"
   },
   "1787572856.622209": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630767,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "Caterpillar Financial Services",
     "note": "typo 'Spred set' on both tranches, should be 'Spread set'",
     "verdict": "flagged"
   },
   "1787572945.510319": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630752,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "VUB banka",
     "note": "book line should say Books closed over (source said closed/good at reoffer) not Final books above; typo 13.:20 UKT",
     "verdict": "flagged"
   },
   "1787573562.179409": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630643,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "Sumitomo Mitsui Trust Bank",
     "note": "'Sales into Canada permitted' should be removed from body per house style",
     "verdict": "flagged"
   },
   "1787573648.797669": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630792,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "Clarion Funding",
     "note": "headline typo 'FInal terms' should be 'Final terms'",
     "verdict": "flagged"
   },
   "1787573679.246819": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630712,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "Korea Housing Finance Corporation",
     "note": "BNP Paribas missing (B&D) tag in JLMs list (source: 'BNPP B&D')",
     "verdict": "flagged"
   },
   "1787573691.238789": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630731,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "Commerzbank",
     "verdict": "clean"
   },
   "1787574193.608379": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630741,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "AstraZeneca Finance LLC",
     "note": "headline casing 'Final Terms' should be 'Final terms'",
     "verdict": "flagged"
   },
   "1787574520.385669": {
-    "checked_at": "2026-08-24T13:54:10Z",
     "br_id": 14630962,
+    "checked_at": "2026-08-24T13:54:10Z",
     "issuer": "NWB Bank",
+    "verdict": "clean"
+  },
+  "1787575441.925259": {
+    "br_id": 14630752,
+    "checked_at": "2026-08-24T15:36:37Z",
+    "issuer": "VUB banka",
+    "note": "benchmark reference bond mismatch (OBL 10/2031 vs 16 April 2031); finding already posted in-thread by a prior run whose state write was lost",
+    "verdict": "flagged"
+  },
+  "1787576897.472539": {
+    "br_id": 14630572,
+    "checked_at": "2026-08-24T15:36:37Z",
+    "issuer": "Union Bank of India",
+    "note": "FPG stage; book-line phrasing flag; finding already posted in-thread by a prior run whose state write was lost",
+    "verdict": "flagged"
+  },
+  "1787582644.590679": {
+    "br_id": 14630757,
+    "checked_at": "2026-08-24T15:36:37Z",
+    "issuer": "Koninklijke Philips",
+    "note": "Priced stage; typo in Allocations-stage dealHistory (EUR1.7bnn); finding already posted in-thread by a prior run whose state write was lost",
+    "verdict": "flagged"
+  },
+  "1787584237.495309": {
+    "br_id": 14630572,
+    "checked_at": "2026-08-24T15:36:37Z",
+    "issuer": "Union Bank of India",
     "verdict": "clean"
   }
 }
