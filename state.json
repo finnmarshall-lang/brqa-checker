@@ -1,46 +1,4 @@
 {
-  "1786989290.233949": {
-    "br_id": 14620488,
-    "checked_at": "2026-08-17T18:20:00Z",
-    "issuer": "Boston Properties",
-    "note": "Priced (re-confirmed)",
-    "verdict": "clean"
-  },
-  "1786989610.665369": {
-    "br_id": 14620462,
-    "checked_at": "2026-08-17T18:20:00Z",
-    "issuer": "Ameren Illinois",
-    "note": "Priced \u2014 'Sale into Canada' should be removed",
-    "verdict": "flagged"
-  },
-  "1786990250.172319": {
-    "br_id": 14620493,
-    "checked_at": "2026-08-17T18:34:00Z",
-    "issuer": "Blackstone Private Credit",
-    "note": "Priced (originally :eyes:, now \u2705)",
-    "verdict": "clean"
-  },
-  "1786990423.707239": {
-    "br_id": 14620473,
-    "checked_at": "2026-08-17T18:34:00Z",
-    "issuer": "Southern California Gas",
-    "note": "Priced",
-    "verdict": "clean"
-  },
-  "1786990633.548649": {
-    "br_id": 14620437,
-    "checked_at": "2026-08-17T18:45:00Z",
-    "issuer": "MetLife FA-backed",
-    "note": "Priced (originally :eyes:, now \u2705)",
-    "verdict": "clean"
-  },
-  "1786990789.756709": {
-    "br_id": 14620445,
-    "checked_at": "2026-08-17T18:45:00Z",
-    "issuer": "Athene Global",
-    "note": "Launched \u2014 'Sale into Canada' should be removed",
-    "verdict": "flagged"
-  },
   "1786991805.424029": {
     "br_id": 14620483,
     "checked_at": "2026-08-17T18:57:00Z",
