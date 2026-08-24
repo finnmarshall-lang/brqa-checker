@@ -1,153 +1,10 @@
 {
-  "1786964303.923729": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786964438.377979": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786966414.278409": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786966475.069429": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786966719.890329": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786967132.915879": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786967415.743919": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786967814.226679": {
-    "br_id": 14620425,
-    "checked_at": "2026-08-17T13:39:57Z",
-    "issuer": "World Bank",
-    "note": "dry-run demo",
-    "verdict": "flagged"
-  },
-  "1786967903.048799": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786967981.288369": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786968516.580639": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786968735.079479": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786968750.472269": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
   "1786969210.472509": {
     "br_id": 14620453,
     "checked_at": "2026-08-17T14:01:22Z",
     "issuer": "Bank of New York Mellon",
     "note": "dry-run demo (multi-tranche IPTs; MWC misplaced in Common terms)",
     "verdict": "flagged"
-  },
-  "1786969250.826429": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786969865.231329": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786970254.380579": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786970304.272239": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786970362.650499": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786970530.454179": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786970736.200309": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786970754.917189": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786970769.236819": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786971055.513069": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786971311.004879": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786971461.443209": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786971530.289299": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786971616.818449": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786972247.563939": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786972282.036409": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786972429.140539": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786972469.013029": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786972844.461699": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786972940.631859": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786973095.607759": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
-  },
-  "1786973581.430579": {
-    "checked_at": "2026-08-17T13:39:57Z",
-    "verdict": "backlog-skipped"
   },
   "1786974167.415059": {
     "br_id": 14620276,
@@ -2326,5 +2183,65 @@
     "issuer": "Korea Housing Finance Corporation (KHFC)",
     "note": "Final terms EUR800m 3y Social CB at MS+17bp; 6 JLMs; headline/body/tranche/flags all clean",
     "verdict": "clean"
+  },
+  "1787568430.961279": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "flagged"
+  },
+  "1787568883.463229": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "clean"
+  },
+  "1787569012.391169": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "flagged"
+  },
+  "1787569320.268109": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "clean"
+  },
+  "1787569447.481099": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "clean"
+  },
+  "1787569508.744739": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "clean"
+  },
+  "1787569587.650409": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "flagged"
+  },
+  "1787569763.102759": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "clean"
+  },
+  "1787569820.505989": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "flagged"
+  },
+  "1787569968.974879": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "flagged"
+  },
+  "1787570000.138679": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "clean"
+  },
+  "1787570826.968939": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "clean"
+  },
+  "1787570869.588529": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "flagged"
+  },
+  "1787570892.711379": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "flagged"
+  },
+  "1787570960.222389": {
+    "checked_at": "2026-08-24T13:46:41Z",
+    "verdict": "flagged"
   }
 }
