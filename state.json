@@ -2121,5 +2121,42 @@
     "br_id": 14630784,
     "category": "hg",
     "note": "Mandate-stage EUR350m(exp) 5.5y senior; verbatim mandate quote matches source; tranche/flags clean."
+  },
+  "1787557580.512369": {
+    "checked_at": "2026-08-24T11:03:21Z",
+    "verdict": "clean"
+  },
+  "1787557917.348919": {
+    "checked_at": "2026-08-24T11:03:21Z",
+    "verdict": "clean"
+  },
+  "1787557925.676729": {
+    "checked_at": "2026-08-24T11:03:21Z",
+    "verdict": "clean"
+  },
+  "1787559592.453909": {
+    "checked_at": "2026-08-24T11:03:21Z",
+    "verdict": "clean"
+  },
+  "1787559909.657129": {
+    "checked_at": "2026-08-24T11:03:21Z",
+    "verdict": "clean"
+  },
+  "1787560313.078689": {
+    "checked_at": "2026-08-24T11:03:21Z",
+    "verdict": "clean"
+  },
+  "1787560320.387179": {
+    "checked_at": "2026-08-24T11:03:21Z",
+    "verdict": "clean"
+  },
+  "1787560590.807009": {
+    "checked_at": "2026-08-24T11:03:21Z",
+    "verdict": "clean"
+  },
+  "1787562301.794509": {
+    "checked_at": "2026-08-24T11:03:21Z",
+    "verdict": "skipped",
+    "note": "Internal chat instruction (pipeline housekeeping), not a term sheet \u2014 no BR deal to QA."
   }
 }
