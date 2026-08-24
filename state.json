@@ -2057,5 +2057,69 @@
     "issuer": "Lansforsakringar Hypotek AB (publ)",
     "br_id": 14630707,
     "note": "Mandated stage (dealHistoryEntries[0]); EUR500m (WNG) 5y Swedish CB; 6 JLMs JT-LEADS; deal has since correctly progressed to Guidance MS+24bp area \u2014 not a defect; mandate quote verbatim, tranche form/deal flags all clean"
+  },
+  "1787555646.077239": {
+    "checked_at": "2026-08-24T10:17:13Z",
+    "verdict": "clean",
+    "issuer": "VUB banka",
+    "br_id": 14630752,
+    "category": "em",
+    "note": "Guidance-stage QA vs dealHistoryEntries (BR now at Final Terms MS+33bp); headline/body/tranche form clean, no defects."
+  },
+  "1787555662.302839": {
+    "checked_at": "2026-08-24T10:17:13Z",
+    "verdict": "clean",
+    "issuer": "Koninklijke Philips",
+    "br_id": 14630757,
+    "category": "hg",
+    "note": "IPTs EUR500m(exp) 7.75y EuGB at MS+115/120bp; headline/body/tranche/flags all clean."
+  },
+  "1787555905.344829": {
+    "checked_at": "2026-08-24T10:17:13Z",
+    "verdict": "clean",
+    "issuer": "Land NRW",
+    "br_id": 14620758,
+    "category": "hg",
+    "note": "Book stats stage, file-attachment case-study PDF; EUR1.5bn 7y at MS+16bp; priced-deal 14630242 + statsCategories (both sum 100%) all clean."
+  },
+  "1787556277.532149": {
+    "checked_at": "2026-08-24T10:17:13Z",
+    "verdict": "clean",
+    "issuer": "Nippon Life",
+    "br_id": 14630762,
+    "category": "hg",
+    "note": "IPTs-stage QA vs dealHistoryEntries[0] (BR now at Book update); EUR500/550m 30NC10 T2 MS+180a; all clean."
+  },
+  "1787556600.541369": {
+    "checked_at": "2026-08-24T10:17:13Z",
+    "verdict": "flagged",
+    "issuer": "Caterpillar Financial",
+    "br_id": 14630767,
+    "category": "hg",
+    "note": "IPTs dual-tranche EUR FRN2y+FXD3y; hgDetails.regionAmericas=true but deal is EUR-only (no USD tranche) - should be false. Headline/body/tranche otherwise clean."
+  },
+  "1787557131.500609": {
+    "checked_at": "2026-08-24T10:17:13Z",
+    "verdict": "clean",
+    "issuer": "Eastern Power Networks",
+    "br_id": 14630774,
+    "category": "hg",
+    "note": "IPTs EUR500m 8y Grn at MS+115bp area; headline/body/tranche/flags all clean."
+  },
+  "1787557167.169679": {
+    "checked_at": "2026-08-24T10:17:13Z",
+    "verdict": "clean",
+    "issuer": "Groupe Bruxelles Lambert",
+    "br_id": 14630779,
+    "category": "hg",
+    "note": "Mandate-stage EUR500m 8y senior; verbatim mandate quote matches source; tranche/flags clean."
+  },
+  "1787557189.466129": {
+    "checked_at": "2026-08-24T10:17:13Z",
+    "verdict": "clean",
+    "issuer": "Sveafastigheter AB",
+    "br_id": 14630784,
+    "category": "hg",
+    "note": "Mandate-stage EUR350m(exp) 5.5y senior; verbatim mandate quote matches source; tranche/flags clean."
   }
 }
