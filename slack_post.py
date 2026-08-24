@@ -43,6 +43,44 @@ def _token() -> str:
     raise RuntimeError(f"SLACK_BOT_TOKEN not found in {ENV_FILE}")
 
 
+def _get(method: str, params: dict) -> dict:
+    url = f"{SLACK_API}/{method}?{urllib.parse.urlencode(params)}"
+    req = request.Request(url, headers={"Authorization": f"Bearer {_token()}"})
+    try:
+        with request.urlopen(req, timeout=15) as resp:
+            body = json.loads(resp.read().decode())
+    except error.HTTPError as e:
+        raise RuntimeError(f"Slack API {method} HTTP {e.code}: {e.read().decode()[:200]}")
+    if not body.get("ok"):
+        raise RuntimeError(f"Slack API {method} error: {body.get('error', 'unknown')}")
+    return body
+
+
+_BOT_IDENTITY: dict | None = None
+
+
+def _bot_identity() -> dict:
+    """Cached auth.test — returns {user_id, bot_id}."""
+    global _BOT_IDENTITY
+    if _BOT_IDENTITY is None:
+        r = _get("auth.test", {})
+        _BOT_IDENTITY = {"user_id": r.get("user_id"), "bot_id": r.get("bot_id")}
+    return _BOT_IDENTITY
+
+
+def bot_already_in_thread(channel: str, thread_ts: str) -> bool:
+    """True iff this bot has any reply in the thread already."""
+    ident = _bot_identity()
+    replies = _get("conversations.replies",
+                   {"channel": channel, "ts": thread_ts, "limit": 200}).get("messages") or []
+    for m in replies[1:]:  # skip the parent message
+        if m.get("bot_id") and m.get("bot_id") == ident["bot_id"]:
+            return True
+        if m.get("user") and m.get("user") == ident["user_id"]:
+            return True
+    return False
+
+
 def post_thread(channel: str, thread_ts: str, text: str) -> dict:
     payload = json.dumps({
         "channel": channel,
@@ -76,6 +114,20 @@ def _cli(argv: list[str]) -> int:
         return 2
     channel, thread_ts, text_arg = argv[1], argv[2], argv[3]
     text = sys.stdin.read() if text_arg == "-" else text_arg
+
+    # Idempotency guard: never post twice in the same thread.
+    # state.json push can fail intermittently (concurrent runs, transient
+    # push errors) which lets stale state re-QA the same message on a later
+    # tick. The thread itself is the source of truth for "already posted".
+    if bot_already_in_thread(channel, thread_ts):
+        print(json.dumps({
+            "skipped": True,
+            "reason": "bot_already_in_thread",
+            "channel": channel,
+            "thread_ts": thread_ts,
+        }))
+        return 0
+
     body = post_thread(channel, thread_ts, text)
     print(json.dumps({
         "ts": body["ts"],
