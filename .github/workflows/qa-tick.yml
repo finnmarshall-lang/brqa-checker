@@ -98,7 +98,14 @@ jobs:
         run: |
           mkdir -p logs
           echo "=== tick $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" | tee -a logs/tick.log
-          claude -p "$(cat tick_prompt.txt)" --dangerously-skip-permissions 2>&1 | tee -a logs/tick.log
+          # Sonnet 5 for the tick: BR QA is structured rule-matching over the 6
+          # checks + memory files, which Sonnet handles cleanly and roughly
+          # 2-3x faster than Opus. If Sonnet ever misses a nuance a memory
+          # rule captures cleanly, we can bump one specific check back to
+          # Opus in a wrapper — but for now the whole tick runs on Sonnet.
+          claude -p "$(cat tick_prompt.txt)" \
+            --model claude-sonnet-5 \
+            --dangerously-skip-permissions 2>&1 | tee -a logs/tick.log
           echo "=== done $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" | tee -a logs/tick.log
 
       - name: Save BR cookies cache
