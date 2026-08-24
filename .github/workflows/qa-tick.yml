@@ -14,7 +14,7 @@ concurrency:
 jobs:
   tick:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: write
 
@@ -35,13 +35,36 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Cache global npm (Claude CLI)
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-claude-code-v1
+
       - name: Install Claude CLI
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Install Playwright + Chromium
+      - name: Cache Playwright browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-v1
+
+      - name: Install Playwright (pip)
+        run: pip install playwright
+
+      - name: Install Playwright system deps + Chromium
         run: |
-          pip install playwright
-          python -m playwright install --with-deps chromium
+          # System libs always (they aren't cacheable). Skip browser download
+          # when the cache restored it — saves ~90s per tick.
+          if [ -d ~/.cache/ms-playwright ] && [ "$(ls -A ~/.cache/ms-playwright 2>/dev/null)" ]; then
+            echo "Playwright browsers cache hit — installing OS deps only."
+            python -m playwright install-deps chromium
+          else
+            echo "No Playwright cache — full install."
+            python -m playwright install --with-deps chromium
+          fi
 
       - name: Restore BR cookies cache
         id: cookies-cache
