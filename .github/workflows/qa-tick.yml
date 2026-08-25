@@ -89,24 +89,60 @@ jobs:
             fi
           fi
 
-      - name: Run one tick
+      - name: Prepare shards
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        run: |
+          mkdir -p logs
+          # 4 shards × up to 10 msgs = up to 40/tick, all pre-fetched once
+          # and split by prepare_batches.py so parallel sessions never
+          # collide on messages or state.
+          python3 prepare_batches.py 4 40 | tee -a logs/tick.log
+
+      - name: Run 4 parallel shards
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           BR_USERNAME: ${{ secrets.BR_USERNAME }}
           BR_PASSWORD: ${{ secrets.BR_PASSWORD }}
         run: |
-          mkdir -p logs
           echo "=== tick $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" | tee -a logs/tick.log
-          # Sonnet 5 for the tick: BR QA is structured rule-matching over the 6
-          # checks + memory files, which Sonnet handles cleanly and roughly
-          # 2-3x faster than Opus. If Sonnet ever misses a nuance a memory
-          # rule captures cleanly, we can bump one specific check back to
-          # Opus in a wrapper — but for now the whole tick runs on Sonnet.
-          claude -p "$(cat tick_prompt.txt)" \
-            --model claude-sonnet-5 \
-            --dangerously-skip-permissions 2>&1 | tee -a logs/tick.log
-          echo "=== done $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" | tee -a logs/tick.log
+
+          TOTAL=$(python3 -c "import json; print(json.load(open('queue_meta.json'))['total'])")
+          if [ "$TOTAL" = "0" ]; then
+            echo "no new messages in window — skipping" | tee -a logs/tick.log
+            exit 0
+          fi
+
+          # Spawn one Claude session per shard. Each session reads its
+          # $SHARD_FILE and writes to $STATE_DELTA_FILE. `wait` blocks
+          # until all four finish; `set -m` gives them proper job control.
+          set -m
+          for i in 0 1 2 3; do
+            (
+              export SHARD_FILE="shard_$i.json"
+              export STATE_DELTA_FILE="state_delta_$i.json"
+              echo "--- shard $i start $(date -u +%H:%M:%SZ) ---" >> logs/shard_$i.log
+              claude -p "$(cat tick_shard_prompt.txt)" \
+                --model claude-sonnet-5 \
+                --dangerously-skip-permissions \
+                >> logs/shard_$i.log 2>&1
+              echo "--- shard $i done  $(date -u +%H:%M:%SZ) ---" >> logs/shard_$i.log
+            ) &
+          done
+          wait
+          echo "=== all shards complete $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" | tee -a logs/tick.log
+
+      - name: Merge state deltas
+        if: always()
+        run: |
+          if ls state_delta_*.json >/dev/null 2>&1; then
+            python3 merge_deltas.py | tee -a logs/tick.log
+          else
+            echo "no state deltas to merge" | tee -a logs/tick.log
+          fi
+          # Also tidy up shard artifacts so they don't leak into the commit
+          rm -f shard_*.json queue_meta.json
 
       - name: Save BR cookies cache
         if: always()
