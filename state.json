@@ -2197,6 +2197,13 @@
     "note": "Final terms/Launched \u2014 regionAmericas false on USD deal, headline missing tenor, Final Terms casing",
     "verdict": "flagged"
   },
+  "1787653444.695119": {
+    "br_id": 14630962,
+    "checked_at": "2026-08-25T11:27:25Z",
+    "issuer": "NWB Bank",
+    "note": "Final terms USD1bn SMS+27bp; already QA'd by a prior tick (bot reply existed, state write was lost) - clean",
+    "verdict": "clean"
+  },
   "1787653972.072109": {
     "br_id": 14630931,
     "checked_at": "2026-08-25T11:13:17Z",
@@ -2204,11 +2211,25 @@
     "note": "Final terms EUR3bn 10y SDB MS+23bp \u2014 book line should be Books closed over, not Final books over",
     "verdict": "flagged"
   },
+  "1787654416.290179": {
+    "br_id": 14631020,
+    "checked_at": "2026-08-25T11:46:45Z",
+    "issuer": "BNP Paribas",
+    "note": "Priced SGD400m PNC5 AT1; already QA'd by a prior tick (bot reply existed, state write was lost) - flagged holdCo/JLM-entity/ratings-glitch, now fixed in current data",
+    "verdict": "flagged"
+  },
   "1787654857.524879": {
     "br_id": 14631095,
     "checked_at": "2026-08-25T11:13:17Z",
     "issuer": "La Mondiale",
     "note": "Final terms EUR500m 16NC6 T2 MS+145bp \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787655161.633979": {
+    "br_id": 14630784,
+    "checked_at": "2026-08-25T10:57:31Z",
+    "issuer": "Sveafastigheter AB",
+    "note": "Guidance EUR350m MS+155bp area; already QA'd by a prior tick (bot reply existed, state write was lost) - clean",
     "verdict": "clean"
   },
   "1787655645.163869": {
@@ -2231,27 +2252,6 @@
     "issuer": "ING-DiBa",
     "note": "Allocations out EUR1bn 5y Grn CB MS+16bp \u2014 ING missing (DM) tag in bookrunner list",
     "verdict": "flagged"
-  },
-  "1787653444.695119": {
-    "br_id": 14630962,
-    "checked_at": "2026-08-25T11:27:25Z",
-    "issuer": "NWB Bank",
-    "note": "Final terms USD1bn SMS+27bp; already QA'd by a prior tick (bot reply existed, state write was lost) - clean",
-    "verdict": "clean"
-  },
-  "1787654416.290179": {
-    "br_id": 14631020,
-    "checked_at": "2026-08-25T11:46:45Z",
-    "issuer": "BNP Paribas",
-    "note": "Priced SGD400m PNC5 AT1; already QA'd by a prior tick (bot reply existed, state write was lost) - flagged holdCo/JLM-entity/ratings-glitch, now fixed in current data",
-    "verdict": "flagged"
-  },
-  "1787655161.633979": {
-    "br_id": 14630784,
-    "checked_at": "2026-08-25T10:57:31Z",
-    "issuer": "Sveafastigheter AB",
-    "note": "Guidance EUR350m MS+155bp area; already QA'd by a prior tick (bot reply existed, state write was lost) - clean",
-    "verdict": "clean"
   },
   "1787656665.070049": {
     "br_id": 14630843,
@@ -2314,6 +2314,41 @@
     "checked_at": "2026-08-25T11:44:44Z",
     "issuer": "ANZ New Zealand",
     "note": "Allocations EUR750m CB MS+15bp - flagged missing 'Allocations out' body statement",
+    "verdict": "flagged"
+  },
+  "1787658428.889339": {
+    "br_id": 14630917,
+    "checked_at": "2026-08-25T12:22:00Z",
+    "issuer": "Land Berlin",
+    "note": "Priced EUR1.25bn 10y at MS+24bp; already QA-d by a prior tick before state.json save (thread had bot reply, matched my independent re-derivation) \u2014 clean, all fields/flags correct",
+    "verdict": "clean"
+  },
+  "1787658563.271379": {
+    "br_id": 14630830,
+    "checked_at": "2026-08-25T12:22:00Z",
+    "issuer": "ING-DiBa",
+    "note": "Priced EUR1bn 5y Green Mortgage CB at MS+16bp; already QA-d by a prior tick before state.json save (matched my independent re-derivation) \u2014 ING missing /DM bookrunner tag; finalBooks null should be 2200.0",
+    "verdict": "flagged"
+  },
+  "1787658766.304599": {
+    "br_id": 14631231,
+    "checked_at": "2026-08-25T12:22:00Z",
+    "issuer": "UNEDIC",
+    "note": "Mandated EUR bmk 2y Social; already QA-d by a prior tick before state.json save (matched my independent re-derivation) \u2014 clean, verbatim mandate quote, JT-LEADS correct (5 JLMs)",
+    "verdict": "clean"
+  },
+  "1787659192.987819": {
+    "br_id": 14631236,
+    "checked_at": "2026-08-25T12:22:00Z",
+    "issuer": "BBVA",
+    "note": "3T IPTs USD SNP (3y fixed/3y FRN/5y fixed); regionAmericas false but should be true (USD tranches); headline/body/tranche form otherwise clean",
+    "verdict": "flagged"
+  },
+  "1787659276.083189": {
+    "br_id": 14631245,
+    "checked_at": "2026-08-25T12:22:00Z",
+    "issuer": "Federal State of Saarland",
+    "note": "Mandated EUR500m 8y FRN LSA; headline omits FRN designator (tranche form correctly shows 8y FRN) \u2014 house style carries FRN in title for pure-floater deals",
     "verdict": "flagged"
   }
 }
