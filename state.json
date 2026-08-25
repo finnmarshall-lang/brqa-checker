@@ -2278,6 +2278,13 @@
     "note": "Priced tap EUR250m SNP FRN \u2014 priced-deal snpRating/fitchRating swapped (A_PLUS/NR instead of A_MINUS/A_PLUS); isin field carries original ISIN not the published temp ISIN",
     "verdict": "flagged"
   },
+  "1787668989.299409": {
+    "br_id": 14630593,
+    "checked_at": "2026-08-25T15:25:58Z",
+    "issuer": "TenneT Germany",
+    "note": "Dual-tranche EuGB Hybrid Allocations clean",
+    "verdict": "clean"
+  },
   "1787669029.900829": {
     "br_id": 14631095,
     "checked_at": "2026-08-25T15:09:56Z",
@@ -2290,6 +2297,20 @@
     "checked_at": "2026-08-25T15:09:56Z",
     "issuer": "IADB",
     "note": "Allocations Out \u2014 book line 'Books last heard over' should be 'Final books over' (implicitly final at Allocations per house rule)",
+    "verdict": "flagged"
+  },
+  "1787670074.444579": {
+    "br_id": 14630871,
+    "checked_at": "2026-08-25T15:25:58Z",
+    "issuer": "ESM",
+    "note": "USD2bn 5y Priced clean; Books last heard rule applied correctly",
+    "verdict": "clean"
+  },
+  "1787670971.826199": {
+    "br_id": 14630593,
+    "checked_at": "2026-08-25T15:25:58Z",
+    "issuer": "TenneT Germany",
+    "note": "Priced: Tranche A missing period before ISIN (Yield 4.375% ISIN -> Yield 4.375%. ISIN)",
     "verdict": "flagged"
   }
 }
