@@ -2232,5 +2232,124 @@
   "1787661843.363459": {
     "checked_at": "2026-08-25T13:05:25Z",
     "verdict": "clean"
+  },
+  "1787662943.432079": {
+    "br_id": 14630912,
+    "checked_at": "2026-08-25T14:41:00Z",
+    "issuer": "IADB",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Final terms casing + book line flag; recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
+  },
+  "1787663012.668339": {
+    "br_id": 14630843,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "Traton Finance",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Allocations out \u2014 Book update prefix should drop, benchmark gilt drops day; recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
+  },
+  "1787663302.314269": {
+    "br_id": 14630931,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "World Bank",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 Citi (B&D/DM) tag missing, SEC-exempt format flags backwards; recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
+  },
+  "1787663613.378239": {
+    "br_id": 14630825,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "Ile-de-France Mobilites",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "verdict": "clean"
+  },
+  "1787663980.050009": {
+    "br_id": 14631026,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "NEC Corp",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 ISIN missing, bookrunner list undercounted; recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
+  },
+  "1787664350.259769": {
+    "br_id": 14630962,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "NWB Bank",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Allocations \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "verdict": "clean"
+  },
+  "1787664525.188659": {
+    "br_id": 14630866,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "Aareal Bank",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Allocations \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "verdict": "clean"
+  },
+  "1787664640.921679": {
+    "br_id": 14631182,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "Macquarie Group",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 holdCo wrongly ticked, price-evolution log missing final spread; recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
+  },
+  "1787665065.185939": {
+    "br_id": 14631120,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "Grenke Finance",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 missing space typo in body; recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
+  },
+  "1787665819.257579": {
+    "br_id": 14630843,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "Traton Finance",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "verdict": "clean"
+  },
+  "1787665930.451019": {
+    "br_id": 14630779,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "Groupe Bruxelles Lambert",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Allocations \u2014 Perfect, matched via ISIN; recovered via bot_already_in_thread guard",
+    "verdict": "clean"
+  },
+  "1787666240.966339": {
+    "br_id": 14631095,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "La Mondiale",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Allocations Out \u2014 hedge deadline CET should be CEST in August; recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
+  },
+  "1787666340.505719": {
+    "br_id": 14631125,
+    "checked_at": "2026-08-25T14:45:00Z",
+    "issuer": "Klepierre",
+    "note": "Already posted in prior tick (state commit was lost) \u2014 Allocations Out \u2014 body missing forward-looking pricing timing statement; recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
+  },
+  "1787666996.881779": {
+    "br_id": 14630866,
+    "checked_at": "2026-08-25T14:50:00Z",
+    "issuer": "Aareal Bank",
+    "note": "Priced \u2014 Deutsche Bank (B&D) tag dropped from bookrunner list",
+    "verdict": "flagged"
+  },
+  "1787667374.120189": {
+    "br_id": 14630784,
+    "checked_at": "2026-08-25T14:50:00Z",
+    "issuer": "Sveafastigheter",
+    "note": "Priced clean \u2014 Books last heard wording correctly applied (Case B)",
+    "verdict": "clean"
+  },
+  "1787667621.455069": {
+    "br_id": 14630779,
+    "checked_at": "2026-08-25T14:50:00Z",
+    "issuer": "Groupe Bruxelles Lambert",
+    "note": "Priced \u2014 additionalInfo missing 3-month par call note (peer deals in batch have it)",
+    "verdict": "flagged"
+  },
+  "1787668281.635809": {
+    "br_id": 14631125,
+    "checked_at": "2026-08-25T14:50:00Z",
+    "issuer": "Klepierre",
+    "note": "Priced \u2014 headline stuck at Allocations while body reads Priced; fitchRating A should be A_MINUS; finalBooks null should be 1200.0",
+    "verdict": "flagged"
   }
 }
