@@ -1,31 +1,4 @@
 {
-  "1787040128.108749": {
-    "br_id": 14611523,
-    "checked_at": "2026-08-18T08:03:00Z",
-    "issuer": "Korea SMEs & Startups Agency",
-    "note": "Timing update \u2014 'andor' x2, KOSMEs missing apostrophe, ratings label format, HSBC BD missing parens/ampersand",
-    "verdict": "flagged"
-  },
-  "1787040889.571169": {
-    "br_id": 14620415,
-    "checked_at": "2026-08-18T08:23:00Z",
-    "issuer": "EIB",
-    "note": "Launched USD4bn 5y at SMS+29bp",
-    "verdict": "clean"
-  },
-  "1787040898.194519": {
-    "br_id": 14620410,
-    "checked_at": "2026-08-18T08:23:00Z",
-    "issuer": "Germany Aug 2056 tap",
-    "note": "Book Update",
-    "verdict": "clean"
-  },
-  "1787041105.926339": {
-    "checked_at": "2026-08-18T08:23:00Z",
-    "issuer": "Housing and Development Board",
-    "note": "Books-subject msg has only :eyes:, no \u2705 yet",
-    "verdict": "skipped"
-  },
   "1787041199.878219": {
     "br_id": 14620745,
     "checked_at": "2026-08-18T08:35:00Z",
@@ -2303,5 +2276,54 @@
     "issuer": "Klepierre",
     "note": "IPTs",
     "verdict": "clean"
+  },
+  "1787644218.556569": {
+    "br_id": 14631130,
+    "checked_at": "2026-08-25T08:29:05Z",
+    "issuer": "Rabobank",
+    "note": "Final terms tap \u2014 flagged by earlier crashed tick (headline casing Final Terms vs Final terms, since corrected on BR); reconciled here",
+    "verdict": "flagged"
+  },
+  "1787644431.160699": {
+    "br_id": 14630917,
+    "checked_at": "2026-08-25T08:29:05Z",
+    "issuer": "Land Berlin",
+    "note": "Book update \u2014 missing timing statement on Book update line",
+    "verdict": "flagged"
+  },
+  "1787644965.412929": {
+    "br_id": 14631135,
+    "checked_at": "2026-08-25T08:29:05Z",
+    "issuer": "Castellum AB",
+    "note": "Mandated \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787645115.023929": {
+    "br_id": 14631141,
+    "checked_at": "2026-08-25T08:31:00Z",
+    "issuer": "CMC Markets",
+    "note": "Mandated GBP250m 10NC5 T2 \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787645380.659249": {
+    "br_id": 14630623,
+    "checked_at": "2026-08-25T08:32:30Z",
+    "issuer": "Guangdong Provincial Communications Group",
+    "note": "Book update \u2014 headline said 'Timing update' instead of 'Book update'; banks.active count (21) one short of body's 22 JLMs",
+    "verdict": "flagged"
+  },
+  "1787645911.767399": {
+    "br_id": 14630843,
+    "checked_at": "2026-08-25T08:34:00Z",
+    "issuer": "Traton Finance Luxembourg",
+    "note": "IPTs G+120/125bp GBP250m long 4y \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787646015.615899": {
+    "br_id": 14631088,
+    "checked_at": "2026-08-25T08:35:30Z",
+    "issuer": "ANZ New Zealand",
+    "note": "Book update EUR bmk 3y CB \u2014 missing timing on book-update line; missing comma running 'ANZ CACIB' together in JLM list",
+    "verdict": "flagged"
   }
 }
