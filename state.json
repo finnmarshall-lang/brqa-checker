@@ -1,162 +1,4 @@
 {
-  "1787053651.912659": {
-    "br_id": 14620823,
-    "checked_at": "2026-08-18T11:56:00Z",
-    "issuer": "Asian Development Bank",
-    "note": "Mandate added to history post-hoc \u2014 already present in BR deal history",
-    "verdict": "clean"
-  },
-  "1787053954.987259": {
-    "checked_at": "2026-08-18T11:56:00Z",
-    "issuer": "Jefferson Capital",
-    "note": "Sr Notes offering \u2014 only :eyes: no \u2705",
-    "verdict": "skipped"
-  },
-  "1787054075.611159": {
-    "checked_at": "2026-08-18T11:56:00Z",
-    "issuer": "n/a",
-    "note": "Chris's chat about HDB \u2014 not a term sheet",
-    "verdict": "skipped"
-  },
-  "1787054265.124089": {
-    "br_id": 14620432,
-    "checked_at": "2026-08-18T12:19:00Z",
-    "issuer": "KfW",
-    "note": "Allocations \u2014 Books closed over \u20ac26bn (incl \u20ac1.4bn JLM)",
-    "verdict": "clean"
-  },
-  "1787054465.481799": {
-    "br_id": 14620697,
-    "checked_at": "2026-08-18T12:19:00Z",
-    "issuer": "SpareBank 1 Sor-Norge",
-    "note": "Allocations \u2014 flagged after retraction: 'Final books EUR900m+' should be 'Final books over EUR900m' (word 'over' must be spelled out)",
-    "verdict": "flagged"
-  },
-  "1787054486.566129": {
-    "br_id": 14620676,
-    "checked_at": "2026-08-18T12:19:00Z",
-    "issuer": "Lloyds Bank",
-    "note": "Final Terms USD1.5bn SMS+40bp",
-    "verdict": "clean"
-  },
-  "1787054494.933769": {
-    "br_id": 14620737,
-    "checked_at": "2026-08-18T12:19:00Z",
-    "issuer": "Deutsche Telekom",
-    "note": "Final Terms \u2014 ratings dropped from body",
-    "verdict": "flagged"
-  },
-  "1787055111.311159": {
-    "br_id": 14620847,
-    "checked_at": "2026-08-18T12:19:00Z",
-    "issuer": "OCBC",
-    "note": "Mandated (quoted mandate)",
-    "verdict": "clean"
-  },
-  "1787055391.257659": {
-    "br_id": 14620710,
-    "checked_at": "2026-08-18T12:30:00Z",
-    "issuer": "Bank of New Zealand",
-    "note": "Priced \u20ac1bn 5y CB at MS+28bp; correctly no prefix at Priced + Final books over",
-    "verdict": "clean"
-  },
-  "1787055391.371999": {
-    "br_id": 14620853,
-    "checked_at": "2026-08-18T12:30:00Z",
-    "issuer": "Santander",
-    "note": "IPTs \u2014 flagged: 'multi-tranche' should be 'dual-tranche' (only 2 tranches: 4NC3 + 8NC7)",
-    "verdict": "flagged"
-  },
-  "1787055518.990679": {
-    "br_id": 14611902,
-    "checked_at": "2026-08-18T12:30:00Z",
-    "issuer": "QTS",
-    "note": "IPTs \u2014 Baa3//BBB- double slash rating",
-    "verdict": "flagged"
-  },
-  "1787055975.280939": {
-    "br_id": 14620369,
-    "checked_at": "2026-08-18T12:30:00Z",
-    "issuer": "Rentenbank",
-    "note": "Allocations \u2014 Final books over \u20ac3bn with JLM",
-    "verdict": "clean"
-  },
-  "1787056039.331509": {
-    "br_id": 14620384,
-    "checked_at": "2026-08-18T12:40:00Z",
-    "issuer": "Sika Capital",
-    "note": "Timing Update \u2014 dual-tranche correctly used",
-    "verdict": "clean"
-  },
-  "1787056294.012289": {
-    "br_id": 14620227,
-    "checked_at": "2026-08-18T12:40:00Z",
-    "issuer": "Kotak Mahindra Bank",
-    "note": "Launched \u2014 flagged after retraction: headline says 'Final Terms' but body opens 'Launched:' \u2014 should be 'Launched at T+108bp'",
-    "verdict": "flagged"
-  },
-  "1787056385.326009": {
-    "checked_at": "2026-08-18T12:40:00Z",
-    "issuer": "ADB",
-    "note": "Has :no_entry_sign: \u2014 deal pulled/not proceeded",
-    "verdict": "skipped"
-  },
-  "1787057104.346989": {
-    "br_id": 14620715,
-    "checked_at": "2026-08-18T12:52:00Z",
-    "issuer": "Belfius Bank",
-    "note": "Allocations \u2014 attachment source, BR-internal only",
-    "verdict": "clean"
-  },
-  "1787057110.160609": {
-    "br_id": 14620345,
-    "checked_at": "2026-08-18T12:52:00Z",
-    "issuer": "Raiffeisen Bank Romania",
-    "note": "Allocations \u2014 Final books over \u20ac1.3bn",
-    "verdict": "clean"
-  },
-  "1787057255.705419": {
-    "br_id": 14620868,
-    "checked_at": "2026-08-18T12:52:00Z",
-    "issuer": "Interstate Power and Light",
-    "note": "IPTs T+100bp area",
-    "verdict": "clean"
-  },
-  "1787057277.951989": {
-    "br_id": 14620432,
-    "checked_at": "2026-08-18T12:52:00Z",
-    "issuer": "KfW",
-    "note": "Priced EUR5bn MS-3bp; Books closed over with JLM",
-    "verdict": "clean"
-  },
-  "1787057484.088129": {
-    "br_id": 14620697,
-    "checked_at": "2026-08-18T13:03:00Z",
-    "issuer": "SpareBank 1 Sor-Norge",
-    "note": "Priced \u2014 'Final books EUR900m' missing 'over'",
-    "verdict": "flagged"
-  },
-  "1787057928.483509": {
-    "br_id": 14611523,
-    "checked_at": "2026-08-18T13:03:00Z",
-    "issuer": "KOSME",
-    "note": "Priced USD400m T+40bp",
-    "verdict": "clean"
-  },
-  "1787057985.645149": {
-    "br_id": 14620415,
-    "checked_at": "2026-08-18T13:03:00Z",
-    "issuer": "EIB",
-    "note": "Allocations \u2014 'Book update: Book update:' duplicated prefix",
-    "verdict": "flagged"
-  },
-  "1787058012.769019": {
-    "br_id": 14620369,
-    "checked_at": "2026-08-18T13:03:00Z",
-    "issuer": "Rentenbank",
-    "note": "Priced EUR1.25bn MS+12bp",
-    "verdict": "clean"
-  },
   "1787058741.935089": {
     "br_id": 14620715,
     "checked_at": "2026-08-18T13:29:00Z",
@@ -2350,5 +2192,45 @@
     "issuer": "Federal State of Saarland",
     "note": "Mandated EUR500m 8y FRN LSA; headline omits FRN designator (tranche form correctly shows 8y FRN) \u2014 house style carries FRN in title for pure-floater deals",
     "verdict": "flagged"
+  },
+  "1787660222.809779": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "clean"
+  },
+  "1787660454.128689": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "flagged"
+  },
+  "1787660751.459869": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "flagged"
+  },
+  "1787660813.113919": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "clean"
+  },
+  "1787661095.047429": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "flagged"
+  },
+  "1787661108.209089": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "flagged"
+  },
+  "1787661440.726129": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "clean"
+  },
+  "1787661624.007079": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "flagged"
+  },
+  "1787661698.147439": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "flagged"
+  },
+  "1787661843.363459": {
+    "checked_at": "2026-08-25T13:05:25Z",
+    "verdict": "clean"
   }
 }
