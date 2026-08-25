@@ -1,79 +1,4 @@
 {
-  "1787048265.574089": {
-    "br_id": 14620410,
-    "checked_at": "2026-08-18T10:26:00Z",
-    "issuer": "Germany Aug 2056 tap",
-    "note": "Allocations out \u2014 final books",
-    "verdict": "clean"
-  },
-  "1787048705.392039": {
-    "br_id": 14620369,
-    "checked_at": "2026-08-18T10:37:00Z",
-    "issuer": "Rentenbank",
-    "note": "Launched/Final Terms EUR1.25bn MS+12bp",
-    "verdict": "clean"
-  },
-  "1787048844.967539": {
-    "br_id": 14620345,
-    "checked_at": "2026-08-18T10:37:00Z",
-    "issuer": "Raiffeisen Bank Romania",
-    "note": "Final Terms EUR600m MS+150bp",
-    "verdict": "clean"
-  },
-  "1787048978.984719": {
-    "checked_at": "2026-08-18T10:37:00Z",
-    "issuer": "Nationwide CCDS",
-    "note": "Equity re-sale per Finn \u2014 not a BR bond deal",
-    "verdict": "skipped"
-  },
-  "1787049090.769989": {
-    "br_id": 14620676,
-    "checked_at": "2026-08-18T10:37:00Z",
-    "issuer": "Lloyds Bank",
-    "note": "Spread Set SMS+40bp",
-    "verdict": "clean"
-  },
-  "1787049180.831429": {
-    "checked_at": "2026-08-18T10:37:00Z",
-    "issuer": "n/a",
-    "note": "Ryan's chat message asking about Nationwide QA \u2014 not a term sheet",
-    "verdict": "skipped"
-  },
-  "1787049773.715689": {
-    "br_id": 14620725,
-    "checked_at": "2026-08-18T10:49:00Z",
-    "issuer": "United Overseas Bank",
-    "note": "Spread Set SONIA+49bp",
-    "verdict": "clean"
-  },
-  "1787050360.899209": {
-    "br_id": 14620720,
-    "checked_at": "2026-08-18T10:59:00Z",
-    "issuer": "Continental AG",
-    "note": "Guidance MS+65bp area + size set EUR750m; earlier double-slash rating now fixed",
-    "verdict": "clean"
-  },
-  "1787050552.535799": {
-    "br_id": 14620715,
-    "checked_at": "2026-08-18T10:59:00Z",
-    "issuer": "Belfius Bank",
-    "note": "Spread Set MS+70bp",
-    "verdict": "clean"
-  },
-  "1787050828.563179": {
-    "br_id": 14620737,
-    "checked_at": "2026-08-18T11:03:00Z",
-    "issuer": "Deutsche Telekom",
-    "note": "Guidance G+80bp area, GBP300m exp",
-    "verdict": "clean"
-  },
-  "1787050931.125859": {
-    "br_id": 14620410,
-    "checked_at": "2026-08-18T11:03:00Z",
-    "issuer": "Germany Aug 2056 tap",
-    "note": "Priced \u2014 tap arithmetic explicit, no prefix at Priced, Final books over",
-    "verdict": "clean"
-  },
   "1787051872.193629": {
     "br_id": 14620715,
     "checked_at": "2026-08-18T11:19:00Z",
@@ -2319,6 +2244,41 @@
     "checked_at": "2026-08-25T10:24:08Z",
     "issuer": "Kyushu Electric Power",
     "note": "Final terms/Launched \u2014 regionAmericas false on USD deal, headline missing tenor, Final Terms casing",
+    "verdict": "flagged"
+  },
+  "1787653972.072109": {
+    "br_id": 14630931,
+    "checked_at": "2026-08-25T11:13:17Z",
+    "issuer": "World Bank",
+    "note": "Final terms EUR3bn 10y SDB MS+23bp \u2014 book line should be Books closed over, not Final books over",
+    "verdict": "flagged"
+  },
+  "1787654857.524879": {
+    "br_id": 14631095,
+    "checked_at": "2026-08-25T11:13:17Z",
+    "issuer": "La Mondiale",
+    "note": "Final terms EUR500m 16NC6 T2 MS+145bp \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787655645.163869": {
+    "br_id": 14630917,
+    "checked_at": "2026-08-25T11:13:17Z",
+    "issuer": "Land Berlin",
+    "note": "Allocations out EUR1.25bn 10y MS+24bp \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787655652.858209": {
+    "br_id": 14631206,
+    "checked_at": "2026-08-25T11:13:17Z",
+    "issuer": "OKB",
+    "note": "IPTs USD1bn 5y SOFR MS+35bp area \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787656286.806259": {
+    "br_id": 14630830,
+    "checked_at": "2026-08-25T11:13:17Z",
+    "issuer": "ING-DiBa",
+    "note": "Allocations out EUR1bn 5y Grn CB MS+16bp \u2014 ING missing (DM) tag in bookrunner list",
     "verdict": "flagged"
   }
 }
