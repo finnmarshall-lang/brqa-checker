@@ -28,18 +28,6 @@ from urllib import request, error
 
 CHANNEL = "C09JX51GAKH"
 WINDOW_SECONDS = 21600  # 6h — matches the tick's own window
-# Bloomberg-forward signatures. First set = the decorative marker glyphs that
-# wrap syndicate-authored headlines. Second set = plain-prefix forwards that
-# arrive without the glyphs (e.g. "GUID:", "NEW MANDATE:", or the
-# machine-generated "(Bloomberg) --" wire posts). Any one match is enough.
-BBG_MARKERS = ("**", "***", "€€€", "££", "£££", "$$", "$$$", "★★", "★★★", "###")
-BBG_KEYWORDS = (
-    # Bare tokens — matched case-insensitively as substrings, no colon needed
-    # so we catch "LAUNCH ★★", "PRICED at MS+X", "GUIDANCE:", etc. uniformly.
-    "(Bloomberg)", "GUID", "MANDATE", "NEW ISSUE", "IPTs", "PRICED",
-    "LAUNCH", "ALLOCATIONS", "BOOK UPDATE", "SPREAD SET", "FINAL TERMS",
-    "FINAL BOOKS", "GUIDANCE", "TAP",
-)
 SLACK_API = "https://slack.com/api"
 
 
@@ -66,19 +54,19 @@ def _get(method: str, params: dict) -> dict:
 
 
 def is_qa_candidate(m: dict, state: dict) -> bool:
+    """A message qualifies iff it has a ✅ reaction and isn't already in state.
+
+    The desk uses ✅ to mark a term-sheet post as ready-for-QA — so ✅ is
+    itself the authoritative signal. No content filter: if a ✅ ever lands
+    on a message that ISN'T a deal (e.g. accidental react on chatter), the
+    tick's per-message logic will fail to find a BR match and mark it
+    'skipped' in the state delta. That's cheap and keeps the pipeline from
+    silently missing real deals because of an unfamiliar format.
+    """
     ts = m.get("ts")
     if not ts or ts in state:
         return False
-    if not any(r.get("name") == "white_check_mark" for r in (m.get("reactions") or [])):
-        return False
-    text = m.get("text") or ""
-    # Case-insensitive keyword match — Bloomberg forwards vary between
-    # ALL-CAPS ("GUID:", "GUIDANCE:") and mixed-case ("IPTs", "Launched").
-    upper = text.upper()
-    has_marker = any(mk in text for mk in BBG_MARKERS)
-    has_keyword = any(kw.upper() in upper for kw in BBG_KEYWORDS)
-    has_file = bool(m.get("files"))
-    return has_marker or has_keyword or has_file
+    return any(r.get("name") == "white_check_mark" for r in (m.get("reactions") or []))
 
 
 def main(argv: list[str]) -> int:

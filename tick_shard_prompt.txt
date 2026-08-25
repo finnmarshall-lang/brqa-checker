@@ -20,8 +20,10 @@ Env vars already loaded: BR_USERNAME, BR_PASSWORD, SLACK_BOT_TOKEN, SHARD_FILE, 
 
 Your job:
 1. Read $SHARD_FILE — it's a JSON array of message dicts (each has ts, text, reactions, files, thread_ts, subtype). If the array is empty, print "shard empty, nothing to do" and exit 0.
-2. For EACH message in the shard, oldest-first, run the six BR QA checks below and post the finding as a threaded Slack reply. This is your only work — no polling, no dedupe, no state reconciliation.
-3. After each posted finding, append an entry to the file named by env var $STATE_DELTA_FILE. That file is a JSON dict of `{<message_ts>: {"checked_at": "<ISO UTC>", "verdict": "clean"|"flagged"|"skipped"}}`. Read the file if it exists, add your new entry, write it back. A post-step (merge_deltas.py) will merge every shard's delta into state.json when all shards finish, so you MUST NEVER touch state.json directly — writing state.json from a parallel shard corrupts the file.
+2. For EACH message in the shard, oldest-first: decide whether it's a deal-related post. The filter is now the ✅ reaction alone — no content pre-filter — so occasionally a non-deal message (someone accidentally reacting to chatter) will land in the shard. Rule:
+   - **If the message is a real deal post** (Bloomberg forward, term sheet, syndicate update — any content that names an issuer/tranche/spread/etc.): run the six BR QA checks below and post the finding as a threaded Slack reply.
+   - **If the message is clearly NOT deal-related** (a question, a joke, a link to something unrelated) OR you can't find a BR record after a reasonable search: skip it. Do NOT post to the thread. Record the skip in the state delta so the next tick doesn't retry it.
+3. After each processed message (post OR skip), append an entry to the file named by env var $STATE_DELTA_FILE. That file is a JSON dict of `{<message_ts>: {"checked_at": "<ISO UTC>", "verdict": "clean"|"flagged"|"skipped"}}`. Read the file if it exists, add your new entry, write it back. A post-step (merge_deltas.py) will merge every shard's delta into state.json when all shards finish, so you MUST NEVER touch state.json directly — writing state.json from a parallel shard corrupts the file.
 
 ## Non-negotiable rules
 
