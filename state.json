@@ -2312,5 +2312,13 @@
     "issuer": "TenneT Germany",
     "note": "Priced: Tranche A missing period before ISIN (Yield 4.375% ISIN -> Yield 4.375%. ISIN)",
     "verdict": "flagged"
+  },
+  "1787672119.994609": {
+    "checked_at": "2026-08-25T16:25:38Z",
+    "verdict": "skipped"
+  },
+  "1787672337.932659": {
+    "checked_at": "2026-08-25T16:25:40Z",
+    "verdict": "skipped"
   }
 }
