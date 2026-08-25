@@ -1,65 +1,4 @@
 {
-  "1787045467.563079": {
-    "br_id": 14620623,
-    "checked_at": "2026-08-18T09:45:00Z",
-    "issuer": "CITIC Securities International",
-    "note": "FPG \u2014 T5, Issuers/Guarantors apostrophes, ratings label format, JLM figure digit swap 036 vs 063",
-    "verdict": "flagged"
-  },
-  "1787045540.535489": {
-    "br_id": 14620425,
-    "checked_at": "2026-08-18T09:45:00Z",
-    "issuer": "World Bank",
-    "note": "Spread set \u2014 'area' leftover in opening",
-    "verdict": "flagged"
-  },
-  "1787045979.075449": {
-    "br_id": 14620227,
-    "checked_at": "2026-08-18T09:45:00Z",
-    "issuer": "Kotak Mahindra Bank",
-    "note": "FPG \u2014 Issuers apostrophe, ratings label format, HSBC BD",
-    "verdict": "flagged"
-  },
-  "1787046263.334079": {
-    "checked_at": "2026-08-18T09:45:00Z",
-    "issuer": "KfW",
-    "note": "Final Terms msg has only :eyes:, no \u2705 yet",
-    "verdict": "skipped"
-  },
-  "1787046271.220489": {
-    "br_id": 14620710,
-    "checked_at": "2026-08-18T09:56:00Z",
-    "issuer": "Bank of New Zealand",
-    "note": "Final Terms \u20ac1bn at MS+28bp",
-    "verdict": "clean"
-  },
-  "1787046495.064199": {
-    "checked_at": "2026-08-18T09:56:00Z",
-    "issuer": "DBS Bank",
-    "note": "Deal stats only, not a term-sheet update",
-    "verdict": "skipped"
-  },
-  "1787046947.171479": {
-    "br_id": 14611523,
-    "checked_at": "2026-08-18T10:02:00Z",
-    "issuer": "KOSME",
-    "note": "FPG \u2014 earlier andor/HSBC BD fixed; KOSMEs apostrophe still open, ratings slash, subhect typo",
-    "verdict": "flagged"
-  },
-  "1787047252.479589": {
-    "br_id": 14620791,
-    "checked_at": "2026-08-18T10:16:00Z",
-    "issuer": "Republic of Finland",
-    "note": "Mandated (was earlier :eyes:, now \u2705)",
-    "verdict": "clean"
-  },
-  "1787047577.050099": {
-    "br_id": 14620697,
-    "checked_at": "2026-08-18T10:16:00Z",
-    "issuer": "SpareBank 1 Sor-Norge",
-    "note": "Final Terms \u20ac500m MS+50bp",
-    "verdict": "clean"
-  },
   "1787048265.574089": {
     "br_id": 14620410,
     "checked_at": "2026-08-18T10:26:00Z",
@@ -2332,5 +2271,54 @@
     "issuer": "La Mondiale",
     "note": "Book update EUR500m 16NC6 T2 at MS+170bp area \u2014 clean",
     "verdict": "clean"
+  },
+  "1787651102.624179": {
+    "br_id": 14631177,
+    "checked_at": "2026-08-25T10:09:16Z",
+    "issuer": "CDP Financial (La Caisse)",
+    "note": "Mandated \u2014 regionAmericas flag was true (fixed since; reflagged by prior tick, thread already has reply)",
+    "verdict": "flagged"
+  },
+  "1787651391.667649": {
+    "br_id": 14630593,
+    "checked_at": "2026-08-25T10:10:18Z",
+    "issuer": "TenneT Germany",
+    "note": "Book update \u2014 dual-tranche hybrid, all clean (thread already had reply from prior tick)",
+    "verdict": "clean"
+  },
+  "1787651517.923569": {
+    "br_id": 14631182,
+    "checked_at": "2026-08-25T10:11:07Z",
+    "issuer": "Macquarie Group",
+    "note": "Book update \u2014 JLM list missing period after ING Bank N.V (thread already had reply from prior tick)",
+    "verdict": "flagged"
+  },
+  "1787651916.770249": {
+    "br_id": 14631020,
+    "checked_at": "2026-08-25T10:19:35Z",
+    "issuer": "BNP Paribas (SGD PNC5 AT1)",
+    "note": "Final terms \u2014 headline casing Final Terms->Final terms, ISIN missing, Standard Chartered Bank AG should be (Singapore) Limited, DBS missing (B&D)",
+    "verdict": "flagged"
+  },
+  "1787652004.418269": {
+    "br_id": 14630623,
+    "checked_at": "2026-08-25T10:21:26Z",
+    "issuer": "Guangdong Provincial Comms (Xin Yue)",
+    "note": "FPG/Book update \u2014 banks.active count 21 vs 22 named in body; CNH/CNY mixed in book-update line",
+    "verdict": "flagged"
+  },
+  "1787652331.908709": {
+    "br_id": 14630866,
+    "checked_at": "2026-08-25T10:22:51Z",
+    "issuer": "Aareal Bank",
+    "note": "Final terms \u2014 timing stamp CET should be CEST (August, DST)",
+    "verdict": "flagged"
+  },
+  "1787652452.586849": {
+    "br_id": 14630614,
+    "checked_at": "2026-08-25T10:24:08Z",
+    "issuer": "Kyushu Electric Power",
+    "note": "Final terms/Launched \u2014 regionAmericas false on USD deal, headline missing tenor, Final Terms casing",
+    "verdict": "flagged"
   }
 }
