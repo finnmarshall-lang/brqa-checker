@@ -28,7 +28,17 @@ from urllib import request, error
 
 CHANNEL = "C09JX51GAKH"
 WINDOW_SECONDS = 21600  # 6h — matches the tick's own window
+# Bloomberg-forward signatures. First set = the decorative marker glyphs that
+# wrap syndicate-authored headlines. Second set = plain-prefix forwards that
+# arrive without the glyphs (e.g. "GUID:", "NEW MANDATE:", or the
+# machine-generated "(Bloomberg) --" wire posts). Any one match is enough.
 BBG_MARKERS = ("***", "€€€", "£££", "$$$", "★★★", "###")
+BBG_KEYWORDS = (
+    "(Bloomberg)", "GUID:", "GUID ", "MANDATE:", "NEW MANDATE",
+    "NEW ISSUE:", "NEW ISSUE ", "IPTs", "IPTS", "PRICED:", "PRICED ",
+    "LAUNCH:", "LAUNCHED", "ALLOCATIONS", "BOOK UPDATE", "SPREAD SET",
+    "FINAL TERMS", "FINAL BOOKS", "GUIDANCE", "TAP:", "TAP ",
+)
 SLACK_API = "https://slack.com/api"
 
 
@@ -61,9 +71,13 @@ def is_qa_candidate(m: dict, state: dict) -> bool:
     if not any(r.get("name") == "white_check_mark" for r in (m.get("reactions") or [])):
         return False
     text = m.get("text") or ""
-    has_bbg_marker = any(mk in text for mk in BBG_MARKERS)
+    # Case-insensitive keyword match — Bloomberg forwards vary between
+    # ALL-CAPS ("GUID:", "GUIDANCE:") and mixed-case ("IPTs", "Launched").
+    upper = text.upper()
+    has_marker = any(mk in text for mk in BBG_MARKERS)
+    has_keyword = any(kw.upper() in upper for kw in BBG_KEYWORDS)
     has_file = bool(m.get("files"))
-    return has_bbg_marker or has_file
+    return has_marker or has_keyword or has_file
 
 
 def main(argv: list[str]) -> int:
