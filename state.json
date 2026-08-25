@@ -2280,5 +2280,20 @@
     "checked_at": "2026-08-24T22:03:15Z",
     "note": "Bot operational note (\"Send all pipelines to BBG before going off\") \u2014 not a term-sheet body, no BBG forward markers, no file attachment",
     "verdict": "skipped"
+  },
+  "1787599536.304859": {
+    "checked_at": "2026-08-25T00:03:33Z",
+    "note": "US IG EM SIGN OFF human chat message \u2014 no reaction, not a term-sheet body",
+    "verdict": "skipped"
+  },
+  "1787601607.592419": {
+    "checked_at": "2026-08-25T00:03:33Z",
+    "note": "Bot ping \"Check over deals that have priced during US hours please\" \u2014 no reaction, not a term-sheet body",
+    "verdict": "skipped"
+  },
+  "1787602377.529089": {
+    "checked_at": "2026-08-25T00:03:33Z",
+    "note": "\"Instrument lookup\" chat message \u2014 no reaction, not a term-sheet body",
+    "verdict": "skipped"
   }
 }
