@@ -1,85 +1,4 @@
 {
-  "1787058741.935089": {
-    "br_id": 14620715,
-    "checked_at": "2026-08-18T13:29:00Z",
-    "issuer": "Belfius Bank",
-    "note": "Priced \u2014 missing 'Priced:' opener; body starts with 'EUR750m' directly",
-    "verdict": "flagged"
-  },
-  "1787059713.650759": {
-    "br_id": 14620737,
-    "checked_at": "2026-08-18T13:40:00Z",
-    "issuer": "Deutsche Telekom",
-    "note": "Allocations \u2014 earlier missing-ratings flag now fixed",
-    "verdict": "clean"
-  },
-  "1787059828.910919": {
-    "br_id": 14620720,
-    "checked_at": "2026-08-18T13:40:00Z",
-    "issuer": "Continental AG",
-    "note": "Allocations \u2014 Final books over \u20ac1.9bn at reoffer",
-    "verdict": "clean"
-  },
-  "1787059917.527219": {
-    "br_id": 14620345,
-    "checked_at": "2026-08-18T13:40:00Z",
-    "issuer": "Raiffeisen Bank Romania",
-    "note": "Priced EUR600m 6NC5 SNP at MS+150bp",
-    "verdict": "clean"
-  },
-  "1787059940.439769": {
-    "br_id": 14620425,
-    "checked_at": "2026-08-18T13:40:00Z",
-    "issuer": "World Bank",
-    "note": "Launched USD4bn 7y at MS+37bp; Final books over $11.25bn with JLM",
-    "verdict": "clean"
-  },
-  "1787059953.500329": {
-    "checked_at": "2026-08-18T13:40:00Z",
-    "issuer": "Nationwide CCDS",
-    "note": "Equity re-sale allocations \u2014 skip per rule",
-    "verdict": "skipped"
-  },
-  "1787060199.361389": {
-    "br_id": 14620227,
-    "checked_at": "2026-08-18T13:50:00Z",
-    "issuer": "Kotak Mahindra Bank",
-    "note": "Priced \u2014 headline/body stage mismatch flag now fixed",
-    "verdict": "clean"
-  },
-  "1787060458.020659": {
-    "br_id": 14620338,
-    "checked_at": "2026-08-18T13:50:00Z",
-    "issuer": "Development Bank of Japan",
-    "note": "Allocations \u2014 Sale into Canada flag now fixed",
-    "verdict": "clean"
-  },
-  "1787061227.843329": {
-    "checked_at": "2026-08-18T14:04:00Z",
-    "issuer": "United Overseas Bank",
-    "note": "Priced msg has only :eyes:, no \u2705 yet",
-    "verdict": "skipped"
-  },
-  "1787061290.926059": {
-    "br_id": 14620720,
-    "checked_at": "2026-08-18T14:04:00Z",
-    "issuer": "Continental AG",
-    "note": "Priced EUR750m 4y at MS+63bp",
-    "verdict": "clean"
-  },
-  "1787061576.952869": {
-    "checked_at": "2026-08-18T14:04:00Z",
-    "issuer": "Nationwide CCDS",
-    "note": "Equity re-sale Priced msg \u2014 skip per rule",
-    "verdict": "skipped"
-  },
-  "1787062008.839619": {
-    "br_id": 14620415,
-    "checked_at": "2026-08-18T14:15:00Z",
-    "issuer": "EIB",
-    "note": "Priced USD4bn at SMS+29bp; earlier duplicated prefix now fixed",
-    "verdict": "clean"
-  },
   "1787062228.718059": {
     "br_id": 14620737,
     "checked_at": "2026-08-18T15:58:00Z",
@@ -2350,6 +2269,27 @@
     "checked_at": "2026-08-25T14:50:00Z",
     "issuer": "Klepierre",
     "note": "Priced \u2014 headline stuck at Allocations while body reads Priced; fitchRating A should be A_MINUS; finalBooks null should be 1200.0",
+    "verdict": "flagged"
+  },
+  "1787668644.987369": {
+    "br_id": 14631130,
+    "checked_at": "2026-08-25T15:09:56Z",
+    "issuer": "Rabobank",
+    "note": "Priced tap EUR250m SNP FRN \u2014 priced-deal snpRating/fitchRating swapped (A_PLUS/NR instead of A_MINUS/A_PLUS); isin field carries original ISIN not the published temp ISIN",
+    "verdict": "flagged"
+  },
+  "1787669029.900829": {
+    "br_id": 14631095,
+    "checked_at": "2026-08-25T15:09:56Z",
+    "issuer": "La Mondiale",
+    "note": "Priced EUR500m 16NC6 T2 at MS+145bp \u2014 priced-deal opCo wrongly true (non-bank French insurer); nonBullet holds '16NC6' instead of Y/N",
+    "verdict": "flagged"
+  },
+  "1787669602.773009": {
+    "br_id": 14630912,
+    "checked_at": "2026-08-25T15:09:56Z",
+    "issuer": "IADB",
+    "note": "Allocations Out \u2014 book line 'Books last heard over' should be 'Final books over' (implicitly final at Allocations per house rule)",
     "verdict": "flagged"
   }
 }
