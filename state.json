@@ -1,109 +1,4 @@
 {
-  "1787041199.878219": {
-    "br_id": 14620745,
-    "checked_at": "2026-08-18T08:35:00Z",
-    "issuer": "Vida Group Holdings",
-    "note": "Priced AT1 \u2014 missing headline; missing timing line",
-    "verdict": "flagged"
-  },
-  "1787041433.434809": {
-    "br_id": 14620710,
-    "checked_at": "2026-08-18T08:35:00Z",
-    "issuer": "Bank of New Zealand",
-    "note": "Book Update",
-    "verdict": "clean"
-  },
-  "1787042473.158859": {
-    "br_id": 14620432,
-    "checked_at": "2026-08-18T08:47:00Z",
-    "issuer": "KfW",
-    "note": "Spread set MS-3bp",
-    "verdict": "clean"
-  },
-  "1787042669.100549": {
-    "br_id": 14620369,
-    "checked_at": "2026-08-18T08:47:00Z",
-    "issuer": "Rentenbank",
-    "note": "Spread set MS+12bp",
-    "verdict": "clean"
-  },
-  "1787043187.890209": {
-    "br_id": 14620725,
-    "checked_at": "2026-08-18T08:58:00Z",
-    "issuer": "United Overseas Bank",
-    "note": "Book Update \u2014 GBP1.25bn+",
-    "verdict": "clean"
-  },
-  "1787043420.194829": {
-    "br_id": 14620753,
-    "checked_at": "2026-08-18T09:11:00Z",
-    "issuer": "MassMutual Global Funding",
-    "note": "Mandated (was earlier :eyes:, now \u2705)",
-    "verdict": "clean"
-  },
-  "1787043672.818509": {
-    "br_id": 14620758,
-    "checked_at": "2026-08-18T09:11:00Z",
-    "issuer": "Land NRW",
-    "note": "Mandated",
-    "verdict": "clean"
-  },
-  "1787043805.713439": {
-    "br_id": 14620676,
-    "checked_at": "2026-08-18T09:11:00Z",
-    "issuer": "Lloyds Bank",
-    "note": "Book Update \u2014 opening 'Guidance is' should be 'Guidance remains'; Book Update capitalization",
-    "verdict": "flagged"
-  },
-  "1787043996.166539": {
-    "br_id": 14620697,
-    "checked_at": "2026-08-18T09:11:00Z",
-    "issuer": "SpareBank 1 Sor-Norge",
-    "note": "Book Update \u20ac1.25bn+",
-    "verdict": "clean"
-  },
-  "1787044083.049399": {
-    "br_id": 14620681,
-    "checked_at": "2026-08-18T09:19:00Z",
-    "issuer": "E.ON",
-    "note": "Priced \u2014 ISIN CH1564882012 missing (earlier trailing-comma flag now fixed)",
-    "verdict": "flagged"
-  },
-  "1787044415.486219": {
-    "br_id": 14620410,
-    "checked_at": "2026-08-18T09:19:00Z",
-    "issuer": "Germany Aug 2056 tap",
-    "note": "Final Terms \u2014 size set EUR4bn, books closed \u20ac38bn",
-    "verdict": "clean"
-  },
-  "1787044889.989979": {
-    "br_id": 14620338,
-    "checked_at": "2026-08-18T09:32:00Z",
-    "issuer": "Development Bank of Japan",
-    "note": "Final Terms \u2014 Sale into Canada + 11:UKT typo",
-    "verdict": "flagged"
-  },
-  "1787045113.895929": {
-    "br_id": 14620355,
-    "checked_at": "2026-08-18T09:32:00Z",
-    "issuer": "Luso Intl Banking (CNH tranche)",
-    "note": "FPG multi-tranche \u2014 same BR entry as USD; missing slashes, T5, Issuers apostrophe, Listing (Clearing flag retracted)",
-    "verdict": "flagged"
-  },
-  "1787045346.114379": {
-    "br_id": 14620355,
-    "checked_at": "2026-08-18T09:32:00Z",
-    "issuer": "Luso Intl Banking (USD tranche)",
-    "note": "FPG multi-tranche \u2014 missing slashes, T5, Issuers apostrophe, Listing (Clearing flag retracted)",
-    "verdict": "flagged"
-  },
-  "1787045414.288029": {
-    "br_id": 14620715,
-    "checked_at": "2026-08-18T09:32:00Z",
-    "issuer": "Belfius Bank",
-    "note": "Book Update \u20ac1bn+",
-    "verdict": "clean"
-  },
   "1787045467.563079": {
     "br_id": 14620623,
     "checked_at": "2026-08-18T09:45:00Z",
@@ -2325,5 +2220,54 @@
     "issuer": "ANZ New Zealand",
     "note": "Book update EUR bmk 3y CB \u2014 missing timing on book-update line; missing comma running 'ANZ CACIB' together in JLM list",
     "verdict": "flagged"
+  },
+  "1787646431.393819": {
+    "br_id": 14631020,
+    "checked_at": "2026-08-25T09:26:00Z",
+    "issuer": "BNP Paribas",
+    "note": "SGD AT1 FPG \u2014 already flagged by an earlier tick (missing AT1 headline flag, since corrected; also StanChart entity name/B&D/Co-Managers/ISIN/banks.active issues found this tick but not re-posted, bot already in thread)",
+    "verdict": "flagged"
+  },
+  "1787646468.379729": {
+    "br_id": 14630878,
+    "checked_at": "2026-08-25T09:26:30Z",
+    "issuer": "Raiffeisenverband Salzburg",
+    "note": "Book update \u2014 already flagged by an earlier tick (headline missing MS+29bp area level marker before stage word); bot already in thread, not re-posted",
+    "verdict": "flagged"
+  },
+  "1787646780.580959": {
+    "br_id": 14630917,
+    "checked_at": "2026-08-25T09:33:15Z",
+    "issuer": "Land Berlin",
+    "note": "Spread set \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787646901.316459": {
+    "br_id": 14630830,
+    "checked_at": "2026-08-25T09:33:25Z",
+    "issuer": "ING-DiBa",
+    "note": "Book update Grn CB \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787648293.524249": {
+    "br_id": 14630931,
+    "checked_at": "2026-08-25T09:34:00Z",
+    "issuer": "World Bank",
+    "note": "Spread set EUR bmk 10y SDB \u2014 clean",
+    "verdict": "clean"
+  },
+  "1787648417.873469": {
+    "br_id": 14630614,
+    "checked_at": "2026-08-25T09:34:10Z",
+    "issuer": "Kyushu Electric Power",
+    "note": "FPG USD bmk 10y \u2014 regionAmericas false on USD tranche, should be true",
+    "verdict": "flagged"
+  },
+  "1787648552.317239": {
+    "br_id": 14630825,
+    "checked_at": "2026-08-25T09:34:30Z",
+    "issuer": "Ile-de-France Mobilites",
+    "note": "Revised guidance EUR1bn lg 10y EuGB \u2014 clean",
+    "verdict": "clean"
   }
 }
