@@ -1,53 +1,4 @@
 {
-  "1787051872.193629": {
-    "br_id": 14620715,
-    "checked_at": "2026-08-18T11:19:00Z",
-    "issuer": "Belfius Bank",
-    "note": "Final Terms EUR750m MS+70bp",
-    "verdict": "clean"
-  },
-  "1787052295.672469": {
-    "br_id": 14620720,
-    "checked_at": "2026-08-18T11:29:00Z",
-    "issuer": "Continental AG",
-    "note": "Final Terms EUR750m MS+63bp",
-    "verdict": "clean"
-  },
-  "1787052394.182299": {
-    "br_id": 14620823,
-    "checked_at": "2026-08-18T11:29:00Z",
-    "issuer": "Asian Development Bank",
-    "note": "IPTs SMS+45bp area",
-    "verdict": "clean"
-  },
-  "1787052912.426139": {
-    "br_id": 14620725,
-    "checked_at": "2026-08-18T11:40:00Z",
-    "issuer": "United Overseas Bank",
-    "note": "Final Terms GBP1bn SONIA+49bp",
-    "verdict": "clean"
-  },
-  "1787053050.163929": {
-    "br_id": 14620830,
-    "checked_at": "2026-08-18T11:40:00Z",
-    "issuer": "CPP Investments",
-    "note": "IPTs SMS+31bp area",
-    "verdict": "clean"
-  },
-  "1787053203.392919": {
-    "br_id": 14611523,
-    "checked_at": "2026-08-18T11:40:00Z",
-    "issuer": "KOSME",
-    "note": "Launched/Final Terms USD400m T+40bp; earlier apostrophe/subhect/ratings-slash all fixed",
-    "verdict": "clean"
-  },
-  "1787053313.403769": {
-    "br_id": 14620710,
-    "checked_at": "2026-08-18T11:40:00Z",
-    "issuer": "Bank of New Zealand",
-    "note": "Allocations \u2014 Final books over with JLM",
-    "verdict": "clean"
-  },
   "1787053651.912659": {
     "br_id": 14620823,
     "checked_at": "2026-08-18T11:56:00Z",
@@ -2279,6 +2230,90 @@
     "checked_at": "2026-08-25T11:13:17Z",
     "issuer": "ING-DiBa",
     "note": "Allocations out EUR1bn 5y Grn CB MS+16bp \u2014 ING missing (DM) tag in bookrunner list",
+    "verdict": "flagged"
+  },
+  "1787653444.695119": {
+    "br_id": 14630962,
+    "checked_at": "2026-08-25T11:27:25Z",
+    "issuer": "NWB Bank",
+    "note": "Final terms USD1bn SMS+27bp; already QA'd by a prior tick (bot reply existed, state write was lost) - clean",
+    "verdict": "clean"
+  },
+  "1787654416.290179": {
+    "br_id": 14631020,
+    "checked_at": "2026-08-25T11:46:45Z",
+    "issuer": "BNP Paribas",
+    "note": "Priced SGD400m PNC5 AT1; already QA'd by a prior tick (bot reply existed, state write was lost) - flagged holdCo/JLM-entity/ratings-glitch, now fixed in current data",
+    "verdict": "flagged"
+  },
+  "1787655161.633979": {
+    "br_id": 14630784,
+    "checked_at": "2026-08-25T10:57:31Z",
+    "issuer": "Sveafastigheter AB",
+    "note": "Guidance EUR350m MS+155bp area; already QA'd by a prior tick (bot reply existed, state write was lost) - clean",
+    "verdict": "clean"
+  },
+  "1787656665.070049": {
+    "br_id": 14630843,
+    "checked_at": "2026-08-25T11:21:44Z",
+    "issuer": "Traton Finance",
+    "note": "Final terms GBP250m G+105bp; already QA'd by a prior tick (bot reply existed, state write was lost) - flagged headline typo + wrong ref-gilt coupon/date + wrong book ccy/amount",
+    "verdict": "flagged"
+  },
+  "1787656786.743209": {
+    "br_id": 14631182,
+    "checked_at": "2026-08-25T11:44:44Z",
+    "issuer": "Macquarie Group",
+    "note": "Final terms EUR750m MS+75bp - flagged stale tranche priceEvolution (MS+100a) + CET/CEST",
+    "verdict": "flagged"
+  },
+  "1787656862.029389": {
+    "br_id": 14631120,
+    "checked_at": "2026-08-25T11:44:44Z",
+    "issuer": "grenke Finance",
+    "note": "Final terms EUR300m MS+160bp - flagged stale headline size (bmk), Final Terms casing, CET/CEST",
+    "verdict": "flagged"
+  },
+  "1787657019.468699": {
+    "br_id": 14631125,
+    "checked_at": "2026-08-25T11:44:44Z",
+    "issuer": "Klepierre",
+    "note": "Final terms EUR500m Grn MS+85bp - flagged CET/CEST",
+    "verdict": "flagged"
+  },
+  "1787657147.160449": {
+    "br_id": 14630871,
+    "checked_at": "2026-08-25T11:44:44Z",
+    "issuer": "ESM",
+    "note": "Final terms USD2bn MS+29bp - clean",
+    "verdict": "clean"
+  },
+  "1787657341.438459": {
+    "br_id": 14630878,
+    "checked_at": "2026-08-25T11:44:44Z",
+    "issuer": "Raiffeisenverband Salzburg",
+    "note": "Allocations EUR250m Mortgage CB MS+25bp - clean",
+    "verdict": "clean"
+  },
+  "1787657699.443719": {
+    "br_id": 14630784,
+    "checked_at": "2026-08-25T11:44:44Z",
+    "issuer": "Sveafastigheter AB",
+    "note": "Final terms EUR350m MS+152bp - clean",
+    "verdict": "clean"
+  },
+  "1787657851.156839": {
+    "br_id": 14630593,
+    "checked_at": "2026-08-25T11:44:44Z",
+    "issuer": "TenneT Germany",
+    "note": "Final terms EUR2.6bn dual-tranche Hybrid EuGB - flagged CET/CEST",
+    "verdict": "flagged"
+  },
+  "1787658161.497219": {
+    "br_id": 14631088,
+    "checked_at": "2026-08-25T11:44:44Z",
+    "issuer": "ANZ New Zealand",
+    "note": "Allocations EUR750m CB MS+15bp - flagged missing 'Allocations out' body statement",
     "verdict": "flagged"
   }
 }
