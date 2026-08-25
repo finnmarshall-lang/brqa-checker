@@ -10,7 +10,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-20T14:06:13.122Z
+  modified: 2026-08-25T15:59:06.707Z
 ---
 
 Bond Radar messages have a stage-based rule for the book-line prefix:
@@ -27,7 +27,11 @@ Bond Radar messages have a stage-based rule for the book-line prefix:
 
 **Stage-driven rule (applies BEFORE source wording):**
 - **Pre-Allocations stages (IPTs / Guidance / Book Update / Spread Set / Final Terms / Launched)** — the generic `Books over` is fine when source just says `Books >`. Upgrade to `Final books over` / `Books closed over` only when source explicitly uses those words.
-- **Allocations Out** — books are implicitly final at this stage even if source doesn't say "final" or "closed" outright. Use `Final books over [amount]` or `Books closed over [amount]` — NEVER the plain `Books over` at Allocs. Default = `Final books over [amount]` (with `(incl. Ym JLM interest)` when the source discloses one); flip to `Books closed over` when the source explicitly says "closed" (or "closed at reoffer" / equivalent). Finn: "if there is a book update in the allocations and it doesn't say books closed or final books you should say that it's final books or books closed".
+- **Allocations Out** — the source's own wording is authoritative. Use whichever of the three the Allocations source line says:
+  - Source says "closed" → `Books closed over [amount]`.
+  - Source says "final books" → `Final books over [amount] (incl. Y JLM interest)` when disclosed.
+  - Source says "last heard" (or equivalent — the Allocations line reads "Books last heard in excess of X") → keep `Books last heard over [amount].` **Do NOT auto-upgrade to `Final books over` at Allocations just because the stage implies finality.** Finn on IADB (id 14630912): "writing books last heard is fine at allocations if there is no book update in the allocations update and no books closed / final books at final terms".
+  - Only fall back to a house-style upgrade (`Final books over`) when the Allocations source is genuinely SILENT on books AND the deal has never received "closed" or "final books" language at any earlier stage. Plain `Books over [amount]` without a `Final` / `closed` / `last heard` qualifier is still wrong at Allocations.
 - **Priced** — see the Priced section below.
 
 **Source-driven overlay (applies WITHIN the stage rule):**
