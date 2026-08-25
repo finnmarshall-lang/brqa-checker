@@ -1,127 +1,4 @@
 {
-  "1787034944.442189": {
-    "br_id": 14620676,
-    "checked_at": "2026-08-18T06:45:00Z",
-    "issuer": "Lloyds Bank",
-    "note": "Guidance \u2014 attachment unreadable, BR-internal only",
-    "verdict": "clean"
-  },
-  "1787035181.097999": {
-    "br_id": 14620686,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "AUSCAP",
-    "note": "Mandated tap \u2014 retracted quotes flag (correct convention when quoting bank's mandate)",
-    "verdict": "clean"
-  },
-  "1787035643.602479": {
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "DekaBank",
-    "note": "Book stats message \u2014 no term-sheet update to QA",
-    "verdict": "skipped"
-  },
-  "1787035915.575629": {
-    "br_id": 14620432,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "KfW",
-    "note": "Guidance",
-    "verdict": "clean"
-  },
-  "1787036027.173829": {
-    "br_id": 14620697,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "SpareBank 1 Sor-Norge",
-    "note": "IPTs",
-    "verdict": "clean"
-  },
-  "1787036070.389919": {
-    "br_id": 14620369,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "Rentenbank",
-    "note": "Guidance",
-    "verdict": "clean"
-  },
-  "1787036292.521349": {
-    "br_id": 14620345,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "Raiffeisen Bank Romania",
-    "note": "IPTs",
-    "verdict": "clean"
-  },
-  "1787036535.203979": {
-    "br_id": 14620338,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "Development Bank of Japan",
-    "note": "Guidance \u2014 Sale into Canada should be removed; prefix + wording flags both retracted (fine pre-pricing)",
-    "verdict": "flagged"
-  },
-  "1787037009.049359": {
-    "br_id": 14620425,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "World Bank",
-    "note": "Guidance \u2014 retracted 'Book update:' prefix flag (prefix is fine at Guidance for IOIs); 'Todays' typo still stands",
-    "verdict": "flagged"
-  },
-  "1787037461.476069": {
-    "checked_at": "2026-08-18T07:32:00Z",
-    "note": "Forwarded message \u2014 source unreadable",
-    "verdict": "skipped"
-  },
-  "1787037465.360289": {
-    "br_id": 14620410,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "Germany Aug 2056 tap",
-    "note": "Spread set",
-    "verdict": "clean"
-  },
-  "1787037482.029189": {
-    "br_id": 14620715,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "Belfius Bank",
-    "note": "IPTs",
-    "verdict": "clean"
-  },
-  "1787037697.570329": {
-    "br_id": 14620710,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "Bank of New Zealand",
-    "note": "Guidance",
-    "verdict": "clean"
-  },
-  "1787038062.298219": {
-    "br_id": 14620720,
-    "checked_at": "2026-08-18T07:32:00Z",
-    "issuer": "Continental AG",
-    "note": "IPTs \u2014 Baa2//BBB double-slash formatting",
-    "verdict": "flagged"
-  },
-  "1787038204.736879": {
-    "br_id": 14620725,
-    "checked_at": "2026-08-18T07:47:00Z",
-    "issuer": "United Overseas Bank",
-    "note": "IPTs \u2014 was skipped earlier (eyes only), now \u2705",
-    "verdict": "clean"
-  },
-  "1787038468.321329": {
-    "br_id": 14620730,
-    "checked_at": "2026-08-18T07:47:00Z",
-    "issuer": "Ocean Yield",
-    "note": "Mandated (perpetual hybrid)",
-    "verdict": "clean"
-  },
-  "1787038720.836329": {
-    "br_id": 14620681,
-    "checked_at": "2026-08-18T07:47:00Z",
-    "issuer": "E.ON",
-    "note": "Spread set \u2014 trailing comma at end of message",
-    "verdict": "flagged"
-  },
-  "1787038994.425689": {
-    "br_id": 14620737,
-    "checked_at": "2026-08-18T07:50:00Z",
-    "issuer": "Deutsche Telekom",
-    "note": "IPTs \u2014 was skipped earlier (eyes only), now \u2705",
-    "verdict": "clean"
-  },
   "1787040128.108749": {
     "br_id": 14611523,
     "checked_at": "2026-08-18T08:03:00Z",
@@ -2342,5 +2219,89 @@
     "checked_at": "2026-08-25T07:20:00Z",
     "issuer": "ANZ New Zealand",
     "verdict": "flagged"
+  },
+  "1787641458.967089": {
+    "br_id": 14630878,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "Raiffeisenverband Salzburg",
+    "note": "Guidance",
+    "verdict": "clean"
+  },
+  "1787641732.146279": {
+    "br_id": 14631095,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "La Mondiale",
+    "note": "IPTs",
+    "verdict": "clean"
+  },
+  "1787641903.951119": {
+    "br_id": 14630962,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "NWB Bank",
+    "note": "Guidance/Book update - missing Listing field",
+    "verdict": "flagged"
+  },
+  "1787642030.233029": {
+    "br_id": 14630779,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "Groupe Bruxelles Lambert",
+    "note": "IPTs - missing Investor Put upon Major Restructuring feature",
+    "verdict": "flagged"
+  },
+  "1787642147.549459": {
+    "br_id": 14630931,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "World Bank",
+    "note": "Guidance",
+    "verdict": "clean"
+  },
+  "1787642180.367499": {
+    "br_id": 14630784,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "Sveafastigheter",
+    "note": "IPTs",
+    "verdict": "clean"
+  },
+  "1787642452.216429": {
+    "br_id": 14630866,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "Aareal Bank",
+    "note": "IPTs",
+    "verdict": "clean"
+  },
+  "1787642461.087089": {
+    "br_id": 14630912,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "IADB",
+    "note": "Guidance/Book update",
+    "verdict": "clean"
+  },
+  "1787642760.378599": {
+    "br_id": 14630593,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "TenneT Germany",
+    "note": "IPTs dual-tranche - Tranche A structure field truncated to 30NC5, should be 30.25NC5",
+    "verdict": "flagged"
+  },
+  "1787642929.356979": {
+    "br_id": 14631120,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "grenke Finance",
+    "note": "IPTs",
+    "verdict": "clean"
+  },
+  "1787643012.895719": {
+    "br_id": 14631043,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "Bendigo and Adelaide Bank",
+    "note": "Book stats - stale/bracketed book placeholder A$[1.3]bn should be Final books over A$1.14bn; dealBanks.active has 1 id, should be 4",
+    "verdict": "flagged"
+  },
+  "1787643958.482629": {
+    "br_id": 14631125,
+    "checked_at": "2026-08-25T07:51:39Z",
+    "issuer": "Klepierre",
+    "note": "IPTs",
+    "verdict": "clean"
   }
 }
