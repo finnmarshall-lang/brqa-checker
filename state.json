@@ -2276,14 +2276,14 @@
     "note": "Priced (multi-tranche) \u2014 Sale into Canada language still present; Tranche A priced-deal opCo mistakenly true (reconciled post-hoc: bot reply already existed in thread from a prior tick whose state.json commit was lost)",
     "verdict": "flagged"
   },
-  "1787601606.751689": {
-    "checked_at": "2026-08-24T22:03:15Z",
-    "note": "Bot operational note (\"Send all pipelines to BBG before going off\") \u2014 not a term-sheet body, no BBG forward markers, no file attachment",
-    "verdict": "skipped"
-  },
   "1787599536.304859": {
     "checked_at": "2026-08-25T00:03:33Z",
     "note": "US IG EM SIGN OFF human chat message \u2014 no reaction, not a term-sheet body",
+    "verdict": "skipped"
+  },
+  "1787601606.751689": {
+    "checked_at": "2026-08-24T22:03:15Z",
+    "note": "Bot operational note (\"Send all pipelines to BBG before going off\") \u2014 not a term-sheet body, no BBG forward markers, no file attachment",
     "verdict": "skipped"
   },
   "1787601607.592419": {
@@ -2295,5 +2295,52 @@
     "checked_at": "2026-08-25T00:03:33Z",
     "note": "\"Instrument lookup\" chat message \u2014 no reaction, not a term-sheet body",
     "verdict": "skipped"
+  },
+  "1787639661.267509": {
+    "br_id": 14631071,
+    "checked_at": "2026-08-25T07:20:00Z",
+    "issuer": "Shinhan Bank",
+    "note": "backfilled: prior tick already flagged borrowerName pointing at Shinhan Financial Group instead of Shinhan Bank",
+    "verdict": "flagged"
+  },
+  "1787639994.359029": {
+    "br_id": 14630830,
+    "checked_at": "2026-08-25T07:20:00Z",
+    "issuer": "ING-DiBa",
+    "note": "backfilled from prior tick's post",
+    "verdict": "clean"
+  },
+  "1787640416.977429": {
+    "br_id": 14630667,
+    "checked_at": "2026-08-25T07:20:00Z",
+    "issuer": "BFCM",
+    "verdict": "flagged"
+  },
+  "1787640563.740099": {
+    "br_id": 14630825,
+    "checked_at": "2026-08-25T07:20:00Z",
+    "issuer": "Ile-de-France Mobilites",
+    "note": "backfilled from prior tick's post",
+    "verdict": "clean"
+  },
+  "1787640910.218409": {
+    "br_id": 14630871,
+    "checked_at": "2026-08-25T07:20:00Z",
+    "issuer": "ESM",
+    "note": "backfilled: prior tick flagged headline stage word (IPTs vs Guidance) + book figure; both since corrected by desk, double-space in headline still outstanding but already covered by existing thread finding",
+    "verdict": "flagged"
+  },
+  "1787640938.466289": {
+    "br_id": 14630917,
+    "checked_at": "2026-08-25T07:20:00Z",
+    "issuer": "Land Berlin",
+    "note": "backfilled from prior tick's post",
+    "verdict": "clean"
+  },
+  "1787641445.496469": {
+    "br_id": 14631088,
+    "checked_at": "2026-08-25T07:20:00Z",
+    "issuer": "ANZ New Zealand",
+    "verdict": "flagged"
   }
 }
