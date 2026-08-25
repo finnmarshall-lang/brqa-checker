@@ -10,7 +10,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-25T15:59:06.707Z
+  modified: 2026-08-25T16:01:32.132Z
 ---
 
 Bond Radar messages have a stage-based rule for the book-line prefix:
@@ -31,7 +31,8 @@ Bond Radar messages have a stage-based rule for the book-line prefix:
   - Source says "closed" → `Books closed over [amount]`.
   - Source says "final books" → `Final books over [amount] (incl. Y JLM interest)` when disclosed.
   - Source says "last heard" (or equivalent — the Allocations line reads "Books last heard in excess of X") → keep `Books last heard over [amount].` **Do NOT auto-upgrade to `Final books over` at Allocations just because the stage implies finality.** Finn on IADB (id 14630912): "writing books last heard is fine at allocations if there is no book update in the allocations update and no books closed / final books at final terms".
-  - Only fall back to a house-style upgrade (`Final books over`) when the Allocations source is genuinely SILENT on books AND the deal has never received "closed" or "final books" language at any earlier stage. Plain `Books over [amount]` without a `Final` / `closed` / `last heard` qualifier is still wrong at Allocations.
+  - Source silent AND deal never received "closed" / "final books" language anywhere → fall back to `Books over [amount]` OR `Books last heard over [amount]` — both are acceptable at Allocations. Do NOT upgrade to `Final books over` in this case.
+  - Do NOT default to `Books last heard over` universally at Allocations — it's only correct when either the source itself uses "last heard" wording, or the deal never had closed/final language and source is silent.
 - **Priced** — see the Priced section below.
 
 **Source-driven overlay (applies WITHIN the stage rule):**
