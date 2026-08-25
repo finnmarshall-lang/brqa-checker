@@ -51,8 +51,8 @@ Tranche form (id `<tranche_id>` current version):
   Tranche B: ... [if multi-tranche]
 
 Priced-deal form (id `<priced_deal_id>`) walk — INCLUDE THIS SECTION ONLY at Priced / Priced tap / Book stats stages. On IPTs / Guidance / Book update / Spread set / Final terms / Allocations / Mandated / IMA, OMIT the section entirely (do not print "N/A" or "no pricedDeals[]" — just skip the block):
-  currency=<X> ✓, nominal=<X> ✓, cpn=<X> ✓, fpr=<X> ✓, spread=<X> ✓, yield=<X> ✓, fxRate=<X> ✓, isin=<X> ✓, figi=<X> ✓, bloombergCode=<X> ✓, tier=<X> ✓, moodys/snp/fitch=<X>/<X>/<X> ✓, dealRegsOnly=<X> ✓, [additional-info booleans], leagueTable=<X> ✓, additionalInfo="<X>" ✓, banks.active=<N> ✓, finalBooks=<X> ✓, finalAccounts=<X> ✓
-  [flag each mismatch inline — do NOT skim. finalBooks/finalAccounts MUST be printed per tranche — a null finalBooks while siblings or source have a figure is a flag; see memory/feedback_bondradar_priced_form_final_books.md]
+  currency=<X> ✓, nominal=<X> ✓, cpn=<X> ✓, fpr=<X> ✓, spread=<X> ✓, yield=<X> ✓, fxRate=<X> ✓, isin=<X> ✓, figi=<X> ✓, bloombergCode=<X> ✓, tier=<X> ✓, moodys/snp/fitch=<X>/<X>/<X> ✓, dealRegsOnly=<X> ✓, [additional-info booleans], leagueTable=<X> ✓, additionalInfo="<X>" ✓, banks.active=<N> ✓, finalBooks=<X> ✓
+  [flag each mismatch inline — do NOT skim. finalBooks MUST be printed per tranche — a null finalBooks while siblings or source have a figure is a flag; see memory/feedback_bondradar_priced_form_final_books.md. Do NOT walk finalAccounts.]
 
 Deal-level flags: `coveredBonds:<T/F>`, `regionAmericas:<T/F>` (why), `expectedPageId:<X>`, `expectedPageCount:<N>`, `feedIgrd:<T/F>`, `highYield:<T/F>` [flag any mismatch].
 
