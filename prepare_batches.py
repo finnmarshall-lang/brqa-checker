@@ -32,12 +32,13 @@ WINDOW_SECONDS = 21600  # 6h — matches the tick's own window
 # wrap syndicate-authored headlines. Second set = plain-prefix forwards that
 # arrive without the glyphs (e.g. "GUID:", "NEW MANDATE:", or the
 # machine-generated "(Bloomberg) --" wire posts). Any one match is enough.
-BBG_MARKERS = ("***", "€€€", "£££", "$$$", "★★★", "###")
+BBG_MARKERS = ("**", "***", "€€€", "££", "£££", "$$", "$$$", "★★", "★★★", "###")
 BBG_KEYWORDS = (
-    "(Bloomberg)", "GUID:", "GUID ", "MANDATE:", "NEW MANDATE",
-    "NEW ISSUE:", "NEW ISSUE ", "IPTs", "IPTS", "PRICED:", "PRICED ",
-    "LAUNCH:", "LAUNCHED", "ALLOCATIONS", "BOOK UPDATE", "SPREAD SET",
-    "FINAL TERMS", "FINAL BOOKS", "GUIDANCE", "TAP:", "TAP ",
+    # Bare tokens — matched case-insensitively as substrings, no colon needed
+    # so we catch "LAUNCH ★★", "PRICED at MS+X", "GUIDANCE:", etc. uniformly.
+    "(Bloomberg)", "GUID", "MANDATE", "NEW ISSUE", "IPTs", "PRICED",
+    "LAUNCH", "ALLOCATIONS", "BOOK UPDATE", "SPREAD SET", "FINAL TERMS",
+    "FINAL BOOKS", "GUIDANCE", "TAP",
 )
 SLACK_API = "https://slack.com/api"
 
