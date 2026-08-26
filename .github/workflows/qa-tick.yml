@@ -2,13 +2,13 @@ name: BR QA Checker
 
 on:
   schedule:
-    # Two offset entries — effective cadence is every 5 minutes (12 ticks/hr).
-    # GitHub's scheduler often skips slots under load; two schedules give
-    # more chances to fire without hitting the single 10-min cron floor.
-    # With per-tick cap of 15 messages, steady-state capacity is
-    # 12 × 15 = 180 messages/hour, well above BR volume.
-    - cron: '0,10,20,30,40,50 * * * *'
-    - cron: '5,15,25,35,45,55 * * * *'
+    # Every 10 minutes on the dot. The earlier two-schedule 5-min cadence
+    # let ticks queue up faster than they finished — a slow tick would
+    # block the queued follow-ups and the compounding delay grew through
+    # the day. At 10-min intervals each tick has room to finish before
+    # the next one is scheduled, and the 40-msg × 4-shard cap keeps a
+    # single tick well under 10 min under normal load.
+    - cron: '*/10 * * * *'
   workflow_dispatch: {}
 
 concurrency:
