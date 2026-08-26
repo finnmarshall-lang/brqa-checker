@@ -10,7 +10,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-25T16:01:32.132Z
+  modified: 2026-08-26T14:20:51.480Z
 ---
 
 Bond Radar messages have a stage-based rule for the book-line prefix:
@@ -36,7 +36,8 @@ Bond Radar messages have a stage-based rule for the book-line prefix:
 - **Priced** — see the Priced section below.
 
 **Source-driven overlay (applies WITHIN the stage rule):**
-- Source says "books closed" (or "orderbook closed" / "global books closed") → `Books closed over` (wins over `Final books over` even with JLM breakdown at any stage).
+- `Books closed over` and `Final books over` are **interchangeable** — both are valid house-style wording for a finalised book. Do NOT flag the presence of one when the source used the other. Finn on BNS EUR1.75bn SNP (id 14631407): source said "Combined Books closed at c.€3.15bn", BR body said `Final books over EUR1.9bn and EUR1.2bn respectively` — the tick proposed rewriting to `Books closed over` and Finn cleared it: "books closed and final books mean same thing so is ok this". Only flag when the figure, JLM breakdown, or `over/above` word is actually wrong — the closed/final choice itself is a stylistic preference, not a defect.
+- Source says "books closed" (or "orderbook closed" / "global books closed") → either `Books closed over` or `Final books over` is acceptable, with the JLM breakdown appended in either case.
 - Source says "final books" + JLM breakdown → `Final books over (incl. X JLM interest)`. If the Priced-stage term sheet is silent on books (as most are — the book figure was last given at Final Terms / Spread Set), the correct wording is `Books last heard over [amount].` — even if a JLM interest breakdown was disclosed at Final Terms in an earlier update. Order of precedence:
 1. **If the Priced-stage source says "books closed" (or "global books closed" / "orderbook closed" / equivalent) → `Books closed over [amount].`** This wins over `Final books over` even when a JLM breakdown is also disclosed at Priced.
 2. **Else, if the deal's history includes a source stating "final books" or "books closed" AND a JLM interest breakdown was disclosed somewhere in the deal's timeline (Launched / Allocations Out / any earlier stage) → `Final books over [amount] (incl. [Y] JLM interest).`** The JLM figure needs to appear in the outgoing BR message body. It does NOT need to be disclosed by the source AT the Priced-stage update specifically — an earlier stage counts. Only fall back to `Books last heard over` (case B) when the deal NEVER received "closed" or "final books" language from source at any stage. Finn on DBJ: correction applied because no source ever said closed/final. Finn on ADB: `Final books over` was fine because the Launched source said `Global books closed` with JLM breakdown, even though the Priced-stage source itself was silent. The "must be at Priced" wording in a prior version of this rule was too strict — retracted.
