@@ -36,3 +36,4 @@
 - [Priced-deal form finalBooks](feedback_bondradar_priced_form_final_books.md) — walk `finalBooks` on every priced tranche; a null figure while siblings/source have one is a flag.
 - [nonBullet holds structure code](feedback_bondradar_nonbullet_structure.md) — `nonBullet` = structure like `16NC6`, not Y/N. Never propose changing it to a Y/N value.
 - [CET/CEST by source](feedback_bondradar_cet_cest_by_source.md) — never auto-correct timezone labels by the calendar; carry the source's `CET`/`CEST`/`BST`/`EDT` verbatim.
+- [Headline stage = what the update adds](feedback_bondradar_headline_stage_by_update.md) — match the headline stage word to the update's NEW body content, not the standing paragraph. Book Update carrying a prior Spread-set line is still Book Update.
