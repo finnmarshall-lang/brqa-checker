@@ -3,11 +3,12 @@
 Log into Bond Radar admin and persist auth cookies to cookies.json.
 
 Two-layer auth:
-  1. nginx Basic auth at the edge (REDACTED_NGINX_USER:REDACTED_NGINX_PASS)  -> handled via httpCredentials
-  2. SPA user-level login form                        -> yields JSESSIONID cookie
+  1. nginx Basic auth at the edge  -> handled via httpCredentials
+  2. SPA user-level login form     -> yields JSESSIONID cookie
 
-Reads BR_USERNAME / BR_PASSWORD from ~/.bondradar-env (or the current env).
-Writes cookies to ./cookies.json next to this file.
+Reads BR_USERNAME / BR_PASSWORD / BR_NGINX_USER / BR_NGINX_PASS from
+~/.bondradar-env (or the current env). Writes cookies to ./cookies.json
+next to this file.
 
 Run manually the first time to confirm selectors, then let the QA checker
 invoke it on 401 to refresh.
@@ -25,8 +26,6 @@ COOKIES_PATH = HERE / "cookies.json"
 ENV_FILE = Path.home() / ".bondradar-env"
 
 ADMIN_URL = "https://www.bondradar.com/admin/"
-NGINX_BASIC_USER = "REDACTED_NGINX_USER"
-NGINX_BASIC_PASS = "REDACTED_NGINX_PASS"
 
 
 def load_env_file(path: Path) -> None:
@@ -44,11 +43,20 @@ def main() -> int:
     load_env_file(ENV_FILE)
     username = os.environ.get("BR_USERNAME")
     password = os.environ.get("BR_PASSWORD")
-    if not username or not password:
+    nginx_user = os.environ.get("BR_NGINX_USER")
+    nginx_pass = os.environ.get("BR_NGINX_PASS")
+    missing = [
+        n for n, v in [
+            ("BR_USERNAME", username),
+            ("BR_PASSWORD", password),
+            ("BR_NGINX_USER", nginx_user),
+            ("BR_NGINX_PASS", nginx_pass),
+        ] if not v
+    ]
+    if missing:
         print(
-            f"BR_USERNAME / BR_PASSWORD not set. Create {ENV_FILE} with:\n"
-            f"  BR_USERNAME=you@example.com\n  BR_PASSWORD=...\n"
-            f"and chmod 600 it.",
+            f"Missing env vars: {', '.join(missing)}. Set them in {ENV_FILE} "
+            f"(chmod 600) or export them in the current shell / GH Secrets.",
             file=sys.stderr,
         )
         return 2
@@ -71,7 +79,7 @@ def main() -> int:
         except Exception:
             browser = p.chromium.launch(headless=True)
         context = browser.new_context(
-            http_credentials={"username": NGINX_BASIC_USER, "password": NGINX_BASIC_PASS}
+            http_credentials={"username": nginx_user, "password": nginx_pass}
         )
         page = context.new_page()
         page.goto(ADMIN_URL, wait_until="networkidle", timeout=30_000)
@@ -127,7 +135,7 @@ def main() -> int:
 
         payload = {
             "cookies": cookies,
-            "basic_auth": {"user": NGINX_BASIC_USER, "pass": NGINX_BASIC_PASS},
+            "basic_auth": {"user": nginx_user, "pass": nginx_pass},
         }
         COOKIES_PATH.write_text(json.dumps(payload, indent=2))
         os.chmod(COOKIES_PATH, 0o600)

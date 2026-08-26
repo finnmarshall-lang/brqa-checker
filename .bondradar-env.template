@@ -1,3 +1,9 @@
 # Copy to ~/.bondradar-env, fill in values, then: chmod 600 ~/.bondradar-env
 BR_USERNAME=you@9fin.com
 BR_PASSWORD=
+# nginx edge auth for bondradar.com/admin (ask ops for values)
+BR_NGINX_USER=
+BR_NGINX_PASS=
+# Slack bot token (xoxb-...) — required for slack_read_channel.py,
+# slack_reactors.py, slack_file.py, slack_post.py
+SLACK_BOT_TOKEN=
