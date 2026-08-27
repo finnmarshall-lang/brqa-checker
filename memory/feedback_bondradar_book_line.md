@@ -10,7 +10,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-26T14:20:51.480Z
+  modified: 2026-08-27T12:25:23.730Z
 ---
 
 Bond Radar messages have a stage-based rule for the book-line prefix:
@@ -37,6 +37,7 @@ Bond Radar messages have a stage-based rule for the book-line prefix:
 
 **Source-driven overlay (applies WITHIN the stage rule):**
 - `Books closed over` and `Final books over` are **interchangeable** — both are valid house-style wording for a finalised book. Do NOT flag the presence of one when the source used the other. Finn on BNS EUR1.75bn SNP (id 14631407): source said "Combined Books closed at c.€3.15bn", BR body said `Final books over EUR1.9bn and EUR1.2bn respectively` — the tick proposed rewriting to `Books closed over` and Finn cleared it: "books closed and final books mean same thing so is ok this". Only flag when the figure, JLM breakdown, or `over/above` word is actually wrong — the closed/final choice itself is a stylistic preference, not a defect.
+- **Separate "Books closed." sentence is fine.** When the source states `Books closed` as its own statement (not attached to the book-size figure), BR is allowed to carry it as a separate clause too: `Books over EUR1.75bn. Books closed. Pricing and allocations to follow.` is valid — do NOT force a rewrite to `Books closed over EUR1.75bn`. Finn on Glencore EUR600m 8yr FT (id 14631660): tick proposed folding the two clauses into `Books closed over EUR1.75bn`. Finn: "this is correct btw the books closed is separate to the books in the update". Rule: the "closed" fact and the book-size figure can be rendered separately if that's how the source presents them.
 - Source says "books closed" (or "orderbook closed" / "global books closed") → either `Books closed over` or `Final books over` is acceptable, with the JLM breakdown appended in either case.
 - Source says "final books" + JLM breakdown → `Final books over (incl. X JLM interest)`. If the Priced-stage term sheet is silent on books (as most are — the book figure was last given at Final Terms / Spread Set), the correct wording is `Books last heard over [amount].` — even if a JLM interest breakdown was disclosed at Final Terms in an earlier update. Order of precedence:
 1. **If the Priced-stage source says "books closed" (or "global books closed" / "orderbook closed" / equivalent) → `Books closed over [amount].`** This wins over `Final books over` even when a JLM breakdown is also disclosed at Priced.
