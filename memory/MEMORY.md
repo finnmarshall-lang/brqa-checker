@@ -1,4 +1,5 @@
 - [BR QA Checker project](project_br_qa_checker.md) — automated Bond Radar QA scheduled task at ~/Documents/Claude/Projects/BR QA Checker/, triggered by ✅ reactions in #bond-deal-alerts.
+- [BR drafter LaunchAgent](reference_br_drafter_launchagent.md) — draft pass runs as local `com.finnmarshall.br-drafter` LaunchAgent on 60s cadence, not a cloud routine.
 - [BR type field is not a stage mismatch](feedback_bondradar_type_field.md) — never flag Bond Radar's `type` field (EXPECTED, PRICED…) as a stage mismatch; it's BR workflow state, not update stage.
 - [BR house-style ordering](feedback_bondradar_house_style.md) — apply house-style order, never the source term sheet's. Key: `MWC` before `par call`.
 - [BR message boilerplate exclusions](feedback_bondradar_boilerplate.md) — never flag Fxd-to-Frn coupon structure or regulatory boilerplate (interest schedule, MiFID, MREL disqualification, day-count) as missing from BR messages; they don't belong there.
@@ -25,13 +26,14 @@
 - [League table rules HG + EM](reference_bondradar_league_table_rules.md) — `leagueTable` almost always true; false for sub-18m HG, sub-365d EM, sub-USD100m HG, ABS/CDO (except EM covered), or missing disclosures.
 - [No verify-hedge QA verdicts](feedback_bondradar_no_verify_hedges.md) — every BR QA finding is a clear FLAG or CLEAN. Fetch the full body before verdicting; never attach "verify this" hedges to a clean call.
 - [Tranche structure field is 8-char capped](feedback_bondradar_structure_8char_limit.md) — `11.5NC10.5` truncates to `11.5NC10` in the form by design; cross-check against body before flagging apparent typos.
+- [Structure field includes note-type](feedback_bondradar_structure_includes_note_type.md) — tranche `structure` is `<tenor> <suffix>` (`5y SP`, `10NC5 SNP`, `11NC6 T2`), not bare tenor.
 - [Don't nit-flag BR shorthand](feedback_bondradar_dont_nit_shorthand.md) — `(excl JLM)`, `bp/bps`, `T+X` etc. are acceptable variants; only flag material misinformation or house-style contract breaks.
 - [Passing verdict says "Perfect! Great job"](feedback_bondradar_perfect_verdict_phrasing.md) — replace `clean` in Slack QA headers with `Perfect! Great job`; state.json keeps `verdict: "clean"` as the structured value.
 - [Quote BR body in every thread finding](feedback_bondradar_quote_body_in_thread.md) — every QA finding (clean AND flagged) must include the full BR headline + message body verbatim in a Slack blockquote.
 - [Check dealHistoryEntries before flagging missing fields](feedback_bondradar_check_deal_history.md) — ratings/bookrunners/format etc. carry forward from earlier stage updates; walk history before flagging a body as "missing X".
 - [Benchmark date format: spell out month + year](feedback_bondradar_benchmark_date_format.md) — `OBL 2.1% April 2029`, not `04/29`. Flag MM/YY shorthand in spread refs.
 - [WNG counts as size set](feedback_bondradar_wng_size_set.md) — `EUR500m (WNG)` + `Spread set` = Final Terms / Launched, not Spread Set. Don't call Final Terms premature.
-- [SARON MS+ in body/headline](feedback_bondradar_saron_ms_shorthand.md) — outgoing BR message (headline + body) uses `SARON MS+X`; flag bare `SARON+X`. Tranche/priced-deal form fields use compact `SMS+X`/`SARON+X` — don't flag those.
+- [SARON MS+ in body/headline](feedback_bondradar_saron_ms_shorthand.md) — outgoing BR message (headline + body) uses `SARON MS+X`; flag bare `SARON+X`. Tranche form uses `SMS+X`, priced-deal form uses bare `SARON+X` (no `MS`) — flag `SARON MS+X` on the priced-deal form.
 - [Book Update headline can drop level](feedback_bondradar_headline_level_optional.md) — Book Update headlines don't need `at MS+X` embedded; every other stage still expects it as normal.
 - [Priced-deal form finalBooks](feedback_bondradar_priced_form_final_books.md) — walk `finalBooks` on every priced tranche; a null figure while siblings/source have one is a flag.
 - [nonBullet holds structure code](feedback_bondradar_nonbullet_structure.md) — `nonBullet` = structure like `16NC6`, not Y/N. Never propose changing it to a Y/N value.
