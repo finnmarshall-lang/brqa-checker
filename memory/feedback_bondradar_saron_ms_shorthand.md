@@ -1,20 +1,41 @@
 ---
 name: bondradar-saron-ms-shorthand
-description: "`SARON MS+X` and bare `SARON+X` are both acceptable BR house-style spread shorthands for CHF deals; never flag one against the other as a mismatch."
+description: "In BR headlines and message bodies, CHF/SARON spreads use `SARON MS+X` (with MS). Bare `SARON+X` in body/headline is a defect. Tranche/priced-deal form fields use the compact `SARON+X` / `SMS+X` — that's system-generated and correct."
 metadata: 
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-24T13:19:55.510Z
+  modified: 2026-08-27T13:50:24.164Z
 ---
 
-For CHF deals priced off SARON, both spread notations are house-style:
+Two-tier rule for SARON spreads on CHF deals:
 
-- `SARON MS+60bp` (headline / stage lines)
-- `SARON+60bp` (post-priced body / priced-deal form's `spread` field)
+## Outgoing BR message (headline + body)
 
-They are interchangeable — the headline can carry `SARON MS+` even when the priced body has already dropped the `MS`. Do NOT flag `SARON MS+X` in the headline as "stale" when the body reads `SARON+X`, and do NOT propose a rewrite that drops the `MS`. Neither is wrong.
+Correct form: `SARON MS+X` (with `MS`). This is house style.
 
-**Why:** Finn cleared a QA finding on Nordea CHF200m 8y Grn SP (id 14630717): I flagged the headline `Priced at SARON MS+60bp` as a stale-MS mismatch against the body's `SARON+60bp` and proposed rewriting to `Priced at SARON+60bp`. Finn: "SARON MS+ is fine in title."
+- ✓ `** Rentenbank CHF50m+ Mar 2036 tap at SARON MS+20bp: Timing update`
+- ✓ `Spread is set at SARON MS+20bp for Landwirtschaftliche Rentenbank's ...`
+- ✗ `... at SARON+20bp: Timing update` — missing MS, flag
+- ✗ `Spread is set at SARON+20bp for ...` — missing MS, flag
 
-**How to apply:** When walking headline level ↔ body/priced-form spread on CHF (SARON) deals, treat `SARON MS+X` and `SARON+X` as the same reference. Only flag a numeric mismatch (`SARON MS+60` vs `SARON+58`) or a wrong reference base (`SARON` vs `MS` vs `Govt.`), never the presence/absence of `MS` alone. The same logic applies to any other reference-rate shorthand where `MS` is optional glue — do not invent a "canonical" form.
+Flag bare `SARON+X` in the headline or the body. Suggest adding `MS`.
+
+## Tranche form / priced-deal form fields
+
+Compact form: `SARON+X` or `SMS+X` (no `MS` word). System-generated compact notation.
+
+- ✓ `priceEvolution=SMS+20` (tranche form)
+- ✓ `spread=SARON+60` (priced-deal form)
+
+Do NOT flag these compact-form fields for missing `MS`.
+
+**Why:** Two Finn corrections established the two-tier rule.
+- **Nordea CHF200m 8y Grn SP Priced (id 14630717)** — headline said `SARON MS+60bp`, body said `SARON+60bp`. I flagged the headline as stale-MS and proposed dropping MS. Finn: "SARON MS+ is fine in title". So MS in headline is correct.
+- **Rentenbank CHF50m+ tap Timing update (id 14631697)** — headline AND body both said bare `SARON+20bp`. I marked clean. Finn: "should be SARON MS in title and body". So bare `SARON+` in the outgoing message (headline or body) is the defect — MS must be added.
+
+Combined: MS belongs in the outgoing BR message. The Nordea case had the correct MS-in-headline; its bare-SARON-in-body was actually also a defect that Finn didn't call out at the time, but the Rentenbank correction makes the rule clear.
+
+**How to apply:** When walking the outgoing BR headline or body on a CHF/SARON deal, check that the spread reads `SARON MS+X` — if it reads bare `SARON+X`, flag it. When walking the tranche form's `priceEvolution` or priced-deal form's `spread`, the compact `SMS+X` / `SARON+X` is canonical — don't flag.
+
+Related: [[bondradar-frn-priceevolution]] (compact form on tranche fields — same principle, different field).
