@@ -2,13 +2,17 @@ name: BR QA Checker
 
 on:
   schedule:
-    # Every 10 minutes on the dot. The earlier two-schedule 5-min cadence
-    # let ticks queue up faster than they finished — a slow tick would
-    # block the queued follow-ups and the compounding delay grew through
-    # the day. At 10-min intervals each tick has room to finish before
-    # the next one is scheduled, and the 40-msg × 4-shard cap keeps a
-    # single tick well under 10 min under normal load.
+    # Every 10 minutes on the dot. GH's cron is best-effort — public
+    # repos sometimes get scheduled runs skipped, especially overnight.
     - cron: '*/10 * * * *'
+    # Explicit morning kickoff on weekdays. 06:35 UTC = 07:35 BST
+    # (UK summer time). GH schedules multiple listed entries independently,
+    # so adding this specific slot maximises the chance of a fire at the
+    # start of the trading day even if the main */10 cron got skipped
+    # for a while overnight.
+    # NB: when UK clocks go back in late October, 06:35 UTC becomes
+    # 06:35 GMT — bump this to '35 7 * * 1-5' at that point.
+    - cron: '35 6 * * 1-5'
   workflow_dispatch: {}
 
 concurrency:
