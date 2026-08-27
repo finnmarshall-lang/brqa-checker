@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-27T16:02:41.805Z
+  modified: 2026-08-27T16:04:27.776Z
 ---
 
 Two-tier rule for SARON spreads on CHF deals:
@@ -23,13 +23,14 @@ Flag bare `SARON+X` in the headline or the body. Suggest adding `MS`.
 
 ## Tranche form / priced-deal form fields
 
-Both fields use the compact, MS-free form:
+Both fields use bare `SARON+X` — no `MS`, no `SMS` compression:
 
-- ✓ `priceEvolution=SMS+20` (tranche form — `SMS` is the compact for SARON+MS)
-- ✓ `spread=SARON+20` (priced-deal form — bare `SARON+X`, no `MS` word)
-- ✗ `spread=SARON MS+20` on the priced-deal form — flag; should be bare `SARON+20`
+- ✓ `priceEvolution=SARON+20` (tranche form)
+- ✓ `spread=SARON+20` (priced-deal form)
+- ✗ `priceEvolution=SMS+20` on the tranche form — flag; should be `SARON+20`
+- ✗ `spread=SARON MS+20` on the priced-deal form — flag; should be `SARON+20`
 
-Finn on Rentenbank tap Priced (id 14631729): I marked the priced-deal record's `spread=SARON MS+20` as "compact form, fine". Finn: "this should be SARON+ in the priced deal form like the tranches". So the priced-deal form's `spread` field mirrors the tranche form's `priceEvolution` — bare `SARON+X`, no `MS` word. Flag `SARON MS+X` on that field as needing to drop `MS`.
+Finn: "Tranche form (priceEvolution): SARON+x no ms at all too". So both admin-panel fields carry the bare `SARON+X` form. Any `MS` on either of those fields is a defect.
 
 **Why:** Two Finn corrections established the two-tier rule.
 - **Nordea CHF200m 8y Grn SP Priced (id 14630717)** — headline said `SARON MS+60bp`, body said `SARON+60bp`. I flagged the headline as stale-MS and proposed dropping MS. Finn: "SARON MS+ is fine in title". So MS in headline is correct.
