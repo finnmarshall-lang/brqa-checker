@@ -1,0 +1,13 @@
+name = "brqa-scheduler"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Fire every 10 minutes on the dot. Cloudflare cron uses standard POSIX
+# 5-field syntax and is genuine — it fires reliably, unlike GH Actions
+# cron on public repos. If you ever want a different cadence, edit here
+# and re-deploy with `wrangler deploy`.
+[triggers]
+crons = ["*/10 * * * *"]
+
+# GH_TOKEN is loaded from a Cloudflare secret at runtime (see README.md).
+# NOT set here — never commit secrets to the repo.
