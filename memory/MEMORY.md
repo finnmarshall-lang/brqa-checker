@@ -39,3 +39,4 @@
 - [Headline stage = what the update adds](feedback_bondradar_headline_stage_by_update.md) — match the headline stage word to the update's NEW body content, not the standing paragraph. Book Update carrying a prior Spread-set line is still Book Update.
 - [FRN priceEvolution drops reference tenor](feedback_bondradar_frn_priceevolution.md) — `E+55a` on the tranche form is correct even when source/body carries `3mE+55bp area`. Don't flag the missing `3m` prefix.
 - [Structure uses fractional years](feedback_bondradar_structure_year_format.md) — sub-2-year tenors read `1.5y` / `0.5y`, not `18m` / `6m`. Flag month-form structures.
+- [Casing + synonyms are flexible](feedback_bondradar_casing_and_synonyms.md) — stage-word case (`Final terms`/`Final Terms`, `Allocations`/`allocations`) is flexible; `Final books over`↔`Books closed over`, `Books above`↔`Books over`, `Books update:`↔`Book update:` are interchangeable. Flag substance, not surface.

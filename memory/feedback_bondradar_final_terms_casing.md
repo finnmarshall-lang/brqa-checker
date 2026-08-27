@@ -1,19 +1,21 @@
 ---
 name: feedback-bondradar-final-terms-casing
-description: "House-style capitalisation for the Final Terms stage in BR headlines is `Final terms` (lowercase `t`), NOT `Final Terms`. Never flag lowercase `terms` as a casing error."
+description: "Both `Final terms` (lowercase t) and `Final Terms` (title case) are correct in BR headlines. Never flag either as a casing error. Same for every other stage word."
 metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-20T07:33:34.965Z
+  modified: 2026-08-27T11:49:28.932Z
 ---
 
-Bond Radar's house-style casing for the Final Terms stage in headlines is `Final terms` — capital `F`, lowercase `t`. Do NOT flag lowercase `terms` and do NOT suggest `Final Terms`.
+Stage-word casing in BR headlines is flexible — both `Final terms` and `Final Terms` are correct, as are `Allocations` / `allocations`, `Book Update` / `book update`, `Spread set` / `Spread Set`, etc. Do NOT flag a stage word for capitalisation of any single letter.
 
-**Why:** Finn corrected me after I flagged the KFW HKD 5-year Final-terms headline (`** KFW HKD4bn 5-year at HIBOR MS-3bp: Final terms`) as a casing error on 2026-08-20. Reply verbatim: "his style is correct!" — meaning `Final terms` lowercase is the intended house style.
+**Why:** Two rounds of Finn's feedback established this.
+- 2026-08-20 (KFW HKD 5-year Final Terms): I flagged `Final terms` (lowercase t) as needing to be `Final Terms`. Finn: "his style is correct!" — meaning lowercase t stands.
+- 2026-08-27 (batch feedback): "Final Terms and final terms- same thing- says the capital T is wrong- same for Book Update (update)" — meaning title case ALSO stands. Both are fine.
 
-**How to apply:** when QA'ing a headline that ends with the Final Terms stage word, accept `Final terms` (lowercase t) as correct. Only flag if the whole word is wrong (e.g. `Spread set` when both size and spread are set) or if the case is `FINAL TERMS` all-caps / `final terms` all-lowercase.
+The updated rule: stage-word case is flexible either way. Flag only when the stage word itself is substantively wrong (e.g. `Book Update` where the update is really at Allocations), never for casing.
 
-Applies to headlines only. In prose the phrase can appear either way depending on context.
+**How to apply:** When walking the headline stage word, normalise for case before comparison. Both `Final terms` and `Final Terms` are correct. Same for every other stage word — `Allocations`/`allocations`, `Book Update`/`book update`, `Guidance`/`guidance`, `Spread set`/`Spread Set`, `Priced`/`priced`, `Launched`/`launched`.
 
-See also [[br-qa-checker-project]], [[feedback-bondradar-headline-stage]].
+See also [[bondradar-casing-and-synonyms]] (broader casing/synonym rule covering timezones and book-line variants too), [[feedback-bondradar-headline-stage]].
