@@ -6,3 +6,4 @@ cookies.json
 __pycache__/
 .DS_Store
 # state.json IS committed so dedupe survives across GH Actions runs
+scheduler-worker/.wrangler/
