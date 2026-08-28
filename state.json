@@ -2968,5 +2968,9 @@
     "issuer": "West Lake Holdco LLC",
     "note": "Mandated USD275m 5y HY Sr Sec, Pareto Sole Bookrunner; body verbatim mandate quote, tranche form + flags clean; borrower currently mapped to WESTLAKE CHEMICAL (id 5633) with entity question actively being resolved in-thread \u2014 info only.",
     "verdict": "clean"
+  },
+  "1787906685.924149": {
+    "checked_at": "2026-08-28T09:04:26Z",
+    "verdict": "flagged"
   }
 }
