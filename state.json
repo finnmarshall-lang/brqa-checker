@@ -2278,6 +2278,14 @@
     "note": "Priced tap EUR250m SNP FRN \u2014 priced-deal snpRating/fitchRating swapped (A_PLUS/NR instead of A_MINUS/A_PLUS); isin field carries original ISIN not the published temp ISIN",
     "verdict": "flagged"
   },
+  "1787668724.766849": {
+    "checked_at": "2026-08-25T17:50:53Z",
+    "verdict": "skipped"
+  },
+  "1787668730.616239": {
+    "checked_at": "2026-08-25T17:51:01Z",
+    "verdict": "skipped"
+  },
   "1787668989.299409": {
     "br_id": 14630593,
     "checked_at": "2026-08-25T15:25:58Z",
@@ -2291,6 +2299,14 @@
     "issuer": "La Mondiale",
     "note": "Priced EUR500m 16NC6 T2 at MS+145bp \u2014 priced-deal opCo wrongly true (non-bank French insurer); nonBullet holds '16NC6' instead of Y/N",
     "verdict": "flagged"
+  },
+  "1787669049.102839": {
+    "checked_at": "2026-08-25T16:49:44Z",
+    "verdict": "clean"
+  },
+  "1787669227.330289": {
+    "checked_at": "2026-08-25T17:52:00Z",
+    "verdict": "skipped"
   },
   "1787669602.773009": {
     "br_id": 14630912,
@@ -2321,14 +2337,6 @@
     "checked_at": "2026-08-25T16:25:40Z",
     "verdict": "skipped"
   },
-  "1787669049.102839": {
-    "checked_at": "2026-08-25T16:49:44Z",
-    "verdict": "clean"
-  },
-  "1787674659.488119": {
-    "checked_at": "2026-08-25T16:49:44Z",
-    "verdict": "clean"
-  },
   "1787673110.164759": {
     "checked_at": "2026-08-25T16:47:00Z",
     "verdict": "skipped"
@@ -2341,28 +2349,20 @@
     "checked_at": "2026-08-25T16:48:01Z",
     "verdict": "clean"
   },
+  "1787674659.488119": {
+    "checked_at": "2026-08-25T16:49:44Z",
+    "verdict": "clean"
+  },
+  "1787676996.020039": {
+    "checked_at": "2026-08-25T17:53:48Z",
+    "verdict": "flagged"
+  },
   "1787677760.661339": {
     "checked_at": "2026-08-25T17:19:38Z",
     "verdict": "flagged"
   },
   "1787678246.268169": {
     "checked_at": "2026-08-25T17:39:39Z",
-    "verdict": "flagged"
-  },
-  "1787668724.766849": {
-    "checked_at": "2026-08-25T17:50:53Z",
-    "verdict": "skipped"
-  },
-  "1787668730.616239": {
-    "checked_at": "2026-08-25T17:51:01Z",
-    "verdict": "skipped"
-  },
-  "1787669227.330289": {
-    "checked_at": "2026-08-25T17:52:00Z",
-    "verdict": "skipped"
-  },
-  "1787676996.020039": {
-    "checked_at": "2026-08-25T17:53:48Z",
     "verdict": "flagged"
   },
   "1787681838.633109": {
@@ -2381,71 +2381,63 @@
     "checked_at": "2026-08-26T07:30:05Z",
     "verdict": "clean"
   },
-  "1787727051.551129": {
-    "checked_at": "2026-08-26T07:30:05Z",
-    "verdict": "clean"
-  },
-  "1787727842.202169": {
-    "checked_at": "2026-08-26T07:30:05Z",
-    "verdict": "flagged"
-  },
-  "1787728385.720119": {
-    "checked_at": "2026-08-26T07:30:05Z",
-    "verdict": "flagged"
-  },
   "1787726532.642479": {
     "checked_at": "2026-08-26T08:35:14Z",
+    "verdict": "clean"
+  },
+  "1787726855.102129": {
+    "checked_at": "2026-08-26T07:29:06Z",
+    "verdict": "clean"
+  },
+  "1787727039.709299": {
+    "checked_at": "2026-08-26T07:28:14Z",
+    "verdict": "clean"
+  },
+  "1787727051.551129": {
+    "checked_at": "2026-08-26T07:30:05Z",
     "verdict": "clean"
   },
   "1787727338.543369": {
     "checked_at": "2026-08-26T08:35:15Z",
     "verdict": "clean"
   },
-  "1787727943.517339": {
-    "checked_at": "2026-08-26T08:35:16Z",
-    "verdict": "clean"
-  },
-  "1787728397.489609": {
-    "checked_at": "2026-08-26T08:35:17Z",
-    "verdict": "flagged"
-  },
-  "1787726855.102129": {
-    "checked_at": "2026-08-26T07:29:06Z",
-    "verdict": "clean"
-  },
   "1787727493.062589": {
     "checked_at": "2026-08-26T07:29:06Z",
-    "verdict": "clean"
-  },
-  "1787728063.724029": {
-    "checked_at": "2026-08-26T07:29:06Z",
-    "verdict": "clean"
-  },
-  "1787728710.920549": {
-    "checked_at": "2026-08-26T07:29:06Z",
-    "verdict": "flagged"
-  },
-  "1787727039.709299": {
-    "checked_at": "2026-08-26T07:28:14Z",
     "verdict": "clean"
   },
   "1787727632.535969": {
     "checked_at": "2026-08-26T07:28:14Z",
     "verdict": "clean"
   },
+  "1787727842.202169": {
+    "checked_at": "2026-08-26T07:30:05Z",
+    "verdict": "flagged"
+  },
+  "1787727943.517339": {
+    "checked_at": "2026-08-26T08:35:16Z",
+    "verdict": "clean"
+  },
+  "1787728063.724029": {
+    "checked_at": "2026-08-26T07:29:06Z",
+    "verdict": "clean"
+  },
   "1787728374.148649": {
     "checked_at": "2026-08-26T07:28:14Z",
     "verdict": "flagged"
   },
-  "1787729141.840209": {
-    "checked_at": "2026-08-26T08:09:31Z",
+  "1787728385.720119": {
+    "checked_at": "2026-08-26T07:30:05Z",
     "verdict": "flagged"
   },
-  "1787729684.626749": {
-    "checked_at": "2026-08-26T08:09:31Z",
-    "verdict": "clean"
+  "1787728397.489609": {
+    "checked_at": "2026-08-26T08:35:17Z",
+    "verdict": "flagged"
   },
-  "1787730737.496179": {
+  "1787728710.920549": {
+    "checked_at": "2026-08-26T07:29:06Z",
+    "verdict": "flagged"
+  },
+  "1787729141.840209": {
     "checked_at": "2026-08-26T08:09:31Z",
     "verdict": "flagged"
   },
@@ -2453,33 +2445,37 @@
     "checked_at": "2026-08-26T08:10:13Z",
     "verdict": "skipped"
   },
-  "1787729747.774959": {
-    "checked_at": "2026-08-26T08:10:13Z",
-    "verdict": "flagged"
-  },
   "1787729486.768179": {
     "checked_at": "2026-08-26T08:42:00Z",
+    "verdict": "flagged"
+  },
+  "1787729508.730669": {
+    "checked_at": "2026-08-26T08:05:00Z",
+    "verdict": "clean"
+  },
+  "1787729684.626749": {
+    "checked_at": "2026-08-26T08:09:31Z",
+    "verdict": "clean"
+  },
+  "1787729747.774959": {
+    "checked_at": "2026-08-26T08:10:13Z",
     "verdict": "flagged"
   },
   "1787729752.238169": {
     "checked_at": "2026-08-26T08:42:00Z",
     "verdict": "clean"
   },
-  "1787729508.730669": {
-    "checked_at": "2026-08-26T08:05:00Z",
-    "verdict": "clean"
-  },
   "1787729822.609709": {
     "checked_at": "2026-08-26T08:05:00Z",
+    "verdict": "flagged"
+  },
+  "1787730737.496179": {
+    "checked_at": "2026-08-26T08:09:31Z",
     "verdict": "flagged"
   },
   "1787731392.307699": {
     "checked_at": "2026-08-26T08:58:19Z",
     "verdict": "skipped"
-  },
-  "1787734004.090299": {
-    "checked_at": "2026-08-26T08:58:19Z",
-    "verdict": "flagged"
   },
   "1787731800.622669": {
     "checked_at": "2026-08-26T09:18:00Z",
@@ -2491,6 +2487,10 @@
   },
   "1787733855.467229": {
     "checked_at": "2026-08-26T08:58:00Z",
+    "verdict": "flagged"
+  },
+  "1787734004.090299": {
+    "checked_at": "2026-08-26T08:58:19Z",
     "verdict": "flagged"
   },
   "1787734459.902239": {
@@ -2505,10 +2505,6 @@
     "checked_at": "2026-08-26T09:30:25Z",
     "verdict": "skipped"
   },
-  "1787736003.274439": {
-    "checked_at": "2026-08-26T09:30:25Z",
-    "verdict": "clean"
-  },
   "1787734863.110499": {
     "checked_at": "2026-08-26T09:29:00Z",
     "verdict": "clean"
@@ -2519,6 +2515,10 @@
   },
   "1787735987.675529": {
     "checked_at": "2026-08-26T09:31:09Z",
+    "verdict": "clean"
+  },
+  "1787736003.274439": {
+    "checked_at": "2026-08-26T09:30:25Z",
     "verdict": "clean"
   },
   "1787736489.641289": {
@@ -2593,10 +2593,6 @@
     "checked_at": "2026-08-26T11:14:12Z",
     "verdict": "clean"
   },
-  "1787742184.376039": {
-    "checked_at": "2026-08-26T11:14:12Z",
-    "verdict": "clean"
-  },
   "1787741975.209569": {
     "checked_at": "2026-08-26T11:15:36Z",
     "verdict": "flagged"
@@ -2609,6 +2605,10 @@
     "checked_at": "2026-08-26T12:14:32Z",
     "verdict": "flagged"
   },
+  "1787742184.376039": {
+    "checked_at": "2026-08-26T11:14:12Z",
+    "verdict": "clean"
+  },
   "1787742882.743349": {
     "checked_at": "2026-08-26T11:22:40Z",
     "verdict": "flagged"
@@ -2616,10 +2616,6 @@
   "1787743073.166459": {
     "checked_at": "2026-08-26T11:48:34Z",
     "verdict": "flagged"
-  },
-  "1787744257.169849": {
-    "checked_at": "2026-08-26T11:48:34Z",
-    "verdict": "clean"
   },
   "1787743287.021119": {
     "checked_at": "2026-08-26T11:48:16Z",
@@ -2632,6 +2628,10 @@
   "1787743751.144669": {
     "checked_at": "2026-08-26T11:47:06Z",
     "verdict": "flagged"
+  },
+  "1787744257.169849": {
+    "checked_at": "2026-08-26T11:48:34Z",
+    "verdict": "clean"
   },
   "1787744980.251069": {
     "checked_at": "2026-08-26T12:00:00Z",
@@ -2669,15 +2669,7 @@
     "checked_at": "2026-08-26T13:09:00Z",
     "verdict": "clean"
   },
-  "1787748300.789059": {
-    "checked_at": "2026-08-26T13:09:00Z",
-    "verdict": "flagged"
-  },
   "1787747247.004519": {
-    "checked_at": "2026-08-26T13:09:00Z",
-    "verdict": "flagged"
-  },
-  "1787748681.263559": {
     "checked_at": "2026-08-26T13:09:00Z",
     "verdict": "flagged"
   },
@@ -2685,12 +2677,20 @@
     "checked_at": "2026-08-26T13:09:21Z",
     "verdict": "flagged"
   },
-  "1787748695.093549": {
-    "checked_at": "2026-08-26T13:09:21Z",
-    "verdict": "clean"
-  },
   "1787748070.323929": {
     "checked_at": "2026-08-26T13:11:00Z",
+    "verdict": "clean"
+  },
+  "1787748300.789059": {
+    "checked_at": "2026-08-26T13:09:00Z",
+    "verdict": "flagged"
+  },
+  "1787748681.263559": {
+    "checked_at": "2026-08-26T13:09:00Z",
+    "verdict": "flagged"
+  },
+  "1787748695.093549": {
+    "checked_at": "2026-08-26T13:09:21Z",
     "verdict": "clean"
   },
   "1787749549.450229": {
@@ -2717,17 +2717,9 @@
     "checked_at": "2026-08-26T14:07:38Z",
     "verdict": "flagged"
   },
-  "1787751692.389349": {
-    "checked_at": "2026-08-26T14:07:38Z",
-    "verdict": "flagged"
-  },
   "1787751300.659399": {
     "checked_at": "2026-08-26T14:06:06Z",
     "verdict": "clean"
-  },
-  "1787752156.789129": {
-    "checked_at": "2026-08-26T14:06:06Z",
-    "verdict": "flagged"
   },
   "1787751435.422509": {
     "checked_at": "2026-08-26T13:41:00Z",
@@ -2737,21 +2729,21 @@
     "checked_at": "2026-08-26T14:04:00Z",
     "verdict": "flagged"
   },
+  "1787751692.389349": {
+    "checked_at": "2026-08-26T14:07:38Z",
+    "verdict": "flagged"
+  },
+  "1787752156.789129": {
+    "checked_at": "2026-08-26T14:06:06Z",
+    "verdict": "flagged"
+  },
   "1787752404.912419": {
     "checked_at": "2026-08-26T14:16:14Z",
     "verdict": "clean"
   },
-  "1787753377.553619": {
-    "checked_at": "2026-08-26T14:16:14Z",
-    "verdict": "skipped"
-  },
   "1787752875.205679": {
     "checked_at": "2026-08-26T14:16:52Z",
     "verdict": "flagged"
-  },
-  "1787753470.898119": {
-    "checked_at": "2026-08-26T14:16:52Z",
-    "verdict": "skipped"
   },
   "1787753003.827659": {
     "checked_at": "2026-08-26T14:12:00Z",
@@ -2761,15 +2753,15 @@
     "checked_at": "2026-08-26T14:16:00Z",
     "verdict": "clean"
   },
+  "1787753377.553619": {
+    "checked_at": "2026-08-26T14:16:14Z",
+    "verdict": "skipped"
+  },
+  "1787753470.898119": {
+    "checked_at": "2026-08-26T14:16:52Z",
+    "verdict": "skipped"
+  },
   "1787753581.501579": {
-    "checked_at": "2026-08-26T14:57:15Z",
-    "verdict": "clean"
-  },
-  "1787753966.432779": {
-    "checked_at": "2026-08-26T14:57:15Z",
-    "verdict": "flagged"
-  },
-  "1787755527.361479": {
     "checked_at": "2026-08-26T14:57:15Z",
     "verdict": "clean"
   },
@@ -2777,36 +2769,40 @@
     "checked_at": "2026-08-26T15:56:00Z",
     "verdict": "flagged"
   },
-  "1787754003.956789": {
-    "checked_at": "2026-08-26T15:56:00Z",
-    "verdict": "flagged"
-  },
-  "1787755730.895079": {
-    "checked_at": "2026-08-26T15:56:00Z",
-    "verdict": "flagged"
-  },
   "1787753669.622929": {
     "checked_at": "2026-08-26T15:01:00Z",
-    "verdict": "clean"
-  },
-  "1787754577.821159": {
-    "checked_at": "2026-08-26T15:01:30Z",
     "verdict": "clean"
   },
   "1787753853.145779": {
     "checked_at": "2026-08-26T14:59:35Z",
     "verdict": "clean"
   },
+  "1787753966.432779": {
+    "checked_at": "2026-08-26T14:57:15Z",
+    "verdict": "flagged"
+  },
+  "1787754003.956789": {
+    "checked_at": "2026-08-26T15:56:00Z",
+    "verdict": "flagged"
+  },
+  "1787754577.821159": {
+    "checked_at": "2026-08-26T15:01:30Z",
+    "verdict": "clean"
+  },
   "1787754949.662199": {
     "checked_at": "2026-08-26T14:59:35Z",
+    "verdict": "clean"
+  },
+  "1787755527.361479": {
+    "checked_at": "2026-08-26T14:57:15Z",
     "verdict": "clean"
   },
   "1787755612.705639": {
     "checked_at": "2026-08-26T15:57:05Z",
     "verdict": "flagged"
   },
-  "1787758083.510329": {
-    "checked_at": "2026-08-26T15:57:05Z",
+  "1787755730.895079": {
+    "checked_at": "2026-08-26T15:56:00Z",
     "verdict": "flagged"
   },
   "1787756072.526579": {
@@ -2820,6 +2816,10 @@
   "1787756858.151819": {
     "checked_at": "2026-08-26T15:53:27Z",
     "verdict": "clean"
+  },
+  "1787758083.510329": {
+    "checked_at": "2026-08-26T15:57:05Z",
+    "verdict": "flagged"
   },
   "1787762975.804149": {
     "checked_at": "2026-08-26T15:57:18Z",
@@ -2945,20 +2945,28 @@
     "checked_at": "2026-08-27T15:53:00Z",
     "verdict": "clean"
   },
-  "1787901195.545069": {
+  "1787899062.652869": {
     "checked_at": "2026-08-28T07:26:26Z",
-    "verdict": "flagged"
-  },
-  "1787900878.310849": {
-    "checked_at": "2026-08-28T07:26:26Z",
-    "verdict": "clean"
+    "verdict": "missing"
   },
   "1787900685.233559": {
     "checked_at": "2026-08-28T07:26:26Z",
     "verdict": "clean"
   },
-  "1787899062.652869": {
+  "1787900878.310849": {
     "checked_at": "2026-08-28T07:26:26Z",
-    "verdict": "missing"
+    "verdict": "clean"
+  },
+  "1787901195.545069": {
+    "checked_at": "2026-08-28T07:26:26Z",
+    "verdict": "flagged"
+  },
+  "1787903831.269759": {
+    "br_id": 14640020,
+    "category": "hg",
+    "checked_at": "2026-08-28T08:11:55Z",
+    "issuer": "West Lake Holdco LLC",
+    "note": "Mandated USD275m 5y HY Sr Sec, Pareto Sole Bookrunner; body verbatim mandate quote, tranche form + flags clean; borrower currently mapped to WESTLAKE CHEMICAL (id 5633) with entity question actively being resolved in-thread \u2014 info only.",
+    "verdict": "clean"
   }
 }
