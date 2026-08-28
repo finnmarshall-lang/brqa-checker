@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-28T08:13:10.033Z
+  modified: 2026-08-28T08:16:51.725Z
 ---
 
 When a source term-sheet / mandate announcement mentions a **ROADSHOW** or **Global Investor Calls** with specific date(s), the tranche form's `timing` field encodes that as **`i/c <date range>`** — `i/c` = "investor call" — followed by the date span in the compact `DD-DD MMM` format.
@@ -29,7 +29,8 @@ When a source term-sheet / mandate announcement mentions a **ROADSHOW** or **Glo
 ## How to apply
 
 - If the source discloses one investor-call date only → `i/c <DD Mmm>` (e.g. `i/c 01 Sep`).
-- If the source discloses a multi-day span → `i/c <DD-DD Mmm>` (e.g. `i/c 01-02 Sep`, `i/c 28-30 Aug`).
+- If the source discloses a fixed multi-day span (e.g. #1 on 01 Sep, #2 on 02 Sep) → `i/c <DD-DD Mmm>` (e.g. `i/c 01-02 Sep`, `i/c 28-30 Aug`).
+- If the source describes an **open-ended series** starting on a date (rolling investor calls with no fixed end) → `i/c <DD Mmm>>` — the trailing `>` signals "series starting from" (e.g. `i/c 01 Sep>`). Finn: "then a series would be i/c 01 Sep>".
 - The month is short-form three letters, no punctuation.
 - Do not include times or timezones — they belong in the body prose, not the tranche `timing` field.
 - `i/c` is lowercase with a slash — do not spell out "investor call" or capitalise.
