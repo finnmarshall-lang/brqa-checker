@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-01T13:47:28.044Z
+  modified: 2026-09-01T13:48:54.987Z
 ---
 
 For callable / resettable / hybrid notes, source term sheets often disclose two spreads:
@@ -30,7 +30,10 @@ Priority order when source shows multiple spreads:
 3. Mid-swaps (`MS+X`) — for EUR/other fixed-rate deals when there's no sovereign benchmark.
 4. Reference-rate FRN (`SOFR+X`, `SONIA+X`, `3mE+X`, `SARON+X`) — for pure FRN tranches only.
 
-Reset margins (SONIA MS+, SOFR MS+, EURIBOR MS+ etc. after call date) go INTO the body's prose describing the coupon reset — they NEVER become the priced-deal form's `spread` value.
+Reset margins (SONIA MS+, SOFR MS+, EURIBOR MS+ etc. after call date) **belong in the body's prose** describing the coupon reset — they NEVER go into the priced-deal form's `spread` value. On a callable/resettable T2 / AT1 / hybrid, the body MUST carry the reset margin (typically a sentence like "If not called on the First Call Date, the coupon resets to SONIA Mid-Swap + 184.5bps") — flag it as missing if the body drops it. So on a deal like BPCE GBP400m lg 11NC6 T2:
+- Priced-deal form `spread`: `G+160` (Reoffer spread, primary).
+- Body: carries the coupon reset language including `SONIA Mid-Swap + 184.5bps` (or shorthand) so readers know the post-call reset.
+Both are required — they don't compete for the same slot.
 
 **Why:** Finn on BPCE GBP400m lg 11NC6 T2 Priced (id 14640297, priced-deal 14640637): tick marked `spread=SMS+184.5` as clean, sourcing it from the term sheet's `Margin (184.5bps)` for the post-reset SONIA leg. Finn: "why are we accepting SMS+184.5 in the priced deal form spread it should be G+160 please read the term sheet G will always be the priority spread". Correct value was `G+160` — the actual pricing spread from the source's `Reoffer: UKT+160bps` line.
 
