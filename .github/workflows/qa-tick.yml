@@ -139,9 +139,16 @@ jobs:
           wait
           echo "=== all shards complete $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" | tee -a logs/tick.log
 
-      - name: Merge state deltas
+      - name: Merge state deltas + apply reactions
         if: always()
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
         run: |
+          # merge_deltas.py also applies the term-sheet-message emoji
+          # reaction based on each new delta's verdict (clean → :double-tick:,
+          # flagged → :exclamation:). This is deterministic — the shard
+          # prompt has the same instruction but the LLM sometimes skipped
+          # it, so we backstop it here.
           if ls state_delta_*.json >/dev/null 2>&1; then
             python3 merge_deltas.py | tee -a logs/tick.log
           else

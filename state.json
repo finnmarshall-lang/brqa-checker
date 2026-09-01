@@ -1700,10 +1700,14 @@
     "checked_at": "2026-09-01T14:44:38Z",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-01T14:34:27.840421Z",
-  "_tick": "2026-09-01T14:34:27.840421Z",
-  "1788274097.165359": {
-    "checked_at": "2026-09-01T14:53:46Z",
-    "verdict": "flagged"
-  }
+  "1788273968.954559": {
+    "br_id": 14640335,
+    "category": "hg",
+    "checked_at": "2026-09-01T15:01:52.301535Z",
+    "issuer": "Hammerson PLC",
+    "note": "Priced GBP250m short 7y at G+107bp \u2014 Perfect; priced-deal 14640654 all fields clean (Case B additionalInfo \"Books last heard over GBP875m\" matches Launched-line 875m; ratings NR on S&P correct \u2014 source names only M/F); posted.",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-01T15:01:52.301535Z",
+  "_tick": "2026-09-01T15:01:52.301535Z"
 }
