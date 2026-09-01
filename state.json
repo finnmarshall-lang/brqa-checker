@@ -1536,6 +1536,30 @@
     "issuer": "Sichuan Naxing Industrial",
     "verdict": "clean"
   },
+  "1788259188.783559": {
+    "br_id": 14640538,
+    "category": "hg",
+    "checked_at": "2026-09-01T10:57:00Z",
+    "issuer": "AIIB",
+    "note": "IPTs SOFR MS+26bp area USD bmk 3y SDB; bot already in thread from prior tick, state write lost; independently re-verified clean (headline/body/tranche form JT-LEADS/regionAmericas=true correct SEC-registered global).",
+    "verdict": "clean"
+  },
+  "1788259341.765979": {
+    "br_id": 14640112,
+    "category": "hg",
+    "checked_at": "2026-09-01T10:57:00Z",
+    "issuer": "ASFINAG",
+    "note": "Allocations EUR500m 5y at MS+7bp; bot already in thread from prior tick, state write lost; independently re-verified clean (book line Books closed over EUR3.5bn per Case A, MS(DM/B&D) tag preserved, ISIN, deal-level flags all correct).",
+    "verdict": "clean"
+  },
+  "1788259725.391509": {
+    "br_id": 14640259,
+    "category": "hg",
+    "checked_at": "2026-09-01T10:57:00Z",
+    "issuer": "CFF",
+    "note": "Final terms EUR1bn 10y CB at MS+54bp; bot already in thread from prior tick, state write lost; independently re-verified clean (Rule 4 lowercase-t Final terms + Spread set opener; 8 JLMs with Natixis (B&D); coveredBonds=true; Books over EUR1.6bn / Books closed per Case A).",
+    "verdict": "clean"
+  },
   "_last_tick": "2026-09-01T08:54:35Z",
-  "_tick": "2026-09-01T10:42:20Z"
+  "_tick": "2026-09-01T10:57:00Z"
 }
