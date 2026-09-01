@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-18T09:37:06.864Z
+  modified: 2026-09-01T15:19:06.475Z
 ---
 
 Bond Radar messages intentionally OMIT a bunch of things that appear in the term sheet. Do NOT flag any of these as "missing":
@@ -19,6 +19,7 @@ Bond Radar messages intentionally OMIT a bunch of things that appear in the term
 - Events-of-default / negative-pledge boilerplate
 - **`Sale into Canada`** language — "Sale into Canada Yes" or "Sale into Canada Yes, via exemption" should NOT appear in the BR message. If present, flag as something to remove. If absent from BR but present in the term sheet, do NOT flag as missing — it's intentional omission. (Finn: "this is unneeded in message".)
 - **Clearing** language ("Clearing: Euroclear/Clearstream", "CMU with linkage to…", "Fedwire, Euroclear, Clearstream", etc.) — NOT required in BR messages. Do not flag as missing at any stage, and do not flag Common terms of multi-tranche messages for lacking a Clearing line. (Finn: "clearing doesn't need to be in common terms".)
+- **Tax-changes call / tax-event redemption** ("Tax Event", "Withholding Tax Event", "Gross-Up Event", "Tax Deductibility Event", "Additional Amounts Event", "Change of Tax Law call") — NOT required in the BR message body AND NOT required on the priced-deal form's `additionalInfo`. If present in BR, flag as something to remove; if absent, do NOT flag as missing. Regulatory-event calls are standard in every prospectus and don't belong in either the outgoing message or the admin panel. (Finn: "Tax changes call this should not be in message or additional info".)
 
 **Why:** In the Credit Agricole 6.5NC5.5 SNP Priced QA (BR id 14620276), I flagged the message for not capturing the Fxd-to-Frn coupon structure. Finn corrected: it's irrelevant to mention, it shouldn't be in the message. See [[br-qa-checker-project]].
 
