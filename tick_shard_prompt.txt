@@ -70,6 +70,12 @@ Priced-deal form (id `<priced_deal_id>`) walk — INCLUDE ONLY at Priced/Priced 
 
 Deal-level flags: `coveredBonds:<T/F>`, `regionAmericas:<T/F>` (why), `expectedPageId:<X>`, `expectedPageCount:<N>`, `feedIgrd:<T/F>`, `highYield:<T/F>` [flag any mismatch].
 
+Fix: [ONLY if flagged — one bullet per defect, in the exact shape below. See memory/feedback_bondradar_clear_fix_bullets.md. Never bury the ask inside walkthrough prose; put every defect here as its own bullet.]
+• <Field / location> — <current value> → <correct value>. <One-clause reason if not obvious.>
+• <second defect if any>
+• <third defect if any>
+[Clean findings: OMIT the Fix section entirely — no defects means no bullets.]
+
 Published to BR:
 > <full BR headline>
 >
