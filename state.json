@@ -1,60 +1,4 @@
 {
-  "1787643958.482629": {
-    "br_id": 14631125,
-    "checked_at": "2026-08-25T07:51:39Z",
-    "issuer": "Klepierre",
-    "note": "IPTs",
-    "verdict": "clean"
-  },
-  "1787644218.556569": {
-    "br_id": 14631130,
-    "checked_at": "2026-08-25T08:29:05Z",
-    "issuer": "Rabobank",
-    "note": "Final terms tap \u2014 flagged by earlier crashed tick (headline casing Final Terms vs Final terms, since corrected on BR); reconciled here",
-    "verdict": "flagged"
-  },
-  "1787644431.160699": {
-    "br_id": 14630917,
-    "checked_at": "2026-08-25T08:29:05Z",
-    "issuer": "Land Berlin",
-    "note": "Book update \u2014 missing timing statement on Book update line",
-    "verdict": "flagged"
-  },
-  "1787644965.412929": {
-    "br_id": 14631135,
-    "checked_at": "2026-08-25T08:29:05Z",
-    "issuer": "Castellum AB",
-    "note": "Mandated \u2014 clean",
-    "verdict": "clean"
-  },
-  "1787645115.023929": {
-    "br_id": 14631141,
-    "checked_at": "2026-08-25T08:31:00Z",
-    "issuer": "CMC Markets",
-    "note": "Mandated GBP250m 10NC5 T2 \u2014 clean",
-    "verdict": "clean"
-  },
-  "1787645380.659249": {
-    "br_id": 14630623,
-    "checked_at": "2026-08-25T08:32:30Z",
-    "issuer": "Guangdong Provincial Communications Group",
-    "note": "Book update \u2014 headline said 'Timing update' instead of 'Book update'; banks.active count (21) one short of body's 22 JLMs",
-    "verdict": "flagged"
-  },
-  "1787645911.767399": {
-    "br_id": 14630843,
-    "checked_at": "2026-08-25T08:34:00Z",
-    "issuer": "Traton Finance Luxembourg",
-    "note": "IPTs G+120/125bp GBP250m long 4y \u2014 clean",
-    "verdict": "clean"
-  },
-  "1787646015.615899": {
-    "br_id": 14631088,
-    "checked_at": "2026-08-25T08:35:30Z",
-    "issuer": "ANZ New Zealand",
-    "note": "Book update EUR bmk 3y CB \u2014 missing timing on book-update line; missing comma running 'ANZ CACIB' together in JLM list",
-    "verdict": "flagged"
-  },
   "1787646431.393819": {
     "br_id": 14631020,
     "checked_at": "2026-08-25T09:26:00Z",
@@ -1633,5 +1577,53 @@
     "issuer": "NN Bank",
     "note": "Book update EUR500m WNG 5y Dutch Legislative CB AAA; 5 leads + 2 co-leads; book size EUR1.9bn incl JLM 315m matches source; single-tranche level embedded in headline OK; all clean; bot already in thread.",
     "verdict": "clean"
+  },
+  "1788251538.088369": {
+    "checked_at": "2026-09-01T09:06:19Z",
+    "verdict": "clean",
+    "note": "bot_already_in_thread"
+  },
+  "1788251586.974769": {
+    "checked_at": "2026-09-01T09:07:30Z",
+    "verdict": "clean",
+    "note": "bot_already_in_thread"
+  },
+  "1788251771.964289": {
+    "checked_at": "2026-09-01T09:09:56Z",
+    "verdict": "clean",
+    "note": "bot_already_in_thread"
+  },
+  "1788251849.539379": {
+    "checked_at": "2026-09-01T09:09:56Z",
+    "verdict": "clean",
+    "note": "bot_already_in_thread"
+  },
+  "1788251997.475089": {
+    "checked_at": "2026-09-01T09:09:56Z",
+    "verdict": "clean",
+    "note": "bot_already_in_thread"
+  },
+  "1788252301.542519": {
+    "checked_at": "2026-09-01T09:14:48Z",
+    "verdict": "clean",
+    "note": "bot_already_in_thread"
+  },
+  "1788252885.090169": {
+    "checked_at": "2026-09-01T09:14:48Z",
+    "verdict": "clean"
+  },
+  "1788253159.318519": {
+    "checked_at": "2026-09-01T09:14:48Z",
+    "verdict": "flagged",
+    "note": "bot_already_in_thread"
+  },
+  "1788253167.655489": {
+    "checked_at": "2026-09-01T09:14:48Z",
+    "verdict": "flagged",
+    "note": "bot_already_in_thread"
+  },
+  "1788252153.759719": {
+    "checked_at": "2026-09-01T09:14:48Z",
+    "verdict": "missing"
   }
 }
