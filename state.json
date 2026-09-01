@@ -3090,14 +3090,20 @@
     "note": "Priced USD1.25bn 3NC2 at T+65bp; priced-deal 14640180 all fields clean (mwc/hg3a2 correct; opCo/holdCo=false correct \u2014 Canadian bank not on whitelist); regionAmericas=true; source silent on final books so null OK; skip repost \u2014 bot already in thread.",
     "verdict": "clean"
   },
-  "_last_tick": "2026-08-31T23:36:03Z",
-  "_tick": "2026-08-31T21:53:40Z",
   "1788244348.182559": {
-    "checked_at": "2026-09-01T06:43:00Z",
-    "verdict": "flagged"
+    "br_id": 14640259,
+    "checked_at": "2026-09-01T06:41:44Z",
+    "issuer": "CFF",
+    "note": "Guidance MS+60bp area clean; bot already in thread",
+    "verdict": "clean"
   },
   "1788244655.302369": {
-    "checked_at": "2026-09-01T06:43:30Z",
+    "br_id": 14640264,
+    "checked_at": "2026-09-01T06:41:44Z",
+    "issuer": "Erste Group",
+    "note": "Tranche B missing from tranches[] admin form; bot already in thread",
     "verdict": "flagged"
-  }
+  },
+  "_last_tick": "2026-08-31T23:36:03Z",
+  "_tick": "2026-08-31T21:53:40Z"
 }
