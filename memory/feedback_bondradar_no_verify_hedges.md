@@ -5,12 +5,15 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-19T12:46:31.164Z
+  modified: 2026-09-01T08:52:53.417Z
 ---
 
 **Don't hedge on BR QA calls.** Every finding must be a clear FLAG or a clear CLEAN. Never post something like "Note: source says X; verify BR body has Y" as a footer on a "clean" verdict — that's an ambiguous middle that doesn't tell the human whether to act.
 
-**Why:** On OCBC Allocations Out (id 14620847), I marked the deal clean while noting "verify BR body's book line reads `Final books over GBP1.475bn (excl. JLM interest)` (spelled-out `over`, not `+`)" as a footer. Finn corrected: "this should be flagged as it doesn't say Final books over and has a + sign be more clear". The body actually had `Book update: Books over GBP1.475bn+ (excl. JLM interest)` — three separate bugs (wrong prefix, `Books` vs `Final books`, redundant `+`) — all of which I should have caught by fetching the full body before posting.
+**Why:** Two example incidents:
+
+- On OCBC Allocations Out (id 14620847), I marked the deal clean while noting "verify BR body's book line reads `Final books over GBP1.475bn (excl. JLM interest)` (spelled-out `over`, not `+`)" as a footer. Finn corrected: "this should be flagged as it doesn't say Final books over and has a + sign be more clear". The body actually had `Book update: Books over GBP1.475bn+ (excl. JLM interest)` — three separate bugs (wrong prefix, `Books` vs `Final books`, redundant `+`).
+- On a 3M multi-tranche IMA/roadshow finding, I appended `Consider whether notifyMobile should be false at this IMA/roadshow stage (no live pricing action yet), consistent with the KEB Hana Bank precedent.` as a speculative Fix bullet. Finn: "never say this". Same problem as `verify X` hedges — an ambiguous middle that doesn't act on data. If notifyMobile genuinely needs to be false at this stage, flag it with concrete evidence; otherwise leave it off the finding entirely.
 
 **How to apply:**
 
@@ -18,5 +21,6 @@ metadata:
 2. **A clean verdict means every field I checked passed.** If I have a doubt about a field I didn't visibly inspect, that's not clean — either fetch the field and check it, or (if fetching isn't practical) flag the uncertainty as its own finding, not a soft "verify" note.
 3. **A flag verdict means I have concrete evidence of a bug.** Quote the actual BR text that's wrong, don't paraphrase.
 4. **Never mix**: don't attach "verify X" hedges to a clean verdict. It reads as noise to the human and buries a real bug behind a green checkmark.
+5. **Banned phrasings** in every finding, clean or flagged: `verify …`, `Consider whether …`, `worth confirming …`, `may need to …`, `possibly …`, `consistent with the X precedent` used to justify a speculation. If a field genuinely needs to change based on a precedent from another deal, quote the precedent's concrete rule and flag directly; do not append it as a hedged suggestion. Also do not opine on fields you haven't observed a defect on — a QA is a defect list, not a checklist of everything that could theoretically move.
 
 See also [[br-qa-checker-project]].
