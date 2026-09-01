@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-28T08:18:14.426Z
+  modified: 2026-09-01T08:48:51.309Z
 ---
 
 When a source term-sheet / mandate announcement mentions a **ROADSHOW** or **Global Investor Calls** with specific date(s), the tranche form's `timing` field encodes that as **`i/c <date range>`** — `i/c` = "investor call" — followed by the date span in the compact `DD-DD MMM` format.
@@ -28,10 +28,23 @@ When a source term-sheet / mandate announcement mentions a **ROADSHOW** or **Glo
 
 ## How to apply
 
-- If the source discloses one investor-call date only → `i/c <DD Mmm>` (e.g. `i/c 01 Sep`).
-- If the source discloses a fixed multi-day span (e.g. #1 on 01 Sep, #2 on 02 Sep) → `i/c <DD-DD Mmm>` (e.g. `i/c 01-02 Sep`, `i/c 28-30 Aug`).
-- If the source describes an **open-ended series** starting on a date (rolling investor calls with no fixed end) → `i/c <DD Mmm>>` — the trailing `>` signals "series starting from" (e.g. `i/c 01 Sep>`). Finn: "then a series would be i/c 01 Sep>".
-  - Example source phrasing that maps to the `>` form: `arrange a series of fixed income investor meetings commencing Monday, 31 August 2026.` → `i/c 31 Aug>`. Trigger words on the source side: `series of`, `commencing`, `commence`, `starting`, no explicit end date. When you see any of those on a mandate/roadshow update, use `i/c <DD Mmm>>`.
+Two independent decisions: **date encoding** and **series marker**.
+
+**Date encoding — pick one:**
+- Single investor-call date → `<DD Mmm>` (e.g. `01 Sep`).
+- Fixed multi-day span with fully enumerated dates (e.g. #1 on 01 Sep, #2 on 02 Sep, no open-ended language) → `<DD-DD Mmm>` (e.g. `01-02 Sep`, `28-30 Aug`).
+
+**Series marker — append `>` when source uses "series" language, regardless of date encoding:**
+- Source uses the word `series` (`a series of investor calls`, `series of fixed income investor meetings`) OR uses `commencing` / `commence` / `starting` with no explicit end → append trailing `>`.
+- The `>` is orthogonal to the date form: it can attach to a single date or a multi-day range. Both are valid.
+
+**Combined forms:**
+- `i/c 01 Sep` — single date, no series wording.
+- `i/c 01-02 Sep` — fixed span, no series wording.
+- `i/c 31 Aug>` — single date with series wording (e.g. `arrange a series of fixed income investor meetings commencing Monday, 31 August 2026.`).
+- `i/c 01-02 Sep>` — fixed span with series wording (e.g. 3M Co., id 14640384: source said `organize a series of European fixed income investor calls to be scheduled on Tuesday, September 1st and Wednesday, September 2nd`. Finn: "is right about the timing except is should have a > at the end as it's a series of investor calls as stated". Two-day fixed schedule + explicit "series" word → `i/c 01-02 Sep>`).
+
+**Formatting details:**
 - The month is short-form three letters, no punctuation.
 - Do not include times or timezones — they belong in the body prose, not the tranche `timing` field.
 - `i/c` is lowercase with a slash — do not spell out "investor call" or capitalise.
