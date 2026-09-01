@@ -10,7 +10,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-27T13:51:40.804Z
+  modified: 2026-09-01T14:48:07.181Z
 ---
 
 Bond Radar messages have a stage-based rule for the book-line prefix:
@@ -58,7 +58,13 @@ Bond Radar messages have a stage-based rule for the book-line prefix:
 
 `Books above` and `Books over` are equivalent.
 
-**The word `over` (or `above`) must always be spelled out.** A trailing `+` on the amount is NOT a substitute. Correct: `Final books over EUR900m (incl. EUR50m JLM).`. Wrong: `Final books EUR900m+ (incl EUR50m JLM).`. Applies to every variant of the book line (`Books over`, `Final books over`, `Books closed over`, `Books last heard over`). Finn corrected on SpareBank 1 Sor-Norge Allocations (id 14620697) — I had let `EUR900m+` pass as equivalent to `over` and marked clean; that was wrong.
+**The word `over` (or `above`) is required when the source itself uses "greater-than" / floor language** (`Books over X`, `Books above X`, `>X`, `+`). It must be spelled out — a trailing `+` on the amount is NOT a substitute. Correct: `Final books over EUR900m (incl. EUR50m JLM).`. Wrong: `Final books EUR900m+ (incl EUR50m JLM).`. Finn corrected on SpareBank 1 Sor-Norge Allocations (id 14620697) — I had let `EUR900m+` pass as equivalent to `over` and marked clean; that was wrong.
+
+**When the source uses an EXACT-figure form (`=`, `at`, or a plain final number), the `over` is OPTIONAL** — an exact final figure isn't a floor, so `over` doesn't need to be spelled out. Both of these are correct BR body:
+- Source `Final books = €1.2bn` → BR `Final books EUR1.2bn.` OR `Final books over EUR1.2bn.` — either fine.
+- Source `Final books at €900m` → BR `Final books EUR900m.` OR `Final books over EUR900m.` — either fine.
+
+Finn on JR East EUR500m 9y Grn Allocations (id 14640302): source said `Final books = €1.2bn`, BR body had `Final books EUR1.2bn.`, tick flagged missing `over`. Finn: "this seems ok as it say final books= the same goes for at no need to write over". Rule: source's `=` / `at` licences BR to drop `over`. Applies to every variant of the book line (`Books`, `Final books`, `Books closed`, `Books last heard`).
 
 **Why:** Originally I over-generalized from the NAB Priced correction ("no `Book update:` prefix") to all stages. Finn corrected twice: first on the World Bank Guidance case (`Book update: IOIs over USD9bn` is correct), then more broadly — "Books update: is fine in the update for book updates until pricing". The rule is stage-based, not phrase-based. See NAB Priced (id 14620271) for the no-prefix example and World Bank (id 14620425) + DBJ (id 14620338) for the prefix-is-fine pre-pricing examples.
 
