@@ -1563,24 +1563,12 @@
   },
   "_last_tick": "2026-09-01T11:29:35Z",
   "_tick": "2026-09-01T11:29:35Z",
-  "1788262711.075709": {
-    "checked_at": "2026-09-01T12:06:53Z",
-    "verdict": "skipped"
-  },
-  "1788263831.864069": {
-    "checked_at": "2026-09-01T12:06:53Z",
-    "verdict": "clean"
-  },
   "1788262876.420729": {
-    "checked_at": "2026-09-01T12:04:00Z",
-    "verdict": "skipped"
-  },
-  "1788263121.448529": {
-    "checked_at": "2026-09-01T12:00:00Z",
-    "verdict": "skipped"
+    "checked_at": "2026-09-01T11:57:28.723391+00:00",
+    "verdict": "bot_already_in_thread"
   },
   "1788263260.505439": {
-    "checked_at": "2026-09-01T12:02:51Z",
-    "verdict": "skipped"
+    "checked_at": "2026-09-01T11:58:00.244670+00:00",
+    "verdict": "flagged"
   }
 }
