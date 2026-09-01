@@ -43,3 +43,4 @@
 - [Structure uses fractional years](feedback_bondradar_structure_year_format.md) — sub-2-year tenors read `1.5y` / `0.5y`, not `18m` / `6m`. Flag month-form structures.
 - [Casing + synonyms are flexible](feedback_bondradar_casing_and_synonyms.md) — stage-word case (`Final terms`/`Final Terms`, `Allocations`/`allocations`) is flexible; `Final books over`↔`Books closed over`, `Books above`↔`Books over`, `Books update:`↔`Book update:` are interchangeable. Flag substance, not surface.
 - [Roadshow → i/c timing](feedback_bondradar_roadshow_ic_timing.md) — when source announces investor-call dates, tranche form `timing` field reads `i/c DD-DD Mmm` (e.g. `i/c 01-02 Sep`).
+- [Canadian bail-inable = SNP](feedback_bondradar_canadian_bail_inable_snp.md) — Canadian bank bail-inable senior notes are Senior Non-Preferred. Set `seniorNonPreferred=true` on the priced-deal form, `SNP` flag in headline, "Senior Non-Preferred, Bail-inable Notes" in body.

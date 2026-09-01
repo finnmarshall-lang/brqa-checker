@@ -2970,115 +2970,126 @@
     "verdict": "clean"
   },
   "1787906685.924149": {
-    "checked_at": "2026-08-28T09:04:26Z",
-    "verdict": "flagged"
+    "br_id": 14620319,
+    "category": "hg",
+    "checked_at": "2026-08-28T09:04:10Z",
+    "issuer": "Accurus Aerospace Corporation",
+    "note": "Priced USD425m 5NC2 at 9.50% \u2014 headline/body/priced-deal form all match source term sheet PDF verbatim. Bot already in thread (skip repost). Recorded clean.",
+    "verdict": "clean"
   },
   "1787911114.094089": {
-    "checked_at": "2026-08-28T10:13:44Z",
-    "verdict": "skipped"
+    "br_id": 14631419,
+    "category": "hg",
+    "checked_at": "2026-08-28T10:03:07Z",
+    "issuer": "B2 Impact ASA",
+    "note": "Spread set 3mE+265bp EUR100m+ 5.3NC3 HY; headline/body/tranche form (v14640025 priceEvolution=E+265 timing=today)/deal flags/JLM count all clean",
+    "verdict": "clean"
   },
   "1787911158.961199": {
-    "checked_at": "2026-08-28T10:10:00Z",
+    "checked_at": "2026-08-28T10:24:46Z",
+    "note": "Human question with 9fin URL re Vedanta senior guaranteed vs secured; not a Bloomberg term-sheet forward.",
     "verdict": "skipped"
   },
   "1787911206.244869": {
-    "checked_at": "2026-08-28T10:20:00Z",
+    "checked_at": "2026-08-28T10:24:46Z",
+    "note": "Bot chat instruction to check 9fin listings; not a term sheet.",
     "verdict": "skipped"
   },
   "1787918098.589699": {
-    "checked_at": "2026-08-28T12:00:00Z",
-    "verdict": "skipped"
+    "checked_at": "2026-08-28T12:13:00Z",
+    "issuer": "bLEND Funding Plc",
+    "note": "GBP50m retained bond sale of BLNFND 5.26 06/11/32 (ISIN XS3090935852) \u2014 Barclays sole LT-credit request; no matching BR deal found across hg/em search (bLEND / BLNFND / ISIN); flagged as missing with add-instructions incl additionalInfo=\"sale of retained bond\".",
+    "verdict": "missing"
   },
   "1787919037.185109": {
-    "checked_at": "2026-08-28T12:25:00Z",
+    "br_id": 14631419,
+    "category": "hg",
+    "checked_at": "2026-08-28T13:20:33Z",
+    "issuer": "B2 Impact ASA",
+    "note": "Final terms EUR150m 5.3NC3 at 3mE+265bp (source: FINAL TERMS Slack term sheet). Headline/body/tranche v14640060 (priceEvolution=E+265 timing=launched)/2-JLM ticker shorthand DNB/NORDEA/deal flags all clean. Bot already in thread \u2014 skip repost per never-repost rule, state recorded.",
     "verdict": "clean"
   },
   "1787921102.910189": {
-    "checked_at": "2026-08-28T12:23:16Z",
+    "checked_at": "2026-08-28T13:33:28Z",
+    "note": "Chat instruction (\"Check this weeks priced deals for missing ratings / ISINs / Issue Dates\") \u2014 not a term sheet, no BR deal to QA.",
     "verdict": "skipped"
   },
   "1787924331.201959": {
-    "checked_at": "2026-08-28T13:40:00Z",
+    "checked_at": "2026-08-28T13:43:37Z",
+    "note": "Chat request to CEEMEA bot user to send weekly to pipeem \u2014 not a term sheet, no BR deal to QA.",
     "verdict": "skipped"
   },
   "1787929676.835339": {
-    "checked_at": "2026-08-28T15:25:46Z",
-    "verdict": "skipped"
+    "br_id": 14631419,
+    "category": "hg",
+    "checked_at": "2026-08-28T15:19:00Z",
+    "issuer": "B2 Impact ASA",
+    "note": "Bloomberg PRICED forward \u2014 same BR deal as SEB PRICED&ALLOCATED. Body (M/F) mislabel + missing (B&D) after Nordea.",
+    "verdict": "flagged"
   },
   "1787929841.319079": {
-    "checked_at": "2026-08-28T15:25:51Z",
-    "verdict": "skipped"
-  },
-  "1788159729.188039": {
-    "checked_at": "2026-08-31T07:13:57Z",
+    "br_id": 14631419,
+    "category": "hg",
+    "checked_at": "2026-08-28T15:19:00Z",
+    "issuer": "B2 Impact ASA",
+    "note": "PRICED&ALLOCATED source: Body issuer rating labels (M/F) should be (M/S) (source shows Moody Ba2 + S&P BB, no Fitch); Joint Bookrunners missing (B&D) after Nordea.",
     "verdict": "flagged"
-  },
-  "1788163344.926259": {
-    "checked_at": "2026-08-31T08:11:24Z",
-    "verdict": "flagged"
-  },
-  "1788163731.814599": {
-    "checked_at": "2026-08-31T08:22:43Z",
-    "verdict": "clean"
-  },
-  "1788164461.601659": {
-    "checked_at": "2026-08-31T08:33:00Z",
-    "verdict": "flagged"
-  },
-  "1788166781.793159": {
-    "checked_at": "2026-08-31T09:11:52Z",
-    "verdict": "clean"
-  },
-  "1788167737.084479": {
-    "checked_at": "2026-08-31T09:22:49Z",
-    "verdict": "clean"
-  },
-  "1788167882.800509": {
-    "checked_at": "2026-08-31T09:32:45Z",
-    "verdict": "flagged"
-  },
-  "1788168868.548079": {
-    "checked_at": "2026-08-31T09:42:00Z",
-    "verdict": "clean"
   },
   "1788171155.873259": {
-    "checked_at": "2026-08-31T10:20:00Z",
+    "checked_at": "2026-08-31T16:07:00Z",
+    "issuer": "K+S AKTIENGESELLSCHAFT",
+    "note": "Cash tender offer for EUR500m 4.250% 2029 notes \u2014 liability management, not a new-issue term sheet; no BR deal to QA.",
     "verdict": "skipped"
   },
   "1788173220.953369": {
-    "checked_at": "2026-08-31T10:56:00Z",
-    "verdict": "skipped"
+    "checked_at": "2026-08-31T15:56:10Z",
+    "verdict": "flagged"
   },
   "1788176853.435749": {
-    "checked_at": "2026-08-31T11:51:54Z",
+    "checked_at": "2026-08-31T15:56:10Z",
     "verdict": "clean"
   },
   "1788179126.949419": {
-    "checked_at": "2026-08-31T12:45:14Z",
-    "verdict": "flagged"
+    "checked_at": "2026-08-31T15:56:10Z",
+    "verdict": "clean"
   },
   "1788182538.434989": {
-    "checked_at": "2026-08-31T13:31:59Z",
+    "br_id": 14640165,
+    "checked_at": "2026-08-31T16:07:00Z",
+    "issuer": "Manulife Financial",
+    "note": "Mandated USD 15NC10 subordinated \u2014 headline missing Sub format flag; body/tranche/deal flags all clean. Bot already posted in thread; slack_post skipped repost.",
     "verdict": "flagged"
   },
   "1788184013.760399": {
-    "checked_at": "2026-08-31T13:52:00Z",
-    "verdict": "flagged"
+    "checked_at": "2026-08-31T15:56:10Z",
+    "verdict": "clean"
   },
   "1788185095.916149": {
-    "checked_at": "2026-08-31T14:20:16Z",
+    "checked_at": "2026-08-31T15:56:10Z",
     "verdict": "flagged"
   },
   "1788192476.551839": {
-    "checked_at": "2026-08-31T16:35:00Z",
-    "verdict": "skipped"
+    "br_id": 14640158,
+    "category": "hg",
+    "checked_at": "2026-08-31T16:32:41Z",
+    "issuer": "National Bank of Canada",
+    "note": "Guidance stage Spread set T+65bp; dual-tranche with T-B FRN dropped; headline/body/tranche form/deal-level flags all clean",
+    "verdict": "clean"
   },
   "1788196782.858709": {
-    "checked_at": "2026-08-31T17:33:52Z",
-    "verdict": "skipped"
+    "br_id": 14640158,
+    "checked_at": "2026-08-31T17:26:34Z",
+    "issuer": "National Bank of Canada",
+    "note": "Final terms USD1.25bn 3NC2 at T+65bp (Tranche B dropped) \u2014 headline/body/tranche form/deal flags all clean",
+    "verdict": "clean"
   },
   "1788201396.956469": {
-    "checked_at": "2026-08-31T18:44:45Z",
-    "verdict": "flagged"
-  }
+    "br_id": 14640158,
+    "checked_at": "2026-08-31T21:20:00Z",
+    "issuer": "National Bank of Canada",
+    "note": "Priced USD1.25bn 3NC2 at T+65bp; priced-deal 14640180 all fields clean (mwc/hg3a2 correct; opCo/holdCo=false correct \u2014 Canadian bank not on whitelist); regionAmericas=true; source silent on final books so null OK; skip repost \u2014 bot already in thread.",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-08-31T23:36:03Z",
+  "_tick": "2026-08-31T21:53:40Z"
 }
