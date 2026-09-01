@@ -1,32 +1,4 @@
 {
-  "1787664350.259769": {
-    "br_id": 14630962,
-    "checked_at": "2026-08-25T14:45:00Z",
-    "issuer": "NWB Bank",
-    "note": "Already posted in prior tick (state commit was lost) \u2014 Allocations \u2014 Perfect; recovered via bot_already_in_thread guard",
-    "verdict": "clean"
-  },
-  "1787664525.188659": {
-    "br_id": 14630866,
-    "checked_at": "2026-08-25T14:45:00Z",
-    "issuer": "Aareal Bank",
-    "note": "Already posted in prior tick (state commit was lost) \u2014 Allocations \u2014 Perfect; recovered via bot_already_in_thread guard",
-    "verdict": "clean"
-  },
-  "1787664640.921679": {
-    "br_id": 14631182,
-    "checked_at": "2026-08-25T14:45:00Z",
-    "issuer": "Macquarie Group",
-    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 holdCo wrongly ticked, price-evolution log missing final spread; recovered via bot_already_in_thread guard",
-    "verdict": "flagged"
-  },
-  "1787665065.185939": {
-    "br_id": 14631120,
-    "checked_at": "2026-08-25T14:45:00Z",
-    "issuer": "Grenke Finance",
-    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 missing space typo in body; recovered via bot_already_in_thread guard",
-    "verdict": "flagged"
-  },
   "1787665819.257579": {
     "br_id": 14630843,
     "checked_at": "2026-08-25T14:45:00Z",
@@ -1610,6 +1582,34 @@
   "1788268516.228639": {
     "checked_at": "2026-09-01T13:25:12Z",
     "note": "bot_already_in_thread from concurrent tick",
+    "verdict": "flagged"
+  },
+  "1788268612.979069": {
+    "br_id": 14640632,
+    "checked_at": "2026-09-01T13:40:38Z",
+    "issuer": "Manulife Financial",
+    "note": "IPTs \u2014 flagged (Denoms missing from body); recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
+  },
+  "1788268632.675619": {
+    "br_id": 14640307,
+    "checked_at": "2026-09-01T13:40:38Z",
+    "issuer": "Eurobank",
+    "note": "Allocations out \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "verdict": "clean"
+  },
+  "1788268818.715999": {
+    "br_id": 14640220,
+    "checked_at": "2026-09-01T13:40:38Z",
+    "issuer": "Sichuan Naxing",
+    "note": "Priced \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "verdict": "clean"
+  },
+  "1788269352.529999": {
+    "br_id": 14640297,
+    "checked_at": "2026-09-01T13:40:38Z",
+    "issuer": "BPCE SA",
+    "note": "Priced \u2014 flagged: opCo=true wrong (French bank, not on OpCo/HoldCo eligible list), plus Reference Gilt date \"06 July 2032\" should be \"07 June 2032\" (MM/DD/YY, matches earlier dealHistory entries)",
     "verdict": "flagged"
   },
   "_last_tick": "2026-09-01T13:07:40.542053Z",
