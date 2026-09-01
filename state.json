@@ -1633,6 +1633,14 @@
     "note": "Priced hybrid \u2014 Perfect; recovered via bot_already_in_thread guard",
     "verdict": "clean"
   },
+  "1788270083.813849": {
+    "br_id": 14640264,
+    "category": "hg",
+    "checked_at": "2026-09-01T14:17:00Z",
+    "issuer": "Erste Group",
+    "note": "Allocations out EUR1.5bn dual-tranche SP (3y MS+37 / 7y MS+70) \u2014 Perfect; headline/body/tranche form (v14640574 & 14640575 both launched)/banks.active counts 7 on A and 8 on B (Jyske only on 7y) all match source. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean"
+  },
   "1788270350.935739": {
     "br_id": 14640318,
     "checked_at": "2026-09-01T13:54:35Z",
@@ -1640,30 +1648,46 @@
     "note": "Priced \u2014 Perfect; single-tranche EUR300m 3y MS+40bp, keepwell-supported, all fields align",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-01T13:54:35Z",
-  "_tick": "2026-09-01T13:54:35Z",
-  "1788270083.813849": {
-    "checked_at": "2026-09-01T14:03:38Z",
-    "verdict": "skipped"
-  },
   "1788270497.592139": {
-    "checked_at": "2026-09-01T14:03:38Z",
-    "verdict": "skipped"
+    "br_id": 14640139,
+    "category": "hg",
+    "checked_at": "2026-09-01T14:04:51Z",
+    "issuer": "La Poste",
+    "note": "Allocations Out EUR500m 5y at MS+65bp \u2014 headline/body/tranche form (v14640588 MS+65 launched)/6-JLM count/deal-level flags all clean; CET carried verbatim from source per cet-cest-by-source rule. Bot already in thread from concurrent tick \u2014 skipped repost.",
+    "verdict": "clean"
   },
   "1788271177.683409": {
-    "checked_at": "2026-09-01T14:11:00Z",
+    "br_id": 14640307,
+    "category": "hg",
+    "checked_at": "2026-09-01T14:17:00Z",
+    "issuer": "Eurobank",
+    "note": "Priced EUR600m 7NC6 Grn SP at MS+98bp \u2014 bot flagged HSBC (DM) role drift + book-line 'closed' wording preservation from Allocations. Independent walk also spots 'Yield 4.231%.Settle' missing space after period in priced-form message. priced-deal 14640645 fields otherwise clean (finalBooks=1350, green=true sole UOP flag, holdCo/opCo=false correct \u2014 Greek bank not on whitelist, cuc=true from CUC 75, dealRegsOnly=true, 5 dealBanks). Bot already in thread \u2014 skipped repost.",
     "verdict": "flagged"
   },
   "1788271486.036589": {
-    "checked_at": "2026-09-01T14:11:00Z",
+    "br_id": 14640273,
+    "category": "hg",
+    "checked_at": "2026-09-01T14:17:00Z",
+    "issuer": "Santander UK",
+    "note": "Allocations out USD1.5bn 3y CB at SMS+40bp \u2014 bot flagged missing forward-looking timing/pricing statement on the Allocations line. Tranche form v14640601 (USD/1.5bn/3y CB/SMS+40/JT-LEADS/launched); regionAmericas=true + coveredBonds=true correct; ISIN XS3492392488 carried; 5 JLMs incl Santander (B&D). Bot already in thread \u2014 skipped repost.",
     "verdict": "flagged"
   },
   "1788271988.300329": {
-    "checked_at": "2026-09-01T14:21:00Z",
+    "br_id": 14640646,
+    "category": "em",
+    "checked_at": "2026-09-01T14:34:27.840421Z",
+    "issuer": "Banco del Estado de Chile",
+    "note": "Priced JPY5bn 5y at 2.64% (SMBC shibosai-style Yen private placement) \u2014 BR headline null and message body truncated to `Senior Unsecured Notes. Settle 7 July 2026.` on active priced record; priced-deal 14640647 fields otherwise clean. Bot already in thread from concurrent tick \u2014 skipped repost, state recorded.",
     "verdict": "flagged"
   },
   "1788272853.664699": {
-    "checked_at": "2026-09-01T14:31:00Z",
-    "verdict": "skipped"
-  }
+    "br_id": 14640139,
+    "category": "hg",
+    "checked_at": "2026-09-01T14:34:27.840421Z",
+    "issuer": "La Poste",
+    "note": "Priced EUR500m 5y at MS+65bp \u2014 priced-deal 14640653 finalBooks=null while Allocations dealHistory carries Final books over EUR1.15bn; all other fields clean. Posted flagged finding.",
+    "verdict": "flagged"
+  },
+  "_last_tick": "2026-09-01T14:34:27.840421Z",
+  "_tick": "2026-09-01T14:34:27.840421Z"
 }
