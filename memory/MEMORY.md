@@ -47,3 +47,4 @@
 - [Only Moody's/S&P/Fitch count](feedback_bondradar_only_three_rating_agencies.md) — BR Ratings line carries only M/S/F. Never flag missing Scope / DBRS / KBRA / other secondary-agency ratings.
 - [Preserve source spread ranges](feedback_bondradar_spread_range_preservation.md) — when source says `+[55-57]bps` / `MS+75-80`, BR carries the full range (`3mE+55/57bp`), not just one endpoint. Flag when only one side is shown.
 - [Revised guidance stage](feedback_bondradar_revised_guidance_stage.md) — when level moves between guidance updates, headline stage word is `Revised guidance <new level>`, not `Book update` (level unchanged only) and not plain `Guidance` (first pass).
+- [Skip tender offers](feedback_bondradar_skip_tender_offers.md) — tender/exchange/consent-solicitation announcements are liability-management, not primary issuance. Skip silently (state `verdict: "skipped"`, no Slack post).
