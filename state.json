@@ -1680,6 +1680,10 @@
     "note": "Priced JPY5bn 5y at 2.64% (SMBC shibosai-style Yen private placement) \u2014 BR headline null and message body truncated to `Senior Unsecured Notes. Settle 7 July 2026.` on active priced record; priced-deal 14640647 fields otherwise clean. Bot already in thread from concurrent tick \u2014 skipped repost, state recorded.",
     "verdict": "flagged"
   },
+  "1788272557.144019": {
+    "checked_at": "2026-09-01T14:44:38Z",
+    "verdict": "clean"
+  },
   "1788272853.664699": {
     "br_id": 14640139,
     "category": "hg",
@@ -1688,18 +1692,14 @@
     "note": "Priced EUR500m 5y at MS+65bp \u2014 priced-deal 14640653 finalBooks=null while Allocations dealHistory carries Final books over EUR1.15bn; all other fields clean. Posted flagged finding.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-01T14:34:27.840421Z",
-  "_tick": "2026-09-01T14:34:27.840421Z",
-  "1788272557.144019": {
-    "checked_at": "2026-09-01T14:44:58Z",
+  "1788273043.428899": {
+    "checked_at": "2026-09-01T14:44:38Z",
     "verdict": "clean"
   },
-  "1788273043.428899": {
-    "checked_at": "2026-09-01T14:43:04Z",
-    "verdict": "flagged"
-  },
   "1788273369.170349": {
-    "checked_at": "2026-09-01T14:41:39Z",
-    "verdict": "flagged"
-  }
+    "checked_at": "2026-09-01T14:44:38Z",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-01T14:34:27.840421Z",
+  "_tick": "2026-09-01T14:34:27.840421Z"
 }
