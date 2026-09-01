@@ -34,7 +34,7 @@
 - [Benchmark date format: spell out month + year](feedback_bondradar_benchmark_date_format.md) — `OBL 2.1% April 2029`, not `04/29`. Flag MM/YY shorthand in spread refs.
 - [WNG counts as size set](feedback_bondradar_wng_size_set.md) — `EUR500m (WNG)` + `Spread set` = Final Terms / Launched, not Spread Set. Don't call Final Terms premature.
 - [SARON MS+ in body/headline (CHF only)](feedback_bondradar_saron_ms_shorthand.md) — CHF/SARON only. Outgoing message uses `SARON MS+X`; admin fields use bare `SARON+X`. Do NOT apply to USD/SOFR (`SMS+X` stays), GBP/SONIA, or EUR/Euribor.
-- [Book Update headline can drop level](feedback_bondradar_headline_level_optional.md) — Book Update headlines don't need `at MS+X` embedded; every other stage still expects it as normal.
+- [Book Update + Allocations headline: level optional](feedback_bondradar_headline_level_optional.md) — level embed is optional at Book Update AND Allocations (length judgement, either way is fine); every other stage still expects it as normal.
 - [Priced-deal form finalBooks](feedback_bondradar_priced_form_final_books.md) — walk `finalBooks` on every priced tranche; a null figure while siblings/source have one is a flag.
 - [nonBullet holds structure code](feedback_bondradar_nonbullet_structure.md) — `nonBullet` = structure like `16NC6`, not Y/N. Never propose changing it to a Y/N value.
 - [CET/CEST by source](feedback_bondradar_cet_cest_by_source.md) — never auto-correct timezone labels by the calendar; carry the source's `CET`/`CEST`/`BST`/`EDT` verbatim.

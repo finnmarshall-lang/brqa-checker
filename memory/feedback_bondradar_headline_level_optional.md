@@ -1,19 +1,29 @@
 ---
 name: bondradar-headline-level-optional
-description: Embedding the spread level in the BR headline is OPTIONAL specifically at Book Update. All other stages still expect it — do not overgeneralize this rule.
-metadata: 
+description: Embedding the spread level in the BR headline is OPTIONAL at Book Update AND at Allocations. Do NOT flag the presence or absence of the level at those stages either way. Other stages still expect it.
+metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-25T10:54:12.034Z
+  modified: 2026-09-01T14:49:25.665Z
 ---
 
-**Book Update headlines don't need the level embedded.** `** Raiffeisenverband Salzburg EUR250m lg 5y CB: Book update` is a correct headline even though the level (`MS+29bp area`) is only in the body.
+**Level embedding is optional at Book Update and Allocations headlines.** Include if it fits; omit if the title is getting long. Both are valid:
 
-Do NOT overgeneralize this to other stages. IPTs, Guidance, Spread set, Priced, Priced tap, Launched, Final terms — those all still carry the level in the headline as normal.
+- `** Raiffeisenverband Salzburg EUR250m lg 5y CB: Book update` — no level, correct.
+- `** Autostrade per l'Italia EUR750m lg 7y at MS+108bp: Allocations` — level embedded, correct.
+- `** Autostrade per l'Italia EUR750m lg 7y: Allocations` — no level, also correct.
 
-**Why:** Finn cleared a QA on Raiffeisenverband Salzburg (id 14630878) where the tick flagged the Book Update headline for missing `at MS+29bp area`. Finn: "his title is fine — don't have to include the MS+29bp area." When I initially wrote this rule for all intermediate stages, Finn corrected me: "no this is just for book updates."
+Do NOT flag the presence OR absence of a level at these two stages. Other stages still expect it as normal — IPTs, Guidance, Revised guidance, Spread set, Final terms / Launched, Priced, Priced tap all carry the level in the headline. Flag missing level there; flag mismatch anywhere.
 
-**How to apply:** When walking a headline whose stage word is `Book update` (single-tranche), do not flag the absence of an embedded level. For every other stage keep the existing behavior — including level required at Priced / Priced tap / Launched / Final terms, and level typically present at IPTs / Guidance / Spread set (flag only if it's contradicting the body or genuinely wrong, not if it's the standard for the stage).
+**Why:** Two Finn corrections established this rule:
+- **Raiffeisenverband Salzburg (id 14630878)**: I flagged a Book Update headline for missing level. Finn: "his title is fine — don't have to include the MS+29bp area."
+- **Autostrade per l'Italia EUR750m lg 7y Allocations (id 14640328)**: I proposed dropping `at MS+108bp` from the Allocations headline, arguing "Allocations-stage headlines never embed a level". Finn: "no need to say this as the title isn't too long." So embedded level at Allocations is fine — decision is a length judgement, not a strict house-style rule, and either way is not a defect to flag.
 
-Related: [[bondradar-headline-always-check]] (walk all 8 elements, but Book Update headline allows level to sit in the body), [[bondradar-no-level-embed-dual-tranche]] (dual/multi-tranche never gets an embedded joined level regardless of stage).
+**How to apply:** When walking a headline whose stage word is `Book update` or `Allocations`:
+- Level embedded → no flag.
+- Level absent → no flag.
+- Level embedded AND contradicts body/tranche → flag (that's a real number mismatch).
+For every other stage keep the existing behaviour — including level required at Priced / Priced tap / Launched / Final terms, and level typically present at IPTs / Guidance / Revised guidance / Spread set (flag only if it's contradicting the body or genuinely wrong, not if it's the standard for the stage).
+
+Related: [[bondradar-headline-always-check]] (walk all 8 elements; Book Update AND Allocations headlines allow level to sit in the body only), [[bondradar-no-level-embed-dual-tranche]] (dual/multi-tranche never gets an embedded joined level regardless of stage).
