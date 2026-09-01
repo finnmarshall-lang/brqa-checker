@@ -1,25 +1,4 @@
 {
-  "1787663302.314269": {
-    "br_id": 14630931,
-    "checked_at": "2026-08-25T14:45:00Z",
-    "issuer": "World Bank",
-    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 Citi (B&D/DM) tag missing, SEC-exempt format flags backwards; recovered via bot_already_in_thread guard",
-    "verdict": "flagged"
-  },
-  "1787663613.378239": {
-    "br_id": 14630825,
-    "checked_at": "2026-08-25T14:45:00Z",
-    "issuer": "Ile-de-France Mobilites",
-    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 Perfect; recovered via bot_already_in_thread guard",
-    "verdict": "clean"
-  },
-  "1787663980.050009": {
-    "br_id": 14631026,
-    "checked_at": "2026-08-25T14:45:00Z",
-    "issuer": "NEC Corp",
-    "note": "Already posted in prior tick (state commit was lost) \u2014 Priced \u2014 ISIN missing, bookrunner list undercounted; recovered via bot_already_in_thread guard",
-    "verdict": "flagged"
-  },
   "1787664350.259769": {
     "br_id": 14630962,
     "checked_at": "2026-08-25T14:45:00Z",
@@ -1608,6 +1587,30 @@
     "issuer": "Land Hessen",
     "note": "Priced EUR1.25bn 5y at MS+9bp; priced-deal 14640622 all fields clean (finalBooks=4400, dealRegsOnly=true, all holdCo/opCo/mwc booleans false correct); slack_post skipped bot_already_in_thread from concurrent tick.",
     "verdict": "clean"
+  },
+  "1788267549.460139": {
+    "checked_at": "2026-09-01T13:23:44Z",
+    "note": "bot_already_in_thread from concurrent tick",
+    "verdict": "clean"
+  },
+  "1788267687.386889": {
+    "checked_at": "2026-09-01T13:25:12Z",
+    "note": "bot_already_in_thread from concurrent tick",
+    "verdict": "clean"
+  },
+  "1788267787.889399": {
+    "checked_at": "2026-09-01T13:25:12Z",
+    "note": "bot_already_in_thread from concurrent tick",
+    "verdict": "clean"
+  },
+  "1788268337.783919": {
+    "checked_at": "2026-09-01T13:25:12Z",
+    "verdict": "clean"
+  },
+  "1788268516.228639": {
+    "checked_at": "2026-09-01T13:25:12Z",
+    "note": "bot_already_in_thread from concurrent tick",
+    "verdict": "flagged"
   },
   "_last_tick": "2026-09-01T13:07:40.542053Z",
   "_tick": "2026-09-01T13:07:40.542053Z"
