@@ -6,6 +6,7 @@ The working directory is the current directory (the repo root). Follow the workf
 - ./slack_reactors.py <channel> <ts> for the reactor lookup
 - ./slack_file.py <file_id> for Bloomberg-forwarded HTML attachments
 - ./slack_post.py <channel> <thread_ts> - (message on stdin) for posting the finding — this posts as the BR QA bot and also refuses to post if the bot already replied in the thread. NEVER use `slack_send_message` MCP; that posts as Finn's account.
+- ./slack_react.py <channel> <message_ts> <emoji_name> for adding an emoji reaction to the term-sheet message itself (used to mark CLEAN verdicts with `:double-tick:` so the desk can see at a glance that a deal has passed QA).
 - Every rule file under ./memory/
 
 Env vars already loaded: BR_USERNAME, BR_PASSWORD, SLACK_BOT_TOKEN, SHARD_FILE, STATE_DELTA_FILE.
@@ -25,6 +26,11 @@ Your job:
    - **If the message is a tender offer / liability-management / exchange / consent solicitation** (source uses phrases like `tender offer`, `invitation to tender`, `invitation to exchange`, `consent solicitation`, `any and all tender`): SKIP silently — no Slack post, just record `verdict: "skipped"` in the state delta. See memory/feedback_bondradar_skip_tender_offers.md. These are not tracked in BR's primary deal feed.
    - **If the message is clearly NOT deal-related** (a question, a joke, a link to something unrelated) OR you can't find a BR record after a reasonable search: skip it. Do NOT post to the thread. Record the skip in the state delta so the next tick doesn't retry it.
 3. After each processed message (post OR skip), append an entry to the file named by env var $STATE_DELTA_FILE. That file is a JSON dict of `{<message_ts>: {"checked_at": "<ISO UTC>", "verdict": "clean"|"flagged"|"skipped"}}`. Read the file if it exists, add your new entry, write it back. A post-step (merge_deltas.py) will merge every shard's delta into state.json when all shards finish, so you MUST NEVER touch state.json directly — writing state.json from a parallel shard corrupts the file.
+4. **After posting a finding, react to the term-sheet message itself with an emoji so the desk can see at a glance whether it passed:**
+   - `verdict: "clean"` → `python3 slack_react.py C09JX51GAKH <message_ts> double-tick` (adds `:double-tick:` — the deal is fine, no action needed).
+   - `verdict: "flagged"` → `python3 slack_react.py C09JX51GAKH <message_ts> exclamation` (adds `:exclamation:` — the deal needs looking into).
+   - `verdict: "skipped"` → do NOT react (skipped means we didn't actually QA it — tender offer, non-deal chatter, no BR record).
+   Do this AFTER the slack_post.py call succeeds; if the react fails (missing scope / emoji doesn't exist), log the error and carry on — the thread reply is the primary output, the reaction is a visual aid.
 
 ## Non-negotiable rules
 
