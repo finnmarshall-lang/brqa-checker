@@ -1612,30 +1612,34 @@
     "note": "Priced \u2014 flagged: opCo=true wrong (French bank, not on OpCo/HoldCo eligible list), plus Reference Gilt date \"06 July 2032\" should be \"07 June 2032\" (MM/DD/YY, matches earlier dealHistory entries)",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-01T13:07:40.542053Z",
-  "_tick": "2026-09-01T13:07:40.542053Z",
   "1788269602.526959": {
-    "checked_at": "2026-09-01T13:59:22Z",
-    "verdict": "skipped"
-  },
-  "1788270350.935739": {
-    "checked_at": "2026-09-01T13:59:22Z",
-    "verdict": "skipped"
+    "br_id": 14640427,
+    "checked_at": "2026-09-01T13:54:35Z",
+    "issuer": "Bank Gospodarstwa Krajowego (BGK)",
+    "note": "Guidance \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "verdict": "clean"
   },
   "1788269646.291319": {
-    "checked_at": "2026-09-01T13:56:00Z",
-    "verdict": "clean"
-  },
-  "1788270497.592139": {
-    "checked_at": "2026-09-01T13:56:00Z",
-    "verdict": "clean"
+    "br_id": 14640259,
+    "checked_at": "2026-09-01T13:54:35Z",
+    "issuer": "CFF (Compagnie de Financement Foncier)",
+    "note": "Priced \u2014 flagged (final-books line still carries pre-Priced language); recovered via bot_already_in_thread guard",
+    "verdict": "flagged"
   },
   "1788269703.345769": {
-    "checked_at": "2026-09-01T13:55:42Z",
-    "verdict": "skipped"
-  },
-  "1788270083.813849": {
-    "checked_at": "2026-09-01T13:53:48Z",
+    "br_id": 14640312,
+    "checked_at": "2026-09-01T13:54:35Z",
+    "issuer": "KPN",
+    "note": "Priced hybrid \u2014 Perfect; recovered via bot_already_in_thread guard",
     "verdict": "clean"
-  }
+  },
+  "1788270350.935739": {
+    "br_id": 14640318,
+    "checked_at": "2026-09-01T13:54:35Z",
+    "issuer": "PACCAR Financial Europe",
+    "note": "Priced \u2014 Perfect; single-tranche EUR300m 3y MS+40bp, keepwell-supported, all fields align",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-01T13:54:35Z",
+  "_tick": "2026-09-01T13:54:35Z"
 }
