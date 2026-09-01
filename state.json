@@ -1708,6 +1708,38 @@
     "note": "Priced GBP250m short 7y at G+107bp \u2014 Perfect; priced-deal 14640654 all fields clean (Case B additionalInfo \"Books last heard over GBP875m\" matches Launched-line 875m; ratings NR on S&P correct \u2014 source names only M/F); posted.",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-01T15:01:52.301535Z",
-  "_tick": "2026-09-01T15:01:52.301535Z"
+  "1788274097.165359": {
+    "br_id": 14640297,
+    "category": "hg",
+    "checked_at": "2026-09-01T15:12:02Z",
+    "issuer": "BPCE",
+    "note": "CORRECTED COUPON note for GBP400m lg 11NC6 T2 Priced at G+160bp; coupon 6.250% matches BR/priced-deal 14640637; bot already in thread \u2014 skipped repost per never-repost rule.",
+    "verdict": "clean"
+  },
+  "1788274365.328879": {
+    "br_id": 14640323,
+    "category": "hg",
+    "checked_at": "2026-09-01T15:12:02Z",
+    "issuer": "CIBC",
+    "note": "GBP850m 5y SONIA-Linked Canadian Legislative Covered Bond Priced; bot already posted flagged finding in thread (book line + additionalInfo) \u2014 skipped repost per never-repost rule.",
+    "verdict": "flagged"
+  },
+  "1788274523.432149": {
+    "br_id": 14561630,
+    "category": "hg",
+    "checked_at": "2026-09-01T15:12:02Z",
+    "issuer": "Capri Global Capital",
+    "note": "USD300m 3y WAL 144A/RegS senior secured Priced; bot already posted flagged finding in thread (ISIN + two priced-deal form fields) \u2014 skipped repost per never-repost rule.",
+    "verdict": "flagged"
+  },
+  "1788274965.902349": {
+    "br_id": 14640225,
+    "category": "em",
+    "checked_at": "2026-09-01T15:12:02Z",
+    "issuer": "CapitaLand Integrated Commercial Trust",
+    "note": "SGD400m 5y Grn Priced at 2.646%; headline/body/priced-deal form 14640658 all clean; Books last heard SGD700m carried forward per Case B; source did not publish ISIN (not flagged per rule 7); bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-01T15:12:02Z",
+  "_tick": "2026-09-01T15:12:02Z"
 }
