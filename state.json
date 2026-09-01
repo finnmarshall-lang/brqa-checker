@@ -1470,8 +1470,8 @@
     "note": "IPTs MS+135/140bp EUR bmk lg 7y; source names 13 JBRs, banks.active on Tranche A holds only 12 \u2014 one bank missing from admin form; headline/body/tranche form details otherwise clean; bot already in thread \u2014 skipped repost, state recorded.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-01T08:26:58Z",
-  "_tick": "2026-09-01T08:26:58Z",
+  "_last_tick": "2026-09-01T08:54:35Z",
+  "_tick": "2026-09-01T08:54:35Z",
   "1788248547.686079": {
     "checked_at": "2026-09-01T08:26:58Z",
     "verdict": "flagged",
@@ -1497,119 +1497,141 @@
     "verdict": "flagged"
   },
   "1788248734.782549": {
-    "checked_at": "2026-09-01T09:01:00Z",
-    "verdict": "skipped"
-  },
-  "1788249364.379529": {
-    "checked_at": "2026-09-01T09:02:00Z",
-    "verdict": "skipped"
-  },
-  "1788250292.910909": {
-    "checked_at": "2026-09-01T09:03:00Z",
-    "verdict": "skipped"
-  },
-  "1788250565.857719": {
-    "checked_at": "2026-09-01T09:03:30Z",
-    "verdict": "skipped"
-  },
-  "1788251432.102679": {
-    "checked_at": "2026-09-01T09:04:00Z",
-    "verdict": "skipped"
-  },
-  "1788251771.964289": {
-    "checked_at": "2026-09-01T09:05:00Z",
-    "verdict": "skipped"
-  },
-  "1788252301.542519": {
-    "checked_at": "2026-09-01T09:06:00Z",
-    "verdict": "flagged"
+    "br_id": 14640335,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:40:08Z",
+    "issuer": "Hammerson",
+    "note": "IPTs G+125/130bp GBP bmk short 7y; headline/body/tranche form (JT-LEADS, 4 leads)/flags (regionAmericas=false, expectedPageId=IGRB47) all clean; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
   },
   "1788248874.791929": {
-    "checked_at": "2026-09-01T09:06:54Z",
-    "verdict": "skipped"
+    "br_id": 14640347,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:41:17Z",
+    "issuer": "Toronto-Dominion Bank",
+    "note": "Spread set 3mE+55bp EUR bmk 3y FRN bail-inable; source Reoffer +[55-57]bps range dropped upper endpoint in body/headline/tranche priceEvolution; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "flagged"
+  },
+  "1788248894.370509": {
+    "br_id": 14640340,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:42:05Z",
+    "issuer": "Sage Group",
+    "note": "Mandated EUR500m 5.5y BBB+ senior unsecured; body/mandate quote/tranche form (JT-LEADS 4 leads, i/c 01 Sep)/flags all clean; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "1788248975.364829": {
+    "br_id": 14640139,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:43:05Z",
+    "issuer": "La Poste",
+    "note": "IPTs MS+90bp area EUR500m (exp.) 5y A/A+ senior unsecured; headline/body/tranche form (JT-LEADS 6 leads, MS+90a) all clean; only 2 rating agencies (S&P + Fitch \u2014 no Moody's invented); bot already in thread \u2014 skipped repost.",
+    "verdict": "clean"
+  },
+  "1788249364.379529": {
+    "br_id": 14640352,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:44:17Z",
+    "issuer": "Nexans",
+    "note": "Mandated EUR500m (WNG) 5y BB+ senior unsecured HY-routed; body/tranche form (3 leads BNP+SG GCs+Natixis, i/c 01 Sep)/HY flag routing (hyExpectedPageId HYRE7) all clean; bot already in thread.",
+    "verdict": "clean"
   },
   "1788249401.393449": {
-    "checked_at": "2026-09-01T09:06:54Z",
-    "verdict": "skipped"
+    "br_id": 14640357,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:45:02Z",
+    "issuer": "ACOSS",
+    "note": "Mandated EUR bmk 2y Social ACOSSL; body/tranche form (5 leads, 2y Soc, this week)/flags all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788250210.806599": {
+    "br_id": 14640384,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:46:04Z",
+    "issuer": "3M Company",
+    "note": "Mandated / investor calls EUR1.5bn multi-tranche A3/BBB+/A- SEC-registered; 3 tranches 2y/5y/8y EUR500m each; JT-LEADS 4 leads DB/BofA/Citi/JPM; all clean incl expectedPageCount=3; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788250218.407909": {
+    "br_id": 14640112,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:47:09Z",
+    "issuer": "ASFINAG",
+    "note": "Rev Guidance MS+9bp area EUR500m (WNG) 5y Aa1/AA+ Republic of Austria-guaranteed; dealHistoryEntry (Rev Guidance) headline/body/tranche form (MS+9a today JT-LEADS 4 leads) all clean; deal has since moved to Final terms MS+7; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788250292.910909": {
+    "br_id": 14640397,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:48:02Z",
+    "issuer": "Volksbank Wien",
+    "note": "Mandated EUR500m WNG 6NC5 Green SNP A3/BBB VOWIBA; 6 leads incl RBI as Sole Sustainability Structurer; structure `6NC5 Grn` correctly truncates SNP per 9-char cap; all clean; bot already in thread.",
+    "verdict": "clean"
   },
   "1788250350.345489": {
-    "checked_at": "2026-09-01T09:06:54Z",
+    "br_id": 14640153,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:48:53Z",
+    "issuer": "Land Hessen",
+    "note": "Book Update EUR bmk 5y AA+ (S) Landesschatzanweisung; Scope rating correctly dropped; 6 leads; book size EUR2.9bn incl JLM 400m matches source; all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788250357.274159": {
+    "br_id": 14640278,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:50:10Z",
+    "issuer": "BPCE",
+    "note": "Spread set SARON MS+90bp CHF150m+ 8y SP; SARON MS in body/headline (correct) vs bare SARON+90 on tranche form (correct); new min size bumped to 150m from source; all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788250481.485449": {
+    "br_id": 14640409,
+    "category": "em",
+    "checked_at": "2026-09-01T08:51:08Z",
+    "issuer": "Pakistan",
+    "note": "Investors call USD bmk dual-tranche lg 5y+10y 144A/RegS EM Asia; Logistics MUFG+ENBD; delegation preserved; regionAsia=true, expectedPageCount=2; all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788250565.857719": {
+    "checked_at": "2026-09-01T08:51:21Z",
+    "note": "Chat correction (not a BBG term sheet) \u2014 reoffer 55-57 \u2192 55 clarification for TD EUR bmk 3y FRN (id 14640347); no separate BR update to QA (see prior TD flag); skipped per term-sheet filter.",
     "verdict": "skipped"
   },
   "1788250703.074399": {
-    "checked_at": "2026-09-01T09:06:54Z",
-    "verdict": "skipped"
-  },
-  "1788251538.088369": {
-    "checked_at": "2026-09-01T09:06:54Z",
-    "verdict": "skipped"
-  },
-  "1788251849.539379": {
-    "checked_at": "2026-09-01T09:06:54Z",
-    "verdict": "skipped"
-  },
-  "1788248894.370509": {
-    "checked_at": "2026-09-01T09:08:42Z",
-    "verdict": "skipped"
-  },
-  "1788250210.806599": {
-    "checked_at": "2026-09-01T09:08:42Z",
-    "verdict": "skipped"
-  },
-  "1788250357.274159": {
-    "checked_at": "2026-09-01T09:08:42Z",
-    "verdict": "skipped"
-  },
-  "1788251093.991989": {
-    "checked_at": "2026-09-01T09:08:42Z",
-    "verdict": "skipped"
-  },
-  "1788251586.974769": {
-    "checked_at": "2026-09-01T09:08:42Z",
-    "verdict": "skipped"
-  },
-  "1788251997.475089": {
-    "checked_at": "2026-09-01T09:08:42Z",
-    "verdict": "skipped"
-  },
-  "1788248975.364829": {
-    "checked_at": "2026-09-01T09:07:47Z",
-    "verdict": "skipped"
-  },
-  "1788250218.407909": {
-    "checked_at": "2026-09-01T09:07:47Z",
-    "verdict": "skipped"
-  },
-  "1788250481.485449": {
-    "checked_at": "2026-09-01T09:07:47Z",
-    "verdict": "skipped"
-  },
-  "1788251136.056089": {
-    "checked_at": "2026-09-01T09:07:47Z",
-    "verdict": "skipped"
-  },
-  "1788251600.817639": {
-    "checked_at": "2026-09-01T09:07:47Z",
-    "verdict": "skipped"
-  },
-  "1788252153.759719": {
-    "checked_at": "2026-09-01T09:07:47Z",
-    "verdict": "skipped"
-  },
-  "1788252885.090169": {
-    "checked_at": "2026-09-01T09:15:59Z",
-    "verdict": "skipped"
-  },
-  "1788253159.318519": {
-    "checked_at": "2026-09-01T09:11:00Z",
-    "verdict": "flagged"
-  },
-  "1788253167.655489": {
-    "checked_at": "2026-09-01T09:12:58Z",
+    "br_id": 14640404,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:52:00Z",
+    "issuer": "Hamburg Commercial Bank",
+    "note": "Mandated EUR500m WNG 3y Ship Covered Bond (Ship Pfandbrief) HCOB A3/Aa3; 6 leads; coveredBonds=true; all clean; bot already in thread.",
     "verdict": "clean"
   },
-  "1788253482.206559": {
-    "checked_at": "2026-09-01T09:12:58Z",
-    "verdict": "flagged"
+  "1788251093.991989": {
+    "br_id": 14640416,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:52:48Z",
+    "issuer": "New Immo Holding",
+    "note": "Mandated EUR500m WNG 6y HY Ba1 senior unsecured NIMMOH; 5 leads CACIB+LBP+SG GCs+CICCIB+Natixis; tender-offer disclosure preserved; HY-routed hyExpectedPageId HYRE4; all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788251136.056089": {
+    "checked_at": "2026-09-01T08:52:48Z",
+    "note": "Tender offer notice (New Immo Holding) \u2014 not a new bond issuance term sheet; standalone tender is disclosed inside the New Immo Holding mandate (BR id 14640416); skipped per term-sheet filter.",
+    "verdict": "skipped"
+  },
+  "1788251432.102679": {
+    "br_id": 14640129,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:53:38Z",
+    "issuer": "Hypo Vorarlberg",
+    "note": "Book update EUR500m WNG 7y Mortgage CB Aaa; 6 leads; book size EUR1bn excl JLM matches source; coveredBonds=true; all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788251600.817639": {
+    "br_id": 14640287,
+    "category": "hg",
+    "checked_at": "2026-09-01T08:54:35Z",
+    "issuer": "NN Bank",
+    "note": "Book update EUR500m WNG 5y Dutch Legislative CB AAA; 5 leads + 2 co-leads; book size EUR1.9bn incl JLM 315m matches source; single-tranche level embedded in headline OK; all clean; bot already in thread.",
+    "verdict": "clean"
   }
 }
