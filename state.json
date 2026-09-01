@@ -1,39 +1,4 @@
 {
-  "1787654857.524879": {
-    "br_id": 14631095,
-    "checked_at": "2026-08-25T11:13:17Z",
-    "issuer": "La Mondiale",
-    "note": "Final terms EUR500m 16NC6 T2 MS+145bp \u2014 clean",
-    "verdict": "clean"
-  },
-  "1787655161.633979": {
-    "br_id": 14630784,
-    "checked_at": "2026-08-25T10:57:31Z",
-    "issuer": "Sveafastigheter AB",
-    "note": "Guidance EUR350m MS+155bp area; already QA'd by a prior tick (bot reply existed, state write was lost) - clean",
-    "verdict": "clean"
-  },
-  "1787655645.163869": {
-    "br_id": 14630917,
-    "checked_at": "2026-08-25T11:13:17Z",
-    "issuer": "Land Berlin",
-    "note": "Allocations out EUR1.25bn 10y MS+24bp \u2014 clean",
-    "verdict": "clean"
-  },
-  "1787655652.858209": {
-    "br_id": 14631206,
-    "checked_at": "2026-08-25T11:13:17Z",
-    "issuer": "OKB",
-    "note": "IPTs USD1bn 5y SOFR MS+35bp area \u2014 clean",
-    "verdict": "clean"
-  },
-  "1787656286.806259": {
-    "br_id": 14630830,
-    "checked_at": "2026-08-25T11:13:17Z",
-    "issuer": "ING-DiBa",
-    "note": "Allocations out EUR1bn 5y Grn CB MS+16bp \u2014 ING missing (DM) tag in bookrunner list",
-    "verdict": "flagged"
-  },
   "1787656665.070049": {
     "br_id": 14630843,
     "checked_at": "2026-08-25T11:21:44Z",
@@ -1560,6 +1525,34 @@
     "note": "Final terms EUR1bn 10y CB at MS+54bp; bot already in thread from prior tick, state write lost; independently re-verified clean (Rule 4 lowercase-t Final terms + Spread set opener; 8 JLMs with Natixis (B&D); coveredBonds=true; Books over EUR1.6bn / Books closed per Case A).",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-01T08:54:35Z",
+  "1788259882.542879": {
+    "checked_at": "2026-09-01T11:09:08Z",
+    "verdict": "bot_already"
+  },
+  "1788259957.574159": {
+    "checked_at": "2026-09-01T11:11:28Z",
+    "verdict": "flagged"
+  },
+  "1788259968.011239": {
+    "checked_at": "2026-09-01T11:12:39Z",
+    "verdict": "flagged"
+  },
+  "1788260176.800289": {
+    "checked_at": "2026-09-01T11:13:23Z",
+    "verdict": "bot_already"
+  },
+  "1788260400.578509": {
+    "checked_at": "2026-09-01T11:13:31Z",
+    "verdict": "clean"
+  },
+  "1788260476.866739": {
+    "checked_at": "2026-09-01T11:14:10Z",
+    "verdict": "bot_already"
+  },
+  "1788260622.686959": {
+    "checked_at": "2026-09-01T11:15:02Z",
+    "verdict": "bot_already"
+  },
+  "_last_tick": "2026-09-01T11:15:00Z",
   "_tick": "2026-09-01T10:57:00Z"
 }
