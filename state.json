@@ -1,100 +1,4 @@
 {
-  "1787658161.497219": {
-    "br_id": 14631088,
-    "checked_at": "2026-08-25T11:44:44Z",
-    "issuer": "ANZ New Zealand",
-    "note": "Allocations EUR750m CB MS+15bp - flagged missing 'Allocations out' body statement",
-    "verdict": "flagged"
-  },
-  "1787658428.889339": {
-    "br_id": 14630917,
-    "checked_at": "2026-08-25T12:22:00Z",
-    "issuer": "Land Berlin",
-    "note": "Priced EUR1.25bn 10y at MS+24bp; already QA-d by a prior tick before state.json save (thread had bot reply, matched my independent re-derivation) \u2014 clean, all fields/flags correct",
-    "verdict": "clean"
-  },
-  "1787658563.271379": {
-    "br_id": 14630830,
-    "checked_at": "2026-08-25T12:22:00Z",
-    "issuer": "ING-DiBa",
-    "note": "Priced EUR1bn 5y Green Mortgage CB at MS+16bp; already QA-d by a prior tick before state.json save (matched my independent re-derivation) \u2014 ING missing /DM bookrunner tag; finalBooks null should be 2200.0",
-    "verdict": "flagged"
-  },
-  "1787658766.304599": {
-    "br_id": 14631231,
-    "checked_at": "2026-08-25T12:22:00Z",
-    "issuer": "UNEDIC",
-    "note": "Mandated EUR bmk 2y Social; already QA-d by a prior tick before state.json save (matched my independent re-derivation) \u2014 clean, verbatim mandate quote, JT-LEADS correct (5 JLMs)",
-    "verdict": "clean"
-  },
-  "1787659192.987819": {
-    "br_id": 14631236,
-    "checked_at": "2026-08-25T12:22:00Z",
-    "issuer": "BBVA",
-    "note": "3T IPTs USD SNP (3y fixed/3y FRN/5y fixed); regionAmericas false but should be true (USD tranches); headline/body/tranche form otherwise clean",
-    "verdict": "flagged"
-  },
-  "1787659276.083189": {
-    "br_id": 14631245,
-    "checked_at": "2026-08-25T12:22:00Z",
-    "issuer": "Federal State of Saarland",
-    "note": "Mandated EUR500m 8y FRN LSA; headline omits FRN designator (tranche form correctly shows 8y FRN) \u2014 house style carries FRN in title for pure-floater deals",
-    "verdict": "flagged"
-  },
-  "1787660222.809779": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "clean"
-  },
-  "1787660454.128689": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "flagged"
-  },
-  "1787660751.459869": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "flagged"
-  },
-  "1787660813.113919": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "clean"
-  },
-  "1787661095.047429": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "flagged"
-  },
-  "1787661108.209089": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "flagged"
-  },
-  "1787661440.726129": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "clean"
-  },
-  "1787661624.007079": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "flagged"
-  },
-  "1787661698.147439": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "flagged"
-  },
-  "1787661843.363459": {
-    "checked_at": "2026-08-25T13:05:25Z",
-    "verdict": "clean"
-  },
-  "1787662943.432079": {
-    "br_id": 14630912,
-    "checked_at": "2026-08-25T14:41:00Z",
-    "issuer": "IADB",
-    "note": "Already posted in prior tick (state commit was lost) \u2014 Final terms casing + book line flag; recovered via bot_already_in_thread guard",
-    "verdict": "flagged"
-  },
-  "1787663012.668339": {
-    "br_id": 14630843,
-    "checked_at": "2026-08-25T14:45:00Z",
-    "issuer": "Traton Finance",
-    "note": "Already posted in prior tick (state commit was lost) \u2014 Allocations out \u2014 Book update prefix should drop, benchmark gilt drops day; recovered via bot_already_in_thread guard",
-    "verdict": "flagged"
-  },
   "1787663302.314269": {
     "br_id": 14630931,
     "checked_at": "2026-08-25T14:45:00Z",
@@ -1561,9 +1465,25 @@
     "note": "Guidance G+110bp area GBP250m short 7y; body typo \u2014 book-line reads \"Books subject 12.55 UK.\" (source \"12.55 UKT\"; T dropped). Headline/tranche form/flags otherwise clean. Bot already in thread; slack_post skipped.",
     "verdict": "flagged"
   },
+  "1788262711.075709": {
+    "br_id": 14640124,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Sparkasse Bolzano",
+    "note": "Priced EUR250m short 5y CB at MS+38bp; bot already in thread from prior tick (state write lost).",
+    "verdict": "flagged"
+  },
   "1788262876.420729": {
     "checked_at": "2026-09-01T11:57:28.723391+00:00",
     "verdict": "bot_already_in_thread"
+  },
+  "1788263121.448529": {
+    "br_id": 14640302,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "JR East",
+    "note": "Guidance MS+80bp area EUR500m 9y Green; bot already in thread from prior tick flagging book size dropped from body.",
+    "verdict": "flagged"
   },
   "1788263260.505439": {
     "checked_at": "2026-09-01T11:58:00.244670+00:00",
@@ -1577,118 +1497,118 @@
     "checked_at": "2026-09-01T12:12:10.532909Z",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-01T11:29:35Z",
-  "_tick": "2026-09-01T11:29:35Z",
-  "1788262711.075709": {
-    "checked_at": "2026-09-01T12:57:00Z",
-    "verdict": "skipped"
-  },
-  "1788264946.336279": {
-    "checked_at": "2026-09-01T12:57:00Z",
-    "verdict": "flagged"
-  },
-  "1788263121.448529": {
-    "checked_at": "2026-09-01T12:24:19Z",
-    "verdict": "skipped"
-  },
-  "1788265108.384429": {
-    "checked_at": "2026-09-01T12:24:19Z",
-    "verdict": "clean"
-  },
   "1788264278.162089": {
-    "checked_at": "2026-09-01T12:23:48Z",
-    "verdict": "skipped"
+    "br_id": 14640153,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Land Hessen",
+    "note": "Allocations EUR1.25bn 5y at MS+9bp; bot already in thread from prior tick flagging stale headline stage + book-line typo.",
+    "verdict": "flagged"
   },
   "1788264845.165929": {
-    "checked_at": "2026-09-01T12:24:08Z",
+    "br_id": 14640595,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Bank of Montreal",
+    "note": "IPTs USD bmk 4NC3 FXD/FRN; bot already in thread from prior tick flagging MWC scope + missing bail-inable flag.",
     "verdict": "flagged"
   },
+  "1788264946.336279": {
+    "br_id": 14640335,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Hammerson",
+    "note": "Final terms GBP250m short 7y at G+107bp; bot already in thread from prior tick.",
+    "verdict": "flagged"
+  },
+  "1788265108.384429": {
+    "br_id": 14640297,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "BPCE",
+    "note": "Allocations out GBP400m long 11NC6 T2 at G+160bp; bot already in thread from prior tick \u2014 clean.",
+    "verdict": "clean"
+  },
   "1788265160.977739": {
-    "checked_at": "2026-09-01T12:35:12Z",
+    "br_id": 14640604,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "SMBC",
+    "note": "Revised IPTs USD 3y FXD/FRN + 5y FRN Senior; bot already in thread from prior tick flagging regionAmericas false on all-USD deal.",
     "verdict": "flagged"
   },
   "1788265384.943679": {
-    "checked_at": "2026-09-01T12:33:24Z",
+    "br_id": 14640273,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Santander UK",
+    "note": "Launched/Final terms USD1.5bn 3y CB at SOFR MS+40bp; bot already in thread from prior tick \u2014 clean.",
     "verdict": "clean"
   },
   "1788265524.877009": {
-    "checked_at": "2026-09-01T12:33:25Z",
+    "br_id": 14640369,
+    "category": "em",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Saudi Arabia",
+    "note": "Book Update NY OPEN books > USD12bn excl JLM; bot already in thread from prior tick \u2014 clean.",
     "verdict": "clean"
   },
   "1788265608.422139": {
-    "checked_at": "2026-09-01T12:33:08Z",
+    "br_id": 14640323,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "CIBC",
+    "note": "Launched GBP850m 5y SONIA CB at SONIA+55bp; bot already in thread from prior tick flagging stage word + missing 'subject' book trailer.",
     "verdict": "flagged"
   },
   "1788265907.748309": {
-    "checked_at": "2026-09-01T12:45:00Z",
+    "br_id": 14640191,
+    "category": "em",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Norinchukin Bank",
+    "note": "Revised IPTs USD bmk 5y Green +115a / 10y +140a; bot already in thread from prior tick flagging missing dual-tranche marker + UOP absent.",
     "verdict": "flagged"
   },
   "1788265984.292719": {
-    "checked_at": "2026-09-01T12:44:07Z",
+    "br_id": 14640287,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Nationale-Nederlanden Bank",
+    "note": "Allocations out EUR500m 5y CB; bot already in thread from prior tick \u2014 clean.",
     "verdict": "clean"
   },
   "1788266513.581459": {
-    "checked_at": "2026-09-01T12:53:00Z",
+    "br_id": 14640302,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "JR East",
+    "note": "Launched EUR500m 9y Green at MS+78bp; bot already in thread from prior tick \u2014 clean.",
     "verdict": "clean"
   },
   "1788266741.291129": {
-    "checked_at": "2026-09-01T13:57:11Z",
+    "br_id": 14640347,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Toronto-Dominion Bank",
+    "note": "Priced EUR500m 3y FRN Bail-in at 3mE+55bp; bot already in thread from prior tick \u2014 clean.",
     "verdict": "clean"
   },
   "1788267116.635779": {
-    "checked_at": "2026-09-01T13:04:18Z",
-    "verdict": "flagged"
+    "br_id": 14561630,
+    "category": "em",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Capri Global Capital",
+    "note": "Launched USD300m 3y WAL Sr Sec 144A/RegS at 7.55%; independently re-verified clean; slack_post skipped bot_already_in_thread from concurrent tick.",
+    "verdict": "clean"
   },
   "1788267410.782129": {
-    "checked_at": "2026-09-01T13:00:00Z",
-    "verdict": "flagged"
-  },
-  "1788267549.460139": {
-    "checked_at": "2026-09-01T13:13:00Z",
+    "br_id": 14640153,
+    "category": "hg",
+    "checked_at": "2026-09-01T13:07:40.542053Z",
+    "issuer": "Land Hessen",
+    "note": "Priced EUR1.25bn 5y at MS+9bp; priced-deal 14640622 all fields clean (finalBooks=4400, dealRegsOnly=true, all holdCo/opCo/mwc booleans false correct); slack_post skipped bot_already_in_thread from concurrent tick.",
     "verdict": "clean"
   },
-  "1788267687.386889": {
-    "checked_at": "2026-09-01T13:13:57Z",
-    "verdict": "clean"
-  },
-  "1788267787.889399": {
-    "checked_at": "2026-09-01T13:13:47Z",
-    "verdict": "flagged"
-  },
-  "1788268337.783919": {
-    "checked_at": "2026-09-01T13:24:17Z",
-    "verdict": "skipped"
-  },
-  "1788268516.228639": {
-    "checked_at": "2026-09-01T13:23:08Z",
-    "verdict": "clean"
-  },
-  "1788268632.675619": {
-    "checked_at": "2026-09-01T13:23:37Z",
-    "verdict": "clean"
-  },
-  "1788268612.979069": {
-    "checked_at": "2026-09-01T13:33:00Z",
-    "verdict": "flagged"
-  },
-  "1788268818.715999": {
-    "checked_at": "2026-09-01T13:34:42Z",
-    "verdict": "clean"
-  },
-  "1788269352.529999": {
-    "checked_at": "2026-09-01T13:45:25Z",
-    "verdict": "skipped"
-  },
-  "1788269602.526959": {
-    "checked_at": "2026-09-01T13:43:17Z",
-    "verdict": "clean"
-  },
-  "1788269646.291319": {
-    "checked_at": "2026-09-01T13:44:15Z",
-    "verdict": "flagged"
-  },
-  "1788269703.345769": {
-    "checked_at": "2026-09-01T13:45:06Z",
-    "verdict": "clean"
-  }
+  "_last_tick": "2026-09-01T13:07:40.542053Z",
+  "_tick": "2026-09-01T13:07:40.542053Z"
 }
