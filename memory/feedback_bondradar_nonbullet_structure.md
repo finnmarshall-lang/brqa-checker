@@ -1,22 +1,29 @@
 ---
 name: bondradar-nonbullet-structure
-description: "The priced-deal `nonBullet` field holds a structure code like `16NC6`, not a Y/N flag. Never flag it as \"holding garbage\" for containing a structure string."
+description: "The priced-deal `nonBullet` field tracks CALL structures only. Callable bonds carry a structure code (`16NC6`, `10NC5`, `PNC5.5`). Non-callable amortising / sinking-fund bonds stay `N`. Never propose `Y` on an amortiser without a call date."
 metadata: 
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-25T15:57:23.895Z
+  modified: 2026-09-01T15:11:15.523Z
 ---
 
-The `nonBullet` field on the priced-deal form is a **structure code** (e.g. `16NC6`, `10NC5`, `30NC10`), not a boolean or Y/N indicator. It describes the non-bullet call structure of the bond — the value `16NC6` for a 16-year deal callable from year 6 is correct.
+The `nonBullet` field on the priced-deal form specifically tracks **call structures**, not any deviation from bullet. Two cases:
 
-**Why:** Finn cleared a QA on La Mondiale EUR500m 16NC6 T2 (deal 14631095, priced 14631286): I flagged `nonBullet: "16NC6"` as garbage, arguing it should be `Y`/`N`. Finn: "16NC6 is correct for the non-bullet."
+- **Callable bond (has a first call date, `NCX` structure)** → field holds a **structure code** like `16NC6`, `10NC5`, `PNC5.5`, `30NC10`. The code is the correct value.
+- **Non-callable amortiser / sinking fund / any other non-bullet structure without a call** → field stays `N` (not `Y`, not a code). The amortisation schedule doesn't live here — that's a separate covenant detail.
+- **Plain bullet** → `N`.
 
-**How to apply:** When walking the priced-deal form, treat `nonBullet` as a structure-code field. Only flag it when:
-- It contradicts the tranche `structure` field (e.g. tranche says `10NC5` but nonBullet says `16NC6`).
-- It's null on a deal that is clearly non-bullet (has a call schedule / NCX structure in the body).
-- It carries the structure of a different tranche on a multi-tranche deal.
+**How to apply:** When walking the priced-deal form, only flag `nonBullet` when:
+- The bond has a call date (source's `First Call Date` / `Optional Redemption Date`) and the field is null / `N` / holds the wrong code → flag; propose the correct `NCX` structure.
+- The bond is a plain bullet with no call and the field carries `Y` or a structure code → flag; propose `N`.
+- The field's code contradicts the tranche `structure` (`10NC5` vs `16NC6` on the same tranche) → flag with the correct value.
+- Different priced deals in the same batch — do NOT copy one deal's `nonBullet` onto another.
 
-Do NOT propose changing it to `Y` or `N`. Do NOT propose swapping it against another priced-deal in the tick's context — different deals have different structures.
+Do NOT propose `Y` on an amortising bond just because it has an unusual repayment schedule. `Y` is not a valid value in general — the field is either a call-structure code or `N`.
 
-Related: [[bondradar-structure-8char-limit]] (parent-tranche `structure` field is 8-char capped; nonBullet on the priced-deal form is not).
+**Why (two Finn corrections that established this rule):**
+- **La Mondiale EUR500m 16NC6 T2 (id 14631095, priced 14631286):** I flagged `nonBullet: "16NC6"` as garbage, arguing it should be `Y`/`N`. Finn: "16NC6 is correct for the non-bullet." → the field IS a structure code for callable bonds.
+- **[Amortiser deal] priced 14640656:** I proposed setting `nonBullet=Y` because the source disclosed a 3-instalment amortisation schedule (33.33% each on 9 Jun / 9 Sep / 9 Dec 2029). Finn: "NB is a no as its not a call date" → the field only marks call structures; a sinking fund without a call stays `N`.
+
+Related: [[bondradar-structure-8char-limit]] (parent-tranche `structure` field is 9-char capped; nonBullet on the priced-deal form isn't).

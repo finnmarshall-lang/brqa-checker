@@ -36,7 +36,7 @@
 - [SARON MS+ in body/headline (CHF only)](feedback_bondradar_saron_ms_shorthand.md) — CHF/SARON only. Outgoing message uses `SARON MS+X`; admin fields use bare `SARON+X`. Do NOT apply to USD/SOFR (`SMS+X` stays), GBP/SONIA, or EUR/Euribor.
 - [Book Update + Allocations headline: level optional](feedback_bondradar_headline_level_optional.md) — level embed is optional at Book Update AND Allocations (length judgement, either way is fine); every other stage still expects it as normal.
 - [Priced-deal form finalBooks](feedback_bondradar_priced_form_final_books.md) — walk `finalBooks` on every priced tranche; a null figure while siblings/source have one is a flag.
-- [nonBullet holds structure code](feedback_bondradar_nonbullet_structure.md) — `nonBullet` = structure like `16NC6`, not Y/N. Never propose changing it to a Y/N value.
+- [nonBullet is call-only](feedback_bondradar_nonbullet_structure.md) — callable bonds → structure code (`16NC6`, `10NC5`); non-callable amortisers/sinking-funds/bullets → `N`. Never propose `Y` on an amortiser without a call.
 - [CET/CEST by source](feedback_bondradar_cet_cest_by_source.md) — never auto-correct timezone labels by the calendar; carry the source's `CET`/`CEST`/`BST`/`EDT` verbatim.
 - [Headline stage = what the update adds](feedback_bondradar_headline_stage_by_update.md) — match the headline stage word to the update's NEW body content, not the standing paragraph. Book Update carrying a prior Spread-set line is still Book Update.
 - [FRN priceEvolution drops reference tenor](feedback_bondradar_frn_priceevolution.md) — `E+55a` on the tranche form is correct even when source/body carries `3mE+55bp area`. Don't flag the missing `3m` prefix.
