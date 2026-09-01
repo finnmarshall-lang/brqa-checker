@@ -45,3 +45,4 @@
 - [Roadshow → i/c timing](feedback_bondradar_roadshow_ic_timing.md) — when source announces investor-call dates, tranche form `timing` field reads `i/c DD-DD Mmm` (e.g. `i/c 01-02 Sep`).
 - [Canadian bail-inable = SNP internally, bail-inable on outgoing](feedback_bondradar_canadian_bail_inable_snp.md) — Canadian bank bail-inable senior notes tick `seniorNonPreferred=true` on the priced-deal form; headline + body use `bail-inable`, NOT `SNP` / `Senior Non-Preferred`.
 - [Only Moody's/S&P/Fitch count](feedback_bondradar_only_three_rating_agencies.md) — BR Ratings line carries only M/S/F. Never flag missing Scope / DBRS / KBRA / other secondary-agency ratings.
+- [Preserve source spread ranges](feedback_bondradar_spread_range_preservation.md) — when source says `+[55-57]bps` / `MS+75-80`, BR carries the full range (`3mE+55/57bp`), not just one endpoint. Flag when only one side is shown.
