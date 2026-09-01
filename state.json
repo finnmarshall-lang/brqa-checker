@@ -1432,6 +1432,44 @@
     "note": "IPTs EUR500m 9y Grn at MS+110bp area; 5 JBRs Barclays (B&D); `Sale into Canada Yes (Ontario/Alberta/BC only)` boilerplate sentence should be removed from body. Skip repost per bot-already-in-thread rule; state recorded.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-01T07:26:00Z",
+  "1788247232.819799": {
+    "br_id": 14640312,
+    "category": "hg",
+    "checked_at": "2026-09-01T07:43:54Z",
+    "issuer": "KPN",
+    "note": "IPTs 5.125/5.25% EUR500m PNC5.25 Hybrid; headline/body/tranche (structure=PNC5.25, priceEvolution=5.125/5.25%)/flags all match; 7 JBRs incl Structuring Advisors line; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "1788247476.596179": {
+    "checked_at": "2026-09-01T07:43:54Z",
+    "issuer": "KPN",
+    "note": "Tender Offer for outstanding EUR500m 6.000% Perp Capital Securities (ISIN XS2486270858); liability management, not a new-issue term sheet.",
+    "verdict": "skipped"
+  },
+  "1788247660.113119": {
+    "br_id": 14640318,
+    "category": "hg",
+    "checked_at": "2026-09-01T07:43:54Z",
+    "issuer": "PACCAR Financial Europe",
+    "note": "IPTs MS+70bp area EUR300m 3y; Keep Well Provider PACCAR Inc.; headline/body/tranche/flags all clean; 4 JBRs Barclays/BNPP/ING(B&D)/SG; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "1788247743.650529": {
+    "br_id": 14640323,
+    "category": "hg",
+    "checked_at": "2026-09-01T07:43:54Z",
+    "issuer": "CIBC",
+    "note": "Guidance SONIA+60bp area GBP bmk 5y Canadian legislative CB; headline/body/tranche form (5y CB FRN)/flags (coveredBonds=true) all clean; 5 JLMs CIBC (B&D)/HSBC/Lloyds/NatWest/TD; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "1788247984.817559": {
+    "br_id": 14640328,
+    "category": "hg",
+    "checked_at": "2026-09-01T07:43:54Z",
+    "issuer": "Autostrade per l'Italia",
+    "note": "IPTs MS+135/140bp EUR bmk lg 7y; source names 13 JBRs, banks.active on Tranche A holds only 12 \u2014 one bank missing from admin form; headline/body/tranche form details otherwise clean; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "flagged"
+  },
+  "_last_tick": "2026-09-01T07:43:54Z",
   "_tick": "2026-08-31T21:53:40Z"
 }
