@@ -33,7 +33,7 @@
 - [Check dealHistoryEntries before flagging missing fields](feedback_bondradar_check_deal_history.md) — ratings/bookrunners/format etc. carry forward from earlier stage updates; walk history before flagging a body as "missing X".
 - [Benchmark date format: spell out month + year](feedback_bondradar_benchmark_date_format.md) — `OBL 2.1% April 2029`, not `04/29`. Flag MM/YY shorthand in spread refs.
 - [WNG counts as size set](feedback_bondradar_wng_size_set.md) — `EUR500m (WNG)` + `Spread set` = Final Terms / Launched, not Spread Set. Don't call Final Terms premature.
-- [SARON MS+ in body/headline](feedback_bondradar_saron_ms_shorthand.md) — outgoing BR message (headline + body) uses `SARON MS+X`; flag bare `SARON+X`. Both tranche form (`priceEvolution`) and priced-deal form (`spread`) use bare `SARON+X` (no `MS`, no `SMS`) — flag any `MS` on those admin fields.
+- [SARON MS+ in body/headline (CHF only)](feedback_bondradar_saron_ms_shorthand.md) — CHF/SARON only. Outgoing message uses `SARON MS+X`; admin fields use bare `SARON+X`. Do NOT apply to USD/SOFR (`SMS+X` stays), GBP/SONIA, or EUR/Euribor.
 - [Book Update headline can drop level](feedback_bondradar_headline_level_optional.md) — Book Update headlines don't need `at MS+X` embedded; every other stage still expects it as normal.
 - [Priced-deal form finalBooks](feedback_bondradar_priced_form_final_books.md) — walk `finalBooks` on every priced tranche; a null figure while siblings/source have one is a flag.
 - [nonBullet holds structure code](feedback_bondradar_nonbullet_structure.md) — `nonBullet` = structure like `16NC6`, not Y/N. Never propose changing it to a Y/N value.

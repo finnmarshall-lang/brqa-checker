@@ -5,10 +5,20 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-27T16:04:27.776Z
+  modified: 2026-09-01T11:56:39.590Z
 ---
 
-Two-tier rule for SARON spreads on CHF deals:
+## Scope — CHF/SARON only
+
+**This rule applies to SARON (CHF) deals only.** Do NOT extrapolate to other reference rates:
+
+- **USD / SOFR**: tranche form's `priceEvolution` uses `SMS+X` (compact form, MS baked in — the `S` in `SMS` stands for SOFR). Keep `SMS+X` as-is. Do NOT rewrite to `SOFR+X` on a USD tranche.
+- **GBP / SONIA**: `SONIA MS+X` in outgoing message, compact `SMS+X`-style on the tranche form. Not this rule.
+- **EUR / Euribor**: see `feedback_bondradar_frn_priceevolution.md` for the `E+X` convention.
+
+Finn on Dexia USD1bn 3y IPTs (id 14640551): I proposed rewriting Tranche A's `priceEvolution=SMS+50a` to `SOFR+50a` "per the same shorthand convention used for SARON MS". Finn: "what are you doing this rule is for CHF deals only". Do NOT apply the drop-MS rewrite to USD/SOFR tranche fields.
+
+## Two-tier rule for SARON spreads on CHF deals:
 
 ## Outgoing BR message (headline + body)
 
