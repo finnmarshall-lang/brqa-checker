@@ -1,46 +1,4 @@
 {
-  "1787656665.070049": {
-    "br_id": 14630843,
-    "checked_at": "2026-08-25T11:21:44Z",
-    "issuer": "Traton Finance",
-    "note": "Final terms GBP250m G+105bp; already QA'd by a prior tick (bot reply existed, state write was lost) - flagged headline typo + wrong ref-gilt coupon/date + wrong book ccy/amount",
-    "verdict": "flagged"
-  },
-  "1787656786.743209": {
-    "br_id": 14631182,
-    "checked_at": "2026-08-25T11:44:44Z",
-    "issuer": "Macquarie Group",
-    "note": "Final terms EUR750m MS+75bp - flagged stale tranche priceEvolution (MS+100a) + CET/CEST",
-    "verdict": "flagged"
-  },
-  "1787656862.029389": {
-    "br_id": 14631120,
-    "checked_at": "2026-08-25T11:44:44Z",
-    "issuer": "grenke Finance",
-    "note": "Final terms EUR300m MS+160bp - flagged stale headline size (bmk), Final Terms casing, CET/CEST",
-    "verdict": "flagged"
-  },
-  "1787657019.468699": {
-    "br_id": 14631125,
-    "checked_at": "2026-08-25T11:44:44Z",
-    "issuer": "Klepierre",
-    "note": "Final terms EUR500m Grn MS+85bp - flagged CET/CEST",
-    "verdict": "flagged"
-  },
-  "1787657147.160449": {
-    "br_id": 14630871,
-    "checked_at": "2026-08-25T11:44:44Z",
-    "issuer": "ESM",
-    "note": "Final terms USD2bn MS+29bp - clean",
-    "verdict": "clean"
-  },
-  "1787657341.438459": {
-    "br_id": 14630878,
-    "checked_at": "2026-08-25T11:44:44Z",
-    "issuer": "Raiffeisenverband Salzburg",
-    "note": "Allocations EUR250m Mortgage CB MS+25bp - clean",
-    "verdict": "clean"
-  },
   "1787657699.443719": {
     "br_id": 14630784,
     "checked_at": "2026-08-25T11:44:44Z",
@@ -1553,6 +1511,46 @@
     "checked_at": "2026-09-01T11:15:02Z",
     "verdict": "bot_already"
   },
-  "_last_tick": "2026-09-01T11:15:00Z",
-  "_tick": "2026-09-01T10:57:00Z"
+  "1788260789.424629": {
+    "br_id": 14640562,
+    "category": "hg",
+    "checked_at": "2026-09-01T11:29:35Z",
+    "issuer": "OPEC Fund",
+    "note": "Mandated USD1bn 3y RegS/144A (BR already moved to IPTs SMS+41a). dealHistoryEntry (Mandated) headline/body verbatim from source. banks.active count=3 vs 4 leads in source (BofA, Citi, CACIB, GSBE SE) \u2014 bot flagged at IPTs stage in-thread; state write lost, recording flagged.",
+    "verdict": "flagged"
+  },
+  "1788261135.379109": {
+    "br_id": 14640328,
+    "category": "hg",
+    "checked_at": "2026-09-01T11:29:35Z",
+    "issuer": "Autostrade per l'Italia",
+    "note": "Spread set at MS+108bp EUR bmk lg 7y; body/tranche form (MS+108, timing today)/13 JBRs matching source count/deal-level flags all clean; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "1788261154.372219": {
+    "br_id": 14561630,
+    "category": "em",
+    "checked_at": "2026-09-01T11:29:35Z",
+    "issuer": "Capri Global Capital",
+    "note": "FPG 7.55% USD300m (capped) 3.25y WAL Sr Sec 144A/RegS; body/tranche form (7.55% no 'a' suffix, timing today, structure 3.25y WAL)/5-lead count/regionAsia=true/feedEmrd=true all clean; bot already in thread \u2014 skipped repost.",
+    "verdict": "clean"
+  },
+  "1788261215.157629": {
+    "br_id": 14640323,
+    "category": "hg",
+    "checked_at": "2026-09-01T11:29:35Z",
+    "issuer": "CIBC",
+    "note": "Spread set SONIA+55bp GBP bmk 5y Canadian legislative CB; body/tranche form (SONIA+55 no 'a', structure 5y CB FRN, JT-LEADS)/5 JLMs incl CIBC (B&D)/coveredBonds=true/ISIN carried all clean; bot already in thread \u2014 skipped repost.",
+    "verdict": "clean"
+  },
+  "1788261296.286689": {
+    "br_id": 14640264,
+    "category": "hg",
+    "checked_at": "2026-09-01T11:29:35Z",
+    "issuer": "Erste Group",
+    "note": "Final terms EUR1.5bn dual-tranche SP (3y MS+37 + 7y MS+70); tranches[] admin panel now includes both Tranches A and B (fixed since earlier IPTs flag on 1788244655); body per-tranche and Common terms verbatim from source; 7 JBRs on A / 8 on B (Jyske added on B) matching source; expectedPageCount=2; deal-level flags all clean; bot already in thread \u2014 skipped repost.",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-01T11:29:35Z",
+  "_tick": "2026-09-01T11:29:35Z"
 }
