@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-01T06:48:24.439Z
+  modified: 2026-09-01T06:56:21.418Z
 ---
 
 Every BR QA tick must include an explicit headline check — the title is a first-class QA target, not an afterthought. Do not mark a finding clean until you have walked all eight elements of the headline against the source term sheet AND the BR body:
@@ -26,4 +26,60 @@ Every BR QA tick must include an explicit headline check — the title is a firs
 
 **How to apply:** on every finding, include an explicit line in the QA output that names each headline element you checked (or the ones that flagged). Clean verdicts should mention "Headline stage word / level / format flags / marker all match" so the reader can see the walk happened.
 
-See also [[br-qa-checker-project]], [[feedback-bondradar-headline-stage]].
+## Real templates observed in the BR API (updated 2026-09-01 from a live `list hg 200` sample)
+
+Concrete patterns to match — anything else on a QA is a candidate flag.
+
+**Overall skeleton (single tranche):**
+```
+** <Issuer> <CCY><size> <tenor>[ <flags>][ at <level>]: <Stage>[ at <level>]
+```
+- `**` prefix always. Issuer is short-form (ticker or shortened name, no `Ltd`/`plc`/`AG`).
+- Currency + size: `EUR500m`, `USD1bn`, `CHF150m`, `EUR bmk`, `EUR Benchmark`, `AUD400m` — no space between number and unit.
+- Tenor: `5y`, `5-year`, `5.5-year`, `Long 3-year` / `long 6-year` / `lg 5y` / `L-4y` are all valid variants (do NOT flag between them).
+- Structure alt for non-callables: `3NC2`, `10NC5`, `16NC6`, `PNC10.25`, `PNC5`.
+- WNG appears after tenor: `EUR500m 5y WNG` (both `WNG` and `(WNG)` seen).
+
+**Stage placement of level** — this is the rule the tick got wrong on ASFINAG and needs to memorise:
+- **Book stats** stage: level goes BEFORE the colon — `... 10-year at MS+24bp: Book stats`, `... 5-year Grn CB at MS+16bp: Book stats`.
+- **Every other stage**: level goes AFTER the stage word — `: Priced at T+65bp`, `: Guidance MS+11bp area`, `: IPTs 7.25% area`, `: Spread set at SOFR MS+22bp`.
+- **Dual/multi-tranche**: NO level embedded anywhere in the headline regardless of stage — level lives per-tranche in the body only. Templates: `EUR bmk dual-tranche SP`, `EUR2.6bn dual-tranche Hybrid EuGB`, `USD bmk multi-tranche`.
+
+**Level format** — always the spelled-out body form:
+- `MS+11bp area` / `MS+29bp` / `MS+75-80bps` / `MS+120bp area`
+- `T+65bp` / `T+115bp` (Treasuries)
+- `G+85bp` / `G+105bp` (Gilts)
+- `OAT+10bp` / `OAT+12bp` (French OAT)
+- `ASW+130bp` (Aussie asset swap)
+- `SONIA MS+36bp` (GBP FRN)
+- `BBSW+130bp area` (Aussie FRN)
+- `SOFR MS+32bp` (USD FRN — full form) OR `SMS+22bp` (compact form both seen in the live sample — do NOT flag either)
+- `SARON MS+20bp` on the outgoing message (see the SARON memory rule)
+- `E+52bp` / `3mE+47bp` (EUR FRN)
+- Fixed coupon on some taps: `Priced at 4.99%`, `Priced at 100.00`
+
+**Stage word templates:**
+- `Mandated` (no level).
+- `IPTs [level]` — e.g. `IPTs`, `IPTs 7.25% area`, `IPTs BBSW+130bp area`.
+- `Guidance [level]` — e.g. `Guidance MS+11bp area`, `Guidance MS+60bp area`.
+- `Book Update` — level optional (see `feedback_bondradar_headline_level_optional.md`).
+- `Spread set at [level]`.
+- `Final terms` / `Launched at [level]` (interchangeable when body opens Spread set + size set).
+- `Allocations` — no level in headline.
+- `Priced [at level]` — level required unless dual/multi-tranche.
+- `Priced at [level]: Book stats` — the ONLY case where level sits between title and stage word.
+- `Priced` for `Priced tap` / dual-tranche without level.
+
+**Format flags (order matters — appear right after tenor):**
+- ESG: `Grn` / `Green` / `Soc` / `Sus` / `SLB` / `EuGB` / `SDB`
+- Covered: `CB` (`Grn CB` = Green Covered Bond, both flags can chain)
+- Ranking: `SP` (Senior Preferred), `SNP`, `Sub`
+- Capital tier: `T2`, `AT1`, `RT1`, `Hybrid`, `Hybrid EuGB`
+- Format: `144A/RegS`, `SEC`, `RegS`
+- Structure descriptors: `FRN`, `FA backed`
+- Docs / origin markets: `Sukuk`, `Samurai`, `Kangaroo`
+- Canadian bail-inable: `bail-inable` (see canadian-bail-inable memory rule) — NOT `SNP`
+
+**Tap format:** `<CCY><size> <MonthName Year> tap: <Stage>[at level]` — e.g. `Rentenbank CHF65m Mar 2036 tap: Priced at SARON MS+20bp`, `Rentenbank AUD100m 2031 tap: Priced at 4.99%`.
+
+See also [[br-qa-checker-project]], [[feedback-bondradar-headline-stage]], [[bondradar-headline-stage-by-update]], [[bondradar-headline-level-optional]], [[bondradar-no-level-embed-dual-tranche]], [[bondradar-saron-ms-shorthand]], [[bondradar-canadian-bail-inable-snp]].
