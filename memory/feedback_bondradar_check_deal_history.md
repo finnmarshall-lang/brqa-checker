@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-27T07:00:46.812Z
+  modified: 2026-09-01T12:14:36.100Z
 ---
 
 BR update bodies are cumulative in context, not standalone: information disclosed in an earlier stage update (Mandated / IPO / Investor Call / IPTs / etc.) carries forward and doesn't need to be repeated in the current update. Before flagging a field as missing from the current body, walk `dealHistoryEntries[]` (the array of prior BR message versions on the same deal) and check whether the field was already stated.
@@ -50,11 +50,14 @@ The same "walk every dealHistoryEntry" rule applies when deciding between `Final
 1. Fetch the deal via `bondradar_api.py news <cat> <id>`.
 2. For every entry in `dealHistoryEntries[]`, print or scan its `message` field text — not a stage-name summary.
 3. If ANY prior message contains `final books`/`closed` language → `Final books over` (or `Books closed over` — see the book-line memory) is correct at Priced.
-4. **Only propose `Books last heard over` when ALL of these are true**:
+4. **The book figure changing between Final Terms and Allocations is itself an implicit "final books" signal** — even if the source never literally said "final books" or "closed". Rationale: the book figure only moves once per stage transition when the books are being finalised (i.e., last accounts allocated). If Final Terms carried `Books over EURXbn` and Allocations carried `Books over EURYbn` with `Y > X`, treat the higher Allocations figure as the final book. Use `Final books over EURYbn` at Priced. Do NOT downgrade to `Books last heard over` on that pattern.
+5. **Only propose `Books last heard over` when ALL of these are true**:
    - No prior message contains `final books` / `closed` language anywhere in its body text (per step 2 above).
-   - The **Allocations** stage message doesn't mention books at all (or mentions them without any `final`/`closed` qualifier).
+   - The **Allocations** stage message doesn't mention books at all (or mentions them without any `final`/`closed` qualifier) AND the book figure DID NOT change from the prior stage (Final Terms / Launched).
    - The **Final terms** (or Launched / Spread set) stage message doesn't say `books closed` or `final books`.
-   If any one of those three is false, `Final books over` / `Books closed over` is correct — not `Books last heard over`.
-5. Same logic for `additionalInfo` on the priced-deal form: only populate with `Books last heard over` when the same three conditions all hold.
+   If any one of those is false — including the book-size-changed-between-stages signal — `Final books over` / `Books closed over` is correct, not `Books last heard over`.
+6. Same logic for `additionalInfo` on the priced-deal form: only populate with `Books last heard over` when the same conditions all hold.
+
+**Why (Sparkasse Bolzano id 14640124):** I flagged the Priced body's `Final books over EUR2.2bn` as needing to be `Books last heard over` because no message literally said `final books`/`closed`. Finn: "this was final books as the allocation message had it there it was just the person who did the update didn't write final books, if unsure you can tell that it's final books as the volume of books changed from final terms to allocations". So the change in book figure between stages is the implicit signal.
 
 See also [[br-qa-checker-project]], [[bondradar-book-line]], and [[feedback-bondradar-no-verify-hedges]].
