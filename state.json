@@ -1561,8 +1561,6 @@
     "note": "Guidance G+110bp area GBP250m short 7y; body typo \u2014 book-line reads \"Books subject 12.55 UK.\" (source \"12.55 UKT\"; T dropped). Headline/tranche form/flags otherwise clean. Bot already in thread; slack_post skipped.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-01T11:29:35Z",
-  "_tick": "2026-09-01T11:29:35Z",
   "1788262876.420729": {
     "checked_at": "2026-09-01T11:57:28.723391+00:00",
     "verdict": "bot_already_in_thread"
@@ -1570,5 +1568,15 @@
   "1788263260.505439": {
     "checked_at": "2026-09-01T11:58:00.244670+00:00",
     "verdict": "flagged"
-  }
+  },
+  "1788263831.864069": {
+    "checked_at": "2026-09-01T12:12:10.532909Z",
+    "verdict": "clean"
+  },
+  "1788264087.489699": {
+    "checked_at": "2026-09-01T12:12:10.532909Z",
+    "verdict": "flagged"
+  },
+  "_last_tick": "2026-09-01T11:29:35Z",
+  "_tick": "2026-09-01T11:29:35Z"
 }
