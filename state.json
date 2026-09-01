@@ -1,116 +1,4 @@
 {
- "1787646431.393819": {
-  "br_id": 14631020,
-  "checked_at": "2026-08-25T09:26:00Z",
-  "issuer": "BNP Paribas",
-  "note": "SGD AT1 FPG \u2014 already flagged by an earlier tick (missing AT1 headline flag, since corrected; also StanChart entity name/B&D/Co-Managers/ISIN/banks.active issues found this tick but not re-posted, bot already in thread)",
-  "verdict": "flagged"
- },
- "1787646468.379729": {
-  "br_id": 14630878,
-  "checked_at": "2026-08-25T09:26:30Z",
-  "issuer": "Raiffeisenverband Salzburg",
-  "note": "Book update \u2014 already flagged by an earlier tick (headline missing MS+29bp area level marker before stage word); bot already in thread, not re-posted",
-  "verdict": "flagged"
- },
- "1787646780.580959": {
-  "br_id": 14630917,
-  "checked_at": "2026-08-25T09:33:15Z",
-  "issuer": "Land Berlin",
-  "note": "Spread set \u2014 clean",
-  "verdict": "clean"
- },
- "1787646901.316459": {
-  "br_id": 14630830,
-  "checked_at": "2026-08-25T09:33:25Z",
-  "issuer": "ING-DiBa",
-  "note": "Book update Grn CB \u2014 clean",
-  "verdict": "clean"
- },
- "1787648293.524249": {
-  "br_id": 14630931,
-  "checked_at": "2026-08-25T09:34:00Z",
-  "issuer": "World Bank",
-  "note": "Spread set EUR bmk 10y SDB \u2014 clean",
-  "verdict": "clean"
- },
- "1787648417.873469": {
-  "br_id": 14630614,
-  "checked_at": "2026-08-25T09:34:10Z",
-  "issuer": "Kyushu Electric Power",
-  "note": "FPG USD bmk 10y \u2014 regionAmericas false on USD tranche, should be true",
-  "verdict": "flagged"
- },
- "1787648552.317239": {
-  "br_id": 14630825,
-  "checked_at": "2026-08-25T09:34:30Z",
-  "issuer": "Ile-de-France Mobilites",
-  "note": "Revised guidance EUR1bn lg 10y EuGB \u2014 clean",
-  "verdict": "clean"
- },
- "1787648758.097399": {
-  "br_id": 14630912,
-  "checked_at": "2026-08-25T09:49:29Z",
-  "issuer": "IADB",
-  "note": "Spread set SMS+25bp \u2014 clean; finding already posted in-thread by a prior run whose state write was lost",
-  "verdict": "clean"
- },
- "1787648892.914669": {
-  "br_id": 14631162,
-  "checked_at": "2026-08-25T09:49:29Z",
-  "issuer": "UniCredit Bank GmbH",
-  "note": "New mandate EUR bmk 6y Hypfe CB \u2014 clean; finding already posted in-thread by a prior run whose state write was lost",
-  "verdict": "clean"
- },
- "1787649617.389509": {
-  "br_id": 14630866,
-  "checked_at": "2026-08-25T09:49:29Z",
-  "issuer": "Aareal Bank",
-  "note": "Book update EUR300m 5y Grn SNP at MS+150bp area \u2014 clean",
-  "verdict": "clean"
- },
- "1787649841.515729": {
-  "br_id": 14631088,
-  "checked_at": "2026-08-25T09:49:29Z",
-  "issuer": "ANZ New Zealand",
-  "note": "Final terms EUR750m 3y CB at MS+15bp \u2014 ISIN missing from body, 11:40 CET should be CEST, 'Todays' missing apostrophe",
-  "verdict": "flagged"
- },
- "1787650002.738299": {
-  "br_id": 14630917,
-  "checked_at": "2026-08-25T09:49:29Z",
-  "issuer": "Land Berlin",
-  "note": "Final terms EUR1.25bn 10y at MS+24bp \u2014 headline typo '10-yea' should be '10-year'",
-  "verdict": "flagged"
- },
- "1787650101.209679": {
-  "br_id": 14630825,
-  "checked_at": "2026-08-25T09:49:29Z",
-  "issuer": "Ile-de-France Mobilites",
-  "note": "Final terms EUR1bn lg 10y EuGB \u2014 headline stale level OAT+13bp should be OAT+12bp; 12:00 CET should be CEST",
-  "verdict": "flagged"
- },
- "1787650431.420339": {
-  "br_id": 14630878,
-  "checked_at": "2026-08-25T09:49:29Z",
-  "issuer": "Raiffeisenverband Salzburg",
-  "note": "Final terms EUR250m lg 5y CB at MS+25bp \u2014 12:00 CET should be CEST",
-  "verdict": "flagged"
- },
- "1787650510.896869": {
-  "br_id": 14630830,
-  "checked_at": "2026-08-25T09:49:29Z",
-  "issuer": "ING-DiBa",
-  "note": "Headline still says 'Spread set at MS+16bp' but body sets both spread and size (should be Final terms); 11:50 CET should be CEST",
-  "verdict": "flagged"
- },
- "1787650599.806559": {
-  "br_id": 14631095,
-  "checked_at": "2026-08-25T09:49:29Z",
-  "issuer": "La Mondiale",
-  "note": "Book update EUR500m 16NC6 T2 at MS+170bp area \u2014 clean",
-  "verdict": "clean"
- },
  "1787651102.624179": {
   "br_id": 14631177,
   "checked_at": "2026-08-25T10:09:16Z",
@@ -1654,6 +1542,22 @@
   "note": "bot_already_in_thread",
   "verdict": "clean"
  },
- "_last_tick": "2026-09-01T08:54:35Z",
+ "1788255423.397019": {
+  "br_id": 14640287,
+  "category": "hg",
+  "checked_at": "2026-09-01T09:44:30Z",
+  "issuer": "Nationale-Nederlanden Bank",
+  "note": "Final Terms EUR500m 5y CB at MS+18bp \u2014 Perfect; bot already posted in thread by a prior tick whose state write was lost. bot_already_in_thread \u2014 no repost.",
+  "verdict": "clean"
+ },
+ "1788255649.520119": {
+  "br_id": 14640278,
+  "category": "hg",
+  "checked_at": "2026-09-01T09:44:30Z",
+  "issuer": "BPCE SA",
+  "note": "Priced CHF170m 8y SP at SARON MS+90bp \u2014 body reads bare `SARON+90bp` (missing MS per house style) and omits ISIN CH1581468225. Flagged and posted.",
+  "verdict": "flagged"
+ },
+ "_last_tick": "2026-09-01T09:44:30Z",
  "_tick": "2026-09-01T08:54:35Z"
 }
