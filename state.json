@@ -1843,6 +1843,112 @@
     "reply_ts": "1788331911.136699",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-02T06:52:00Z",
+  "1788331151.517069": {
+    "checked_at": "2026-09-02T07:34:27Z",
+    "note": "Empty message text, no files, no BBG term-sheet body \u2014 not QA-able",
+    "verdict": "skipped"
+  },
+  "1788331154.401129": {
+    "checked_at": "2026-09-02T07:34:27Z",
+    "note": "Empty message text, no files, no BBG term-sheet body \u2014 not QA-able",
+    "verdict": "skipped"
+  },
+  "1788331384.366599": {
+    "br_id": 14640538,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "AIIB",
+    "note": "Final Terms USD2bn 3y SDB at MS+23bp; headline/body/tranche v14650022 (SMS+23 launched, a-suffix dropped)/deal flags all clean; book-update line preserved from source; skip repost per bot-already-in-thread.",
+    "verdict": "clean"
+  },
+  "1788331654.079669": {
+    "br_id": 14640404,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "Hamburg Commercial Bank",
+    "note": "Guidance MS+33bp area EUR500m 3y Ship Pfandbrief; headline/body/tranche v14650024/deal flags (coveredBonds=true) all clean; 6 JBRs Natixis(B&D); bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788331786.148509": {
+    "br_id": 14640492,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "Islamic Development Bank",
+    "note": "Guidance SMS+48bp area USD bmk 5y Sukuk; 10 JLMs HSBC(B&D); tranche v14650028 (SMS+48a today)/deal flags (regionAmericas=true for USD)/book update all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788331801.592229": {
+    "br_id": 14650033,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "UBS Group",
+    "note": "IPTs GBP/EUR bmk dual-tranche 6NC5+11NC10 TLAC HoldCo senior; Tranche A UBS sole (ticker shorthand), Tranche B 4 leads (JT-LEADS); headline/body/both tranches/expectedPageCount=2 all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788331826.750779": {
+    "br_id": 14640521,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "EIB",
+    "note": "Guidance MS+9bp area EUR bmk 5y CAB EARN; 4 leads Citi(B&D/DM); Scope AAA correctly dropped (M/S/F only); tranche v14650026/deal flags all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788331891.677919": {
+    "br_id": 14640447,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "Eika Boligkreditt",
+    "note": "Guidance MS+38bp area EUR500m 10y Norwegian CB; 5 JBRs; tranche v14650030/coveredBonds=true/deal flags all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788332033.715219": {
+    "br_id": 14640504,
+    "category": "em",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "Ceska sporitelna",
+    "note": "Guidance MS+37bp area EUR500m 5.25y Mortgage CB; EM CEEMEA-routed; Erste GC+B&D + 6 JBRs; bookOrRating=Aaa// (EM M/S/F triplet); tranche v14650039/deal flags all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788332334.732119": {
+    "br_id": 14650042,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "Santander Totta",
+    "note": "Guidance MS+21bp area EUR500m 3y Portuguese CB soft bullet w/ ext maturity 9-Sep-2030; DBRS correctly dropped; GC Santander + 5 JLMs; tranche v14650045/coveredBonds=true/deal flags all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788332552.073599": {
+    "br_id": 14640357,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "ACOSS",
+    "note": "Guidance OAT+15bp area EUR bmk 2y Social; body preserves both FRTR references + MS equivalent; 5 BRs SG(B&D); tranche v14650046 (OAT+15a today)/deal flags all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788332559.754899": {
+    "br_id": 14640377,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "DBJ",
+    "note": "Guidance MS+28bp area EUR550m 4y Sust; 4 JBRs Mizuho(B&D); rating (M/S&P) only (no Fitch); tranche v14650048/deal flags all clean; SALES INTO CANADA boilerplate correctly removed per JR East precedent; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788332605.385019": {
+    "br_id": 14640531,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "Oberbank",
+    "note": "Guidance MS+36bp area EUR300m 8y Hypothekenpfandbrief soft bullet ext mat 11-Sep-2035; S&P-only ratings (no M/F invented); 4 JBRs; tranche v14650050 (8y CB, updated from 8y EuCB)/coveredBonds=true/deal flags all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "1788333154.657439": {
+    "br_id": 14640397,
+    "category": "hg",
+    "checked_at": "2026-09-02T07:34:27Z",
+    "issuer": "Volksbank Wien",
+    "note": "IPTs MS+150/155bp EUR500m 6NC5 Green SNP MREL; expected issue rating Baa2 (M) only; 6 JLMs Danske(B&D); tranche v14650052 (6NC5 Grn/MS+150/155 today, no a-suffix on range)/deal flags all clean; bot already in thread.",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-02T07:34:27Z",
   "_tick": "2026-09-02T06:52:00Z"
 }
