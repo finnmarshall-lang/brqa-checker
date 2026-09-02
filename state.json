@@ -1783,6 +1783,14 @@
     "note": "Book stats \u2014 priced USD300m 3Y WAL @ 7.55%; priced-deal form 14640656 fully populated (moodys/snp/fitch BA3/NR/BB_MINUS, deal144aRegs=T single Format flag, opCo/holdCo=F correct Indian NBFC, coc=T COC 101, nonBullet=N amortiser without call, finalBooks=700, statsCategories GEOGRAPHY+INVESTOR both 100%). Bot already in thread.",
     "verdict": "clean"
   },
+  "1788335403.208419": {
+    "br_id": 14640362,
+    "category": "hg",
+    "checked_at": "2026-09-02T08:30:58Z",
+    "issuer": "Ethniki",
+    "note": "IPTs EUR dual-tranche (T2 + RT1) \u2014 Tranche A T2 forwarded, EUR100m WNG 10.25NC5 MS+230bp area; RT1 tranche 7.25% area from mandate. All fields match: structure 10NC5 T2 / PNC5.5 (9-char cap), JT-LEADS valid on IG, banks=[Goldman, Piraeus, UBS]x2, expectedPageId=IGRB54, expectedPageCount=2, feedIgrd=T, regionAmericas=F, coveredBonds=F. Bot already in thread \u2014 slack_post skipped repost.",
+    "verdict": "clean"
+  },
   "1788335612.578599": {
     "br_id": 14561630,
     "category": "em",
@@ -1791,14 +1799,6 @@
     "note": "Duplicate Bloomberg BOOKSTATS forward for same BR deal 14561630 (Book stats). Same clean verdict as sibling 1788335374.394579. Bot already in thread \u2014 slack_post skipped repost.",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-02T07:53:04Z",
-  "_tick": "2026-09-02T06:52:00Z",
-  "1788335403.208419": {
-    "checked_at": "2026-09-02T08:25:06Z",
-    "verdict": "skipped"
-  },
-  "1788336962.311269": {
-    "checked_at": "2026-09-02T08:22:47Z",
-    "verdict": "clean"
-  }
+  "_last_tick": "2026-09-02T08:30:58Z",
+  "_tick": "2026-09-02T06:52:00Z"
 }
