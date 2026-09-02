@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-02T08:02:08.712Z
+  modified: 2026-09-02T08:07:13.868Z
 ---
 
 Every BR QA tick must include an explicit headline check — the title is a first-class QA target, not an afterthought. Do not mark a finding clean until you have walked all eight elements of the headline against the source term sheet AND the BR body:
@@ -75,8 +75,8 @@ Concrete patterns to match — anything else on a QA is a candidate flag.
 - Covered: `CB` (`Grn CB` = Green Covered Bond, both flags can chain)
 - Ranking: `SP` (Senior Preferred), `SNP`, `Sub`
 - Capital tier: `T2`, `AT1`, `RT1`, `Hybrid`, `Hybrid EuGB`
-- Format: `144A/RegS`, `SEC`, `RegS`
 - Structure descriptors: `FRN`, `FA backed`
+- **Docs-format flags DO NOT belong in the headline.** `144A/RegS`, `SEC`, `RegS`, `TEFRA D`, `NGN`, `Reg S Cat 2` and similar selling-restriction / doc-format markers live in the BODY only. Do NOT propose adding any of these to a headline (single, dual, or multi-tranche). Finn on Pakistan USD benchmark dual-tranche IPTs (2026-09-02): I proposed adding `144A/RegS` to the dual-tranche headline. Finn: "this isn't right I have given you a headline format". The real templates in the BR API confirm — none of the ~80 headlines sampled carried `144A/RegS`, `SEC`, or `RegS` as a headline flag.
 - Docs / origin markets: `Sukuk`, `Samurai`, `Kangaroo`
 - Canadian bail-inable: `bail-inable` (see canadian-bail-inable memory rule) — NOT `SNP`
 
