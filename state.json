@@ -2088,6 +2088,11 @@
     "note": "Final terms EUR500m 5y at 4.25% \u2014 headline/body/tranche all match; bot already in thread so post skipped",
     "verdict": "clean"
   },
+  "1788350109.429849": {
+    "checked_at": "2026-09-02T13:41:39Z",
+    "note": "Chat instruction \"Needs done on 9fin too ^\" \u2014 not a Bloomberg term sheet.",
+    "verdict": "skipped"
+  },
   "1788350443.914279": {
     "br_id": 14650236,
     "category": "hg",
@@ -2103,6 +2108,11 @@
     "issuer": "Ceska sporitelna",
     "note": "bot_already_in_thread; Allocations stage clean \u2014 headline/body/tranche v4/deal-level flags all match",
     "verdict": "clean"
+  },
+  "1788350645.634629": {
+    "checked_at": "2026-09-02T13:41:39Z",
+    "note": "Short \"Royal bank of Canada / Overnight Books @ $1.7bn+\" note \u2014 no BBG forward markers, no file attachment.",
+    "verdict": "skipped"
   },
   "1788350671.298579": {
     "br_id": 14640404,
@@ -2262,18 +2272,6 @@
     "checked_at": "2026-09-02T13:15:49Z",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-02T13:05:03Z",
-  "_tick": "2026-09-02T13:03:00Z",
-  "1788350109.429849": {
-    "checked_at": "2026-09-02T13:41:39Z",
-    "note": "Chat instruction \"Needs done on 9fin too ^\" \u2014 not a Bloomberg term sheet.",
-    "verdict": "skipped"
-  },
-  "1788350645.634629": {
-    "checked_at": "2026-09-02T13:41:39Z",
-    "note": "Short \"Royal bank of Canada / Overnight Books @ $1.7bn+\" note \u2014 no BBG forward markers, no file attachment.",
-    "verdict": "skipped"
-  },
   "1788355153.949929": {
     "br_id": 14650075,
     "category": "hg",
@@ -2338,12 +2336,28 @@
     "checked_at": "2026-09-02T14:31:24.116362+00:00",
     "verdict": "flagged"
   },
+  "1788357836.909129": {
+    "br_id": 14640362,
+    "category": "hg",
+    "checked_at": "2026-09-02T14:42:00Z",
+    "issuer": "Ethniki Hellenic Insurance",
+    "note": "Priced EUR100m Tier 2; bot already in thread from prior tick flagging opCo incorrectly ticked on both tranches (issuer not on opCo whitelist).",
+    "verdict": "flagged"
+  },
   "1788357978.145449": {
     "checked_at": "2026-09-02T14:31:24.116362+00:00",
     "verdict": "flagged"
   },
   "1788358220.759099": {
     "checked_at": "2026-09-02T14:31:24.116362+00:00",
+    "verdict": "flagged"
+  },
+  "1788358586.447659": {
+    "br_id": 14640362,
+    "category": "hg",
+    "checked_at": "2026-09-02T14:42:00Z",
+    "issuer": "Ethniki Hellenic Insurance",
+    "note": "Priced EUR100m RT1 (Tranche B); bot already in thread flagging opCo wrongly ticked on both tranches + full Tranche B priced-deal 14650297 walk.",
     "verdict": "flagged"
   },
   "1788358595.305819": {
@@ -2353,5 +2367,31 @@
   "1788358635.120049": {
     "checked_at": "2026-09-02T14:31:24.116362+00:00",
     "verdict": "clean"
-  }
+  },
+  "1788359011.073459": {
+    "br_id": 14640538,
+    "category": "hg",
+    "checked_at": "2026-09-02T14:42:00Z",
+    "issuer": "AIIB",
+    "note": "Priced USD2bn 3y SDB at MS+23bp; headline/body/priced-deal 14650298 (all fields incl finalBooks=12900, secRegistered=T, sustainable=T for SDB, banks.active=4) and deal flags (regionAmericas=T for USD SEC-registered) all clean. Bot already in thread, skipped repost.",
+    "verdict": "clean"
+  },
+  "1788359475.531069": {
+    "br_id": 14640117,
+    "category": "hg",
+    "checked_at": "2026-09-02T14:42:00Z",
+    "issuer": "Kingspan",
+    "note": "Allocations out EUR850m dual-tranche Green (4y+7y); bot already in thread with clean verdict. Independent walk noted minor body issues (Allocation vs Allocations plural, above EUR1.65bn vs source exact, dangling comma) \u2014 below bot threshold; recording clean per bot verdict.",
+    "verdict": "clean"
+  },
+  "1788359484.585479": {
+    "br_id": 14640409,
+    "category": "em",
+    "checked_at": "2026-09-02T14:42:00Z",
+    "issuer": "Pakistan",
+    "note": "Yield set USD bmk dual-tranche (L5y 7.750% + 10y 8.250%); bot already in thread flagging Tranche B body reads 8.50% vs source 8.250% (tranche form 8.25% correct). Recorded flagged.",
+    "verdict": "flagged"
+  },
+  "_last_tick": "2026-09-02T14:42:00Z",
+  "_tick": "2026-09-02T13:03:00Z"
 }
