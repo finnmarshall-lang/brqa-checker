@@ -1,155 +1,7 @@
 {
-  "1787733855.467229": {
-    "checked_at": "2026-08-26T08:58:00Z",
-    "verdict": "flagged"
-  },
-  "1787734004.090299": {
-    "checked_at": "2026-08-26T08:58:19Z",
-    "verdict": "flagged"
-  },
-  "1787734459.902239": {
-    "checked_at": "2026-08-26T09:00:00Z",
-    "verdict": "flagged"
-  },
-  "1787734490.549789": {
-    "checked_at": "2026-08-26T09:03:25Z",
-    "verdict": "flagged"
-  },
-  "1787734807.195689": {
-    "checked_at": "2026-08-26T09:30:25Z",
-    "verdict": "skipped"
-  },
-  "1787734863.110499": {
-    "checked_at": "2026-08-26T09:29:00Z",
-    "verdict": "clean"
-  },
-  "1787735625.789839": {
-    "checked_at": "2026-08-26T09:30:48Z",
-    "verdict": "flagged"
-  },
-  "1787735987.675529": {
-    "checked_at": "2026-08-26T09:31:09Z",
-    "verdict": "clean"
-  },
-  "1787736003.274439": {
-    "checked_at": "2026-08-26T09:30:25Z",
-    "verdict": "clean"
-  },
-  "1787736489.641289": {
-    "checked_at": "2026-08-26T09:51:15Z",
-    "verdict": "flagged"
-  },
-  "1787736650.044009": {
-    "checked_at": "2026-08-26T09:50:28Z",
-    "verdict": "flagged"
-  },
-  "1787737125.788459": {
-    "checked_at": "2026-08-26T09:49:27Z",
-    "verdict": "clean"
-  },
-  "1787737277.394109": {
-    "checked_at": "2026-08-26T09:50:29Z",
-    "verdict": "flagged"
-  },
-  "1787737567.293119": {
-    "checked_at": "2026-08-26T10:07:00Z",
-    "verdict": "flagged"
-  },
-  "1787737941.804199": {
-    "checked_at": "2026-08-26T10:05:00Z",
-    "verdict": "flagged"
-  },
-  "1787738215.885759": {
-    "checked_at": "2026-08-26T10:07:44Z",
-    "verdict": "flagged"
-  },
-  "1787738486.154119": {
-    "checked_at": "2026-08-26T10:01:26Z",
-    "verdict": "clean"
-  },
-  "1787739040.874899": {
-    "checked_at": "2026-08-26T10:21:56Z",
-    "verdict": "clean"
-  },
-  "1787739302.322089": {
-    "checked_at": "2026-08-26T10:22:29Z",
-    "verdict": "flagged"
-  },
-  "1787739314.538509": {
-    "checked_at": "2026-08-26T10:23:18Z",
-    "verdict": "flagged"
-  },
-  "1787739756.780059": {
-    "checked_at": "2026-08-26T10:49:18Z",
-    "verdict": "flagged"
-  },
-  "1787740641.772749": {
-    "checked_at": "2026-08-26T10:49:11Z",
-    "verdict": "clean"
-  },
-  "1787740844.775809": {
-    "checked_at": "2026-08-26T10:58:25Z",
-    "verdict": "flagged"
-  },
-  "1787741048.110789": {
-    "checked_at": "2026-08-26T10:56:58Z",
-    "verdict": "clean"
-  },
-  "1787741264.697879": {
-    "checked_at": "2026-08-26T10:57:32Z",
-    "verdict": "clean"
-  },
-  "1787741446.474779": {
-    "checked_at": "2026-08-26T10:56:58Z",
-    "verdict": "clean"
-  },
-  "1787741726.485819": {
-    "checked_at": "2026-08-26T11:14:12Z",
-    "verdict": "clean"
-  },
-  "1787741975.209569": {
-    "checked_at": "2026-08-26T11:15:36Z",
-    "verdict": "flagged"
-  },
-  "1787742147.305769": {
-    "checked_at": "2026-08-26T11:14:58Z",
-    "verdict": "flagged"
-  },
   "1787742170.248129": {
     "checked_at": "2026-08-26T12:14:32Z",
     "verdict": "flagged"
-  },
-  "1787742184.376039": {
-    "checked_at": "2026-08-26T11:14:12Z",
-    "verdict": "clean"
-  },
-  "1787742882.743349": {
-    "checked_at": "2026-08-26T11:22:40Z",
-    "verdict": "flagged"
-  },
-  "1787743073.166459": {
-    "checked_at": "2026-08-26T11:48:34Z",
-    "verdict": "flagged"
-  },
-  "1787743287.021119": {
-    "checked_at": "2026-08-26T11:48:16Z",
-    "verdict": "clean"
-  },
-  "1787743591.196839": {
-    "checked_at": "2026-08-26T11:48:36Z",
-    "verdict": "flagged"
-  },
-  "1787743751.144669": {
-    "checked_at": "2026-08-26T11:47:06Z",
-    "verdict": "flagged"
-  },
-  "1787744257.169849": {
-    "checked_at": "2026-08-26T11:48:34Z",
-    "verdict": "clean"
-  },
-  "1787744980.251069": {
-    "checked_at": "2026-08-26T12:00:00Z",
-    "verdict": "clean"
   },
   "1787745280.642099": {
     "checked_at": "2026-08-26T12:07:10Z",
@@ -2080,62 +1932,94 @@
     "checked_at": "2026-09-02T11:10:00Z",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-02T11:45:34Z",
-  "_tick": "2026-09-02T10:52:48Z",
   "1788346909.099099": {
     "br_id": 14650042,
     "category": "hg",
+    "checked_at": "2026-09-02T11:45:34Z",
     "issuer": "Santander Totta",
     "note": "Allocations EUR500m 3y CB at MS+14bp; standing terms/JLM list/ISIN/hedge line all match source Allocations update; tranche form (500m/3y CB/MS+14/JT-LEADS/launched)/coveredBonds/IGRB35 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
-    "checked_at": "2026-09-02T11:45:34Z",
     "verdict": "clean"
   },
   "1788346947.798149": {
     "br_id": 14640485,
     "category": "em",
+    "checked_at": "2026-09-02T11:45:34Z",
     "issuer": "KDB",
     "note": "Spreads set USD bmk dual-tranche 3y/5y at SMS+36/48bp; A2/AA/AA-; 6 bookrunners Citi(B&D)/CA-CIB/HSBC/JPM/Mizuho/StanChart; per-tranche books USD1.3bn/USD1.2bn; tranche forms (SMS+36/48 no area, today, banks.active=6) & regionAsia/EMRH54 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
-    "checked_at": "2026-09-02T11:45:34Z",
     "verdict": "clean"
   },
   "1788347122.535539": {
     "br_id": 14640087,
     "category": "em",
+    "checked_at": "2026-09-02T11:45:34Z",
     "issuer": "Bangkok Bank",
     "note": "Book update USD bmk dual-tranche 5y/10y at T+105a/T+130a IPTs; Morgan Stanley(B&D)/Citi/HSBC 3 leads; MWC-before-par-call ordering correct; combined books USD2.8bn (incl. USD11.7m add'l SFC); tranche forms & regionAsia/EMRH40 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
-    "checked_at": "2026-09-02T11:45:34Z",
     "verdict": "clean"
   },
   "1788347271.428889": {
     "br_id": 14640434,
     "category": "hg",
+    "checked_at": "2026-09-02T11:45:34Z",
     "issuer": "NORD/LB",
     "note": "Allocations EUR750m 7y CB (Hypothekenpfandbrief) at MS+24bp; Final books above EUR1.1bn (incl. EUR150m JLM) matches source `Final book good at reoffer`; 6 JLMs incl UniCredit(B&D); coveredBonds=true/IGRB63/DE000NLB57X5 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
-    "checked_at": "2026-09-02T11:45:34Z",
     "verdict": "clean"
   },
   "1788347361.507879": {
     "br_id": 14650075,
     "category": "hg",
+    "checked_at": "2026-09-02T11:45:34Z",
     "issuer": "Banca MPS",
     "note": "Final Terms EUR500m 10.5NC5.5 Grn T2 at MS+145bp; SLAP + CUC 75 + Tax/Reg Event redemption preserved; Baa3/BBB- issuer, Ba2//BB expected (M//F); GC Mediobanca + 7 JLMs incl UniCredit(B&D); books EUR1.2bn+ pre-rec matches source; tranche form (10.5NC5.5 MS+145 launched)/IGRB37/coveredBonds=false clean. Prior tick posted (bot_already_in_thread); backfilling state.",
-    "checked_at": "2026-09-02T11:45:34Z",
     "verdict": "clean"
+  },
+  "1788347370.462669": {
+    "br_id": 14650033,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:00:48Z",
+    "issuer": "UBS Group AG",
+    "note": "GBP/EUR2.75bn dual-tranche Final terms (dual-tranche 6NC5/11NC10, UBS TLAC senior). Source (Slack) is Tranche B only (EUR1.75bn 11NC10 at MS+112bp). Flag: Tranche A body benchmark shorthand `UKT 0.25% 07/31/31+98bp` should be house-style `UKT 0.25% 31 July 2031+98bp`. Tranche form/deal flags otherwise clean. Bot already in thread from prior tick whose state write was lost \u2014 skipped repost per never-repost rule.",
+    "verdict": "flagged"
   },
   "1788347609.264779": {
     "br_id": 14640117,
     "category": "hg",
+    "checked_at": "2026-09-02T11:45:34Z",
     "issuer": "Kingspan",
     "note": "Guidance EUR850m dual-tranche Green 4y/7y at MS+65a/MS+95a (+/-2bps WPIR preserved); BBB/BBB (S&P/F); 4 BRs BNPP/BofA SE/ING/UniCredit(B&D); Sole ESG SC ING; Books EUR2.3bn/EUR2.3bn respectively matches source; tranche forms (350m 4y Grn/500m 7y Grn, area kept today)/IGRB26/expectedPageCount=2 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
-    "checked_at": "2026-09-02T11:45:34Z",
     "verdict": "clean"
   },
   "1788347618.871009": {
     "br_id": 14650085,
     "category": "hg",
+    "checked_at": "2026-09-02T11:45:34Z",
     "issuer": "Rothesay Life",
     "note": "Spread set GBP500m (exp) 10.5y T2 at G+160bp (UKT 4.625% March 2037 spelled-out benchmark); Baa1/BBB+ (M/F) expected issue, S&P absent; 4 JLMs Barclays(B&D)/BNPP/Lloyds/Santander; Books over GBP1bn pre-rec matches source; tranche form (GBP bmk 10.5y T2 G+160 no area today)/IGRB39/coveredBonds=false clean. Prior tick posted (bot_already_in_thread); backfilling state.",
-    "checked_at": "2026-09-02T11:45:34Z",
     "verdict": "clean"
-  }
+  },
+  "1788348772.927609": {
+    "br_id": 14650042,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:00:48Z",
+    "issuer": "Banco Santander Totta",
+    "note": "Priced EUR500m 3y CB at MS+14bp. Flag: Priced body dropped 'with extended maturity 9 September 2030' clause that all earlier stages (Guidance / Spread set / Allocations) carried; hgDetails.hgExtendableDate on priced-deal form 14650223 also null (should be 2030-09-09). Priced-deal form otherwise clean incl covered=true, dealRegsOnly=true, finalBooks=2450. Bot already in thread from prior tick whose state write was lost \u2014 skipped repost.",
+    "verdict": "flagged"
+  },
+  "1788348816.909939": {
+    "br_id": 14650067,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:00:48Z",
+    "issuer": "Bureau Veritas SA",
+    "note": "Final Terms EUR700m 8y at MS+87bp. Headline / body / tranche form (v14650224 EUR/700m/8y/MS+87/JT-LEADS/launched, 7 active JLMs BofA(B&D)+HSBC+SocGen GCs, Barclays/Commerzbank/NatWest/UniCredit ABs) / deal flags all clean. Book Update line preserved with Pre-rec note (source 'pre-rec, at tight end of guidance' \u2014 latter dropped as-expected). No pricedDeals yet (not Priced). Bot already in thread from prior tick whose state write was lost \u2014 skipped repost.",
+    "verdict": "clean"
+  },
+  "1788349180.083589": {
+    "br_id": 14640434,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:00:48Z",
+    "issuer": "NORD/LB",
+    "note": "Priced EUR750m 7y Mortgage Covered Bond (Hypothekenpfandbrief) at MS+24bp. Prior tick flagged priced-deal form 14650226 opCo=true incorrectly (German Landesbank covered bond, not on UK/Swiss/US/Japan/ING/Nationwide/Softbank whitelist and outside senior-unsecured cap-structure framework anyway) \u2014 desk has since fixed opCo=false, holdCo=false. Priced-deal form otherwise clean (covered=true, dealRegsOnly=true, ratings AAA/NR/NR matching Aaa Moody's only source, isin/figi/bbg code populated, finalBooks=1100 matching source 'above EUR1.1bn'). Bot already in thread from prior tick whose state write was lost \u2014 skipped repost.",
+    "verdict": "flagged"
+  },
+  "_last_tick": "2026-09-02T11:45:34Z",
+  "_tick": "2026-09-02T10:52:48Z"
 }
