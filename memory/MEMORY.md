@@ -5,8 +5,10 @@
 - [BR type field is not a stage mismatch](feedback_bondradar_type_field.md) — never flag Bond Radar's `type` field (EXPECTED, PRICED…) as a stage mismatch; it's BR workflow state, not update stage.
 - [BR house-style ordering](feedback_bondradar_house_style.md) — apply house-style order, never the source term sheet's. Key: `MWC` before `par call`.
 - [BR message boilerplate exclusions](feedback_bondradar_boilerplate.md) — never flag Fxd-to-Frn coupon structure or regulatory boilerplate (interest schedule, MiFID, MREL disqualification, day-count) as missing from BR messages; they don't belong there.
+- [Hedge disclosures don't belong in BR body](feedback_bondradar_hedge_disclosure.md) — never flag missing hedge reference bond / hedge ratio (`Hedges for T2 vs OBL…, HR 97%`) on BR messages; source-only content.
 - [BR book-line phrasing](feedback_bondradar_book_line.md) — `Book update:` / `Books update:` prefix is fine pre-pricing; at Priced, no prefix, pick `Final books over` / `Books closed over` / `Books last heard over` based on what the source stated.
 - [Timing position in BR body](feedback_bondradar_timing_position.md) — timing (`Books open, today's business` etc.) always sits at the end of the LATEST live line; at Book Update it goes after the `Book update:` line, not attached to the carried-forward guidance.
+- [Tranche `timing: launched` at Allocations is correct](feedback_bondradar_timing_launched_at_allocations.md) — never flag the tranche form's `timing: "launched"` during Allocations Out; it's the correct prior-action carry-forward.
 - [Don't flag stale BR too eagerly](feedback_bondradar_retry_when_stale.md) — if BR `changedAt` is earlier than the ✅'d Slack post, wait one cron tick before flagging stale; publishing lags ticking.
 - [Widen the poll window every tick](feedback_bondradar_wide_poll_window.md) — never use `oldest=<last-new-ts>`; poll 90+ min back and dedupe via state.json. 👀 messages get ✅'d later and must be caught.
 - [Issuer-name shortening is fine](feedback_bondradar_issuer_name_shortening.md) — dropped SCF/AG/N.V., ticker forms in headlines are intentional to fit Bloomberg width. Don't flag as inconsistency.
