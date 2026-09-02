@@ -1,8 +1,4 @@
 {
-  "1787742170.248129": {
-    "checked_at": "2026-08-26T12:14:32Z",
-    "verdict": "flagged"
-  },
   "1787745280.642099": {
     "checked_at": "2026-08-26T12:07:10Z",
     "verdict": "flagged"
@@ -1996,6 +1992,30 @@
     "note": "Spread set GBP500m (exp) 10.5y T2 at G+160bp (UKT 4.625% March 2037 spelled-out benchmark); Baa1/BBB+ (M/F) expected issue, S&P absent; 4 JLMs Barclays(B&D)/BNPP/Lloyds/Santander; Books over GBP1bn pre-rec matches source; tranche form (GBP bmk 10.5y T2 G+160 no area today)/IGRB39/coveredBonds=false clean. Prior tick posted (bot_already_in_thread); backfilling state.",
     "verdict": "clean"
   },
+  "1788348403.525829": {
+    "br_id": 14640521,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "EIB",
+    "note": "bot_already_in_thread; deal since progressed to PRICED \u2014 walked current state clean (headline/body/priced-deal form/deal-level flags all match source; ggb=false, dealRegsOnly=true, banks.active=4, finalBooks=46500)",
+    "verdict": "clean"
+  },
+  "1788348471.534539": {
+    "br_id": 14640404,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Hamburg Commercial Bank",
+    "note": "bot_already_in_thread; HCOB EUR500m 3y Ship Pfandbrief Allocations Out, BR now Priced at MS+25bp \u2014 all headline/body/priced-deal fields match, no flags",
+    "verdict": "clean"
+  },
+  "1788348758.772649": {
+    "br_id": 14640357,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "ACOSS",
+    "note": "bot_already_in_thread; Allocations Out captured (entry 9403) but HR 98% vs OAT 09/28 from source not carried into BR message; BR since ticked to PRICED (priced-deal 14650257)",
+    "verdict": "flagged"
+  },
   "1788348772.927609": {
     "br_id": 14650042,
     "category": "hg",
@@ -2012,6 +2032,14 @@
     "note": "Final Terms EUR700m 8y at MS+87bp. Headline / body / tranche form (v14650224 EUR/700m/8y/MS+87/JT-LEADS/launched, 7 active JLMs BofA(B&D)+HSBC+SocGen GCs, Barclays/Commerzbank/NatWest/UniCredit ABs) / deal flags all clean. Book Update line preserved with Pre-rec note (source 'pre-rec, at tight end of guidance' \u2014 latter dropped as-expected). No pricedDeals yet (not Priced). Bot already in thread from prior tick whose state write was lost \u2014 skipped repost.",
     "verdict": "clean"
   },
+  "1788349147.806699": {
+    "br_id": 14640447,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Eika Boligkreditt",
+    "note": "Allocations/Priced walk clean; all priced-deal fields match source; slack_post skipped (bot_already_in_thread)",
+    "verdict": "clean"
+  },
   "1788349180.083589": {
     "br_id": 14640434,
     "category": "hg",
@@ -2020,8 +2048,46 @@
     "note": "Priced EUR750m 7y Mortgage Covered Bond (Hypothekenpfandbrief) at MS+24bp. Prior tick flagged priced-deal form 14650226 opCo=true incorrectly (German Landesbank covered bond, not on UK/Swiss/US/Japan/ING/Nationwide/Softbank whitelist and outside senior-unsecured cap-structure framework anyway) \u2014 desk has since fixed opCo=false, holdCo=false. Priced-deal form otherwise clean (covered=true, dealRegsOnly=true, ratings AAA/NR/NR matching Aaa Moody's only source, isin/figi/bbg code populated, finalBooks=1100 matching source 'above EUR1.1bn'). Bot already in thread from prior tick whose state write was lost \u2014 skipped repost.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-02T11:45:34Z",
-  "_tick": "2026-09-02T10:52:48Z",
+  "1788349441.043969": {
+    "br_id": 14640531,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "OBERBANK",
+    "note": "bot_already_in_thread; PRICED Oberbank EUR300m 8yr CB MS+33 \u2014 all headline/body/priced-deal/deal-level fields match source",
+    "verdict": "clean"
+  },
+  "1788349802.827169": {
+    "br_id": 14650085,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Rothesay Life",
+    "note": "Final terms at G+160bp / GBP500m / Books closed over GBP1bn \u2014 all fields match; bot already replied in thread",
+    "verdict": "clean"
+  },
+  "1788349818.988079": {
+    "br_id": 14640253,
+    "category": "em",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Arab National Bank",
+    "note": "Launch/Final Terms captured cleanly on ANB USD750m PNC5.5 AT1 Sukuk @ 6.50%; headline/body/tranche/deal-level all match; bot already posted so no repost.",
+    "verdict": "clean"
+  },
+  "1788349939.932939": {
+    "br_id": 14640416,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "New Immo Holding",
+    "note": "bot_already_in_thread; Final terms match \u2014 headline, body, tranche v2 (EUR/500m/6y/6%/JT-LEADS/launched), deal flags all consistent",
+    "verdict": "clean"
+  },
+  "1788349951.844759": {
+    "br_id": 14640352,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Nexans",
+    "note": "Final terms EUR500m 5y at 4.25% \u2014 headline/body/tranche all match; bot already in thread so post skipped",
+    "verdict": "clean"
+  },
   "1788350443.914279": {
     "br_id": 14650236,
     "category": "hg",
@@ -2029,5 +2095,112 @@
     "issuer": "Swedish Export Credit Corporation",
     "note": "IPTs SOFR MS+38bp area USD bmk 5y SEC Registered Global SSA; headline/body/tranche form (SMS+38a compact, JT-LEADS 4 leads, timing today IPT-default)/deal flags (regionAmericas=true IGRB35, expectedPageCount=1, feedIgrd=true) all clean.",
     "verdict": "clean"
+  },
+  "1788350552.313779": {
+    "br_id": 14640504,
+    "category": "em",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Ceska sporitelna",
+    "note": "bot_already_in_thread; Allocations stage clean \u2014 headline/body/tranche v4/deal-level flags all match",
+    "verdict": "clean"
+  },
+  "1788350671.298579": {
+    "br_id": 14640404,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Hamburg Commercial Bank",
+    "note": "bot_already_in_thread \u2014 Priced EUR500m 3y Ship Covered Bond fully matches BR record; dealRegsOnly true, finalBooks=2500.0, all flags/booleans consistent",
+    "verdict": "clean"
+  },
+  "1788350818.347089": {
+    "br_id": 14640441,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "M&G European Property Fund",
+    "note": "Roadshow/Timing update matches BR: EUR500m 5y Grn, tranche fields (EUR/500m/5y Grn/JT-LEADS/Thursday) all clean, deal-level flags correct; bot_already_in_thread so no post.",
+    "verdict": "clean"
+  },
+  "1788350832.863449": {
+    "br_id": 14640248,
+    "category": "em",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Kuwait International Bank",
+    "note": "bot_already_in_thread; typo 'Si ze' in news.message opener (should be 'Size')",
+    "verdict": "flagged"
+  },
+  "1788350911.620119": {
+    "br_id": 14640117,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Kingspan",
+    "note": "bot_already_in_thread; dual-tranche Green Final terms \u2014 both tranches (350m 4y MS+63, 500m 7y MS+95) match BR exactly, all flags correct",
+    "verdict": "clean"
+  },
+  "1788351026.960269": {
+    "br_id": 14650042,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Banco Santander Totta",
+    "note": "bot_already_in_thread; Priced walk clean \u2014 headline/body/priced-deal form all match, single EUR500m 3y covered tranche, Final books EUR2.45bn, ggb false, dealRegsOnly only true reg flag",
+    "verdict": "clean"
+  },
+  "1788351032.980079": {
+    "br_id": 14640521,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "EIB",
+    "note": "Priced EIB EUR5bn 5y CAB EARN at MS+6bp \u2014 headline/body/priced-deal form all match; bot_already_in_thread so no post",
+    "verdict": "clean"
+  },
+  "1788351226.384809": {
+    "br_id": 14640134,
+    "category": "em",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Israel Discount Bank",
+    "note": "Final Terms EUR500m 5y CB at MS+67bp \u2014 headline/body/tranche fields all align; no pricedDeal yet. Bot already in thread, post skipped.",
+    "verdict": "clean"
+  },
+  "1788351288.611469": {
+    "br_id": 14650253,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Bpifrance",
+    "note": "Mandate matches BR exactly; all fields tick (JT-LEADS/lg 4y Soc/EUR bmk); bot already in thread, post skipped",
+    "verdict": "clean"
+  },
+  "1788351386.722069": {
+    "br_id": 14640357,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "ACOSS",
+    "note": "bot_already_in_thread; priced-deal walk clean \u2014 social:true set, dealRegsOnly sole true, finalBooks=2500, banks.active=5, all deal-level flags match",
+    "verdict": "clean"
+  },
+  "1788351673.127489": {
+    "br_id": 14640447,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Eika Boligkreditt AS",
+    "note": "bot_already_in_thread; Priced walk clean \u2014 headline/body/priced-deal form/deal-level flags all match",
+    "verdict": "clean"
+  },
+  "1788351703.680819": {
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Bpifrance",
+    "note": "Investor presentation + social framework + allocation report links and roadshow schedule; no new bond/term-sheet update \u2014 paired with earlier Bpifrance mandate.",
+    "verdict": "skipped"
+  },
+  "1788351992.773469": {
+    "br_id": 14640485,
+    "category": "em",
+    "checked_at": "2026-09-02T12:39:35.979187Z",
+    "issuer": "Korea Development Bank",
+    "note": "Moody's rating typo A2 in message body and both tranche bookOrRating fields (should be Aa2); slack_post skipped bot_already_in_thread",
+    "verdict": "flagged"
+  },
+  "_last_tick": "2026-09-02T11:45:34Z",
+  "_tick": {
+    "last_run": "2026-09-02T12:39:35.979187Z",
+    "processed": 22
   }
 }
