@@ -50,3 +50,4 @@
 - [Skip tender offers](feedback_bondradar_skip_tender_offers.md) — tender/exchange/consent-solicitation announcements are liability-management, not primary issuance. Skip silently (state `verdict: "skipped"`, no Slack post).
 - [Clear Fix bullets at the end](feedback_bondradar_clear_fix_bullets.md) — every flagged finding ends with a `Fix:` section, one bullet per defect: `field/location — current → correct`. Never bury fixes inside walkthrough prose.
 - [Priced-form spread = primary pricing spread](feedback_bondradar_priced_spread_gilt_priority.md) — priced-deal form `spread` uses the Reoffer/pricing spread (`G+X` / `T+X` / `MS+X`), never a post-reset margin (`SMS+X` etc.). Gilts have priority for GBP deals.
+- [Benchmark reference required in body](feedback_bondradar_benchmark_reference_required.md) — GBP=UKT, USD=UST, EUR=DBR/OAT, etc. Flag when the specific benchmark bond reference (e.g. `UKT 4.25% 07 March 2033`) is missing next to the spread.
