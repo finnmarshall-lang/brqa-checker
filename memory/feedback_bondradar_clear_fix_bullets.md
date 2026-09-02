@@ -1,36 +1,72 @@
 ---
 name: bondradar-clear-fix-bullets
-description: "Every flagged QA finding MUST end with a clearly-formatted `Fix:` section listing each defect as an unambiguous bullet — field / current value / correct value. No burying the ask inside prose."
+description: "Fix bullets must be in plain English, generously spaced (blank line between each), and readable by a human scanning the thread. Never bunch multiple items together or use jargon-heavy shorthand."
 metadata: 
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-01T15:35:42.991Z
+  modified: 2026-09-02T13:38:27.439Z
 ---
 
-Every flagged QA reply MUST end with a `Fix:` section that spells out each defect as its own bullet. Each bullet is unambiguous about **what to change, where, and to what**. Do not weave the fix into the walkthrough paragraphs — those are for evidence; the Fix section is for action.
+Every flagged QA reply ends with a `Fix:` section. Two requirements:
 
-**Required bullet shape:**
+## 1. Plain-English wording
 
-- `• <Field / location> — <current value> → <correct value>. <One-clause reason if not obvious.>`
+Each bullet must read as clear, human directions — not a diff patch or LLM shorthand. Someone reading the thread on their phone should understand exactly what to change in one glance, without needing to decode field names.
 
-**Concrete examples of good bullets:**
+**Rules of thumb:**
 
-- `• Body book line — "Book Update: Final books over USD2.5bn (excl JLM)." → "Final books over USD2.5bn (excl JLM)." (drop the `Book Update:` prefix at Priced).`
-- `• Priced-deal form 14640665 — finalBooks: null → 2500. (source disclosed Final books over USD2.5bn (excl JLM) at Launched).`
-- `• Headline stage word — "Book update" → "Revised guidance MS+9bp area" (level tightened from MS+11bp to MS+9bp).`
-- `• Priced-deal form 14640653 — opCo: true → false (BPCE SA is a French bank, not on the OpCo/HoldCo whitelist).`
+- Say what to do, not just what's wrong. `Change X to Y in the body` beats `Body: X → Y`.
+- Use the desk's own vocabulary: "the headline", "the Priced body", "the tranche form's timing field", "the additionalInfo field on the priced-deal form".
+- If a field name is opaque (`fpr`, `hgDetails.regionAmericas`), gloss it in the bullet: "Reoffer price (`fpr` on the priced-deal form)".
+- One clear reason per bullet, in plain terms — not "per checklist rule bondradar-X".
 
-**Format rules:**
+## 2. Spacing — blank line between bullets
 
-1. Fix section always at the END of the finding, after the walkthrough sections. Never before.
-2. One bullet per defect. Never combine two defects into a single bullet. Never split one defect across multiple bullets.
-3. Each bullet leads with the field / location (`Body book line`, `Headline stage word`, `Priced-deal form <id>`, `Tranche form Tranche A`, `Deal-level flags`, etc.) so the desk knows exactly where to look.
-4. Use the `<current> → <correct>` arrow form. State both. Do not just state the correct value — the desk needs to know what to search-and-replace.
-5. Never use hedged language (`consider`, `verify`, `worth confirming`, `may need to`, `possibly`) — those are banned per the no-verify-hedges rule. If a fix is uncertain, either fetch the missing data and be certain, or don't include the bullet.
+Bullets must be visually separated. In Slack markdown that means **a blank line between each bullet** so the thread renders with real gaps, not a bunched-up block. Do NOT run bullets together on adjacent lines.
 
-**Why:** Finn on Santander UK USD1.5bn 3y CB Priced (id 14640273): tick produced a correct finding but Finn: "be very clear on what to fix please, be very clear from now on". The fixes were embedded in paragraphs with narrative flow and diagnosis prose (⚠ FLAG lines mid-section, "Suggested rewrite:" nested inside a walk paragraph), and the desk had to hunt for the concrete asks.
+## Fix section format
 
-**How to apply:** Complete the walkthrough sections first (Headline / Body / Tranche / Priced-form / Deal-level). Then produce a discrete `Fix:` section containing one bullet per defect, using the shape above. If the finding is clean, omit the Fix section entirely — no defects, no fix bullets.
+```
+Fix:
 
-Related: [[no-verify-hedges]] (bans hedged phrasings in every finding), [[bondradar-headline-always-check]] (walk order — Fix section always comes after the walk).
+• <Plain-English direction — what to change, where, and to what.> <One-line reason in the desk's own words.>
+
+• <Second defect, same shape.>
+
+• <Third defect.>
+```
+
+## Good examples
+
+```
+Fix:
+
+• On the priced-deal form (id 14640665), populate the `finalBooks` field with 2500. It's currently blank, and the Launched-stage source disclosed final books over USD2.5bn (excl JLM).
+
+• In the Priced body, drop the `Book Update:` prefix from the last line. The book-figure line at Priced doesn't take the `Book Update:` prefix — that's only for pre-pricing stages.
+
+• On the priced-deal form (id 14640653), untick `opCo`. BPCE SA is a French bank, and OpCo/HoldCo only applies to UK / Swiss / US / Japanese-megabank issuers plus ING / Nationwide / Softbank.
+```
+
+## Bad examples (do not emit these shapes)
+
+```
+Fix:
+• Body book line — "Book Update: Final books over USD2.5bn." → "Final books over USD2.5bn." (drop prefix at Priced).
+• Priced-deal form 14640665 — finalBooks: null → 2500.
+• opCo: true → false (BPCE SA).
+```
+Problems: bunched together, arrow-form is compact but not human-readable, field names not glossed, one-clause reasons too terse.
+
+## Rules
+
+1. Fix section always at the END of the finding. Never earlier.
+2. One bullet per defect. Never combine defects. Never split one across bullets.
+3. Blank line between bullets. Non-negotiable.
+4. Never use hedged language — `consider`, `verify`, `worth confirming`, `may need to`, `possibly`. Banned per the no-verify-hedges rule.
+5. Clean findings omit the Fix section entirely.
+
+**Why:** Finn on Santander UK USD1.5bn 3y CB Priced (id 14640273): "be very clear on what to fix please, be very clear from now on". Then a later correction: "for the fixing bullet points it needs to be more clear use layman terms and be sperated more it is too bunched". So the first rule pass produced correct-shape bullets but they read as compact jargon and were run together — the desk wants layman phrasing with clear spacing between items.
+
+Related: [[no-verify-hedges]] (bans hedged phrasings), [[bondradar-headline-always-check]] (walk order — Fix section always comes after the walk).

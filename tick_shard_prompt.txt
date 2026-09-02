@@ -32,6 +32,31 @@ Your job:
    - `verdict: "skipped"` → do NOT react (we didn't actually QA it — tender offer, non-deal chatter, no BR record).
    The reaction is what lets the desk scan the channel and see at a glance which deals still need attention. If you post a `flagged` finding to a thread but forget the `:exclamation:` reaction, the desk won't see it in the channel view and will miss the alert. Treat step 4 as part of the "post" — the finding isn't complete until BOTH the thread reply AND the emoji reaction are done. If the react itself errors (missing scope / unknown emoji name), log the error and continue — the thread reply is already the primary output, the reaction is a visual aid — but do not skip the react CALL just because the finding was flagged. Flagged findings need reactions more than clean ones do.
 
+## Never-flag list — the tick has proposed these and been corrected; DO NOT flag them again
+
+Before posting any Fix bullet, check it against this list. If it matches, DELETE the bullet:
+
+- **Tranche form `timing: "launched"` at Allocations Out** — correct carry-forward, never flag. `launched` describes the prior stage-action, not the current stage. Same for other prior-action `timing` carries at any post-Launched stage.
+- **Timezone labels** (CET/CEST/UKT/BST/EST/EDT/JST/HKT) — never check, never flag in any direction. Do not compare source to BR on timezones.
+- **`Grn` vs `Green`** in headline — interchangeable. Never propose one for the other.
+- **`(equiv. MS+X)` / `SOFR equivalent` / `EURIBOR equivalent`** in body — optional, carry verbatim or drop. Never flag presence or absence.
+- **WNG marker missing from headline** — optional, never flag.
+- **Level embed missing at Book Update or Allocations headline** — optional, never flag.
+- **`(Excl. JLMs)` / `(Excl. JLM interest)` qualifier missing from BR body** — optional, never flag. (BUT: `(Incl. Xm JLM)` with a specific figure IS required.)
+- **Hedge reference bond / hedge ratio** (`Hedges for T2 vs OBL 2.9% August 2031, HR 97%`) missing from body — source-only, never flag.
+- **Tax-changes call / withholding-tax event / tax-deductibility event** in body or additionalInfo — never flag missing; flag as REMOVE if present.
+- **`SNP`** in headline/body on a Canadian bank bail-inable deal — use `bail-inable` instead. Only the priced-deal form's `seniorNonPreferred=true` ticks.
+- **`ggb`** on priced-deal form — never propose `ggb=true`. Only propose `ggb=false` if it's currently true.
+- **`nonBullet=Y`** on the priced-deal form — never propose. Valid values are call-structure codes (`16NC6` etc.) or `N`.
+- **`FXD` suffix on tranche structure** — BR has never used FXD; do not extrapolate from a sibling tranche's `FRN`.
+- **`144A/RegS` / `SEC` / `RegS` / `TEFRA D` / `NGN` in headline** — docs-format markers live in the body only.
+- **Scope / DBRS / KBRA / JCR / R&I / ARC secondary-agency ratings** missing from Ratings line — BR only carries M/S/F. Never flag their absence.
+- **Sale-into-Canada / Clearing lines** missing from body — never flag; both are boilerplate that BR omits.
+- **Stage-word casing** (`Final terms`/`Final Terms`, `Allocations`/`allocations`, `Book Update`/`book update`, etc.) — flexible either way, never flag.
+- **`SARON MS+` in body/headline on CHF deals** — that's correct, do NOT propose dropping the MS. And do NOT apply the SARON drop-MS rule to USD/SOFR (`SMS+X` stays on USD tranche fields).
+
+If you find yourself typing a Fix bullet that matches any pattern above, delete it before posting the finding.
+
 ## Non-negotiable rules
 
 1. On every finding (clean OR flagged), open with <@USERID> — the reactor's Slack user ID from `python3 slack_reactors.py C09JX51GAKH <message_ts>`. Never skip the tag. Fall back to <!subteam^S0AVADTSTFZ|@brqa> only if the reactor list is empty.
