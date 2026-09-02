@@ -2024,5 +2024,25 @@
     "category": "hg",
     "issuer": "3M Company",
     "note": "Timing update EUR1.5bn (exp.) multi-tranche 2/5/8y; flagged by prior tick \u2014 Tranches B & C still carry stale investor-call timing (`i/c 01-02 Sep` / `i/c 01-02 Sep>`). Backfilling state."
+  },
+  "1788344974.971619": {
+    "checked_at": "2026-09-02T10:50:00Z",
+    "verdict": "skipped"
+  },
+  "1788345984.426299": {
+    "checked_at": "2026-09-02T10:52:00Z",
+    "verdict": "clean"
+  },
+  "1788345083.971169": {
+    "checked_at": "2026-09-02T10:52:19Z",
+    "verdict": "skipped"
+  },
+  "1788345430.458609": {
+    "checked_at": "2026-09-02T10:51:43Z",
+    "verdict": "clean"
+  },
+  "1788345877.857549": {
+    "checked_at": "2026-09-02T10:52:53Z",
+    "verdict": "skipped"
   }
 }
