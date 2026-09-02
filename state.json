@@ -2214,6 +2214,14 @@
     "note": "Allocations USD1bn 3y at SOFR MS+50bp \u2014 book-line `Book update: Books over` at Allocations Out stage should be `Final books over` per checklist rule 73; Bookrunners line missing (B&D) marker after Citi. Tranche form/deal flags all clean. Posted flag.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-02T12:52:54Z",
-  "_tick": "2026-09-02T12:52:54Z"
+  "1788353860.930249": {
+    "br_id": 14650276,
+    "category": "hg",
+    "checked_at": "2026-09-02T13:05:03Z",
+    "issuer": "PACCAR Financial Corp.",
+    "note": "IPTs USD300m 3y T+60a; headline/body/tranche form (JT-LEADS, T+60a)/deal-level flags (regionAmericas=true, IGRB18, count=1) all clean. Bot already in thread from prior tick (state write lost) \u2014 skipped repost.",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-02T13:05:03Z",
+  "_tick": "2026-09-02T13:03:00Z"
 }
