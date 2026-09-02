@@ -1800,81 +1800,31 @@
     "verdict": "clean"
   },
   "1788336962.311269": {
-    "checked_at": "2026-09-02T08:42:45.533283Z",
-    "verdict": "skipped_bot_already_in_thread"
-  },
-  "1788337415.623859": {
-    "checked_at": "2026-09-02T08:43:46.856664Z",
-    "verdict": "skipped_bot_already_in_thread"
-  },
-  "1788337767.481799": {
-    "checked_at": "2026-09-02T08:44:37.865578Z",
-    "verdict": "skipped_bot_already_in_thread"
-  },
-  "1788337879.952379": {
-    "checked_at": "2026-09-02T08:45:42.076746Z",
-    "verdict": "skipped_bot_already_in_thread"
-  },
-  "1788337926.394629": {
-    "checked_at": "2026-09-02T08:46:47.909447Z",
-    "verdict": "skipped_bot_already_in_thread"
-  },
-  "1788337971.191179": {
-    "checked_at": "2026-09-02T08:45:54.963037Z",
-    "verdict": "skipped"
-  },
-  "1788338095.750249": {
-    "checked_at": "2026-09-02T08:47:45.978113Z",
-    "verdict": "skipped_bot_already_in_thread"
-  },
-  "1788338491.669269": {
-    "checked_at": "2026-09-02T09:04:30Z",
-    "verdict": "clean"
-  },
-  "1788338982.883689": {
-    "checked_at": "2026-09-02T09:04:30Z",
-    "verdict": "clean"
-  },
-  "1788339133.329859": {
-    "checked_at": "2026-09-02T09:04:30Z",
-    "verdict": "clean"
-  },
-  "1788339313.079829": {
-    "checked_at": "2026-09-02T09:04:30Z",
-    "verdict": "clean"
-  },
-  "1788339345.054589": {
-    "checked_at": "2026-09-02T09:04:30Z",
-    "verdict": "clean"
-  },
-  "_last_tick": "2026-09-02T08:30:58Z",
-  "_tick": "2026-09-02T06:52:00Z",
-  "1788336962.311269": {
     "checked_at": "2026-09-02T08:45:18Z",
     "verdict": "skipped"
-  },
-  "1788337926.394629": {
-    "checked_at": "2026-09-02T08:45:18Z",
-    "verdict": "flagged"
   },
   "1788337415.623859": {
     "checked_at": "2026-09-02T08:43:37Z",
     "verdict": "skipped"
   },
-  "1788337971.191179": {
-    "checked_at": "2026-09-02T08:43:37Z",
-    "verdict": "skipped"
-  },
   "1788337767.481799": {
-    "checked_at": "2026-09-02T08:43:34Z",
-    "verdict": "clean"
-  },
-  "1788338095.750249": {
     "checked_at": "2026-09-02T08:43:34Z",
     "verdict": "clean"
   },
   "1788337879.952379": {
     "checked_at": "2026-09-02T08:43:40Z",
+    "verdict": "clean"
+  },
+  "1788337926.394629": {
+    "checked_at": "2026-09-02T08:45:18Z",
+    "verdict": "flagged"
+  },
+  "1788337971.191179": {
+    "checked_at": "2026-09-02T08:43:37Z",
+    "verdict": "skipped"
+  },
+  "1788338095.750249": {
+    "checked_at": "2026-09-02T08:43:34Z",
     "verdict": "clean"
   },
   "1788338491.669269": {
@@ -1896,5 +1846,39 @@
   "1788339345.054589": {
     "checked_at": "2026-09-02T09:04:00Z",
     "verdict": "flagged"
+  },
+  "_last_tick": "2026-09-02T08:30:58Z",
+  "_tick": "2026-09-02T06:52:00Z",
+  "1788339627.280209": {
+    "checked_at": "2026-09-02T09:34:34Z",
+    "verdict": "skipped"
+  },
+  "1788340304.550879": {
+    "checked_at": "2026-09-02T09:34:34Z",
+    "verdict": "skipped"
+  },
+  "1788339712.966509": {
+    "checked_at": "2026-09-02T09:30:00Z",
+    "verdict": "skipped"
+  },
+  "1788340893.006119": {
+    "checked_at": "2026-09-02T09:35:00Z",
+    "verdict": "clean"
+  },
+  "1788339721.706599": {
+    "checked_at": "2026-09-02T09:30:00Z",
+    "verdict": "skipped"
+  },
+  "1788340919.156269": {
+    "checked_at": "2026-09-02T09:30:00Z",
+    "verdict": "clean"
+  },
+  "1788339927.553809": {
+    "checked_at": "2026-09-02T09:34:00Z",
+    "verdict": "skipped"
+  },
+  "1788341085.980489": {
+    "checked_at": "2026-09-02T09:34:00Z",
+    "verdict": "clean"
   }
 }
