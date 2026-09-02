@@ -2321,5 +2321,37 @@
     "issuer": "Bureau Veritas",
     "note": "Priced EUR700m 8y at MS+87bp; priced-deal 14650290 all fields clean (COC/MWC/CUC all true matching source Docs; additionalInfo=\"3-month par call\"; opCo/holdCo=false French corporate; dealRegsOnly=true; finalBooks=1400 matches source EUR1.4bn closed; 7-lead bank list matches 3 GC + 4 Active BR). Bot already in thread; no repost.",
     "verdict": "clean"
+  },
+  "1788357164.769929": {
+    "checked_at": "2026-09-02T14:31:24.116362+00:00",
+    "verdict": "clean"
+  },
+  "1788357441.038179": {
+    "checked_at": "2026-09-02T14:31:24.116362+00:00",
+    "verdict": "clean"
+  },
+  "1788357628.401519": {
+    "checked_at": "2026-09-02T14:31:24.116362+00:00",
+    "verdict": "clean"
+  },
+  "1788357780.408729": {
+    "checked_at": "2026-09-02T14:31:24.116362+00:00",
+    "verdict": "flagged"
+  },
+  "1788357978.145449": {
+    "checked_at": "2026-09-02T14:31:24.116362+00:00",
+    "verdict": "flagged"
+  },
+  "1788358220.759099": {
+    "checked_at": "2026-09-02T14:31:24.116362+00:00",
+    "verdict": "flagged"
+  },
+  "1788358595.305819": {
+    "checked_at": "2026-09-02T14:31:24.116362+00:00",
+    "verdict": "flagged"
+  },
+  "1788358635.120049": {
+    "checked_at": "2026-09-02T14:31:24.116362+00:00",
+    "verdict": "clean"
   }
 }
