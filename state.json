@@ -2265,207 +2265,37 @@
   "_last_tick": "2026-09-02T13:05:03Z",
   "_tick": "2026-09-02T13:03:00Z",
   "1788350109.429849": {
-    "checked_at": "2026-09-02T13:44:52Z",
-    "verdict": "skipped"
-  },
-  "1788355506.199889": {
-    "checked_at": "2026-09-02T13:44:52Z",
+    "checked_at": "2026-09-02T13:41:39Z",
+    "note": "Chat instruction \"Needs done on 9fin too ^\" \u2014 not a Bloomberg term sheet.",
     "verdict": "skipped"
   },
   "1788350645.634629": {
-    "checked_at": "2026-09-02T13:45:43Z",
+    "checked_at": "2026-09-02T13:41:39Z",
+    "note": "Short \"Royal bank of Canada / Overnight Books @ $1.7bn+\" note \u2014 no BBG forward markers, no file attachment.",
     "verdict": "skipped"
   },
   "1788355153.949929": {
-    "checked_at": "2026-09-02T13:45:42Z",
-    "verdict": "skipped"
+    "br_id": 14650075,
+    "category": "hg",
+    "checked_at": "2026-09-02T13:41:39Z",
+    "issuer": "Banca MPS",
+    "note": "Allocations EUR500m 10.5NC5.5 Grn T2 at MS+145bp; headline/body/tranche form (JT-LEADS 7 leads, structure 10.5NC5.5 at 9-char cap, priceEvolution MS+145 launched)/deal-level flags all clean; bot already in thread \u2014 slack_post skipped repost.",
+    "verdict": "clean"
   },
   "1788355467.749339": {
-    "checked_at": "2026-09-02T13:46:12Z",
-    "verdict": "skipped"
+    "br_id": 14640248,
+    "category": "em",
+    "checked_at": "2026-09-02T13:41:39Z",
+    "issuer": "Kuwait International Bank",
+    "note": "Allocations USD500m 5y Sukuk at T+95bp; hedge deadline in body reads \"14:50 UKT / 09:50 NYT\" but source term sheet says \"14.45 UKT / 16.45 Kuwait\" \u2014 both time and secondary zone wrong (likely leaked from concurrent AIIB Allocations forward). Rest of headline/body/tranche form (NR/NR/A, priceEvolution T+95 launched)/12-JLM count/deal-level flags clean. Bot already in thread \u2014 slack_post skipped repost.",
+    "verdict": "flagged"
   },
-  "1788356446.835609": {
-    "checked_at": "2026-09-02T13:53:08Z",
+  "1788355506.199889": {
+    "br_id": 14640538,
+    "category": "hg",
+    "checked_at": "2026-09-02T13:41:39Z",
+    "issuer": "AIIB",
+    "note": "Allocations USD2bn 3y SDB at MS+23bp; headline/body/tranche form (JT-LEADS 4 leads, priceEvolution SMS+23 launched)/deal-level flags (regionAmericas=true SEC-registered)/hedge deadline 14.50 UKT / 09.50 NYT match source all clean; bot already in thread \u2014 slack_post skipped repost.",
     "verdict": "clean"
-  },
-  "1788356479.125069": {
-    "checked_at": "2026-09-02T13:50:00Z",
-    "verdict": "flagged"
-  },
-  "1788356587.912929": {
-    "checked_at": "2026-09-02T13:55:00Z",
-    "verdict": "clean"
-  },
-  "1788357063.048719": {
-    "checked_at": "2026-09-02T14:58:00Z",
-    "verdict": "flagged"
-  },
-  "1788357164.769929": {
-    "checked_at": "2026-09-02T14:56:34Z",
-    "verdict": "clean"
-  },
-  "1788357441.038179": {
-    "checked_at": "2026-09-02T14:33:00Z",
-    "verdict": "flagged"
-  },
-  "1788357628.401519": {
-    "checked_at": "2026-09-02T14:10:00Z",
-    "verdict": "clean"
-  },
-  "1788357780.408729": {
-    "checked_at": "2026-09-02T14:20:00Z",
-    "verdict": "flagged"
-  },
-  "1788358635.120049": {
-    "checked_at": "2026-09-02T14:21:00Z",
-    "verdict": "flagged"
-  },
-  "1788357978.145449": {
-    "checked_at": "2026-09-02T14:24:51Z",
-    "verdict": "flagged"
-  },
-  "1788358220.759099": {
-    "checked_at": "2026-09-02T14:22:46Z",
-    "verdict": "flagged"
-  },
-  "1788358595.305819": {
-    "checked_at": "2026-09-02T14:23:00Z",
-    "verdict": "flagged"
-  },
-  "1788357836.909129": {
-    "checked_at": "2026-09-02T14:35:28Z",
-    "verdict": "flagged"
-  },
-  "1788358586.447659": {
-    "checked_at": "2026-09-02T14:36:04Z",
-    "verdict": "flagged"
-  },
-  "1788359011.073459": {
-    "checked_at": "2026-09-02T14:45:50Z",
-    "verdict": "clean"
-  },
-  "1788359475.531069": {
-    "checked_at": "2026-09-02T14:40:00Z",
-    "verdict": "clean"
-  },
-  "1788359484.585479": {
-    "checked_at": "2026-09-02T14:41:00Z",
-    "verdict": "flagged"
-  },
-  "1788359928.529929": {
-    "checked_at": "2026-09-02T14:54:06Z",
-    "verdict": "flagged"
-  },
-  "1788360199.416439": {
-    "checked_at": "2026-09-02T14:55:07Z",
-    "verdict": "flagged"
-  },
-  "1788360446.590979": {
-    "checked_at": "2026-09-02T15:00:00Z",
-    "verdict": "clean"
-  },
-  "1788360770.731449": {
-    "checked_at": "2026-09-02T15:58:00Z",
-    "verdict": "clean"
-  },
-  "1788360928.549169": {
-    "checked_at": "2026-09-02T15:00:00Z",
-    "verdict": "clean"
-  },
-  "1788361049.244039": {
-    "checked_at": "2026-09-02T15:05:00Z",
-    "verdict": "clean"
-  },
-  "1788361306.568349": {
-    "checked_at": "2026-09-02T15:35:00Z",
-    "verdict": "flagged"
-  },
-  "1788361579.988089": {
-    "checked_at": "2026-09-02T15:13:21Z",
-    "verdict": "flagged"
-  },
-  "1788361602.745659": {
-    "checked_at": "2026-09-02T15:14:00Z",
-    "verdict": "flagged"
-  },
-  "1788361635.820909": {
-    "checked_at": "2026-09-02T15:24:29Z",
-    "verdict": "flagged"
-  },
-  "1788361826.580279": {
-    "checked_at": "2026-09-02T15:20:00Z",
-    "verdict": "clean"
-  },
-  "1788362152.955799": {
-    "checked_at": "2026-09-02T15:34:06Z",
-    "verdict": "clean"
-  },
-  "1788362623.325919": {
-    "checked_at": "2026-09-02T15:39:00Z",
-    "verdict": "clean"
-  },
-  "1788364847.305149": {
-    "checked_at": "2026-09-02T17:20:00Z",
-    "verdict": "flagged"
-  },
-  "1788365190.817119": {
-    "checked_at": "2026-09-02T17:34:00Z",
-    "verdict": "flagged"
-  },
-  "1788365505.168069": {
-    "checked_at": "2026-09-02T16:22:36Z",
-    "verdict": "clean"
-  },
-  "1788365742.994019": {
-    "checked_at": "2026-09-02T17:24:00Z",
-    "verdict": "flagged"
-  },
-  "1788365536.039859": {
-    "checked_at": "2026-09-02T16:34:48Z",
-    "verdict": "flagged"
-  },
-  "1788366227.701369": {
-    "checked_at": "2026-09-02T17:41:00Z",
-    "verdict": "flagged"
-  },
-  "1788367790.454429": {
-    "checked_at": "2026-09-02T17:03:03Z",
-    "verdict": "flagged"
-  },
-  "1788367812.020909": {
-    "checked_at": "2026-09-02T17:00:00Z",
-    "verdict": "clean"
-  },
-  "1788368378.947559": {
-    "checked_at": "2026-09-02T17:14:56Z",
-    "verdict": "flagged"
-  },
-  "1788368704.927079": {
-    "checked_at": "2026-09-02T17:20:00Z",
-    "verdict": "flagged"
-  },
-  "1788368998.142719": {
-    "checked_at": "2026-09-02T17:24:07Z",
-    "verdict": "flagged"
-  },
-  "1788370541.866589": {
-    "checked_at": "2026-09-02T17:54:08Z",
-    "verdict": "flagged"
-  },
-  "1788370737.579879": {
-    "checked_at": "2026-09-02T17:53:21Z",
-    "verdict": "flagged"
-  },
-  "1788371580.413949": {
-    "checked_at": "2026-09-02T18:03:21Z",
-    "verdict": "clean"
-  },
-  "1788379056.681539": {
-    "checked_at": "2026-09-02T21:30:00Z",
-    "verdict": "flagged"
-  },
-  "1788399246.110629": {
-    "checked_at": "2026-09-03T06:41:03Z",
-    "verdict": "skipped"
   }
 }
