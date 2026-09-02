@@ -2198,12 +2198,28 @@
     "note": "Moody's rating typo A2 in message body and both tranche bookOrRating fields (should be Aa2); slack_post skipped bot_already_in_thread",
     "verdict": "flagged"
   },
+  "1788352344.745779": {
+    "checked_at": "2026-09-02T13:15:49Z",
+    "verdict": "clean"
+  },
+  "1788352419.594419": {
+    "checked_at": "2026-09-02T13:15:49Z",
+    "verdict": "flagged"
+  },
   "1788352622.433579": {
     "br_id": 14640538,
     "category": "hg",
     "checked_at": "2026-09-02T12:52:54Z",
     "issuer": "AIIB",
     "note": "Final terms USD2bn 3y SDB at SOFR MS+23bp \u2014 headline stage word `Book update` should be `Final terms` per Rule 4 (body opens Spread set + size set); Joint Leads line missing (B&D/DM) marker after Citi. Tranche form/deal flags all clean. Posted flag.",
+    "verdict": "flagged"
+  },
+  "1788352638.500539": {
+    "checked_at": "2026-09-02T13:15:49Z",
+    "verdict": "clean"
+  },
+  "1788352942.530719": {
+    "checked_at": "2026-09-02T13:15:49Z",
     "verdict": "flagged"
   },
   "1788353218.112509": {
@@ -2214,12 +2230,36 @@
     "note": "Allocations USD1bn 3y at SOFR MS+50bp \u2014 book-line `Book update: Books over` at Allocations Out stage should be `Final books over` per checklist rule 73; Bookrunners line missing (B&D) marker after Citi. Tranche form/deal flags all clean. Posted flag.",
     "verdict": "flagged"
   },
+  "1788353605.823859": {
+    "checked_at": "2026-09-02T13:15:49Z",
+    "verdict": "clean"
+  },
   "1788353860.930249": {
     "br_id": 14650276,
     "category": "hg",
     "checked_at": "2026-09-02T13:05:03Z",
     "issuer": "PACCAR Financial Corp.",
     "note": "IPTs USD300m 3y T+60a; headline/body/tranche form (JT-LEADS, T+60a)/deal-level flags (regionAmericas=true, IGRB18, count=1) all clean. Bot already in thread from prior tick (state write lost) \u2014 skipped repost.",
+    "verdict": "clean"
+  },
+  "1788354003.883949": {
+    "checked_at": "2026-09-02T13:15:49Z",
+    "verdict": "clean"
+  },
+  "1788354239.086869": {
+    "checked_at": "2026-09-02T13:15:49Z",
+    "verdict": "flagged"
+  },
+  "1788354671.778599": {
+    "checked_at": "2026-09-02T13:15:49Z",
+    "verdict": "flagged"
+  },
+  "1788354734.673409": {
+    "checked_at": "2026-09-02T13:15:49Z",
+    "verdict": "clean"
+  },
+  "1788354814.774509": {
+    "checked_at": "2026-09-02T13:15:49Z",
     "verdict": "clean"
   },
   "_last_tick": "2026-09-02T13:05:03Z",
