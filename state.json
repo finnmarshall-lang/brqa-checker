@@ -1799,6 +1799,34 @@
     "note": "Duplicate Bloomberg BOOKSTATS forward for same BR deal 14561630 (Book stats). Same clean verdict as sibling 1788335374.394579. Bot already in thread \u2014 slack_post skipped repost.",
     "verdict": "clean"
   },
+  "1788336962.311269": {
+    "checked_at": "2026-09-02T08:42:45.533283Z",
+    "verdict": "skipped_bot_already_in_thread"
+  },
+  "1788337415.623859": {
+    "checked_at": "2026-09-02T08:43:46.856664Z",
+    "verdict": "skipped_bot_already_in_thread"
+  },
+  "1788337767.481799": {
+    "checked_at": "2026-09-02T08:44:37.865578Z",
+    "verdict": "skipped_bot_already_in_thread"
+  },
+  "1788337879.952379": {
+    "checked_at": "2026-09-02T08:45:42.076746Z",
+    "verdict": "skipped_bot_already_in_thread"
+  },
+  "1788337926.394629": {
+    "checked_at": "2026-09-02T08:46:47.909447Z",
+    "verdict": "skipped_bot_already_in_thread"
+  },
+  "1788337971.191179": {
+    "checked_at": "2026-09-02T08:45:54.963037Z",
+    "verdict": "skipped"
+  },
+  "1788338095.750249": {
+    "checked_at": "2026-09-02T08:47:45.978113Z",
+    "verdict": "skipped_bot_already_in_thread"
+  },
   "_last_tick": "2026-09-02T08:30:58Z",
   "_tick": "2026-09-02T06:52:00Z",
   "1788336962.311269": {
