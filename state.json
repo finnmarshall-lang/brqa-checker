@@ -2080,6 +2080,62 @@
     "checked_at": "2026-09-02T11:10:00Z",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-02T10:52:48Z",
-  "_tick": "2026-09-02T10:52:48Z"
+  "_last_tick": "2026-09-02T11:45:34Z",
+  "_tick": "2026-09-02T10:52:48Z",
+  "1788346909.099099": {
+    "br_id": 14650042,
+    "category": "hg",
+    "issuer": "Santander Totta",
+    "note": "Allocations EUR500m 3y CB at MS+14bp; standing terms/JLM list/ISIN/hedge line all match source Allocations update; tranche form (500m/3y CB/MS+14/JT-LEADS/launched)/coveredBonds/IGRB35 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
+    "checked_at": "2026-09-02T11:45:34Z",
+    "verdict": "clean"
+  },
+  "1788346947.798149": {
+    "br_id": 14640485,
+    "category": "em",
+    "issuer": "KDB",
+    "note": "Spreads set USD bmk dual-tranche 3y/5y at SMS+36/48bp; A2/AA/AA-; 6 bookrunners Citi(B&D)/CA-CIB/HSBC/JPM/Mizuho/StanChart; per-tranche books USD1.3bn/USD1.2bn; tranche forms (SMS+36/48 no area, today, banks.active=6) & regionAsia/EMRH54 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
+    "checked_at": "2026-09-02T11:45:34Z",
+    "verdict": "clean"
+  },
+  "1788347122.535539": {
+    "br_id": 14640087,
+    "category": "em",
+    "issuer": "Bangkok Bank",
+    "note": "Book update USD bmk dual-tranche 5y/10y at T+105a/T+130a IPTs; Morgan Stanley(B&D)/Citi/HSBC 3 leads; MWC-before-par-call ordering correct; combined books USD2.8bn (incl. USD11.7m add'l SFC); tranche forms & regionAsia/EMRH40 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
+    "checked_at": "2026-09-02T11:45:34Z",
+    "verdict": "clean"
+  },
+  "1788347271.428889": {
+    "br_id": 14640434,
+    "category": "hg",
+    "issuer": "NORD/LB",
+    "note": "Allocations EUR750m 7y CB (Hypothekenpfandbrief) at MS+24bp; Final books above EUR1.1bn (incl. EUR150m JLM) matches source `Final book good at reoffer`; 6 JLMs incl UniCredit(B&D); coveredBonds=true/IGRB63/DE000NLB57X5 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
+    "checked_at": "2026-09-02T11:45:34Z",
+    "verdict": "clean"
+  },
+  "1788347361.507879": {
+    "br_id": 14650075,
+    "category": "hg",
+    "issuer": "Banca MPS",
+    "note": "Final Terms EUR500m 10.5NC5.5 Grn T2 at MS+145bp; SLAP + CUC 75 + Tax/Reg Event redemption preserved; Baa3/BBB- issuer, Ba2//BB expected (M//F); GC Mediobanca + 7 JLMs incl UniCredit(B&D); books EUR1.2bn+ pre-rec matches source; tranche form (10.5NC5.5 MS+145 launched)/IGRB37/coveredBonds=false clean. Prior tick posted (bot_already_in_thread); backfilling state.",
+    "checked_at": "2026-09-02T11:45:34Z",
+    "verdict": "clean"
+  },
+  "1788347609.264779": {
+    "br_id": 14640117,
+    "category": "hg",
+    "issuer": "Kingspan",
+    "note": "Guidance EUR850m dual-tranche Green 4y/7y at MS+65a/MS+95a (+/-2bps WPIR preserved); BBB/BBB (S&P/F); 4 BRs BNPP/BofA SE/ING/UniCredit(B&D); Sole ESG SC ING; Books EUR2.3bn/EUR2.3bn respectively matches source; tranche forms (350m 4y Grn/500m 7y Grn, area kept today)/IGRB26/expectedPageCount=2 clean. Prior tick posted (bot_already_in_thread); backfilling state.",
+    "checked_at": "2026-09-02T11:45:34Z",
+    "verdict": "clean"
+  },
+  "1788347618.871009": {
+    "br_id": 14650085,
+    "category": "hg",
+    "issuer": "Rothesay Life",
+    "note": "Spread set GBP500m (exp) 10.5y T2 at G+160bp (UKT 4.625% March 2037 spelled-out benchmark); Baa1/BBB+ (M/F) expected issue, S&P absent; 4 JLMs Barclays(B&D)/BNPP/Lloyds/Santander; Books over GBP1bn pre-rec matches source; tranche form (GBP bmk 10.5y T2 G+160 no area today)/IGRB39/coveredBonds=false clean. Prior tick posted (bot_already_in_thread); backfilling state.",
+    "checked_at": "2026-09-02T11:45:34Z",
+    "verdict": "clean"
+  }
 }
