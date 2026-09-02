@@ -10,7 +10,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-01T14:48:07.181Z
+  modified: 2026-09-02T09:11:26.718Z
 ---
 
 Bond Radar messages have a stage-based rule for the book-line prefix:
@@ -65,6 +65,8 @@ Bond Radar messages have a stage-based rule for the book-line prefix:
 - Source `Final books at €900m` → BR `Final books EUR900m.` OR `Final books over EUR900m.` — either fine.
 
 Finn on JR East EUR500m 9y Grn Allocations (id 14640302): source said `Final books = €1.2bn`, BR body had `Final books EUR1.2bn.`, tick flagged missing `over`. Finn: "this seems ok as it say final books= the same goes for at no need to write over". Rule: source's `=` / `at` licences BR to drop `over`. Applies to every variant of the book line (`Books`, `Final books`, `Books closed`, `Books last heard`).
+
+**`(Excl. JLMs)` / `(Excl. JLM interest)` / `(incl. Xm JLM)` qualifiers are OPTIONAL in BR body.** Source may state that a book figure excludes or includes JLM interest — BR can carry the qualifier verbatim, or drop it. Do NOT flag when source states `Excl. JLMs` (or similar) but the BR body simply reads `Books over EUR1bn.` without the qualifier. Finn on a book-update finding: "this is correct if it says excl JLM its not a big deal to not have it in message". Only flag when the numerical figure or the "over/above/=/at" wording is actually wrong — the JLM qualifier itself is a stylistic add-on, not a required field.
 
 **Why:** Originally I over-generalized from the NAB Priced correction ("no `Book update:` prefix") to all stages. Finn corrected twice: first on the World Bank Guidance case (`Book update: IOIs over USD9bn` is correct), then more broadly — "Books update: is fine in the update for book updates until pricing". The rule is stage-based, not phrase-based. See NAB Priced (id 14620271) for the no-prefix example and World Bank (id 14620425) + DBJ (id 14620338) for the prefix-is-fine pre-pricing examples.
 
