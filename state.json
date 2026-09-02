@@ -2297,5 +2297,29 @@
     "issuer": "AIIB",
     "note": "Allocations USD2bn 3y SDB at MS+23bp; headline/body/tranche form (JT-LEADS 4 leads, priceEvolution SMS+23 launched)/deal-level flags (regionAmericas=true SEC-registered)/hedge deadline 14.50 UKT / 09.50 NYT match source all clean; bot already in thread \u2014 slack_post skipped repost.",
     "verdict": "clean"
+  },
+  "1788356446.835609": {
+    "br_id": 14640551,
+    "category": "hg",
+    "checked_at": "2026-09-02T13:57:56Z",
+    "issuer": "Dexia",
+    "note": "Priced USD1bn 3y at SOFR MS+50bp; priced-deal 14650285 all fields clean (RegS/144A 3(c)(7); deal144aRegs=true; ggb=false per rule; opCo/holdCo=false Belgian bank; finalBooks=1500 matches source; 5-lead bookrunner list matches). Bot already in thread from prior tick (state write lost); no repost.",
+    "verdict": "clean"
+  },
+  "1788356479.125069": {
+    "br_id": 14640230,
+    "category": "em",
+    "checked_at": "2026-09-02T13:57:56Z",
+    "issuer": "Development Bank of Kazakhstan",
+    "note": "Final Terms/Launched CNH3.7bn dual-tranche 5y+10y; tranche form JLM counts flagged (A=7 / B=11 vs 12 named JLMs in source syndicate). Bot already in thread from prior tick; no repost.",
+    "verdict": "flagged"
+  },
+  "1788356587.912929": {
+    "br_id": 14650067,
+    "category": "hg",
+    "checked_at": "2026-09-02T13:57:56Z",
+    "issuer": "Bureau Veritas",
+    "note": "Priced EUR700m 8y at MS+87bp; priced-deal 14650290 all fields clean (COC/MWC/CUC all true matching source Docs; additionalInfo=\"3-month par call\"; opCo/holdCo=false French corporate; dealRegsOnly=true; finalBooks=1400 matches source EUR1.4bn closed; 7-lead bank list matches 3 GC + 4 Active BR). Bot already in thread; no repost.",
+    "verdict": "clean"
   }
 }
