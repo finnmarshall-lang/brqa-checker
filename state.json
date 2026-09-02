@@ -1732,6 +1732,10 @@
     "note": "USD300m 3y WAL 144A/RegS senior secured Priced; bot already posted flagged finding in thread (ISIN + two priced-deal form fields) \u2014 skipped repost per never-repost rule.",
     "verdict": "flagged"
   },
+  "1788274802.539639": {
+    "checked_at": "2026-09-01T15:41:37Z",
+    "verdict": "skipped"
+  },
   "1788274965.902349": {
     "br_id": 14640225,
     "category": "em",
@@ -1740,33 +1744,27 @@
     "note": "SGD400m 5y Grn Priced at 2.646%; headline/body/priced-deal form 14640658 all clean; Books last heard SGD700m carried forward per Case B; source did not publish ISIN (not flagged per rule 7); bot already in thread \u2014 skipped repost, state recorded.",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-01T15:32:54Z",
-  "_tick": "2026-09-01T15:32:54Z",
   "1788275330.150849": {
     "br_id": 14640328,
-    "issuer": "Autostrade per l'Italia",
     "checked_at": "2026-09-01T15:27:00Z",
+    "issuer": "Autostrade per l'Italia",
     "note": "Bot reply already in thread (state commit lost in prior tick) \u2014 Priced Perfect",
     "verdict": "clean"
   },
   "1788275487.728109": {
     "br_id": 14640302,
-    "issuer": "JR East",
     "checked_at": "2026-09-01T15:28:00Z",
+    "issuer": "JR East",
     "note": "Bot reply already in thread (state commit lost in prior tick) \u2014 Priced Perfect",
     "verdict": "clean"
   },
   "1788275877.140999": {
     "br_id": 14640273,
-    "issuer": "Santander UK",
     "checked_at": "2026-09-01T15:32:54Z",
+    "issuer": "Santander UK",
     "note": "Priced flagged \u2014 Book Update: prefix at Priced + finalBooks=null (source had final over USD2.5bn)",
-    "verdict": "flagged",
-    "reply_ts": "1788276774.554129"
-  },
-  "1788274802.539639": {
-    "checked_at": "2026-09-01T15:41:37Z",
-    "verdict": "skipped"
+    "reply_ts": "1788276774.554129",
+    "verdict": "flagged"
   },
   "1788277525.921049": {
     "checked_at": "2026-09-01T15:54:40Z",
@@ -1800,180 +1798,51 @@
     "checked_at": "2026-09-01T16:34:00Z",
     "verdict": "flagged"
   },
-  "1788281333.239359": {
-    "checked_at": "2026-09-01T16:54:35Z",
-    "verdict": "clean"
-  },
-  "1788282199.061429": {
-    "checked_at": "2026-09-01T17:12:38Z",
-    "verdict": "flagged"
-  },
-  "1788282359.496099": {
-    "checked_at": "2026-09-01T17:13:46Z",
-    "verdict": "clean"
-  },
-  "1788282372.454769": {
-    "checked_at": "2026-09-01T18:20:00Z",
-    "verdict": "clean"
-  },
-  "1788285060.120709": {
-    "checked_at": "2026-09-01T18:02:46Z",
-    "verdict": "clean"
-  },
-  "1788285165.105779": {
-    "checked_at": "2026-09-01T18:14:22Z",
-    "verdict": "flagged"
-  },
-  "1788286478.777299": {
-    "checked_at": "2026-09-01T18:22:56Z",
-    "verdict": "clean"
-  },
-  "1788288030.229509": {
-    "checked_at": "2026-09-01T18:47:00Z",
-    "verdict": "clean"
-  },
-  "1788288929.034759": {
-    "checked_at": "2026-09-01T19:14:59Z",
-    "verdict": "flagged"
-  },
-  "1788289722.735449": {
-    "checked_at": "2026-09-01T19:26:00Z",
-    "verdict": "clean"
-  },
-  "1788290727.610909": {
-    "checked_at": "2026-09-01T19:33:57Z",
-    "verdict": "flagged"
-  },
-  "1788290742.344079": {
-    "checked_at": "2026-09-01T20:34:00Z",
-    "verdict": "flagged"
-  },
-  "1788291787.310049": {
-    "checked_at": "2026-09-01T19:54:31Z",
-    "verdict": "flagged"
-  },
-  "1788292150.680059": {
-    "checked_at": "2026-09-01T20:05:05Z",
-    "verdict": "clean"
-  },
-  "1788292570.009399": {
-    "checked_at": "2026-09-01T20:04:00Z",
-    "verdict": "flagged"
-  },
-  "1788331151.517069": {
-    "checked_at": "2026-09-02T06:51:38Z",
-    "verdict": "skipped"
-  },
-  "1788330955.451159": {
-    "checked_at": "2026-09-02T06:57:20Z",
-    "verdict": "skipped"
-  },
-  "1788331154.401129": {
-    "checked_at": "2026-09-02T06:57:20Z",
-    "verdict": "flagged"
-  },
   "1788330620.438169": {
-    "checked_at": "2026-09-02T07:03:20Z",
-    "verdict": "skipped"
-  },
-  "1788331384.366599": {
-    "checked_at": "2026-09-02T07:03:20Z",
+    "br_id": 14640107,
+    "category": "hg",
+    "checked_at": "2026-09-02T06:50:46Z",
+    "issuer": "NADB",
+    "note": "IPTs SARON+47/52bp CHF100m+ 8y \u2014 flagged: bare SARON+ should read SARON MS+ per CHF house-style precedent (BPCE ids 14640278/14640297). Body/tranche form/deal-level flags otherwise clean.",
+    "reply_ts": "1788331846.451239",
     "verdict": "flagged"
-  },
-  "1788331826.750779": {
-    "checked_at": "2026-09-02T07:03:20Z",
-    "verdict": "clean"
   },
   "1788330913.857129": {
-    "checked_at": "2026-09-02T07:04:46Z",
-    "verdict": "skipped"
-  },
-  "1788331654.079669": {
-    "checked_at": "2026-09-02T07:04:46Z",
+    "br_id": 14640434,
+    "category": "hg",
+    "checked_at": "2026-09-02T06:50:56Z",
+    "issuer": "NORD/LB",
+    "note": "Guidance MS+30bp area EUR750m WNG 7y Mortgage CB Hypothekenpfandbrief \u2014 Perfect; 6 JLMs with UniCredit (B&D), coveredBonds=true, ISIN DE000NLB57X5, all fields clean.",
+    "reply_ts": "1788331856.176149",
     "verdict": "clean"
   },
-  "1788331891.677919": {
-    "checked_at": "2026-09-02T07:04:46Z",
+  "1788330955.451159": {
+    "br_id": 14640369,
+    "category": "em",
+    "checked_at": "2026-09-02T06:51:18Z",
+    "issuer": "Saudi Arabia",
+    "note": "Priced dual-tranche Sukuk (5y tranche PDF): USD1.25bn 5.257% 2 Sep 2031 UST+70bp \u2014 Perfect; priced-deal 14640736 all fields clean (ISIN XS3498812844, FIGI, BB code, ratings Aa3/NR/A+ correct with S&P NR per rule 7, deal144aRegs sole Format flag, no additional-info flags, 5 dealBanks, additionalInfo=\"Sukuk ; Books last heard above USD7bn \").",
+    "reply_ts": "1788331878.221729",
     "verdict": "clean"
   },
   "1788330988.368429": {
-    "checked_at": "2026-09-02T07:12:00Z",
-    "verdict": "skipped"
-  },
-  "1788331786.148509": {
-    "checked_at": "2026-09-02T07:12:00Z",
-    "verdict": "clean"
-  },
-  "1788332033.715219": {
-    "checked_at": "2026-09-02T07:12:00Z",
+    "br_id": 14640369,
+    "category": "em",
+    "checked_at": "2026-09-02T06:51:34Z",
+    "issuer": "Saudi Arabia",
+    "note": "Priced dual-tranche Sukuk (10y tranche PDF): USD2bn 5.598% 9 Sep 2036 UST+80bp \u2014 Perfect; priced-deal 14640737 all fields clean (ISIN XS3498813222, FIGI BBG024TCV6B1, BB code DQ2579877, ratings Aa3/NR/A+, deal144aRegs sole Format flag, no additional-info flags, 5 dealBanks, additionalInfo=\"Sukuk ; Books last heard above USD8bn \").",
+    "reply_ts": "1788331894.730279",
     "verdict": "clean"
   },
   "1788331120.579629": {
-    "checked_at": "2026-09-02T07:07:27Z",
-    "verdict": "skipped"
-  },
-  "1788331801.592229": {
-    "checked_at": "2026-09-02T07:07:27Z",
+    "br_id": 14640087,
+    "category": "em",
+    "checked_at": "2026-09-02T06:51:51Z",
+    "issuer": "Bangkok Bank",
+    "note": "Book update USD dual-tranche 5y+10y at T+105a / T+130a \u2014 flagged: Tranche A body typo `1-montn Par Call` should read `1-month Par Call` (persists across message + all dealHistoryEntries[] from IPTs). Headline/Tranche B body/both tranche form details/3 JBRs incl MS (B&D)/regionAsia+feedEmrd flags all clean.",
+    "reply_ts": "1788331911.136699",
     "verdict": "flagged"
   },
-  "1788332334.732119": {
-    "checked_at": "2026-09-02T07:12:17Z",
-    "verdict": "clean"
-  },
-  "1788332552.073599": {
-    "checked_at": "2026-09-02T07:12:31Z",
-    "verdict": "clean"
-  },
-  "1788332559.754899": {
-    "checked_at": "2026-09-02T07:11:00Z",
-    "verdict": "flagged"
-  },
-  "1788332605.385019": {
-    "checked_at": "2026-09-02T07:12:20Z",
-    "verdict": "clean"
-  },
-  "1788333149.904959": {
-    "checked_at": "2026-09-02T07:22:53Z",
-    "verdict": "clean"
-  },
-  "1788333154.657439": {
-    "checked_at": "2026-09-02T07:23:04Z",
-    "verdict": "clean"
-  },
-  "1788333394.610129": {
-    "checked_at": "2026-09-02T07:22:46Z",
-    "verdict": "flagged"
-  },
-  "1788333409.593789": {
-    "checked_at": "2026-09-02T07:22:36Z",
-    "verdict": "flagged"
-  },
-  "1788333523.462619": {
-    "checked_at": "2026-09-02T07:32:27Z",
-    "verdict": "clean"
-  },
-  "1788333647.481969": {
-    "checked_at": "2026-09-02T07:33:39Z",
-    "verdict": "flagged"
-  },
-  "1788334050.821239": {
-    "checked_at": "2026-09-02T07:32:59Z",
-    "verdict": "flagged"
-  },
-  "1788334243.974959": {
-    "checked_at": "2026-09-02T07:42:40Z",
-    "verdict": "clean"
-  },
-  "1788334595.147309": {
-    "checked_at": "2026-09-02T07:41:00Z",
-    "verdict": "flagged"
-  },
-  "1788334771.700489": {
-    "checked_at": "2026-09-02T07:55:04Z",
-    "verdict": "flagged"
-  },
-  "1788334970.092649": {
-    "checked_at": "2026-09-02T07:55:00Z",
-    "verdict": "flagged"
-  }
+  "_last_tick": "2026-09-02T06:52:00Z",
+  "_tick": "2026-09-02T06:52:00Z"
 }
