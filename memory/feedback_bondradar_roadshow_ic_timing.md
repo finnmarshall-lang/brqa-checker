@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-01T08:48:51.309Z
+  modified: 2026-09-02T08:14:44.826Z
 ---
 
 When a source term-sheet / mandate announcement mentions a **ROADSHOW** or **Global Investor Calls** with specific date(s), the tranche form's `timing` field encodes that as **`i/c <date range>`** — `i/c` = "investor call" — followed by the date span in the compact `DD-DD MMM` format.
@@ -48,6 +48,13 @@ Two independent decisions: **date encoding** and **series marker**.
 - The month is short-form three letters, no punctuation.
 - Do not include times or timezones — they belong in the body prose, not the tranche `timing` field.
 - `i/c` is lowercase with a slash — do not spell out "investor call" or capitalise.
+- The marker is always `i/c`, never `i/m`. Even when source uses "investor meetings" wording (not "investor calls"), the tranche-form marker stays `i/c`.
+
+**When source has multiple date references — use the investor-calls/meetings date, not the "Roadshow" field.**
+
+Source term sheets sometimes disclose two related dates: the actual investor-calls/meetings date (usually in the intro paragraph, e.g. "arrange a series of fixed income investor meetings commencing Thursday, 3rd September") AND a formal "Roadshow" line in the Timing field (e.g. "Roadshow commencing Friday, 4th September 2026"). Use the **investor-calls/meetings** date, not the "Roadshow" one. The `i/c` marker tracks the investor-call commencement, which is the first day accounts start hearing about the deal.
+
+Finn on Tharisa USD300m 5Y Senior Secured (id 14650080): I proposed `i/c 04 Sep>` from the Timing-field "Roadshow commencing Friday, 4th September". Finn: "plz look at the source as it does say a series of investor calls 3rd september which means i/c 03 Sep>". So the intro paragraph's "series of ... investor meetings commencing Thursday, 3rd September" is the authoritative date; use 03 Sep, not 04 Sep. Same for the body's timing sentence — keep the 3rd September investor-meetings language, don't rewrite to the Roadshow-field date.
 
 If the tranche form's `timing` field on a mandate/roadshow-stage deal doesn't follow this format (e.g. carries `today`, `TBC`, or a longer sentence), flag it and propose the `i/c DD-DD Mmm` form derived from the source's investor-call dates.
 
