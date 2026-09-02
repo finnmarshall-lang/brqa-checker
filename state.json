@@ -2198,9 +2198,22 @@
     "note": "Moody's rating typo A2 in message body and both tranche bookOrRating fields (should be Aa2); slack_post skipped bot_already_in_thread",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-02T11:45:34Z",
-  "_tick": {
-    "last_run": "2026-09-02T12:39:35.979187Z",
-    "processed": 22
-  }
+  "1788352622.433579": {
+    "br_id": 14640538,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:52:54Z",
+    "issuer": "AIIB",
+    "note": "Final terms USD2bn 3y SDB at SOFR MS+23bp \u2014 headline stage word `Book update` should be `Final terms` per Rule 4 (body opens Spread set + size set); Joint Leads line missing (B&D/DM) marker after Citi. Tranche form/deal flags all clean. Posted flag.",
+    "verdict": "flagged"
+  },
+  "1788353218.112509": {
+    "br_id": 14640551,
+    "category": "hg",
+    "checked_at": "2026-09-02T12:52:54Z",
+    "issuer": "Dexia",
+    "note": "Allocations USD1bn 3y at SOFR MS+50bp \u2014 book-line `Book update: Books over` at Allocations Out stage should be `Final books over` per checklist rule 73; Bookrunners line missing (B&D) marker after Citi. Tranche form/deal flags all clean. Posted flag.",
+    "verdict": "flagged"
+  },
+  "_last_tick": "2026-09-02T12:52:54Z",
+  "_tick": "2026-09-02T12:52:54Z"
 }
