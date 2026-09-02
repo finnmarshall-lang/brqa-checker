@@ -10,7 +10,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-02T09:11:26.718Z
+  modified: 2026-09-02T09:12:35.745Z
 ---
 
 Bond Radar messages have a stage-based rule for the book-line prefix:
@@ -66,7 +66,13 @@ Bond Radar messages have a stage-based rule for the book-line prefix:
 
 Finn on JR East EUR500m 9y Grn Allocations (id 14640302): source said `Final books = €1.2bn`, BR body had `Final books EUR1.2bn.`, tick flagged missing `over`. Finn: "this seems ok as it say final books= the same goes for at no need to write over". Rule: source's `=` / `at` licences BR to drop `over`. Applies to every variant of the book line (`Books`, `Final books`, `Books closed`, `Books last heard`).
 
-**`(Excl. JLMs)` / `(Excl. JLM interest)` / `(incl. Xm JLM)` qualifiers are OPTIONAL in BR body.** Source may state that a book figure excludes or includes JLM interest — BR can carry the qualifier verbatim, or drop it. Do NOT flag when source states `Excl. JLMs` (or similar) but the BR body simply reads `Books over EUR1bn.` without the qualifier. Finn on a book-update finding: "this is correct if it says excl JLM its not a big deal to not have it in message". Only flag when the numerical figure or the "over/above/=/at" wording is actually wrong — the JLM qualifier itself is a stylistic add-on, not a required field.
+**JLM qualifier — asymmetric rule:**
+
+- **`(Excl. JLMs)` / `(Excl. JLM interest)` is OPTIONAL.** Source may state the book excludes JLM interest — BR body can carry the qualifier or drop it. Do NOT flag when source says `Excl. JLMs` but the BR body just reads `Books over EUR1bn.` without it. Finn: "this is correct if it says excl JLM its not a big deal to not have it in message". Rationale: excluding JLMs means the figure is real third-party demand, so the qualifier is just noise.
+
+- **`(incl. Xm JLM)` / `(incl. Xm JLM interest)` — the SPECIFIC JLM-interest figure IS required in the BR body when source discloses one.** Flag if missing. Rationale: when JLMs are included with a specific figure, that figure tells the desk how much of the book is JLM interest versus real third-party demand — dropping it loses material information about book quality. Finn: "(incl. Xm JLM) is needed to be included".
+
+Only flag other book-line differences when the numerical figure, the `over`/`above`/`=`/`at` wording, or the `incl. Xm JLM` disclosure is actually wrong. The `Excl.` qualifier is stylistic; the `Incl. Xm` figure is material.
 
 **Why:** Originally I over-generalized from the NAB Priced correction ("no `Book update:` prefix") to all stages. Finn corrected twice: first on the World Bank Guidance case (`Book update: IOIs over USD9bn` is correct), then more broadly — "Books update: is fine in the update for book updates until pricing". The rule is stage-based, not phrase-based. See NAB Priced (id 14620271) for the no-prefix example and World Bank (id 14620425) + DBJ (id 14620338) for the prefix-is-fine pre-pricing examples.
 
