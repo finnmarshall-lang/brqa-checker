@@ -1,4 +1,6 @@
 - [BR QA Checker project](project_br_qa_checker.md) — automated Bond Radar QA scheduled task at ~/Documents/Claude/Projects/BR QA Checker/, triggered by ✅ reactions in #bond-deal-alerts.
+- [Ratings alerter project](project_ratings_alerter.md) — ~/ratings-alerter/ LaunchAgent posts new issuer-rated BR deals to Slack #Ratings prompting CFR/rating-report check on 9fin.
+- [Ratings alerter: issuer ratings only](feedback_ratings_alerter_issuer_only.md) — alert only on ISSUER ratings; never issue ratings, never guarantor ratings.
 - [BR drafter LaunchAgent](reference_br_drafter_launchagent.md) — draft pass runs as local `com.finnmarshall.br-drafter` LaunchAgent on 60s cadence, not a cloud routine.
 - [BR type field is not a stage mismatch](feedback_bondradar_type_field.md) — never flag Bond Radar's `type` field (EXPECTED, PRICED…) as a stage mismatch; it's BR workflow state, not update stage.
 - [BR house-style ordering](feedback_bondradar_house_style.md) — apply house-style order, never the source term sheet's. Key: `MWC` before `par call`.
@@ -53,3 +55,4 @@
 - [Benchmark reference required in body](feedback_bondradar_benchmark_reference_required.md) — GBP=UKT, USD=UST, EUR=DBR/OAT, etc. Flag when the specific benchmark bond reference (e.g. `UKT 4.25% 07 March 2033`) is missing next to the spread.
 - [Per-tranche denoms not in Common Terms](feedback_bondradar_per_tranche_denoms.md) — when tranches have different denominations, denoms live on the per-tranche lines; Common Terms doesn't carry split notation like `100k+1k (T2) / 200k+1k (RT1)`. Same principle for any field that differs between tranches.
 - [`equiv` in body is optional](feedback_bondradar_no_equiv_in_body.md) — source-given equivalents (`(equiv. MS+11)`, `SOFR equivalent`) can be carried verbatim OR dropped. Don't flag either presence or absence; only flag when the figure itself is wrong.
+- [`ggb` is never ticked](feedback_bondradar_ggb_never_ticked.md) — priced-deal form's `ggb` (Government-Guaranteed Bond) flag stays `false` on every deal, even sovereign-guaranteed issuers (BGK/KfW/etc.). Never propose `ggb=true`.
