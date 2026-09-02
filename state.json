@@ -1975,178 +1975,87 @@
     "checked_at": "2026-09-02T10:19:49Z",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-02T10:36:45Z",
-  "_tick": "2026-09-02T10:36:45Z",
   "1788344034.327709": {
-    "checked_at": "2026-09-02T10:36:45Z",
-    "verdict": "clean",
     "br_id": 14640504,
     "category": "em",
+    "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "Ceska sporitelna",
-    "note": "Final Terms EUR500m 5.25y Mortgage CB at MS+30bp; all six checks clean (bot post from prior tick already in thread; state.json missed the record \u2014 backfilling)."
+    "note": "Final Terms EUR500m 5.25y Mortgage CB at MS+30bp; all six checks clean (bot post from prior tick already in thread; state.json missed the record \u2014 backfilling).",
+    "verdict": "clean"
   },
   "1788344183.834789": {
-    "checked_at": "2026-09-02T10:36:45Z",
-    "verdict": "flagged",
     "br_id": 14640377,
     "category": "hg",
+    "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "DBJ",
-    "note": "Final Terms EUR550m 4y Sust at MS+23bp; flagged by prior tick \u2014 Bookrunner role tag missing on Mizuho. Backfilling state."
+    "note": "Final Terms EUR550m 4y Sust at MS+23bp; flagged by prior tick \u2014 Bookrunner role tag missing on Mizuho. Backfilling state.",
+    "verdict": "flagged"
   },
   "1788344193.849129": {
-    "checked_at": "2026-09-02T10:36:45Z",
-    "verdict": "flagged",
     "br_id": 14640492,
     "category": "hg",
+    "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "Islamic Dev Bank",
-    "note": "Spread set USD bmk 5y Sukuk at SMS+48bp; flagged by prior tick \u2014 stale JLM interest figure & lingering \"area\" suffix in Book update line. Backfilling state."
+    "note": "Spread set USD bmk 5y Sukuk at SMS+48bp; flagged by prior tick \u2014 stale JLM interest figure & lingering \"area\" suffix in Book update line. Backfilling state.",
+    "verdict": "flagged"
   },
   "1788344359.253419": {
-    "checked_at": "2026-09-02T10:36:45Z",
-    "verdict": "flagged",
     "br_id": 14640230,
     "category": "em",
+    "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "Dev Bank of Kazakhstan",
-    "note": "FPG CNH bmk dual-tranche 5y/10y; flagged by prior tick \u2014 tranche volume stale, active-bank count short vs 12-name source. Backfilling state."
+    "note": "FPG CNH bmk dual-tranche 5y/10y; flagged by prior tick \u2014 tranche volume stale, active-bank count short vs 12-name source. Backfilling state.",
+    "verdict": "flagged"
   },
   "1788344398.026539": {
-    "checked_at": "2026-09-02T10:36:45Z",
-    "verdict": "flagged",
     "br_id": 14650158,
     "category": "em",
+    "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "UniCredit Bank Czech Rep & Slovakia",
-    "note": "Mandated EUR bmk 5y Mortgage CB; flagged by prior tick \u2014 tranche currency set to USD on a EUR deal. Backfilling state."
+    "note": "Mandated EUR bmk 5y Mortgage CB; flagged by prior tick \u2014 tranche currency set to USD on a EUR deal. Backfilling state.",
+    "verdict": "flagged"
   },
   "1788344656.318699": {
-    "checked_at": "2026-09-02T10:36:45Z",
-    "verdict": "flagged",
     "br_id": 14640384,
     "category": "hg",
+    "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "3M Company",
-    "note": "Timing update EUR1.5bn (exp.) multi-tranche 2/5/8y; flagged by prior tick \u2014 Tranches B & C still carry stale investor-call timing (`i/c 01-02 Sep` / `i/c 01-02 Sep>`). Backfilling state."
+    "note": "Timing update EUR1.5bn (exp.) multi-tranche 2/5/8y; flagged by prior tick \u2014 Tranches B & C still carry stale investor-call timing (`i/c 01-02 Sep` / `i/c 01-02 Sep>`). Backfilling state.",
+    "verdict": "flagged"
   },
   "1788344974.971619": {
-    "checked_at": "2026-09-02T10:50:00Z",
-    "verdict": "skipped"
-  },
-  "1788345984.426299": {
-    "checked_at": "2026-09-02T10:52:00Z",
+    "br_id": 14650171,
+    "category": "hg",
+    "checked_at": "2026-09-02T10:52:48Z",
+    "issuer": "MuniFin",
+    "note": "Mandated EUR bmk 5y Green; Aa1/AA+; 4 JLMs Danske/DZ/JPM/SEB; verbatim mandate quote; tranche form (5y Grn JT-LEADS this week)/deal flags (IGRB40) all clean. Bot already in thread \u2014 slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788345083.971169": {
-    "checked_at": "2026-09-02T10:52:19Z",
-    "verdict": "skipped"
+    "br_id": 14640357,
+    "category": "hg",
+    "checked_at": "2026-09-02T10:52:48Z",
+    "issuer": "ACOSS",
+    "note": "Final terms EUR2bn 2y Soc at OAT+15bp; Aa3/A+/A+; 5 BRs incl SG (B&D); Books over EUR2.5bn incl EUR225m JLM (Case B \u2014 \"over\" carried from Spread set); tranche form (OAT+15 launched)/deal flags all clean. Bot already in thread \u2014 slack_post skipped repost.",
+    "verdict": "clean"
   },
   "1788345430.458609": {
-    "checked_at": "2026-09-02T10:51:43Z",
+    "br_id": 14631333,
+    "category": "em",
+    "checked_at": "2026-09-02T10:52:48Z",
+    "issuer": "Hon Hai Precision Industry",
+    "note": "FPG (Final Price Guidance) JPY multi-tranche Euro-Yen 3y/5y/7y/10y at YMS+90/100/110/120bp (# = the number); Mizuho(B&D)/Nomura JBRs&JLMs + KDB JLM; Guarantor A- (Positive) S&P only; all 4 tranche forms (TMS+level, /A-/, Friday, banks.active=3) match; regionAsia=true/feedEmrd=true/expectedPageCount=4/EMRH36 clean. Bot already in thread \u2014 slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788345877.857549": {
-    "checked_at": "2026-09-02T10:52:53Z",
-    "verdict": "skipped"
-  },
-  "1788346116.079439": {
-    "checked_at": "2026-09-02T11:00:00Z",
-    "verdict": "flagged"
-  },
-  "1788346342.814009": {
-    "checked_at": "2026-09-02T11:02:04Z",
+    "br_id": 14640352,
+    "category": "hg",
+    "checked_at": "2026-09-02T10:52:48Z",
+    "issuer": "Nexans",
+    "note": "Guidance / Price talk 4.375% area EUR500m WNG 5y HY-routed; BB+ (S&P) single-agency; 2 GC/ABs BNPP(B&D)+SG, AB Natixis; ISIN FR001401APK4; MWC 3-month par call CoC(put); Books over EUR1.8bn 12:30 UKT / 13:30 CET; tranche form (4.375%a today JT-LEADS)/HY routing (hyExpectedPageId=HYRE7, expectedPageId=null)/flags all clean. Newly posted.",
+    "reply_ts": "1788346346.270019",
     "verdict": "clean"
   },
-  "1788346561.679979": {
-    "checked_at": "2026-09-02T11:02:10Z",
-    "verdict": "clean"
-  },
-  "1788346641.383179": {
-    "checked_at": "2026-09-02T11:00:00Z",
-    "verdict": "clean"
-  },
-  "1788346407.053749": {
-    "checked_at": "2026-09-02T11:20:37Z",
-    "verdict": "skipped"
-  },
-  "1788347271.428889": {
-    "checked_at": "2026-09-02T11:20:37Z",
-    "verdict": "flagged"
-  },
-  "1788346909.099099": {
-    "checked_at": "2026-09-02T11:19:37Z",
-    "verdict": "flagged"
-  },
-  "1788347361.507879": {
-    "checked_at": "2026-09-02T11:19:37Z",
-    "verdict": "clean"
-  },
-  "1788346947.798149": {
-    "checked_at": "2026-09-02T11:06:27Z",
-    "verdict": "flagged"
-  },
-  "1788347122.535539": {
-    "checked_at": "2026-09-02T11:18:17Z",
-    "verdict": "flagged"
-  },
-  "1788347370.462669": {
-    "checked_at": "2026-09-02T11:35:31Z",
-    "verdict": "flagged"
-  },
-  "1788348471.534539": {
-    "checked_at": "2026-09-02T11:35:31Z",
-    "verdict": "clean"
-  },
-  "1788347609.264779": {
-    "checked_at": "2026-09-02T11:32:55Z",
-    "verdict": "skipped"
-  },
-  "1788347618.871009": {
-    "checked_at": "2026-09-02T11:32:24Z",
-    "verdict": "skipped"
-  },
-  "1788348403.525829": {
-    "checked_at": "2026-09-02T11:30:00Z",
-    "verdict": "clean"
-  },
-  "1788348758.772649": {
-    "checked_at": "2026-09-02T11:45:00Z",
-    "verdict": "skipped"
-  },
-  "1788349180.083589": {
-    "checked_at": "2026-09-02T11:45:00Z",
-    "verdict": "flagged"
-  },
-  "1788348772.927609": {
-    "checked_at": "2026-09-02T11:48:32Z",
-    "verdict": "skipped"
-  },
-  "1788348816.909939": {
-    "checked_at": "2026-09-02T11:45:59Z",
-    "verdict": "skipped"
-  },
-  "1788349147.806699": {
-    "checked_at": "2026-09-02T11:47:16Z",
-    "verdict": "clean"
-  },
-  "1788349441.043969": {
-    "checked_at": "2026-09-02T12:04:55Z",
-    "verdict": "skipped"
-  },
-  "1788349951.844759": {
-    "checked_at": "2026-09-02T12:04:55Z",
-    "verdict": "clean"
-  },
-  "1788349802.827169": {
-    "checked_at": "2026-09-02T12:02:19Z",
-    "verdict": "clean"
-  },
-  "1788350109.429849": {
-    "checked_at": "2026-09-02T12:02:19Z",
-    "verdict": "skipped"
-  },
-  "1788349818.988079": {
-    "checked_at": "2026-09-02T12:00:00Z",
-    "verdict": "flagged"
-  },
-  "1788349939.932939": {
-    "checked_at": "2026-09-02T12:02:26Z",
-    "verdict": "clean"
-  }
+  "_last_tick": "2026-09-02T10:52:48Z",
+  "_tick": "2026-09-02T10:52:48Z"
 }
