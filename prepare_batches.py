@@ -30,6 +30,15 @@ CHANNEL = "C09JX51GAKH"
 WINDOW_SECONDS = 21600  # 6h — matches the tick's own window
 SLACK_API = "https://slack.com/api"
 
+# Reaction map for the pre-tick self-heal sweep — mirrors merge_deltas.py.
+# Any state.json entry within the last 6h with one of these verdicts should
+# already have the corresponding emoji reaction on its parent Slack message.
+# If it doesn't, this sweep adds it (idempotent — already_reacted is a no-op).
+VERDICT_EMOJI = {
+    "clean": "double-tick",
+    "flagged": "exclamation",
+}
+
 
 def _token() -> str:
     tok = os.environ.get("SLACK_BOT_TOKEN")
@@ -103,7 +112,62 @@ def main(argv: list[str]) -> int:
 
     print(f"prepared {len(candidates)} messages across {n_shards} shards")
     print(f"per-shard counts: {[len(s) for s in shards]}")
+
+    # Pre-tick reaction self-heal — mirror of the sweep in merge_deltas.py.
+    # Runs at the START of every tick so any reaction the previous tick's
+    # merge missed (crash, transient reactions.add failure, delta file that
+    # never landed) gets caught within one tick cycle instead of two.
+    # Idempotent — reactions.add returns already_reacted as success.
+    cutoff = time.time() - WINDOW_SECONDS
+    heal = [(ts, v.get("verdict")) for ts, v in state.items()
+            if isinstance(v, dict)
+            and v.get("verdict") in VERDICT_EMOJI]
+    heal = [(ts, verdict) for ts, verdict in heal
+            if _safe_float(ts) is not None and _safe_float(ts) >= cutoff]
+    if heal:
+        ok = already = failed = 0
+        for ts, verdict in heal:
+            emoji = VERDICT_EMOJI[verdict]
+            result = _react(CHANNEL, ts, emoji)
+            if result == "ok": ok += 1
+            elif result == "already": already += 1
+            else:
+                failed += 1
+                print(f"  pre-tick react failed on {ts} ({emoji}): {result}", file=sys.stderr)
+        print(f"pre-tick reaction sweep: {ok} added, {already} already-present, {failed} failed")
     return 0
+
+
+def _safe_float(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return None
+
+
+def _react(channel: str, ts: str, emoji: str) -> str:
+    """Non-raising reaction add. Returns 'ok', 'already', or an error string."""
+    payload = json.dumps({"channel": channel, "timestamp": ts, "name": emoji}).encode()
+    req = request.Request(
+        f"{SLACK_API}/reactions.add",
+        data=payload,
+        headers={
+            "Authorization": f"Bearer {_token()}",
+            "Content-Type": "application/json; charset=utf-8",
+        },
+        method="POST",
+    )
+    try:
+        with request.urlopen(req, timeout=15) as resp:
+            body = json.loads(resp.read().decode())
+    except error.HTTPError as e:
+        return f"http_{e.code}"
+    except Exception as e:
+        return f"err_{type(e).__name__}"
+    if body.get("ok"):
+        return "ok"
+    err = body.get("error", "unknown")
+    return "already" if err == "already_reacted" else err
 
 
 if __name__ == "__main__":
