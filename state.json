@@ -3195,6 +3195,14 @@
     "note": "mg property priced",
     "verdict": "clean"
   },
+  "1788443901.928639": {
+    "br_id": 14650443,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:39:13.875660Z",
+    "issuer": "Raiffeisen Schweiz",
+    "note": "Priced EUR500m 8NC7 FXD-to-FXD Bail-in at MS+97bp; headline/body/priced-deal 14650664 (dealRegsOnly=true, cuc=true, mwc=false, finalBooks=2400)/deal flags all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
+    "verdict": "clean"
+  },
   "1788443910.360889": {
     "checked_at": "2026-09-03T14:25:00Z",
     "note": "al rajhi t2 launched",
@@ -3205,6 +3213,14 @@
     "note": "tennet dual-tranche priced",
     "verdict": "clean"
   },
+  "1788444374.856199": {
+    "br_id": 14640755,
+    "category": "em",
+    "checked_at": "2026-09-03T14:39:13.875660Z",
+    "issuer": "Guangdong PRC",
+    "note": "Priced CNH7.5bn multi-tranche (2.6bn 3y + 3.5bn 5y G&B + 1.4bn 10y); bot already in thread flagging stale \"Pricing shortly.\" timing left over from Final Terms stage \u2014 verdict recorded flagged. Priced-deal forms 14650661/14650662/14650663 clean incl green=true only on tranche B + Blue Bond additionalInfo (correct). Skip repost.",
+    "verdict": "flagged"
+  },
   "1788444388.676929": {
     "checked_at": "2026-09-03T14:25:00Z",
     "note": "sek allocations - hedge deadline typo + missing DM",
@@ -3214,24 +3230,6 @@
     "checked_at": "2026-09-03T14:25:00Z",
     "note": "sabadell CB allocations",
     "verdict": "clean"
-  },
-  "_last_tick": "2026-09-03T13:20:07Z",
-  "_tick": "2026-09-03T13:20:07Z",
-  "1788443901.928639": {
-    "br_id": 14650443,
-    "category": "hg",
-    "checked_at": "2026-09-03T14:39:13.875660Z",
-    "issuer": "Raiffeisen Schweiz",
-    "note": "Priced EUR500m 8NC7 FXD-to-FXD Bail-in at MS+97bp; headline/body/priced-deal 14650664 (dealRegsOnly=true, cuc=true, mwc=false, finalBooks=2400)/deal flags all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
-    "verdict": "clean"
-  },
-  "1788444374.856199": {
-    "br_id": 14640755,
-    "category": "em",
-    "checked_at": "2026-09-03T14:39:13.875660Z",
-    "issuer": "Guangdong PRC",
-    "note": "Priced CNH7.5bn multi-tranche (2.6bn 3y + 3.5bn 5y G&B + 1.4bn 10y); bot already in thread flagging stale \"Pricing shortly.\" timing left over from Final Terms stage \u2014 verdict recorded flagged. Priced-deal forms 14650661/14650662/14650663 clean incl green=true only on tranche B + Blue Bond additionalInfo (correct). Skip repost.",
-    "verdict": "flagged"
   },
   "1788445169.266969": {
     "checked_at": "2026-09-03T14:39:13.875660Z",
@@ -3258,5 +3256,39 @@
     "checked_at": "2026-09-03T14:39:13.875660Z",
     "note": "Chat request asking for codes for XS3487885405 (HSBC HoldCo priced); not a term sheet.",
     "verdict": "skipped"
-  }
+  },
+  "1788446035.380479": {
+    "br_id": 14640741,
+    "category": "em",
+    "checked_at": "2026-09-03T14:55:24Z",
+    "issuer": "Tencent Music",
+    "note": "Launched USD1bn dual-tranche (5y at T+60 / 10y at T+95); headline/body/tranche-forms (2\u00d7 at T+60/T+95, timing=launched, banks 3 active JBRs + 3 passive JLMs per tranche = 6 total) / deal flags (EMRH40, feedEmrd=T, regionAsia=T) all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
+    "verdict": "clean"
+  },
+  "1788446060.120379": {
+    "br_id": 14650407,
+    "category": "em",
+    "checked_at": "2026-09-03T14:55:24Z",
+    "issuer": "Zoucheng Limin Constr Dev",
+    "note": "Launched CNY327.2m 3y SBLC at 2.80% (SBLC Provider Bank of Qingdao Jining Branch); headline/body/tranche-form (banks.active=13 matches source 3 JGCs + 10 JBRs)/deal flags all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
+    "verdict": "clean"
+  },
+  "1788446568.257259": {
+    "br_id": 14650463,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:55:24Z",
+    "issuer": "Commerzbank AG",
+    "note": "Allocations EUR750m PNC7.5 AT1 at 6.25% coupon; headline/body verbatim from source (Final books >EUR3bn, Allocations out, No hedge, priced at par); tranche form (PNC7.5AT1, JT-LEADS for 4 leads, timing=launched)/banks.active=4 (Commerzbank, ING, Santander, UBS)/deal flags (IGRB37, feedIgrd=T, coveredBonds=F) all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
+    "verdict": "clean"
+  },
+  "1788446668.847479": {
+    "br_id": 14650453,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:55:24Z",
+    "issuer": "Banco de Sabadell",
+    "note": "Priced EUR750m 5y CB (C\u00e9dulas Hipotecarias) at MS+22bp; headline/body verbatim; priced-form 14650674 (fpr=99.625, spread=MS+22, yield=3.458%, isin=ES0413860943, figi=BBG024W02ZP6, moodys/snp/fitch=AAA/NR/NR, covered=T, dealRegsOnly=T, mwc=F, opCo/holdCo=F correct \u2014 Spanish issuer, additionalInfo=MC, banks.active=6 matches source 6 JBRs, finalBooks=2100.0)/deal flags (coveredBonds=T, expectedPageId=null cleared on Priced, feedIgrd=T) all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-03T14:55:24Z",
+  "_tick": "2026-09-03T14:55:24Z"
 }
