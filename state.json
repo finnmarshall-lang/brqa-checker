@@ -2708,6 +2708,78 @@
     "note": "IPTs CHF100m+ Jun 2035 0.735% Soc tap; source Spread/Yield SARON MS +27.0 but BR headline+body use bare SARON+27bp \u2014 should be SARON MS+27bp per house style (tranche form bare SARON+27 correct per house convention). Rest of body/tranche form/deal flags clean.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-03T08:46:25Z",
-  "_tick": "2026-09-03T08:46:25Z"
+  "_last_tick": "2026-09-03T09:11:11Z",
+  "_tick": "2026-09-03T09:11:11Z",
+  "1788425843.649479": {
+    "br_id": 14650171,
+    "category": "hg",
+    "checked_at": "2026-09-03T09:11:11Z",
+    "issuer": "MuniFin",
+    "note": "Final terms EUR1bn 5-year Grn at MS+8bp \u2014 headline/body/tranche form (14650534: EUR/1bn/5y Grn/MS+8/JT-LEADS/launched; 4 leads Danske/DZ BANK/JPM/SEB)/deal-level flags (feedIgrd=T, coveredBonds=F, regionAmericas=F, expectedPageId=IGRB40, expectedPageCount=1) all clean. Book line \"Books over EUR7.2bn (incl. EUR250m JLM interest). Books to close at 10:15 LDN / 11:15 CET\" matches source verbatim (Case A book update prefix, source silent on final/closed). Bot already in thread \u2014 slack_post skipped.",
+    "verdict": "clean"
+  },
+  "1788426665.440229": {
+    "br_id": 14650508,
+    "category": "hg",
+    "checked_at": "2026-09-03T09:23:41.609332Z",
+    "issuer": "Muehlhan Holding",
+    "note": "Guidance 102.50/102.75% EUR63.9m May 2030 tap HY-routed; headline/body/tranche form v14650538/2-JLM/deal flags (hyExpectedPageId=HYRE12, feedIgrd+highYield=true) all clean; bot already in thread \u2014 slack_post skipped repost.",
+    "verdict": "clean"
+  },
+  "1788427331.373189": {
+    "br_id": 14650528,
+    "category": "hg",
+    "checked_at": "2026-09-03T09:35:00Z",
+    "issuer": "NWB Bank",
+    "note": "Size update CHF115m+ Jun 2035 0.735% Soc tap; body Spread set at SARON MS+27bp (now correct MS prefix vs prior IPTs flag), headline/body/tranche form v14650530 (SARON+27 bare correct on form)/deal flags all clean. Bot already in thread from prior tick (state write lost); slack_post skipped repost.",
+    "verdict": "clean"
+  },
+  "1788427702.292889": {
+    "br_id": 14650468,
+    "category": "hg",
+    "checked_at": "2026-09-03T09:35:00Z",
+    "issuer": "Credit Agricole Public Sector SCF",
+    "note": "Book update EUR750m (max) 6y CB at MS+40bp area; book line `Books over EUR1.2bn (incl. EUR40m JLM interest)` matches source. Tranche form v14650470 (EUR/750m/6y CB/MS+40a/JT-LEADS/today, 7 JBRs)/coveredBonds=true/expectedPageId=IGRB23/all deal flags clean. Bot already in thread from prior tick (state write lost); slack_post skipped repost.",
+    "verdict": "clean"
+  },
+  "1788427818.083989": {
+    "br_id": 14650491,
+    "category": "hg",
+    "checked_at": "2026-09-03T09:35:00Z",
+    "issuer": "Swiss Life",
+    "note": "Book update EUR600m 20NC10 T2 at MS+170bp area; book line `Books over EUR1.5bn. Today's business.` matches source `Orderbook in excess of EUR 1.5bn` per Case A. Tranche form v14650493 (EUR/600m/20NC10 T2/MS+170a/JT-LEADS/today, 3 JLMs DB/Natixis/UBS-B&D)/expectedPageId=IGRB38/all deal flags clean. Posted finding 1788428238.548869.",
+    "verdict": "clean"
+  },
+  "1788428016.243679": {
+    "br_id": 14650130,
+    "category": "hg",
+    "checked_at": "2026-09-03T09:50:17Z",
+    "issuer": "DZ HYP AG",
+    "note": "Final Terms EUR500m short 5y CB at MS+13bp; bot already in thread from prior tick (state write lost); re-verified clean \u2014 headline/body/tranche form (MS+13, JT-LEADS 6 leads)/coveredBonds=true/JLM count 6/deal-level flags all match source.",
+    "verdict": "clean"
+  },
+  "1788428026.872639": {
+    "br_id": 14650141,
+    "category": "hg",
+    "checked_at": "2026-09-03T09:50:17Z",
+    "issuer": "TenneT NL",
+    "note": "Final terms EUR2.5bn dual-tranche Grn (1.5bn 7y MS+15 + 1bn 15y MS+37); bot already in thread from prior tick (state write lost); re-verified clean \u2014 both tranches spread set, JT-LEADS 6 bookrunners per tranche, expectedPageCount=2, ISINs XS3495741525/XS3495741798, state-guaranteed 0% RW HQLA1 present.",
+    "verdict": "clean"
+  },
+  "1788428114.125049": {
+    "br_id": 14650192,
+    "category": "hg",
+    "checked_at": "2026-09-03T09:50:17Z",
+    "issuer": "CCF Holding",
+    "note": "Book Update EUR200m 2y SP; bot already in thread from prior tick (state write lost); re-verified clean \u2014 IPTs MS+90a carried, Sole Lead GS, Baa3, ISIN FR001401ASU7, book line \"Books over EUR330m, today's business.\" verbatim from source with over/+ swap.",
+    "verdict": "clean"
+  },
+  "1788428260.546939": {
+    "br_id": 14650443,
+    "category": "hg",
+    "checked_at": "2026-09-03T09:50:17Z",
+    "issuer": "Raiffeisen Schweiz",
+    "note": "Book update EUR500m 8NC7 Bail-in at MS+125bp area; bot already in thread from prior tick (state write lost). Flagged: tranche priceEvolution missing `a` suffix (MS+125 vs MS+125a) + body book-line missing period between figure and timing. Both fixes have since landed in BR \u2014 priceEvolution now MS+125a and book line reads \"Books over EUR1.5bn. Books open, today's business.\" Recorded flagged for audit trail.",
+    "verdict": "flagged"
+  }
 }
