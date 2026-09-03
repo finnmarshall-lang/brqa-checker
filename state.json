@@ -2708,8 +2708,6 @@
     "note": "IPTs CHF100m+ Jun 2035 0.735% Soc tap; source Spread/Yield SARON MS +27.0 but BR headline+body use bare SARON+27bp \u2014 should be SARON MS+27bp per house style (tranche form bare SARON+27 correct per house convention). Rest of body/tranche form/deal flags clean.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-03T09:11:11Z",
-  "_tick": "2026-09-03T09:11:11Z",
   "1788425843.649479": {
     "br_id": 14650171,
     "category": "hg",
@@ -2781,5 +2779,22 @@
     "issuer": "Raiffeisen Schweiz",
     "note": "Book update EUR500m 8NC7 Bail-in at MS+125bp area; bot already in thread from prior tick (state write lost). Flagged: tranche priceEvolution missing `a` suffix (MS+125 vs MS+125a) + body book-line missing period between figure and timing. Both fixes have since landed in BR \u2014 priceEvolution now MS+125a and book line reads \"Books over EUR1.5bn. Books open, today's business.\" Recorded flagged for audit trail.",
     "verdict": "flagged"
-  }
+  },
+  "1788429271.267989": {
+    "checked_at": "2026-09-03T10:05:29Z",
+    "note": "bot-already-in-thread",
+    "verdict": "clean"
+  },
+  "1788429460.468899": {
+    "checked_at": "2026-09-03T10:05:29Z",
+    "note": "bot-already-in-thread",
+    "verdict": "clean"
+  },
+  "1788429495.692709": {
+    "checked_at": "2026-09-03T10:05:29Z",
+    "note": "bot-already-in-thread",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-03T09:11:11Z",
+  "_tick": "2026-09-03T09:11:11Z"
 }
