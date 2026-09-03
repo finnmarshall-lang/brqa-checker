@@ -2496,8 +2496,8 @@
     "checked_at": "2026-09-03T06:58:24Z",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-03T07:16:57Z",
-  "_tick": "2026-09-03T07:16:57Z",
+  "_last_tick": "2026-09-03T07:52:25.827979Z",
+  "_tick": "2026-09-03T07:52:25.827979Z",
   "1788399246.110629": {
     "checked_at": "2026-09-03T06:50:00Z",
     "verdict": "skipped"
@@ -2603,5 +2603,58 @@
     "note": "IPTs MS+110/115bp EUR325m (WNG) 5NC4 EuGB SNP; body+tranche v2 (MS+110/115, today, ticker shorthand ABN/BNPP/MIZ for 3 leads)+expected rating /BBB/ (only S&P, M+F slots empty per only-three-agencies rule)+deal flags (IGRB36, feedIgrd, no CB) all clean. Bot already in thread \u2014 skipped repost.",
     "verdict": "clean",
     "checked_at": "2026-09-03T07:34:21.192775Z"
+  },
+  "1788420384.858829": {
+    "br_id": 14650491,
+    "category": "hg",
+    "checked_at": "2026-09-03T07:52:25.827979Z",
+    "issuer": "Swiss Life",
+    "note": "IPTs MS+170a EUR600m 20NC10 T2 subordinated. Independently walked \u2014 my read matches source. Bot already flagged in-thread: tranche structure=20NC10Sub should be 20NC10T2 to carry specific tier suffix (agree, minor). Skip repost per never-repost rule.",
+    "verdict": "flagged"
+  },
+  "1788420566.326589": {
+    "br_id": 14640750,
+    "category": "hg",
+    "checked_at": "2026-09-03T07:52:25.827979Z",
+    "issuer": "Mizuho Bank Sydney",
+    "note": "Book stats AUD1bn 3y FRN at BBSW+63. Priced-deal form (14650417) statsCategories both sum 100 \u2713, finalBooks=1536.0 \u2713, 8 JLMs \u2713, all format flags correct. Bot flagged bracket placeholders in body `A$[2.32]bn (including A$[95]m JLM)` never resolved to final A$1.536bn incl A$45m per STATS source \u2014 agree. Skip repost.",
+    "verdict": "flagged"
+  },
+  "1788420598.558199": {
+    "checked_at": "2026-09-03T07:52:25.827979Z",
+    "note": "Empty message (no text, no file attachments) with \u2705 reaction \u2014 not a term-sheet forward, nothing to QA.",
+    "verdict": "skipped"
+  },
+  "1788420631.336249": {
+    "br_id": 14640441,
+    "category": "hg",
+    "checked_at": "2026-09-03T07:52:25.827979Z",
+    "issuer": "M&G European Property Fund",
+    "note": "IPTs MS+130/135bp EUR500m 5y Grn inaugural. Headline/body/tranche v5 (MS+130/135, JT-LEADS 4 leads ABN/BBVA/HSBC/ING(B&D))/deal flags (IGRB68, feedIgrd, no CB/RegAm) all clean. Bot already posted Perfect! in thread \u2014 skip repost per never-repost rule.",
+    "verdict": "clean"
+  },
+  "1788420684.876199": {
+    "br_id": 14650402,
+    "category": "em",
+    "checked_at": "2026-09-03T07:52:25.827979Z",
+    "issuer": "Zhangzhou Yuanshan Dev",
+    "note": "Book update CNY 3y book>CNY3.7bn IPG 4.0%a. Bot flagged in thread: banks.active=1 vs ~23 JLMs in body + body typos (Book>Books, Incle>Incl., todays>today's). Agree with all four. Skip repost per never-repost rule.",
+    "verdict": "flagged"
+  },
+  "1788420840.779689": {
+    "br_id": 14650508,
+    "category": "hg",
+    "checked_at": "2026-09-03T07:52:25.827979Z",
+    "issuer": "Muehlhan Holding GmbH",
+    "note": "IPTs 102.25/102.50 EUR63.9m May 2030 tap HY (senior secured, HYRE12). Bot flagged in thread: timing 'today's business' stuck on IPTs paragraph instead of moving to the Book update line \u2014 house-style ordering. Skip repost per never-repost rule.",
+    "verdict": "flagged"
+  },
+  "1788421248.695399": {
+    "br_id": 14650513,
+    "category": "hg",
+    "checked_at": "2026-09-03T07:52:25.827979Z",
+    "issuer": "Compass Group PLC",
+    "note": "IPTs MS+95/100bp EUR150m (Exp) Jan 2035 tap. Headline/body/tranche v0 (BARC/SG ticker shorthand for 2 leads, MS+95/100, structure `2035 tap` at 9-char cap)/deal flags (IGRB43, feedIgrd, no CB/RegAm/HY) all clean; reference benchmark + coupon 3.500% + EMTN docs correctly omitted at IPTs for a tap of an existing bond. Posted clean finding at 1788421917.930459.",
+    "verdict": "clean"
   }
 }
