@@ -10,7 +10,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-02T09:12:35.745Z
+  modified: 2026-09-03T13:20:41.384Z
 ---
 
 Bond Radar messages have a stage-based rule for the book-line prefix:
@@ -20,7 +20,9 @@ Bond Radar messages have a stage-based rule for the book-line prefix:
 **Prefix rule is stage-based, wording rule is source-based — treat them separately:**
 
 **Prefix (`Book update:` / `Books update:`):**
-- **Prefix requires an actual book figure in the same appended block.** The `Book update:` prefix is only for content that carries a book-size number (`Books over EUR1.5bn`, `Books closed over USD3bn`, `Final books over CHF400m`, etc.). If the appended block is timing-only (`Books close at 15:30 CET`, `Pricing to follow`, `Allocation and pricing later today`) or otherwise has no book figure, do NOT prefix it with `Book update:`. Finn on Rentenbank CHF50m+ tap Timing update (id 14631697): the appended line `Book update: Books close at 15:30 CEST. Pricing to follow shortly thereafter.` carries only timing content, no book size — so the `Book update:` prefix is wrong. Same content is correct as `Books close at 15:30 CEST. Pricing to follow shortly thereafter.` without a prefix. Rule: `Book update:` is only for books, not timings.
+- **Prefix requires an actual book figure in the same appended block.** The `Book update:` prefix is only for content that carries a book-size number (`Books over EUR1.5bn`, `Books closed over USD3bn`, `Final books over CHF400m`, etc.). If the appended block is timing-only (`Books close at 15:30 CET`, `Pricing to follow`, `Allocation and pricing later today`, `Allocations on Ebook`) or otherwise has no book figure, do NOT prefix it with `Book update:`. Two Finn corrections:
+  - Rentenbank CHF50m+ tap Timing update (id 14631697): appended `Book update: Books close at 15:30 CEST. Pricing to follow shortly thereafter.` — no book size → prefix wrong. Correct: `Books close at 15:30 CEST. Pricing to follow shortly thereafter.` no prefix.
+  - HSBC HoldCo GBP750m 9NC8 Allocations Out (id 14650448): appended `Book Update: Allocations on Ebook` — no book size, just process-status → prefix wrong. Correct: `Allocations on Ebook.` no prefix. Finn: "book update: should on be used if the amount of books is involved- please save to memory".
 - **Pre-pricing including Allocations Out (when the block DOES carry a book figure)** — prefix is FINE. IPTs, Guidance, Book Update, Spread Set, Final Terms, Launched, Allocations Out — all can carry the `Book update:` prefix as long as there's an actual book figure in that appended block. Do NOT flag prefix at any pre-Priced stage when a book figure is present.
 - **At Priced only** — no `Book update:` / `Books update:` prefix, regardless of whether a book figure is present. This is the ONLY stage where the prefix is always dropped.
 
