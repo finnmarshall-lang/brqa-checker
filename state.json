@@ -2795,54 +2795,38 @@
     "note": "bot-already-in-thread",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-03T09:11:11Z",
-  "_tick": "2026-09-03T09:11:11Z",
   "1788429586.389229": {
-    "checked_at": "2026-09-03T10:21:54Z",
-    "verdict": "skipped"
-  },
-  "1788429818.978619": {
-    "checked_at": "2026-09-03T10:21:54Z",
-    "verdict": "skipped"
+    "br_id": 14650453,
+    "category": "hg",
+    "checked_at": "2026-09-03T10:19:22.820712Z",
+    "issuer": "Banco Sabadell",
+    "note": "Final terms EUR750m 5y CB at MS+22bp; body/tranche v14650558 (MS+22, launched)/6 JLMs with Santander (B&D)/coveredBonds=true/regionAmericas=false/ISIN ES0413860943 all clean; bot already in thread \u2014 skipped repost.",
+    "verdict": "clean"
   },
   "1788429660.757279": {
-    "checked_at": "2026-09-03T10:22:19Z",
-    "verdict": "skipped"
-  },
-  "1788429880.128199": {
-    "checked_at": "2026-09-03T10:22:19Z",
-    "verdict": "skipped"
+    "br_id": 14650419,
+    "category": "em",
+    "checked_at": "2026-09-03T10:19:22.820712Z",
+    "issuer": "Al Rajhi Bank",
+    "note": "Book update USD bmk 10.5NC5.5 T2 Social Sukuk \u2014 Books over USD1.6bn (Excl. JLM), pricing today; body/tranche v14650422 (T+200a carried, Baa2//BBB+ M/F only)/9 JLMs with StanChart (B&D)/regionCeemea=true/feedEmrd=true all clean; bot already in thread \u2014 skipped repost.",
+    "verdict": "clean"
   },
   "1788429667.956349": {
-    "checked_at": "2026-09-03T10:22:12Z",
-    "verdict": "skipped"
+    "br_id": 14650236,
+    "category": "hg",
+    "checked_at": "2026-09-03T10:19:22.820712Z",
+    "issuer": "SEK",
+    "note": "Spread set SMS+35bp USD bmk 5y SEC Registered Global; body/tranche v14650556 (SMS+35 no 'a', today)/4 JBRs Barclays/BNPP/BofA/Scotiabank/regionAmericas=true/feedIgrd=true all clean; Rule 5 book line carry Books over USD2bn (incl USD100m JLM) plus EMEA/Asia + Americas close windows verbatim; bot already in thread \u2014 skipped repost.",
+    "verdict": "clean"
   },
   "1788429762.560569": {
-    "checked_at": "2026-09-03T10:22:33Z",
-    "verdict": "skipped"
-  },
-  "1788430669.452429": {
-    "checked_at": "2026-09-03T10:23:30Z",
+    "br_id": 14650463,
+    "category": "hg",
+    "checked_at": "2026-09-03T10:19:22.820712Z",
+    "issuer": "Commerzbank",
+    "note": "Book update EUR750m (max) PNC7.5 AT1 \u2014 Books above EUR3bn today's business; body carries IPTs 6.625% area/tranche v14650466 (6.625%a, structure PNC7.5AT1 at 9-char cap)/4 JLMs incl Commerzbank (B&D)/CUC 75/CET1 5.125% write-down with write-up/ISIN DE000CZ45WE9/regionAmericas=false all clean; bot already in thread \u2014 skipped repost.",
     "verdict": "clean"
   },
-  "1788430986.158929": {
-    "checked_at": "2026-09-03T10:32:45Z",
-    "verdict": "flagged"
-  },
-  "1788431354.873859": {
-    "checked_at": "2026-09-03T10:38:00Z",
-    "verdict": "flagged"
-  },
-  "1788431655.026509": {
-    "checked_at": "2026-09-03T10:42:39Z",
-    "verdict": "clean"
-  },
-  "1788432084.355529": {
-    "checked_at": "2026-09-03T10:52:00Z",
-    "verdict": "flagged"
-  },
-  "1788432299.013519": {
-    "checked_at": "2026-09-03T10:53:00Z",
-    "verdict": "flagged"
-  }
+  "_last_tick": "2026-09-03T10:19:22.820712Z",
+  "_tick": "2026-09-03T10:19:22.820712Z"
 }
