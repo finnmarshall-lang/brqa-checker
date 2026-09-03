@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-03T07:50:16.130Z
+  modified: 2026-09-03T07:52:22.886Z
 ---
 
 BR update bodies are cumulative in context, not standalone: information disclosed in an earlier stage update (Mandated / IPO / Investor Call / IPTs / etc.) carries forward and doesn't need to be repeated in the current update. Before flagging a field as missing from the current body, walk `dealHistoryEntries[]` (the array of prior BR message versions on the same deal) and check whether the field was already stated.
@@ -55,6 +55,11 @@ The same "walk every dealHistoryEntry" rule applies when deciding between `Final
 **A Book Stats release with an orderbook figure ALSO counts as a final-books disclosure.** When the STATS release discloses `Final orderbook >X` / `Final book size X` / `Book totalled X` (or any wording that concludes the orderbook), that IS the final-books moment. Populate the priced-deal form's `finalBooks` with that figure — but do NOT ALSO put `Books last heard over X` in `additionalInfo`. The "last heard" fallback is only for deals that never got any final/closed/stats disclosure. Do not flag both `finalBooks` needing populating AND `additionalInfo` needing `Books last heard over` on the same deal — that's a contradiction; if the stats release gave the figure, finalBooks is where it lives and additionalInfo stays blank on the book-line dimension.
 
 Finn correction: I proposed BOTH `finalBooks=1536` AND `additionalInfo="Books last heard over A$1.536bn (incl A$45m JLM)"` on an AUD Book Stats deal. Finn: "contradicted yourself as we got final books at the book stats so the additional info should be blank". Populate finalBooks only; additionalInfo blank (or carries other applicable tags — EuGB / MC / Kangaroo / etc. — just not the Books-last-heard fallback).
+
+**Also flag the BR body's book line to use the final figure.** When Book Stats discloses the final orderbook, the BR body's existing book-line (e.g. `Books over A$1.4bn (incl A$50m JLM interest).` from a prior Launched-stage carry-forward) should be rewritten to `Final books over A$1.536bn (incl A$45m JLM interest).` using the stats figure. Finn: "also should of told him to replace the body of message with the final books". So a Book Stats update produces three linked fixes to propose:
+  1. Priced-deal form: `finalBooks` → new stats figure.
+  2. BR body: book line rewrite to `Final books over <stats figure> (incl <JLM figure> JLM interest).`.
+  3. Priced-deal form: `additionalInfo` — leave blank on the book-line dimension (or drop any existing `Books last heard over` text).
 5. **Only propose `Books last heard over` when ALL of these are true**:
    - No prior message contains `final books` / `closed` language anywhere in its body text (per step 2 above).
    - The **Allocations** stage message doesn't mention books at all (or mentions them without any `final`/`closed` qualifier) AND the book figure DID NOT change from the prior stage (Final Terms / Launched).
