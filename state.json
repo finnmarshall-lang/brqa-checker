@@ -3048,8 +3048,56 @@
     "note": "bot_already_in_thread",
     "verdict": "clean"
   },
+  "1788440800.093799": {
+    "br_id": 14650365,
+    "category": "em",
+    "checked_at": "2026-09-03T13:50:46Z",
+    "issuer": "Jinan Lixia Holding Group",
+    "note": "Launched USD300m 3y at 4.90%; bot already in thread from prior tick (Perfect verdict) \u2014 state write lost, recording clean.",
+    "verdict": "clean"
+  },
   "1788441504.733289": {
     "checked_at": "2026-09-03T13:33:48Z",
+    "verdict": "clean"
+  },
+  "1788441512.117459": {
+    "br_id": 14640340,
+    "category": "hg",
+    "checked_at": "2026-09-03T13:50:46Z",
+    "issuer": "Sage Group",
+    "note": "Priced EUR500m 5.5y at MS+105bp; bot already in thread from prior tick (Perfect verdict) \u2014 state write lost, recording clean.",
+    "verdict": "clean"
+  },
+  "1788441703.157279": {
+    "br_id": 14640787,
+    "category": "em",
+    "checked_at": "2026-09-03T13:50:46Z",
+    "issuer": "Bank Mandiri",
+    "note": "Priced USD750m PerpNC5 AT1 at 7.35%; bot already in thread flagging benchmark bond coupon typo \u2014 state write lost, recording flagged.",
+    "verdict": "flagged"
+  },
+  "1788442601.657369": {
+    "br_id": 14640755,
+    "category": "em",
+    "checked_at": "2026-09-03T13:50:46Z",
+    "issuer": "Guangdong Province",
+    "note": "Launched CNH7.5bn multi-tranche 3y+5y Grn/Bl+10y; body Tranche A opener \"Yield is set at1.42%\" missing space; headline/other tranches/tranche forms (3\u00d7 at launched)/27-bank JLM count/deal flags (regionAsia/feedEmrd/EMRH51/expectedPageCount=3) all clean.",
+    "verdict": "flagged"
+  },
+  "1788442764.670489": {
+    "br_id": 14650365,
+    "category": "em",
+    "checked_at": "2026-09-03T13:50:46Z",
+    "issuer": "Jinan Lixia Holding Group",
+    "note": "Priced USD300m 3y at 4.90%; headline/body verbatim from source PRICED; priced-deal 14650642 all fields (fpr=100, yield=4.90%, dealRegsOnly=T, all additional-info=F, banks.active=19)/deal flags (regionAsia/feedEmrd/expectedPageId cleared) all clean; finalBooks=null OK (source silent, Rule 5). Newly posted.",
+    "verdict": "clean"
+  },
+  "1788442829.369589": {
+    "br_id": 14650468,
+    "category": "hg",
+    "checked_at": "2026-09-03T13:50:46Z",
+    "issuer": "Credit Agricole Public Sector SCF",
+    "note": "Priced EUR500m 6y CB at MS+35bp; headline/body verbatim from source; priced-deal 14650641 (covered=T, additionalInfo=PC, banks.active=7, finalBooks=1100.0, opCo/holdCo=F correct \u2014 French issuer not on whitelist)/deal flags (coveredBonds=T, feedIgrd=T, regionAmericas=F) all clean. Newly posted.",
     "verdict": "clean"
   },
   "_last_tick": "2026-09-03T13:20:07Z",
