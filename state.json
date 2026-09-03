@@ -2692,6 +2692,22 @@
     "note": "Book update EUR bmk 5y Mortgage CB \u2014 headline/body/tranche form (5y CB, MS+40a, Aa1// EM triplet, 7 leads)/deal-level flags (regionCeemea=T, feedEmrd=T, expectedPageId=EMRH63) all clean; UniCredit GC (B&D) + 7 JBRs verbatim from source; book size EUR2.1bn incl EUR270m JLM matches source. Bot already in thread \u2014 slack_post skipped.",
     "verdict": "clean"
   },
+  "1788425177.203049": {
+    "br_id": 14650453,
+    "category": "hg",
+    "checked_at": "2026-09-03T08:59:03.339367Z",
+    "issuer": "Banco de Sabadell",
+    "note": "Book update EUR bmk 5y CB C\u00e9dulas Hipotecarias MS+28a; headline/body/tranche form (14650456 MS+28a JT-LEADS 6 leads)/coveredBonds=true/all deal flags clean; book line \"Books over EUR1.75bn (incl. EUR180m JLM interest)\" matches source per Case A. Bot already in thread; slack_post skipped.",
+    "verdict": "clean"
+  },
+  "1788425455.842869": {
+    "br_id": 14650528,
+    "category": "hg",
+    "checked_at": "2026-09-03T08:59:03.339367Z",
+    "issuer": "NWB Bank",
+    "note": "IPTs CHF100m+ Jun 2035 0.735% Soc tap; source Spread/Yield SARON MS +27.0 but BR headline+body use bare SARON+27bp \u2014 should be SARON MS+27bp per house style (tranche form bare SARON+27 correct per house convention). Rest of body/tranche form/deal flags clean.",
+    "verdict": "flagged"
+  },
   "_last_tick": "2026-09-03T08:46:25Z",
   "_tick": "2026-09-03T08:46:25Z"
 }
