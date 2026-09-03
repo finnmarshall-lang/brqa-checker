@@ -2893,6 +2893,10 @@
     "note": "Final terms EUR63.9m 2030 tap at 102.75%. Body typo `Books covered by at final terms` (extra `by`; source: `Books covered at final terms`); also `Books to close 13:30 CEST` dropped `at` vs source. Bot already in thread from prior tick, state write lost; independently re-verified flagged.",
     "verdict": "flagged"
   },
+  "1788432700.693639": {
+    "checked_at": "2026-09-03T11:20:00Z",
+    "verdict": "clean"
+  },
   "1788432869.155199": {
     "br_id": 14650481,
     "category": "hg",
@@ -2917,12 +2921,6 @@
     "note": "Guidance EUR1.5bn multi-tranche 2y/5y/8y at MS+40/+70/+90bp area; 4 JBRs DB(B&D)/BofA/Citi/JPM; ratings A3/BBB+/A-; SEC Registered EUR (regionAmericas=false correct \u2014 no USD tranche); expectedPageCount=3; ISINs XS3460877650/734/8203; books EUR1.8/2.8/2.8bn; all clean. Bot already in thread from prior tick, state write lost; independently re-verified clean.",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-03T11:07:00Z",
-  "_tick": "2026-09-03T10:19:22.820712Z",
-  "1788432700.693639": {
-    "checked_at": "2026-09-03T11:20:00Z",
-    "verdict": "clean"
-  },
   "1788433326.412229": {
     "checked_at": "2026-09-03T11:20:00Z",
     "verdict": "clean"
@@ -2939,6 +2937,10 @@
     "checked_at": "2026-09-03T11:20:00Z",
     "verdict": "clean"
   },
+  "1788433950.119689": {
+    "checked_at": "2026-09-03T11:51:32Z",
+    "verdict": "skipped"
+  },
   "1788433973.068679": {
     "checked_at": "2026-09-03T11:20:00Z",
     "verdict": "clean"
@@ -2947,76 +2949,6 @@
     "checked_at": "2026-09-03T11:20:00Z",
     "verdict": "clean"
   },
-  "1788433950.119689": {
-    "checked_at": "2026-09-03T11:50:55Z",
-    "verdict": "skipped"
-  },
-  "1788435562.282549": {
-    "checked_at": "2026-09-03T11:53:09Z",
-    "verdict": "clean"
-  },
-  "1788435850.663219": {
-    "checked_at": "2026-09-03T12:53:00Z",
-    "verdict": "clean"
-  },
-  "1788436067.423049": {
-    "checked_at": "2026-09-03T12:01:00Z",
-    "verdict": "skipped"
-  },
-  "1788436611.024719": {
-    "checked_at": "2026-09-03T12:12:00Z",
-    "verdict": "clean"
-  },
-  "1788436758.932379": {
-    "checked_at": "2026-09-03T12:12:50Z",
-    "verdict": "clean"
-  },
-  "1788436918.721239": {
-    "checked_at": "2026-09-03T12:11:00Z",
-    "verdict": "clean"
-  },
-  "1788437481.612969": {
-    "checked_at": "2026-09-03T12:23:00Z",
-    "verdict": "flagged"
-  },
-  "1788438022.537339": {
-    "checked_at": "2026-09-03T12:32:40Z",
-    "verdict": "clean"
-  },
-  "1788438612.069459": {
-    "checked_at": "2026-09-03T12:43:28Z",
-    "verdict": "flagged"
-  },
-  "1788438802.187809": {
-    "checked_at": "2026-09-03T12:43:00Z",
-    "verdict": "clean"
-  },
-  "1788438739.117139": {
-    "checked_at": "2026-09-03T12:54:40Z",
-    "verdict": "clean"
-  },
-  "1788439454.305179": {
-    "checked_at": "2026-09-03T12:53:00Z",
-    "verdict": "clean"
-  },
-  "1788439470.996339": {
-    "checked_at": "2026-09-03T12:50:00Z",
-    "verdict": "clean"
-  },
-  "1788439757.569849": {
-    "checked_at": "2026-09-03T13:02:00Z",
-    "verdict": "clean"
-  },
-  "1788439880.291559": {
-    "checked_at": "2026-09-03T13:02:04Z",
-    "verdict": "clean"
-  },
-  "1788440011.878409": {
-    "checked_at": "2026-09-03T13:00:00Z",
-    "verdict": "clean"
-  },
-  "1788440123.468999": {
-    "checked_at": "2026-09-03T13:03:23Z",
-    "verdict": "flagged"
-  }
+  "_last_tick": "2026-09-03T11:07:00Z",
+  "_tick": "2026-09-03T10:19:22.820712Z"
 }
