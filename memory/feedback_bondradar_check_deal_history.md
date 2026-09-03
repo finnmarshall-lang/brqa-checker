@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-01T12:14:36.100Z
+  modified: 2026-09-03T07:50:16.130Z
 ---
 
 BR update bodies are cumulative in context, not standalone: information disclosed in an earlier stage update (Mandated / IPO / Investor Call / IPTs / etc.) carries forward and doesn't need to be repeated in the current update. Before flagging a field as missing from the current body, walk `dealHistoryEntries[]` (the array of prior BR message versions on the same deal) and check whether the field was already stated.
@@ -51,6 +51,10 @@ The same "walk every dealHistoryEntry" rule applies when deciding between `Final
 2. For every entry in `dealHistoryEntries[]`, print or scan its `message` field text — not a stage-name summary.
 3. If ANY prior message contains `final books`/`closed` language → `Final books over` (or `Books closed over` — see the book-line memory) is correct at Priced.
 4. **The book figure changing between Final Terms and Allocations is itself an implicit "final books" signal** — even if the source never literally said "final books" or "closed". Rationale: the book figure only moves once per stage transition when the books are being finalised (i.e., last accounts allocated). If Final Terms carried `Books over EURXbn` and Allocations carried `Books over EURYbn` with `Y > X`, treat the higher Allocations figure as the final book. Use `Final books over EURYbn` at Priced. Do NOT downgrade to `Books last heard over` on that pattern.
+
+**A Book Stats release with an orderbook figure ALSO counts as a final-books disclosure.** When the STATS release discloses `Final orderbook >X` / `Final book size X` / `Book totalled X` (or any wording that concludes the orderbook), that IS the final-books moment. Populate the priced-deal form's `finalBooks` with that figure — but do NOT ALSO put `Books last heard over X` in `additionalInfo`. The "last heard" fallback is only for deals that never got any final/closed/stats disclosure. Do not flag both `finalBooks` needing populating AND `additionalInfo` needing `Books last heard over` on the same deal — that's a contradiction; if the stats release gave the figure, finalBooks is where it lives and additionalInfo stays blank on the book-line dimension.
+
+Finn correction: I proposed BOTH `finalBooks=1536` AND `additionalInfo="Books last heard over A$1.536bn (incl A$45m JLM)"` on an AUD Book Stats deal. Finn: "contradicted yourself as we got final books at the book stats so the additional info should be blank". Populate finalBooks only; additionalInfo blank (or carries other applicable tags — EuGB / MC / Kangaroo / etc. — just not the Books-last-heard fallback).
 5. **Only propose `Books last heard over` when ALL of these are true**:
    - No prior message contains `final books` / `closed` language anywhere in its body text (per step 2 above).
    - The **Allocations** stage message doesn't mention books at all (or mentions them without any `final`/`closed` qualifier) AND the book figure DID NOT change from the prior stage (Final Terms / Launched).
