@@ -76,9 +76,7 @@ def main() -> int:
 
     delta_files = sorted(glob.glob("state_delta_*.json"))
 
-    # Collect every new/updated entry from all shard deltas BEFORE we
-    # merge, so we can apply reactions per-entry after the merge succeeds.
-    to_react: list[tuple[str, str]] = []  # (message_ts, verdict)
+    to_react: dict[str, str] = {}  # message_ts → verdict (dedupes if same ts appears twice)
     merged = 0
     for f in delta_files:
         try:
@@ -98,7 +96,7 @@ def main() -> int:
                 merged += 1
                 verdict = v.get("verdict")
                 if verdict in VERDICT_EMOJI:
-                    to_react.append((ts, verdict))
+                    to_react[ts] = verdict
         os.remove(f)
 
     state_path.write_text(json.dumps(state, indent=2))
@@ -110,8 +108,31 @@ def main() -> int:
         print("SLACK_BOT_TOKEN not available; skipping reactions pass", file=sys.stderr)
         return 0
 
+    # SELF-HEALING SWEEP: on top of the new deltas, also scan every state.json
+    # entry in the last 6h and enqueue its expected reaction. reactions.add is
+    # idempotent (already_reacted is a success), so re-adding an existing
+    # reaction is a cheap no-op. Any parent whose reaction the tick or a prior
+    # merge_deltas run failed to add gets picked up here on the next merge.
+    import time as _time
+    cutoff_ts = _time.time() - 6 * 3600
+    heal_added = 0
+    for ts, v in state.items():
+        try:
+            if float(ts) < cutoff_ts:
+                continue
+        except (TypeError, ValueError):
+            continue
+        if not isinstance(v, dict):
+            continue
+        verdict = v.get("verdict")
+        if verdict in VERDICT_EMOJI and ts not in to_react:
+            to_react[ts] = verdict
+            heal_added += 1
+    if heal_added:
+        print(f"self-healing sweep: enqueued {heal_added} additional state entries from last 6h")
+
     ok = already = failed = 0
-    for ts, verdict in to_react:
+    for ts, verdict in to_react.items():
         emoji = VERDICT_EMOJI[verdict]
         result = _add_reaction(CHANNEL, ts, emoji, tok)
         if result == "ok":
