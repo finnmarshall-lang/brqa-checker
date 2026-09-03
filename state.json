@@ -3056,6 +3056,19 @@
     "note": "Launched USD300m 3y at 4.90%; bot already in thread from prior tick (Perfect verdict) \u2014 state write lost, recording clean.",
     "verdict": "clean"
   },
+  "1788441017.592279": {
+    "br_id": 14640012,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "EXMAR NV",
+    "note": "Final terms USD150m 5y Sr Unsec at 7.75% \u2014 bot already in thread from prior tick (Perfect); state write lost. Recording clean.",
+    "verdict": "clean"
+  },
+  "1788441368.716699": {
+    "checked_at": "2026-09-03T14:06:27Z",
+    "note": "Empty message body (no term-sheet text).",
+    "verdict": "skipped"
+  },
   "1788441504.733289": {
     "checked_at": "2026-09-03T13:33:48Z",
     "verdict": "clean"
@@ -3068,6 +3081,14 @@
     "note": "Priced EUR500m 5.5y at MS+105bp; bot already in thread from prior tick (Perfect verdict) \u2014 state write lost, recording clean.",
     "verdict": "clean"
   },
+  "1788441526.785759": {
+    "br_id": 14650443,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "Raiffeisen Schweiz",
+    "note": "Allocations EUR500m 8NC7 Rate Bail-in at MS+97 \u2014 bot already in thread from prior tick (Perfect); state write lost.",
+    "verdict": "clean"
+  },
   "1788441703.157279": {
     "br_id": 14640787,
     "category": "em",
@@ -3075,6 +3096,30 @@
     "issuer": "Bank Mandiri",
     "note": "Priced USD750m PerpNC5 AT1 at 7.35%; bot already in thread flagging benchmark bond coupon typo \u2014 state write lost, recording flagged.",
     "verdict": "flagged"
+  },
+  "1788442088.076299": {
+    "br_id": 14640441,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "M&G European Property Fund",
+    "note": "Allocations EUR500m 5y Grn at MS+100 \u2014 bot already in thread (Perfect); state write lost.",
+    "verdict": "clean"
+  },
+  "1788442271.355489": {
+    "br_id": 14640755,
+    "category": "em",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "Guangdong",
+    "note": "Guangdong CNH7.5bn multi-tranche ALLOX OUT \u2014 bot already in thread with Flag (BR lagging at Final terms; body typo at1.42%; missing ISIN; banks.active 27 vs 28 in source); state write lost.",
+    "verdict": "flagged"
+  },
+  "1788442362.601529": {
+    "br_id": 14650468,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "Credit Agricole PS SCF",
+    "note": "Priced EUR500m 6y CB at MS+35 \u2014 bot already in thread (Perfect); state write lost.",
+    "verdict": "clean"
   },
   "1788442601.657369": {
     "br_id": 14640755,
@@ -3092,6 +3137,14 @@
     "note": "Priced USD300m 3y at 4.90%; headline/body verbatim from source PRICED; priced-deal 14650642 all fields (fpr=100, yield=4.90%, dealRegsOnly=T, all additional-info=F, banks.active=19)/deal flags (regionAsia/feedEmrd/expectedPageId cleared) all clean; finalBooks=null OK (source silent, Rule 5). Newly posted.",
     "verdict": "clean"
   },
+  "1788442798.469669": {
+    "br_id": 14640384,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "3M Company",
+    "note": "Allocations EUR1.5bn multi-tranche at MS+38/68/88 \u2014 bot already in thread (Perfect); state write lost.",
+    "verdict": "clean"
+  },
   "1788442829.369589": {
     "br_id": 14650468,
     "category": "hg",
@@ -3099,6 +3152,38 @@
     "issuer": "Credit Agricole Public Sector SCF",
     "note": "Priced EUR500m 6y CB at MS+35bp; headline/body verbatim from source; priced-deal 14650641 (covered=T, additionalInfo=PC, banks.active=7, finalBooks=1100.0, opCo/holdCo=F correct \u2014 French issuer not on whitelist)/deal flags (coveredBonds=T, feedIgrd=T, regionAmericas=F) all clean. Newly posted.",
     "verdict": "clean"
+  },
+  "1788443005.265379": {
+    "br_id": 14650130,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "DZ HYP AG",
+    "note": "Priced EUR500m short 5y CB (Pfandbrief) at MS+13 \u2014 bot already in thread with Flag (Final books line missing \"over\" per house style); state write lost.",
+    "verdict": "flagged"
+  },
+  "1788443017.898059": {
+    "br_id": 14650491,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "Swiss Life Finance II AG",
+    "note": "Priced EUR600m 20NC10 T2 Sub Cap Securities at MS+143 \u2014 verified clean via priced-form 14650645 walk. Bot already in thread from prior tick (state write lost); slack_post skipped repost.",
+    "verdict": "clean"
+  },
+  "1788443111.269149": {
+    "br_id": 14650481,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "Argenta Spaarbank",
+    "note": "Priced EUR325m 5NC4 EuGB SNP at MS+90 \u2014 bot already in thread with Flag (priced-form finalBooks=null should be 1200); state write lost.",
+    "verdict": "flagged"
+  },
+  "1788443287.386989": {
+    "br_id": 14650513,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:06:27Z",
+    "issuer": "Compass Group PLC",
+    "note": "Priced tap EUR250m Jan 2035 at MS+80 \u2014 priced-form 14650646 fpr=0.0/spread=null/yield=null all empty despite body carrying full pricing; finalBooks=null vs Allocations disclosed EUR340m. Newly posted.",
+    "verdict": "flagged"
   },
   "_last_tick": "2026-09-03T13:20:07Z",
   "_tick": "2026-09-03T13:20:07Z",
