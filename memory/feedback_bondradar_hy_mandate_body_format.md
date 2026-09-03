@@ -5,10 +5,22 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-03T07:37:46.479Z
+  modified: 2026-09-03T07:39:27.178Z
 ---
 
-**HY mandate bodies with Key Terms follow a concise house-style template.** Do NOT copy the source's mandate announcement verbatim. Do NOT include roadshow logistics, investor-call meeting links, MiFID/PRIIPs boilerplate, or the company presenter list.
+## Scope — HY mandates WITH Key Terms ONLY
+
+**Only apply this template when the source term sheet includes a `- Key Terms -` section** (or equivalent structured block listing Issuer / Status / Rating / Security / Guarantors / Issue size / UoP / Tenor / Coupon / Amortisation / Call option / Incurrence test / Permitted debt / etc.). Finn: "is only certain HY mandates that have key terms of you understand".
+
+- Source has a Key Terms block → concise house-style paragraph (this rule).
+- Source is a bare HY mandate announcement with NO Key Terms → do NOT apply this rule. Keep whatever the desk already writes; do not force a rewrite based on this template.
+- IG mandate with a bank-quoted direct mandate wrapped in `"..."` → see [[bondradar-mandate-quotes]] (verbatim wrapping intentional; different rule).
+
+Before flagging an HY mandate body as needing a rewrite, verify the source has a Key Terms section. If it doesn't, close without flagging.
+
+## Rule (when the Key Terms block IS present)
+
+Do NOT copy the source's mandate announcement verbatim. Do NOT include roadshow logistics, investor-call meeting links, MiFID/PRIIPs boilerplate, or the company presenter list.
 
 ## Template
 
