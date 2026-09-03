@@ -2827,6 +2827,32 @@
     "note": "Book update EUR750m (max) PNC7.5 AT1 \u2014 Books above EUR3bn today's business; body carries IPTs 6.625% area/tranche v14650466 (6.625%a, structure PNC7.5AT1 at 9-char cap)/4 JLMs incl Commerzbank (B&D)/CUC 75/CET1 5.125% write-down with write-up/ISIN DE000CZ45WE9/regionAmericas=false all clean; bot already in thread \u2014 skipped repost.",
     "verdict": "clean"
   },
+  "1788429818.978619": {
+    "checked_at": "2026-09-03T10:33:37Z",
+    "note": "Chat message re Volksbank Wien BBG code correction (DQ2585007); not a term sheet.",
+    "verdict": "skipped"
+  },
+  "1788429880.128199": {
+    "checked_at": "2026-09-03T10:33:37Z",
+    "note": "Chat request to check ISIN for ACOSS (FIGI BBG024TCS5Y2); not a term sheet.",
+    "verdict": "skipped"
+  },
+  "1788430669.452429": {
+    "br_id": 14650468,
+    "category": "hg",
+    "checked_at": "2026-09-03T10:33:37Z",
+    "issuer": "Credit Agricole Public Sector SCF",
+    "note": "Final terms EUR500m 6y CB at MS+35bp; headline/body/tranche 14650560 (MS+35 launched, JT-LEADS, 6y CB)/deal flags (coveredBonds=true, IGRB23) all clean; 7 JBRs match banks.active count; ISIN FR001401ATK6 preserved; bot already in thread from prior tick (state write lost), state recorded.",
+    "verdict": "clean"
+  },
+  "1788430986.158929": {
+    "br_id": 14650365,
+    "category": "em",
+    "checked_at": "2026-09-03T10:33:37Z",
+    "issuer": "Jinan Lixia Holding Group",
+    "note": "FPG USD 3y at 4.90% (the number); Tranche A banks.active count = 18 vs 19 JLMs in source/body (5 top-tier JGC/JLM/JBRs + 14 lower-tier JLM/JBRs); headline/body/tranche form (USD/TBA/3y/4.90%/JT-LEADS//BBB/today)/deal flags (regionAsia=true, feedEmrd=true, EMRH28) otherwise clean; bot already in thread from prior tick (state write lost), state recorded flagged.",
+    "verdict": "flagged"
+  },
   "_last_tick": "2026-09-03T10:19:22.820712Z",
   "_tick": "2026-09-03T10:19:22.820712Z"
 }
