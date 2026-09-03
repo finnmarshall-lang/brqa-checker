@@ -2853,66 +2853,70 @@
     "note": "FPG USD 3y at 4.90% (the number); Tranche A banks.active count = 18 vs 19 JLMs in source/body (5 top-tier JGC/JLM/JBRs + 14 lower-tier JLM/JBRs); headline/body/tranche form (USD/TBA/3y/4.90%/JT-LEADS//BBB/today)/deal flags (regionAsia=true, feedEmrd=true, EMRH28) otherwise clean; bot already in thread from prior tick (state write lost), state recorded flagged.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-03T10:19:22.820712Z",
-  "_tick": "2026-09-03T10:19:22.820712Z",
   "1788431354.873859": {
-    "checked_at": "2026-09-03T11:00:00Z",
-    "verdict": "skipped"
-  },
-  "1788432299.013519": {
-    "checked_at": "2026-09-03T11:00:00Z",
-    "verdict": "skipped"
-  },
-  "1788433023.462439": {
-    "checked_at": "2026-09-03T11:00:00Z",
-    "verdict": "clean"
+    "br_id": 14650402,
+    "category": "em",
+    "checked_at": "2026-09-03T11:07:00Z",
+    "issuer": "Zhangzhou Yuanshan Dev",
+    "note": "FPG 3.45% CNY 3y RegS; BR body/tranche form 3.45% no 'a' NR/NR/NR clean; banks.active incomplete vs source ~22 JBRs (Sinolink missing per user follow-up). Bot already in thread from prior tick, state write lost; independently re-verified flagged.",
+    "verdict": "flagged"
   },
   "1788431655.026509": {
-    "checked_at": "2026-09-03T11:04:45Z",
-    "verdict": "skipped"
-  },
-  "1788432700.693639": {
-    "checked_at": "2026-09-03T11:04:45Z",
+    "br_id": 14650443,
+    "category": "hg",
+    "checked_at": "2026-09-03T11:07:00Z",
+    "issuer": "Raiffeisen Schweiz",
+    "note": "Launched EUR500m 8NC7 at MS+97bp (Rule 4 lowercase-t Final terms interchangeable, body opens Spread set). 5 JLMs UBS (B&D); ISIN CH1579254470; ratings /AA-/AA- issuer, /A/A issue; deal-level flags clean. Bot already in thread from prior tick, state write lost; independently re-verified clean.",
     "verdict": "clean"
   },
   "1788431845.825729": {
-    "checked_at": "2026-09-03T11:07:03Z",
+    "br_id": 14650528,
+    "category": "hg",
+    "checked_at": "2026-09-03T11:07:00Z",
+    "issuer": "NWB Bank",
+    "note": "Priced tap CHF130m 0.735% NWB Bank Social 2035 at SARON MS+27bp. Priced-deal 14650572: isin=CH1415780126 (WRONG \u2014 original ISIN, new tap ISIN per source is CH1605365068); spread=SARON+27 (missing MS); opCo=true (Dutch issuer NOT on UK/Swiss/US/JP+ING/Nationwide/Softbank whitelist \u2014 should be false); social=true correct; dealRegsOnly=true correct. Bot already in thread from prior tick, state write lost; independently re-verified flagged.",
+    "verdict": "flagged"
+  },
+  "1788432084.355529": {
+    "br_id": 14640340,
+    "category": "hg",
+    "checked_at": "2026-09-03T11:07:00Z",
+    "issuer": "Sage Group",
+    "note": "Guidance MS+110bp area EUR500m 5.5y BBB+ senior unsecured; 4 JBRs BofA (B&D)/HSBC/JPM/NatWest; ISIN XS3491327378; books EUR2.6bn subject 12:00 UKT. Prior bot flagged spread level typo in-thread. Bot already in thread from prior tick, state write lost; recorded flagged.",
+    "verdict": "flagged"
+  },
+  "1788432299.013519": {
+    "br_id": 14650508,
+    "category": "hg",
+    "checked_at": "2026-09-03T11:07:00Z",
+    "issuer": "Muehlhan Holding",
+    "note": "Final terms EUR63.9m 2030 tap at 102.75%. Body typo `Books covered by at final terms` (extra `by`; source: `Books covered at final terms`); also `Books to close 13:30 CEST` dropped `at` vs source. Bot already in thread from prior tick, state write lost; independently re-verified flagged.",
     "verdict": "flagged"
   },
   "1788432869.155199": {
-    "checked_at": "2026-09-03T11:07:03Z",
+    "br_id": 14650481,
+    "category": "hg",
+    "checked_at": "2026-09-03T11:07:00Z",
+    "issuer": "Argenta Spaarbank",
+    "note": "Final terms EUR325m 5NC4 EuGB SNP at MS+90bp; 3 JLMs ABN (B&D)/BNPP/Mizuho; SNP + EuGB + RegS Dematerialised; books EUR1.1bn (excl JLM) pre-rec; subject 12:15 UKT / 13:15 CET; all clean. Bot already in thread from prior tick, state write lost; independently re-verified clean.",
     "verdict": "clean"
-  },
-  "1788432084.355529": {
-    "checked_at": "2026-09-03T11:01:39Z",
-    "verdict": "skipped"
   },
   "1788433011.336929": {
-    "checked_at": "2026-09-03T11:01:39Z",
+    "br_id": 14650491,
+    "category": "hg",
+    "checked_at": "2026-09-03T11:07:00Z",
+    "issuer": "Swiss Life",
+    "note": "Final Terms EUR600m 20NC10 T2 at MS+143bp; 3 JLMs DB/Natixis/UBS (B&D); ISIN CH1598620032; guarantor ratings /A+/ SL AG + /A-/ SL Holding; expected issue rating /A-/ consistent with T2 (BR correctly interpreted source `Sub Cap Securities` as T2); books EUR2bn subject 12:15 UKT; all clean. Bot already in thread from prior tick, state write lost; independently re-verified clean.",
     "verdict": "clean"
   },
-  "1788433326.412229": {
-    "checked_at": "2026-09-03T11:07:16Z",
+  "1788433023.462439": {
+    "br_id": 14640384,
+    "category": "hg",
+    "checked_at": "2026-09-03T11:07:00Z",
+    "issuer": "3M Company",
+    "note": "Guidance EUR1.5bn multi-tranche 2y/5y/8y at MS+40/+70/+90bp area; 4 JBRs DB(B&D)/BofA/Citi/JPM; ratings A3/BBB+/A-; SEC Registered EUR (regionAmericas=false correct \u2014 no USD tranche); expectedPageCount=3; ISINs XS3460877650/734/8203; books EUR1.8/2.8/2.8bn; all clean. Bot already in thread from prior tick, state write lost; independently re-verified clean.",
     "verdict": "clean"
   },
-  "1788433442.874509": {
-    "checked_at": "2026-09-03T11:12:09Z",
-    "verdict": "flagged"
-  },
-  "1788433622.682459": {
-    "checked_at": "2026-09-03T11:13:07Z",
-    "verdict": "flagged"
-  },
-  "1788433909.292949": {
-    "checked_at": "2026-09-03T11:22:00Z",
-    "verdict": "flagged"
-  },
-  "1788433973.068679": {
-    "checked_at": "2026-09-03T11:24:06Z",
-    "verdict": "flagged"
-  },
-  "1788434121.419009": {
-    "checked_at": "2026-09-03T11:22:00Z",
-    "verdict": "clean"
-  }
+  "_last_tick": "2026-09-03T11:07:00Z",
+  "_tick": "2026-09-03T10:19:22.820712Z"
 }
