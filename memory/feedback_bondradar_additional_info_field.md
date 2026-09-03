@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-19T12:43:02.529Z
+  modified: 2026-09-03T06:45:04.217Z
 ---
 
 The `additionalInfo` free-text field on the BR priced-deal form is a real signal, not a scratchpad. Populate it whenever any of the below applies, and flag if it's empty on a deal that has one of these attributes.
@@ -21,7 +21,7 @@ The `additionalInfo` free-text field on the BR priced-deal form is a real signal
 - **`Kangaroo`** — Kangaroo bond (AUD, issued in Australia by a foreign issuer). Example: Alphabet AUD5.5bn Kangaroo priced-deals all had `additionalInfo: "Kangaroo"`.
 - **`Samurai`** — Samurai bond (JPY-denominated, issued in Japan by a foreign issuer).
 - **Par call detail** — atypical par-call windows, e.g. `"3-month par call"`, `"6-month par call"`. Standard 1-month par call often left off.
-- **HY UOP shorthand** — for HY deals, use of proceeds in shorthand: `"UOP: GCP"` (general corporate purposes) / `"UOP: Aqui"` (acquisition) / `"UOP: Recap"` (recapitalisation). Multiple can be combined with `;`.
+- **HY UOP shorthand — REQUIRED on every HY priced deal.** Use of proceeds in shorthand: `"UOP: GCP"` (general corporate purposes) / `"UOP: Aqui"` (acquisition) / `"UOP: Recap"` (recapitalisation) / `"UOP: Refi"` (refinancing existing debt). Multiple can be combined with `;`. Flag EVERY HY (`highYield: true` on the deal-level flags) priced deal whose `additionalInfo` doesn't carry a `UOP:` shorthand. Finn on Boels Topholding EUR400m 6NC2 Priced (id 14640452, priced-deal 14650337): tick walked additionalInfo=null on a HY deal and didn't flag it. Finn: "important rule missed, UOP im additional info for HY deals". The UOP fact appears in the body prose already; the priced-deal form's `additionalInfo` needs the shorthand mirror.
 - **`sale of retained bond`** — when the deal is selling previously-retained inventory (NOT a fresh tap increasing the outstanding). Explicit call-out here so the deal isn't confused with a tap.
 - **`Books last heard over [amount]`** — when the desk had book updates during the deal but never received a final book figure at pricing. Populate `additionalInfo` with the last-heard book figure (and mirror it in the pricing message body). Distinguishes from `Final books over` which requires the source to give a final figure at Priced.
 - Legit non-taxonomy values seen: `"FA backed"` (MassMutual funding-agreement-backed), `"EMTN drawdown"`.
