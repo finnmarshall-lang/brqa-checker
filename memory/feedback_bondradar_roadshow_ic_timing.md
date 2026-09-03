@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-02T08:14:44.826Z
+  modified: 2026-09-03T07:32:26.319Z
 ---
 
 When a source term-sheet / mandate announcement mentions a **ROADSHOW** or **Global Investor Calls** with specific date(s), the tranche form's `timing` field encodes that as **`i/c <date range>`** — `i/c` = "investor call" — followed by the date span in the compact `DD-DD MMM` format.
@@ -47,8 +47,13 @@ Two independent decisions: **date encoding** and **series marker**.
 **Formatting details:**
 - The month is short-form three letters, no punctuation.
 - Do not include times or timezones — they belong in the body prose, not the tranche `timing` field.
-- `i/c` is lowercase with a slash — do not spell out "investor call" or capitalise.
-- The marker is always `i/c`, never `i/m`. Even when source uses "investor meetings" wording (not "investor calls"), the tranche-form marker stays `i/c`.
+- `i/c` and `i/m` are lowercase with a slash — do not spell out or capitalise.
+- **Marker choice depends on the source's own wording:**
+  - Source says "investor calls" (`series of investor calls`, `investor call #1`, `Global Investor Call`) → `i/c`
+  - Source says "investor meetings" (`series of fixed income investor meetings`, `roadshow with investor meetings`) → `i/m`
+  - Source says just "roadshow" with no calls/meetings distinction → default to `i/c`.
+  - If source uses both wordings in different places, prefer the one used with the dated commencement line.
+  Finn: "If it's investor calls its i/c if its investor meetings its i/m, please remember". Retracts my earlier over-broad rule that all roadshow timings used `i/c`.
 
 **When source has multiple date references — use the investor-calls/meetings date, not the "Roadshow" field.**
 
