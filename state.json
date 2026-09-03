@@ -2656,5 +2656,9 @@
     "issuer": "Compass Group PLC",
     "note": "IPTs MS+95/100bp EUR150m (Exp) Jan 2035 tap. Headline/body/tranche v0 (BARC/SG ticker shorthand for 2 leads, MS+95/100, structure `2035 tap` at 9-char cap)/deal flags (IGRB43, feedIgrd, no CB/RegAm/HY) all clean; reference benchmark + coupon 3.500% + EMTN docs correctly omitted at IPTs for a tap of an existing bond. Posted clean finding at 1788421917.930459.",
     "verdict": "clean"
+  },
+  "1788421600.196989": {
+    "checked_at": "2026-09-03T08:13:24Z",
+    "verdict": "skipped"
   }
 }
