@@ -2527,43 +2527,81 @@
     "verdict": "clean"
   },
   "1788419203.358509": {
-    "checked_at": "2026-09-03T07:24:37Z",
-    "verdict": "skipped"
+    "br_id": 14650463,
+    "category": "hg",
+    "issuer": "Commerzbank",
+    "note": "IPTs 6.625% area EUR750m (max) PNC7.5 AT1; body has minor `2034..` double-period typo but headline+ccy+size+structure+stage+tranche form (PNC7.5AT1 at 9-char cap, 6.625%a, JT-LEADS 4 leads)+deal flags (feedIgrd, no CB/RegAm)+ISIN DE000CZ45WE9+4 JLMs Commerzbank(B&D)/ING/Santander/UBS all clean; max qualifier present (parenthesized). Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   },
   "1788419646.090739": {
-    "checked_at": "2026-09-03T07:24:37Z",
-    "verdict": "flagged"
+    "br_id": 14650486,
+    "category": "hg",
+    "issuer": "Hurtigruten Group",
+    "note": "Mandate EUR100m 5y senior unsecured FRN HY (via file attachment); body reflects source with MWC 30m/COC 101/Oslo listing/Norwegian law; Sole GC DNB Carnegie + JLMs (4) DNB/Danske/Nordea/SEB; tranche form clean; HY routing (hyExpectedPageId HYRE4, highYield=true) correct. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   },
   "1788419227.520839": {
-    "checked_at": "2026-09-03T00:00:00Z",
-    "verdict": "skipped"
+    "issuer": "Commerzbank AG",
+    "note": "Tender offer for outstanding EUR500m AT1 2020 and 2021 notes; liability management, not new-issue term sheet. Companion to Commerzbank AT1 new-issue mandate/IPTs id 14650463.",
+    "verdict": "skipped",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   },
   "1788419651.559729": {
-    "checked_at": "2026-09-03T07:21:07Z",
-    "verdict": "flagged"
+    "br_id": 14650236,
+    "category": "hg",
+    "issuer": "SEK",
+    "note": "Guidance SOFR MS+37bp area USD bmk 5-year SEC Registered Global (via file attachment); headline+body+tranche form (SMS+37a, 4 leads Barclays/BNPP/BofA/Scotia)+deal flags (regionAmericas=true correct for USD+SEC-registered global, IGRB35) all clean; IOI update EUR1.5bn+ carried. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   },
   "1788419342.045819": {
-    "checked_at": "2026-09-03T07:22:24Z",
-    "verdict": "flagged"
+    "br_id": 14650468,
+    "category": "hg",
+    "issuer": "Credit Agricole Public Sector SCF",
+    "note": "Guidance MS+40bp area EUR750m (max) 6y CB (Obligations Foncieres, ECB Eligible, Premium CB Label); headline+body+tranche form (6y CB, MS+40a, JT-LEADS, 7 leads=source count)+deal flags (coveredBonds=T, IGRB23) all clean. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   },
   "1788419716.949779": {
-    "checked_at": "2026-09-03T07:22:24Z",
-    "verdict": "flagged"
+    "br_id": 14650481,
+    "category": "hg",
+    "issuer": "Argenta Spaarbank",
+    "note": "Mandate EUR325m WNG 5NC4 EuGB SNP; dealHistoryEntry (Mandated) body verbatim from source; tranche form v1 (structure `5NC4 SNP` under 9-char cap, ticker shorthand ABN/BNPP/MIZ for \u22643 leads, timing `this week`)+3 JLMs+deal flags (feedIgrd, no CB, IGRB36) all clean. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   },
   "1788419444.943159": {
-    "checked_at": "2026-09-03T07:23:04Z",
-    "verdict": "flagged"
+    "br_id": 14650474,
+    "category": "hg",
+    "issuer": "Accru Partners",
+    "note": "Mandate EUR550m 4y senior secured HY (S&P B prelim / Moody's B3); body verbatim mandate quote; tranche form (JT-LEADS, 6 leads=source count, i/m 07 Sep, no priceEvolution)+HY routing (hyExpectedPageId HYRE7, highYield=true)+deal flags all clean. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   },
   "1788419866.066989": {
-    "checked_at": "2026-09-03T07:23:04Z",
-    "verdict": "clean"
+    "br_id": 14650491,
+    "category": "hg",
+    "issuer": "Swiss Life",
+    "note": "Mandate EUR600m (WNG) 20NC10 RegS Sub Cap Securities; Issuer Swiss Life Finance II AG (Liechtenstein), guaranteed by Swiss Life AG (A+ S&P) + Holding AG (A- S&P), exp A- S&P; body verbatim mandate quote; tranche form (structure 20NC10Sub at 9-char cap, timing September, JT-LEADS with 3 leads DB/Natixis/UBS \u2014 borderline but not flagged per book_or_rating rule)+3 JLMs+deal flags (IGRB38, feedIgrd, notifyMobile) all clean. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   },
   "1788420076.104669": {
-    "checked_at": "2026-09-03T07:32:00Z",
-    "verdict": "clean"
+    "br_id": 14640340,
+    "category": "hg",
+    "issuer": "Sage Group",
+    "note": "IPTs MS+135/140bp area EUR500m (no grow) 5.5y sr unsec; body/tranche v3 (MS+135/140bp, today)/4 JBRs BofA(B&D)/HSBC/JPM/NatWest/ISIN XS3491327378/deal flags (IGRB50, feedIgrd, no CB/RegAm) all clean; Canadian sales boilerplate correctly dropped from body. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   },
   "1788420223.954549": {
-    "checked_at": "2026-09-03T07:32:07Z",
-    "verdict": "clean"
+    "br_id": 14650481,
+    "category": "hg",
+    "issuer": "Argenta Spaarbank",
+    "note": "IPTs MS+110/115bp EUR325m (WNG) 5NC4 EuGB SNP; body+tranche v2 (MS+110/115, today, ticker shorthand ABN/BNPP/MIZ for 3 leads)+expected rating /BBB/ (only S&P, M+F slots empty per only-three-agencies rule)+deal flags (IGRB36, feedIgrd, no CB) all clean. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean",
+    "checked_at": "2026-09-03T07:34:21.192775Z"
   }
 }
