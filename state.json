@@ -3217,288 +3217,46 @@
   },
   "_last_tick": "2026-09-03T13:20:07Z",
   "_tick": "2026-09-03T13:20:07Z",
-  "1788440800.093799": {
-    "checked_at": "2026-09-03T13:33:00Z",
-    "verdict": "skipped"
-  },
-  "1788441512.117459": {
-    "checked_at": "2026-09-03T13:33:00Z",
-    "verdict": "clean"
-  },
-  "1788441017.592279": {
-    "checked_at": "2026-09-03T13:35:06Z",
-    "verdict": "skipped"
-  },
-  "1788441526.785759": {
-    "checked_at": "2026-09-03T13:35:06Z",
-    "verdict": "skipped"
-  },
-  "1788441368.716699": {
-    "checked_at": "2026-09-03T13:39:52Z",
-    "verdict": "clean"
-  },
-  "1788441703.157279": {
-    "checked_at": "2026-09-03T13:39:52Z",
-    "verdict": "flagged"
-  },
-  "1788441504.733289": {
-    "checked_at": "2026-09-03T13:35:52Z",
-    "verdict": "skipped"
-  },
-  "1788442088.076299": {
-    "checked_at": "2026-09-03T13:35:52Z",
-    "verdict": "clean"
-  },
-  "1788442271.355489": {
-    "checked_at": "2026-09-03T13:46:30Z",
-    "verdict": "flagged"
-  },
-  "1788442362.601529": {
-    "checked_at": "2026-09-03T13:54:38Z",
-    "verdict": "clean"
-  },
-  "1788442829.369589": {
-    "checked_at": "2026-09-03T13:54:38Z",
-    "verdict": "skipped"
-  },
-  "1788442601.657369": {
-    "checked_at": "2026-09-03T13:55:31Z",
-    "verdict": "skipped"
-  },
-  "1788443005.265379": {
-    "checked_at": "2026-09-03T13:55:31Z",
-    "verdict": "flagged"
-  },
-  "1788442764.670489": {
-    "checked_at": "2026-09-03T13:58:00Z",
-    "verdict": "skipped"
-  },
-  "1788443111.269149": {
-    "checked_at": "2026-09-03T13:58:00Z",
-    "verdict": "flagged"
-  },
-  "1788442798.469669": {
-    "checked_at": "2026-09-03T13:46:50Z",
-    "verdict": "clean"
-  },
-  "1788443017.898059": {
-    "checked_at": "2026-09-03T14:16:23Z",
-    "verdict": "skipped"
-  },
-  "1788444388.676929": {
-    "checked_at": "2026-09-03T14:16:23Z",
-    "verdict": "flagged"
-  },
-  "1788443287.386989": {
-    "checked_at": "2026-09-03T14:14:35Z",
-    "verdict": "skipped"
-  },
-  "1788443775.351959": {
-    "checked_at": "2026-09-03T14:15:00Z",
-    "verdict": "clean"
-  },
-  "1788443910.360889": {
-    "checked_at": "2026-09-03T14:13:37Z",
-    "verdict": "flagged"
-  },
-  "1788443763.875819": {
-    "checked_at": "2026-09-03T14:20:00Z",
-    "verdict": "skipped"
-  },
-  "1788444824.132749": {
-    "checked_at": "2026-09-03T14:20:00Z",
-    "verdict": "skipped"
-  },
   "1788443901.928639": {
-    "checked_at": "2026-09-03T14:25:17Z",
-    "verdict": "clean"
-  },
-  "1788444125.464479": {
-    "checked_at": "2026-09-03T14:23:40Z",
+    "br_id": 14650443,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:39:13.875660Z",
+    "issuer": "Raiffeisen Schweiz",
+    "note": "Priced EUR500m 8NC7 FXD-to-FXD Bail-in at MS+97bp; headline/body/priced-deal 14650664 (dealRegsOnly=true, cuc=true, mwc=false, finalBooks=2400)/deal flags all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
     "verdict": "clean"
   },
   "1788444374.856199": {
-    "checked_at": "2026-09-03T14:25:23Z",
+    "br_id": 14640755,
+    "category": "em",
+    "checked_at": "2026-09-03T14:39:13.875660Z",
+    "issuer": "Guangdong PRC",
+    "note": "Priced CNH7.5bn multi-tranche (2.6bn 3y + 3.5bn 5y G&B + 1.4bn 10y); bot already in thread flagging stale \"Pricing shortly.\" timing left over from Final Terms stage \u2014 verdict recorded flagged. Priced-deal forms 14650661/14650662/14650663 clean incl green=true only on tranche B + Blue Bond additionalInfo (correct). Skip repost.",
     "verdict": "flagged"
   },
   "1788445169.266969": {
-    "checked_at": "2026-09-03T14:31:18Z",
+    "checked_at": "2026-09-03T14:39:13.875660Z",
+    "note": "Chat request asking for codes (HK0001326302/310/328 + XS3498808651); not a term sheet.",
     "verdict": "skipped"
   },
   "1788445289.120999": {
-    "checked_at": "2026-09-03T14:33:59Z",
+    "br_id": 14650402,
+    "category": "em",
+    "checked_at": "2026-09-03T14:39:13.875660Z",
+    "issuer": "Zhangzhou Yuanshan Dev",
+    "note": "Launched CNY560m 3y at 3.45%; bot already in thread flagging tranche banks.active=22 vs source 23 banks (Sole GC Guosen + 22 JBRs). Reactor pushed back \"all banks already existed\" but flag recorded per bot verdict. Headline/body/deal flags otherwise clean. Skip repost.",
     "verdict": "flagged"
   },
   "1788445462.272849": {
-    "checked_at": "2026-09-03T15:33:00Z",
+    "br_id": 14650448,
+    "category": "hg",
+    "checked_at": "2026-09-03T14:39:13.875660Z",
+    "issuer": "HSBC Holdings",
+    "note": "Priced GBP750m 9NC8 HoldCo Sr SEC Reg'd at G+103bp (UKT 4.50 07 Sep 2034); bot already in thread verified clean. Priced-deal 14650665 (secRegistered=true, holdCo=true, mwc=true, isin XS3487885405, sole HSBC) all correct. finalBooks null OK \u2014 source silent. Skip repost.",
     "verdict": "clean"
   },
   "1788445601.146629": {
-    "checked_at": "2026-09-03T14:30:00Z",
+    "checked_at": "2026-09-03T14:39:13.875660Z",
+    "note": "Chat request asking for codes for XS3487885405 (HSBC HoldCo priced); not a term sheet.",
     "verdict": "skipped"
-  },
-  "1788446035.380479": {
-    "checked_at": "2026-09-03T14:41:00Z",
-    "verdict": "clean"
-  },
-  "1788446060.120379": {
-    "checked_at": "2026-09-03T14:44:49Z",
-    "verdict": "flagged"
-  },
-  "1788446568.257259": {
-    "checked_at": "2026-09-03T14:52:00Z",
-    "verdict": "clean"
-  },
-  "1788446668.847479": {
-    "checked_at": "2026-09-03T14:53:27Z",
-    "verdict": "clean"
-  },
-  "1788447108.878419": {
-    "checked_at": "2026-09-03T15:56:45Z",
-    "verdict": "clean"
-  },
-  "1788447437.943129": {
-    "checked_at": "2026-09-03T15:15:36Z",
-    "verdict": "skipped"
-  },
-  "1788446997.128999": {
-    "checked_at": "2026-09-03T16:20:00Z",
-    "verdict": "skipped"
-  },
-  "1788448423.036519": {
-    "checked_at": "2026-09-03T15:34:00Z",
-    "verdict": "flagged"
-  },
-  "1788448505.372429": {
-    "checked_at": "2026-09-03T16:30:00Z",
-    "verdict": "flagged"
-  },
-  "1788448610.237129": {
-    "checked_at": "2026-09-03T15:33:40Z",
-    "verdict": "clean"
-  },
-  "1788449766.940169": {
-    "checked_at": "2026-09-03T15:44:46Z",
-    "verdict": "flagged"
-  },
-  "1788449731.755389": {
-    "checked_at": "2026-09-03T16:55:00Z",
-    "verdict": "flagged"
-  },
-  "1788450320.297339": {
-    "checked_at": "2026-09-03T16:05:33Z",
-    "verdict": "clean"
-  },
-  "1788451610.745099": {
-    "checked_at": "2026-09-03T16:14:22Z",
-    "verdict": "clean"
-  },
-  "1788451944.193979": {
-    "checked_at": "2026-09-03T17:44:00Z",
-    "verdict": "flagged"
-  },
-  "1788459641.760619": {
-    "checked_at": "2026-09-03T18:32:51Z",
-    "verdict": "skipped"
-  },
-  "1788459654.657669": {
-    "checked_at": "2026-09-03T18:32:47Z",
-    "verdict": "skipped"
-  },
-  "1788465606.547179": {
-    "checked_at": "2026-09-03T20:09:00Z",
-    "verdict": "skipped"
-  },
-  "1788464908.886969": {
-    "checked_at": "2026-09-03T21:01:00Z",
-    "verdict": "skipped"
-  },
-  "1788507596.786099": {
-    "checked_at": "2026-09-04T07:54:37Z",
-    "verdict": "skipped"
-  },
-  "1788508293.316079": {
-    "checked_at": "2026-09-04T08:02:19Z",
-    "verdict": "clean"
-  },
-  "1788508801.045349": {
-    "checked_at": "2026-09-04T08:14:00Z",
-    "verdict": "clean"
-  },
-  "1788508815.929379": {
-    "checked_at": "2026-09-04T08:15:56Z",
-    "verdict": "flagged"
-  },
-  "1788508983.628379": {
-    "checked_at": "2026-09-04T08:12:42Z",
-    "verdict": "flagged"
-  },
-  "1788508842.999089": {
-    "checked_at": "2026-09-04T08:26:16Z",
-    "verdict": "skipped"
-  },
-  "1788512404.928409": {
-    "checked_at": "2026-09-04T08:26:22Z",
-    "verdict": "skipped"
-  },
-  "1788512406.949919": {
-    "checked_at": "2026-09-04T09:01:13Z",
-    "verdict": "skipped"
-  },
-  "1788513137.989919": {
-    "checked_at": "2026-09-04T09:20:00Z",
-    "verdict": "skipped"
-  },
-  "1788513766.915789": {
-    "checked_at": "2026-09-04T09:30:00Z",
-    "verdict": "skipped"
-  },
-  "1788522310.744029": {
-    "checked_at": "2026-09-04T12:10:00Z",
-    "verdict": "skipped"
-  },
-  "1788527608.266249": {
-    "checked_at": "2026-09-04T13:22:24Z",
-    "verdict": "skipped"
-  },
-  "1788527924.062799": {
-    "checked_at": "2026-09-04T13:34:13Z",
-    "verdict": "skipped"
-  },
-  "1788532771.327499": {
-    "checked_at": "2026-09-04T14:50:00Z",
-    "verdict": "skipped"
-  },
-  "1788533407.868229": {
-    "checked_at": "2026-09-04T14:51:10Z",
-    "verdict": "skipped"
-  },
-  "1788534356.865879": {
-    "checked_at": "2026-09-04T15:20:00Z",
-    "verdict": "skipped"
-  },
-  "1788534512.723099": {
-    "checked_at": "2026-09-04T15:22:46Z",
-    "verdict": "flagged"
-  },
-  "1788535741.294659": {
-    "checked_at": "2026-09-04T15:31:00Z",
-    "verdict": "skipped"
-  },
-  "1788537434.864379": {
-    "checked_at": "2026-09-04T16:31:11Z",
-    "verdict": "skipped"
-  },
-  "1788525902.683279": {
-    "checked_at": "2026-09-04T17:10:00Z",
-    "verdict": "skipped"
-  },
-  "1788552007.847959": {
-    "checked_at": "2026-09-04T20:00:00Z",
-    "verdict": "skipped"
-  },
-  "1788762452.732859": {
-    "checked_at": "2026-09-07T06:56:43Z",
-    "verdict": "flagged"
   }
 }
