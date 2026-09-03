@@ -3185,6 +3185,36 @@
     "note": "Priced tap EUR250m Jan 2035 at MS+80 \u2014 priced-form 14650646 fpr=0.0/spread=null/yield=null all empty despite body carrying full pricing; finalBooks=null vs Allocations disclosed EUR340m. Newly posted.",
     "verdict": "flagged"
   },
+  "1788443763.875819": {
+    "checked_at": "2026-09-03T14:25:00Z",
+    "note": "muehlhan tap priced",
+    "verdict": "clean"
+  },
+  "1788443775.351959": {
+    "checked_at": "2026-09-03T14:25:00Z",
+    "note": "mg property priced",
+    "verdict": "clean"
+  },
+  "1788443910.360889": {
+    "checked_at": "2026-09-03T14:25:00Z",
+    "note": "al rajhi t2 launched",
+    "verdict": "clean"
+  },
+  "1788444125.464479": {
+    "checked_at": "2026-09-03T14:25:00Z",
+    "note": "tennet dual-tranche priced",
+    "verdict": "clean"
+  },
+  "1788444388.676929": {
+    "checked_at": "2026-09-03T14:25:00Z",
+    "note": "sek allocations - hedge deadline typo + missing DM",
+    "verdict": "flagged"
+  },
+  "1788444824.132749": {
+    "checked_at": "2026-09-03T14:25:00Z",
+    "note": "sabadell CB allocations",
+    "verdict": "clean"
+  },
   "_last_tick": "2026-09-03T13:20:07Z",
   "_tick": "2026-09-03T13:20:07Z",
   "1788440800.093799": {
