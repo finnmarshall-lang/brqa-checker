@@ -3086,5 +3086,18 @@
     "note": "Chat msg (European Lev Fin wrap send request); not a BBG term sheet.",
     "verdict": "skipped"
   },
+  "1788534356.865879": {
+    "checked_at": "2026-09-04T15:24:34Z",
+    "note": "Chat message with image attachment (search result screenshot); not a BBG term-sheet forward.",
+    "verdict": "skipped"
+  },
+  "1788534512.723099": {
+    "br_id": 14640007,
+    "category": "hg",
+    "checked_at": "2026-09-04T15:24:34Z",
+    "issuer": "Oechsler AG",
+    "note": "Timing Update \u2014 Roadshow continues w/c 7 Sep. Flagged missing `** ` prefix on headline; body/tranche v14650783/2-JLM/HY-routed deal flags otherwise clean. Bot already in thread \u2014 skipped repost.",
+    "verdict": "flagged"
+  },
   "_last_tick": "2026-09-04T15:11Z"
 }
