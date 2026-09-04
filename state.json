@@ -3072,16 +3072,20 @@
     "checked_at": "2026-09-04T13:26:04Z",
     "verdict": "skipped"
   },
-  "_last_tick": "2026-09-04T12:19Z",
-  "_tick": {
-    "at": "2026-09-04T12:19Z",
-    "checkmarked": 11,
-    "in_window": 41,
-    "new_to_check": 0,
-    "note": "All 11 white_check_mark messages already in state; no new BBG term-sheets to QA."
-  },
   "1788527924.062799": {
     "checked_at": "2026-09-04T13:37:11Z",
     "verdict": "skipped"
-  }
+  },
+  "1788532771.327499": {
+    "checked_at": "2026-09-04T14:50:48Z",
+    "note": "Chat msg (IG wrap sent to terminal for blasting); not a BBG term sheet.",
+    "verdict": "skipped"
+  },
+  "1788533407.868229": {
+    "checked_at": "2026-09-04T14:50:48Z",
+    "note": "Chat msg (European Lev Fin wrap send request); not a BBG term sheet.",
+    "verdict": "skipped"
+  },
+  "_last_tick": "2026-09-04T14:50:48Z",
+  "_tick": "2026-09-04T14:50:48Z"
 }
