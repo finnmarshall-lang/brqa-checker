@@ -1,32 +1,4 @@
 {
-  "1787842031.146589": {
-    "checked_at": "2026-08-27T15:59:39Z",
-    "verdict": "clean"
-  },
-  "1787844494.133659": {
-    "checked_at": "2026-08-27T15:56:00Z",
-    "verdict": "flagged"
-  },
-  "1787845036.822669": {
-    "checked_at": "2026-08-27T15:53:00Z",
-    "verdict": "clean"
-  },
-  "1787899062.652869": {
-    "checked_at": "2026-08-28T07:26:26Z",
-    "verdict": "missing"
-  },
-  "1787900685.233559": {
-    "checked_at": "2026-08-28T07:26:26Z",
-    "verdict": "clean"
-  },
-  "1787900878.310849": {
-    "checked_at": "2026-08-28T07:26:26Z",
-    "verdict": "clean"
-  },
-  "1787901195.545069": {
-    "checked_at": "2026-08-28T07:26:26Z",
-    "verdict": "flagged"
-  },
   "1787903831.269759": {
     "br_id": 14640020,
     "category": "hg",
@@ -2993,7 +2965,7 @@
     "note": "Priced EUR750m 5y CB (C\u00e9dulas Hipotecarias) at MS+22bp; headline/body verbatim; priced-form 14650674 (fpr=99.625, spread=MS+22, yield=3.458%, isin=ES0413860943, figi=BBG024W02ZP6, moodys/snp/fitch=AAA/NR/NR, covered=T, dealRegsOnly=T, mwc=F, opCo/holdCo=F correct \u2014 Spanish issuer, additionalInfo=MC, banks.active=6 matches source 6 JBRs, finalBooks=2100.0)/deal flags (coveredBonds=T, expectedPageId=null cleared on Priced, feedIgrd=T) all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-03T15:10:35Z",
+  "_last_tick": "2026-09-04T07:17:01Z",
   "_tick": "2026-09-03T15:10:35Z",
   "1788447108.878419": {
     "checked_at": "2026-09-03T15:10:35Z",
