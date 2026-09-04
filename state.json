@@ -3079,5 +3079,9 @@
     "in_window": 41,
     "new_to_check": 0,
     "note": "All 11 white_check_mark messages already in state; no new BBG term-sheets to QA."
+  },
+  "1788527924.062799": {
+    "checked_at": "2026-09-04T13:37:11Z",
+    "verdict": "skipped"
   }
 }
