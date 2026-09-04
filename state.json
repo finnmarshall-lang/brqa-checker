@@ -1,12 +1,4 @@
 {
-  "1787906685.924149": {
-    "br_id": 14620319,
-    "category": "hg",
-    "checked_at": "2026-08-28T09:04:10Z",
-    "issuer": "Accurus Aerospace Corporation",
-    "note": "Priced USD425m 5NC2 at 9.50% \u2014 headline/body/priced-deal form all match source term sheet PDF verbatim. Bot already in thread (skip repost). Recorded clean.",
-    "verdict": "clean"
-  },
   "1787911114.094089": {
     "br_id": 14631419,
     "category": "hg",
@@ -3049,6 +3041,28 @@
     "note": "Mandated EUR500m long 7y RegS/144A senior unsecured (Ba2 pos/BBB- stb/BBB- stb); 8 JBRs BBVA/BMO/Citi/ING/Mizuho/Rabo/RBC/TD; bot already in thread from concurrent tick flagging regionAmericas=true (should be false on EUR deal) + tranche timing 07/08 slash\u2192hyphen \u2014 state write lost, recording flagged. BR has since fixed both (regionAmericas=false, timing=`i/m 07-08 Sep>`).",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-04T07:17:01Z",
+  "1788512404.928409": {
+    "checked_at": "2026-09-04T09:07:54Z",
+    "note": "Bot instruction \"Send EM Pipeline\" \u2014 not a term sheet, no BR deal to QA.",
+    "verdict": "skipped"
+  },
+  "1788512406.949919": {
+    "checked_at": "2026-09-04T09:07:54Z",
+    "note": "Bot instruction \"Send European Pipeline\" \u2014 not a term sheet, no BR deal to QA.",
+    "verdict": "skipped"
+  },
+  "1788513137.989919": {
+    "br_id": 14650130,
+    "category": "hg",
+    "checked_at": "2026-09-04T09:21:21Z",
+    "issuer": "DZ HYP AG",
+    "note": "Book stats EUR500m short 5y Mortgage Pfandbrief CB at MS+13bp; priced-deal 14650643 all fields clean (finalBooks=1920 = source EUR1.92bn, covered=true sole flag, dealRegsOnly=true, tier=null CB correct, holdCo/opCo=false German bank not on whitelist, 6 JBRs); statsCategories GEOGRAPHY+INVESTOR both sum 100 all rows match source (DACH 47 / S.Europe 20 / Nordics 11 / Africa 10 / NL+Lux 6 / Asia 4 / UK 1 / France 1; Banks 45 / AM+FM 28 / CB+OI 17 / Ins+PF 10); deal flags coveredBonds=true, regionAmericas=false, expectedPageId=null correct at Book stats; posted.",
+    "verdict": "clean"
+  },
+  "1788513766.915789": {
+    "checked_at": "2026-09-04T09:32:46Z",
+    "verdict": "clean"
+  },
+  "_last_tick": "2026-09-04T09:53:48Z",
   "_tick": "2026-09-03T15:10:35Z"
 }
