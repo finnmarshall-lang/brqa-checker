@@ -3018,5 +3018,13 @@
     "verdict": "flagged"
   },
   "_last_tick": "2026-09-04T07:17:01Z",
-  "_tick": "2026-09-03T15:10:35Z"
+  "_tick": "2026-09-03T15:10:35Z",
+  "1788508293.316079": {
+    "br_id": 14640521,
+    "category": "hg",
+    "checked_at": "2026-09-04T08:03:25Z",
+    "issuer": "EIB",
+    "note": "Book stats EUR5bn 5y CAB EARN at MS+6bp; priced-deal 14650251 all fields clean (fpr 99.596 / yield 3.335% / ISIN EU000A4E0ET7 / FIGI BBG024TJ2Y45 / BBGcode DQ2814969 / AAA/AAA/AAA / green=true / 4 leads Citi(B&D/DM)/HSBC/SocGen/UBS / finalBooks 46500). statsCategories GEOGRAPHY sum 100 (Benelux 11 == source Belgium/Netherlands/Luxembourg 11), INVESTOR sum 100 - every row matches source. Deal-level flags all correct. Slack post skipped bot_already_in_thread (lost state).",
+    "verdict": "clean"
+  }
 }
