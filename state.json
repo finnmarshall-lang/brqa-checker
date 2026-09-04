@@ -1,12 +1,4 @@
 {
-  "1787903831.269759": {
-    "br_id": 14640020,
-    "category": "hg",
-    "checked_at": "2026-08-28T08:11:55Z",
-    "issuer": "West Lake Holdco LLC",
-    "note": "Mandated USD275m 5y HY Sr Sec, Pareto Sole Bookrunner; body verbatim mandate quote, tranche form + flags clean; borrower currently mapped to WESTLAKE CHEMICAL (id 5633) with entity question actively being resolved in-thread \u2014 info only.",
-    "verdict": "clean"
-  },
   "1787906685.924149": {
     "br_id": 14620319,
     "category": "hg",
@@ -3017,8 +3009,6 @@
     "note": "Book stats EUR1bn 5y Grn at MS+8bp; priced-deal 14650615 statsCategories GEOGRAPHY `Europe other 0.7` differs from source `Other Europe 0.9%` (row-sum forced to 100.0). All other fields (fpr/spread/yield/ISIN/FIGI/BBGcode/ratings/format flags/UOP/JLM alpha with (B&D)(DM) on JPM/finalBooks=8100)/deal-level flags all clean.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-04T07:17:01Z",
-  "_tick": "2026-09-03T15:10:35Z",
   "1788508293.316079": {
     "br_id": 14640521,
     "category": "hg",
@@ -3026,5 +3016,39 @@
     "issuer": "EIB",
     "note": "Book stats EUR5bn 5y CAB EARN at MS+6bp; priced-deal 14650251 all fields clean (fpr 99.596 / yield 3.335% / ISIN EU000A4E0ET7 / FIGI BBG024TJ2Y45 / BBGcode DQ2814969 / AAA/AAA/AAA / green=true / 4 leads Citi(B&D/DM)/HSBC/SocGen/UBS / finalBooks 46500). statsCategories GEOGRAPHY sum 100 (Benelux 11 == source Belgium/Netherlands/Luxembourg 11), INVESTOR sum 100 - every row matches source. Deal-level flags all correct. Slack post skipped bot_already_in_thread (lost state).",
     "verdict": "clean"
-  }
+  },
+  "1788508801.045349": {
+    "br_id": 14640397,
+    "category": "hg",
+    "checked_at": "2026-09-04T08:22:50Z",
+    "issuer": "Volksbank Wien",
+    "note": "Book stats EUR500m WNG 6NC5 Green SNP (Danske recap tearsheet source); bot already in thread from concurrent tick \u2014 state write lost, recording clean.",
+    "verdict": "clean"
+  },
+  "1788508815.929379": {
+    "br_id": 14640112,
+    "category": "hg",
+    "checked_at": "2026-09-04T08:22:50Z",
+    "issuer": "ASFINAG",
+    "note": "Book stats EUR500m (no-grow) 5y Gtd (Danske recap tearsheet source); bot already in thread from concurrent tick flagging headline format + stats mismatch \u2014 state write lost, recording flagged.",
+    "verdict": "flagged"
+  },
+  "1788508842.999089": {
+    "br_id": 14640264,
+    "category": "hg",
+    "checked_at": "2026-09-04T08:22:50Z",
+    "issuer": "Erste Group",
+    "note": "Book Stats EUR1.5bn dual-tranche SP (750m 3y MS+37 + 750m 7y MS+70); Danske recap tearsheet source; priced-deals 14640649/14640650 all fields (M/S/F=A1/A+/A, dealRegsOnly, seniorPreferred, holdCo/opCo=false correct \u2014 Austrian bank not on whitelist, finalBooks=1200/1000, banks.active 7/8, statsCategories geo+investor sum 100 all rows match image) all clean. Newly posted 1788510150.582979.",
+    "verdict": "clean"
+  },
+  "1788508983.628379": {
+    "br_id": 14650714,
+    "category": "hg",
+    "checked_at": "2026-09-04T08:22:50Z",
+    "issuer": "Pilgrim's Pride Corp",
+    "note": "Mandated EUR500m long 7y RegS/144A senior unsecured (Ba2 pos/BBB- stb/BBB- stb); 8 JBRs BBVA/BMO/Citi/ING/Mizuho/Rabo/RBC/TD; bot already in thread from concurrent tick flagging regionAmericas=true (should be false on EUR deal) + tranche timing 07/08 slash\u2192hyphen \u2014 state write lost, recording flagged. BR has since fixed both (regionAmericas=false, timing=`i/m 07-08 Sep>`).",
+    "verdict": "flagged"
+  },
+  "_last_tick": "2026-09-04T07:17:01Z",
+  "_tick": "2026-09-03T15:10:35Z"
 }
