@@ -3064,10 +3064,10 @@
     "verdict": "clean"
   },
   "_last_tick": {
-    "checked_reacts": 10,
-    "msgs_in_window": 34,
+    "checked_reacts": 8,
+    "msgs_in_window": 33,
     "new_checked": 0,
-    "ts": "2026-09-04T10:55Z"
+    "ts": "2026-09-04T11:06Z"
   },
   "_tick": "2026-09-03T15:10:35Z"
 }
