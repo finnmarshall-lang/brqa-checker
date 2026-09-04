@@ -3099,5 +3099,10 @@
     "note": "Timing Update \u2014 Roadshow continues w/c 7 Sep. Flagged missing `** ` prefix on headline; body/tranche v14650783/2-JLM/HY-routed deal flags otherwise clean. Bot already in thread \u2014 skipped repost.",
     "verdict": "flagged"
   },
+  "1788535741.294659": {
+    "checked_at": "2026-09-04T15:35:09Z",
+    "note": "Chat request to CEEMEA bot user to send weekly \u2014 not a term sheet, no BR deal to QA.",
+    "verdict": "skipped"
+  },
   "_last_tick": "2026-09-04T15:11Z"
 }
