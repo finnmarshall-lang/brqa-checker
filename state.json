@@ -3009,6 +3009,14 @@
     "checked_at": "2026-09-03T17:37:00Z",
     "verdict": "clean"
   },
+  "1788507596.786099": {
+    "br_id": 14650171,
+    "category": "hg",
+    "checked_at": "2026-09-04T07:50:26Z",
+    "issuer": "MuniFin",
+    "note": "Book stats EUR1bn 5y Grn at MS+8bp; priced-deal 14650615 statsCategories GEOGRAPHY `Europe other 0.7` differs from source `Other Europe 0.9%` (row-sum forced to 100.0). All other fields (fpr/spread/yield/ISIN/FIGI/BBGcode/ratings/format flags/UOP/JLM alpha with (B&D)(DM) on JPM/finalBooks=8100)/deal-level flags all clean.",
+    "verdict": "flagged"
+  },
   "_last_tick": "2026-09-04T07:17:01Z",
   "_tick": "2026-09-03T15:10:35Z"
 }
