@@ -3063,11 +3063,12 @@
     "checked_at": "2026-09-04T09:32:46Z",
     "verdict": "clean"
   },
-  "_last_tick": {
-    "checked_reacts": 8,
-    "msgs_in_window": 33,
-    "new_checked": 0,
-    "ts": "2026-09-04T11:06Z"
-  },
-  "_tick": "2026-09-03T15:10:35Z"
+  "_last_tick": "2026-09-04T11:16Z",
+  "_tick": {
+    "at": "2026-09-04T11:16Z",
+    "checkmarked": 10,
+    "in_window": 33,
+    "new_to_check": 0,
+    "note": "all in state"
+  }
 }
