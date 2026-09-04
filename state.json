@@ -20,7 +20,7 @@
   "1787918098.589699": {
     "checked_at": "2026-08-28T12:13:00Z",
     "issuer": "bLEND Funding Plc",
-    "note": "GBP50m retained bond sale of BLNFND 5.26 06/11/32 (ISIN XS3090935852) \u2014 Barclays sole LT-credit request; no matching BR deal found across hg/em search (bLEND / BLNFND / ISIN); flagged as missing with add-instructions incl additionalInfo=\"sale of retained bond\".",
+    "note": "GBP50m retained bond sale of BLNFND 5.26 06/11/32 (ISIN XS3090935852) — Barclays sole LT-credit request; no matching BR deal found across hg/em search (bLEND / BLNFND / ISIN); flagged as missing with add-instructions incl additionalInfo=\"sale of retained bond\".",
     "verdict": "missing"
   },
   "1787919037.185109": {
@@ -28,17 +28,17 @@
     "category": "hg",
     "checked_at": "2026-08-28T13:20:33Z",
     "issuer": "B2 Impact ASA",
-    "note": "Final terms EUR150m 5.3NC3 at 3mE+265bp (source: FINAL TERMS Slack term sheet). Headline/body/tranche v14640060 (priceEvolution=E+265 timing=launched)/2-JLM ticker shorthand DNB/NORDEA/deal flags all clean. Bot already in thread \u2014 skip repost per never-repost rule, state recorded.",
+    "note": "Final terms EUR150m 5.3NC3 at 3mE+265bp (source: FINAL TERMS Slack term sheet). Headline/body/tranche v14640060 (priceEvolution=E+265 timing=launched)/2-JLM ticker shorthand DNB/NORDEA/deal flags all clean. Bot already in thread — skip repost per never-repost rule, state recorded.",
     "verdict": "clean"
   },
   "1787921102.910189": {
     "checked_at": "2026-08-28T13:33:28Z",
-    "note": "Chat instruction (\"Check this weeks priced deals for missing ratings / ISINs / Issue Dates\") \u2014 not a term sheet, no BR deal to QA.",
+    "note": "Chat instruction (\"Check this weeks priced deals for missing ratings / ISINs / Issue Dates\") — not a term sheet, no BR deal to QA.",
     "verdict": "skipped"
   },
   "1787924331.201959": {
     "checked_at": "2026-08-28T13:43:37Z",
-    "note": "Chat request to CEEMEA bot user to send weekly to pipeem \u2014 not a term sheet, no BR deal to QA.",
+    "note": "Chat request to CEEMEA bot user to send weekly to pipeem — not a term sheet, no BR deal to QA.",
     "verdict": "skipped"
   },
   "1787929676.835339": {
@@ -46,7 +46,7 @@
     "category": "hg",
     "checked_at": "2026-08-28T15:19:00Z",
     "issuer": "B2 Impact ASA",
-    "note": "Bloomberg PRICED forward \u2014 same BR deal as SEB PRICED&ALLOCATED. Body (M/F) mislabel + missing (B&D) after Nordea.",
+    "note": "Bloomberg PRICED forward — same BR deal as SEB PRICED&ALLOCATED. Body (M/F) mislabel + missing (B&D) after Nordea.",
     "verdict": "flagged"
   },
   "1787929841.319079": {
@@ -60,7 +60,7 @@
   "1788171155.873259": {
     "checked_at": "2026-08-31T16:07:00Z",
     "issuer": "K+S AKTIENGESELLSCHAFT",
-    "note": "Cash tender offer for EUR500m 4.250% 2029 notes \u2014 liability management, not a new-issue term sheet; no BR deal to QA.",
+    "note": "Cash tender offer for EUR500m 4.250% 2029 notes — liability management, not a new-issue term sheet; no BR deal to QA.",
     "verdict": "skipped"
   },
   "1788173220.953369": {
@@ -79,7 +79,7 @@
     "br_id": 14640165,
     "checked_at": "2026-08-31T16:07:00Z",
     "issuer": "Manulife Financial",
-    "note": "Mandated USD 15NC10 subordinated \u2014 headline missing Sub format flag; body/tranche/deal flags all clean. Bot already posted in thread; slack_post skipped repost.",
+    "note": "Mandated USD 15NC10 subordinated — headline missing Sub format flag; body/tranche/deal flags all clean. Bot already posted in thread; slack_post skipped repost.",
     "verdict": "flagged"
   },
   "1788184013.760399": {
@@ -102,14 +102,14 @@
     "br_id": 14640158,
     "checked_at": "2026-08-31T17:26:34Z",
     "issuer": "National Bank of Canada",
-    "note": "Final terms USD1.25bn 3NC2 at T+65bp (Tranche B dropped) \u2014 headline/body/tranche form/deal flags all clean",
+    "note": "Final terms USD1.25bn 3NC2 at T+65bp (Tranche B dropped) — headline/body/tranche form/deal flags all clean",
     "verdict": "clean"
   },
   "1788201396.956469": {
     "br_id": 14640158,
     "checked_at": "2026-08-31T21:20:00Z",
     "issuer": "National Bank of Canada",
-    "note": "Priced USD1.25bn 3NC2 at T+65bp; priced-deal 14640180 all fields clean (mwc/hg3a2 correct; opCo/holdCo=false correct \u2014 Canadian bank not on whitelist); regionAmericas=true; source silent on final books so null OK; skip repost \u2014 bot already in thread.",
+    "note": "Priced USD1.25bn 3NC2 at T+65bp; priced-deal 14640180 all fields clean (mwc/hg3a2 correct; opCo/holdCo=false correct — Canadian bank not on whitelist); regionAmericas=true; source silent on final books so null OK; skip repost — bot already in thread.",
     "verdict": "clean"
   },
   "1788244348.182559": {
@@ -147,7 +147,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T06:59:00Z",
     "issuer": "BPCE",
-    "note": "IPTs CHF100m+ 8y SP at SARON+87/92bp; headline + body use bare SARON+ \u2014 should be SARON MS+ per house style; tranche/deal flags otherwise clean",
+    "note": "IPTs CHF100m+ 8y SP at SARON+87/92bp; headline + body use bare SARON+ — should be SARON MS+ per house style; tranche/deal flags otherwise clean",
     "verdict": "flagged"
   },
   "1788245801.114349": {
@@ -201,7 +201,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T07:43:54Z",
     "issuer": "KPN",
-    "note": "IPTs 5.125/5.25% EUR500m PNC5.25 Hybrid; headline/body/tranche (structure=PNC5.25, priceEvolution=5.125/5.25%)/flags all match; 7 JBRs incl Structuring Advisors line; bot already in thread \u2014 skipped repost, state recorded.",
+    "note": "IPTs 5.125/5.25% EUR500m PNC5.25 Hybrid; headline/body/tranche (structure=PNC5.25, priceEvolution=5.125/5.25%)/flags all match; 7 JBRs incl Structuring Advisors line; bot already in thread — skipped repost, state recorded.",
     "verdict": "clean"
   },
   "1788247476.596179": {
@@ -215,7 +215,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T07:43:54Z",
     "issuer": "PACCAR Financial Europe",
-    "note": "IPTs MS+70bp area EUR300m 3y; Keep Well Provider PACCAR Inc.; headline/body/tranche/flags all clean; 4 JBRs Barclays/BNPP/ING(B&D)/SG; bot already in thread \u2014 skipped repost, state recorded.",
+    "note": "IPTs MS+70bp area EUR300m 3y; Keep Well Provider PACCAR Inc.; headline/body/tranche/flags all clean; 4 JBRs Barclays/BNPP/ING(B&D)/SG; bot already in thread — skipped repost, state recorded.",
     "verdict": "clean"
   },
   "1788247743.650529": {
@@ -223,7 +223,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T07:43:54Z",
     "issuer": "CIBC",
-    "note": "Guidance SONIA+60bp area GBP bmk 5y Canadian legislative CB; headline/body/tranche form (5y CB FRN)/flags (coveredBonds=true) all clean; 5 JLMs CIBC (B&D)/HSBC/Lloyds/NatWest/TD; bot already in thread \u2014 skipped repost, state recorded.",
+    "note": "Guidance SONIA+60bp area GBP bmk 5y Canadian legislative CB; headline/body/tranche form (5y CB FRN)/flags (coveredBonds=true) all clean; 5 JLMs CIBC (B&D)/HSBC/Lloyds/NatWest/TD; bot already in thread — skipped repost, state recorded.",
     "verdict": "clean"
   },
   "1788247984.817559": {
@@ -231,7 +231,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T07:43:54Z",
     "issuer": "Autostrade per l'Italia",
-    "note": "IPTs MS+135/140bp EUR bmk lg 7y; source names 13 JBRs, banks.active on Tranche A holds only 12 \u2014 one bank missing from admin form; headline/body/tranche form details otherwise clean; bot already in thread \u2014 skipped repost, state recorded.",
+    "note": "IPTs MS+135/140bp EUR bmk lg 7y; source names 13 JBRs, banks.active on Tranche A holds only 12 — one bank missing from admin form; headline/body/tranche form details otherwise clean; bot already in thread — skipped repost, state recorded.",
     "verdict": "flagged"
   },
   "1788248547.686079": {
@@ -244,7 +244,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T08:40:08Z",
     "issuer": "Hammerson",
-    "note": "IPTs G+125/130bp GBP bmk short 7y; headline/body/tranche form (JT-LEADS, 4 leads)/flags (regionAmericas=false, expectedPageId=IGRB47) all clean; bot already in thread \u2014 skipped repost, state recorded.",
+    "note": "IPTs G+125/130bp GBP bmk short 7y; headline/body/tranche form (JT-LEADS, 4 leads)/flags (regionAmericas=false, expectedPageId=IGRB47) all clean; bot already in thread — skipped repost, state recorded.",
     "verdict": "clean"
   },
   "1788248874.791929": {
@@ -252,7 +252,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T08:41:17Z",
     "issuer": "Toronto-Dominion Bank",
-    "note": "Spread set 3mE+55bp EUR bmk 3y FRN bail-inable; source Reoffer +[55-57]bps range dropped upper endpoint in body/headline/tranche priceEvolution; bot already in thread \u2014 skipped repost, state recorded.",
+    "note": "Spread set 3mE+55bp EUR bmk 3y FRN bail-inable; source Reoffer +[55-57]bps range dropped upper endpoint in body/headline/tranche priceEvolution; bot already in thread — skipped repost, state recorded.",
     "verdict": "flagged"
   },
   "1788248894.370509": {
@@ -260,7 +260,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T08:42:05Z",
     "issuer": "Sage Group",
-    "note": "Mandated EUR500m 5.5y BBB+ senior unsecured; body/mandate quote/tranche form (JT-LEADS 4 leads, i/c 01 Sep)/flags all clean; bot already in thread \u2014 skipped repost, state recorded.",
+    "note": "Mandated EUR500m 5.5y BBB+ senior unsecured; body/mandate quote/tranche form (JT-LEADS 4 leads, i/c 01 Sep)/flags all clean; bot already in thread — skipped repost, state recorded.",
     "verdict": "clean"
   },
   "1788248975.364829": {
@@ -268,7 +268,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T08:43:05Z",
     "issuer": "La Poste",
-    "note": "IPTs MS+90bp area EUR500m (exp.) 5y A/A+ senior unsecured; headline/body/tranche form (JT-LEADS 6 leads, MS+90a) all clean; only 2 rating agencies (S&P + Fitch \u2014 no Moody's invented); bot already in thread \u2014 skipped repost.",
+    "note": "IPTs MS+90bp area EUR500m (exp.) 5y A/A+ senior unsecured; headline/body/tranche form (JT-LEADS 6 leads, MS+90a) all clean; only 2 rating agencies (S&P + Fitch — no Moody's invented); bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788249273.601319": {
@@ -356,7 +356,7 @@
   },
   "1788250565.857719": {
     "checked_at": "2026-09-01T08:51:21Z",
-    "note": "Chat correction (not a BBG term sheet) \u2014 reoffer 55-57 \u2192 55 clarification for TD EUR bmk 3y FRN (id 14640347); no separate BR update to QA (see prior TD flag); skipped per term-sheet filter.",
+    "note": "Chat correction (not a BBG term sheet) — reoffer 55-57 → 55 clarification for TD EUR bmk 3y FRN (id 14640347); no separate BR update to QA (see prior TD flag); skipped per term-sheet filter.",
     "verdict": "skipped"
   },
   "1788250703.074399": {
@@ -377,7 +377,7 @@
   },
   "1788251136.056089": {
     "checked_at": "2026-09-01T08:52:48Z",
-    "note": "Tender offer notice (New Immo Holding) \u2014 not a new bond issuance term sheet; standalone tender is disclosed inside the New Immo Holding mandate (BR id 14640416); skipped per term-sheet filter.",
+    "note": "Tender offer notice (New Immo Holding) — not a new bond issuance term sheet; standalone tender is disclosed inside the New Immo Holding mandate (BR id 14640416); skipped per term-sheet filter.",
     "verdict": "skipped"
   },
   "1788251432.102679": {
@@ -479,7 +479,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T09:44:30Z",
     "issuer": "Nationale-Nederlanden Bank",
-    "note": "Final Terms EUR500m 5y CB at MS+18bp \u2014 Perfect; bot already posted in thread by a prior tick whose state write was lost. bot_already_in_thread \u2014 no repost.",
+    "note": "Final Terms EUR500m 5y CB at MS+18bp — Perfect; bot already posted in thread by a prior tick whose state write was lost. bot_already_in_thread — no repost.",
     "verdict": "clean"
   },
   "1788255632.098629": {
@@ -492,7 +492,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T09:44:30Z",
     "issuer": "BPCE SA",
-    "note": "Priced CHF170m 8y SP at SARON MS+90bp \u2014 body reads bare `SARON+90bp` (missing MS per house style) and omits ISIN CH1581468225. Flagged and posted.",
+    "note": "Priced CHF170m 8y SP at SARON MS+90bp — body reads bare `SARON+90bp` (missing MS per house style) and omits ISIN CH1581468225. Flagged and posted.",
     "verdict": "flagged"
   },
   "1788255726.558439": {
@@ -595,7 +595,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T11:29:35Z",
     "issuer": "OPEC Fund",
-    "note": "Mandated USD1bn 3y RegS/144A (BR already moved to IPTs SMS+41a). dealHistoryEntry (Mandated) headline/body verbatim from source. banks.active count=3 vs 4 leads in source (BofA, Citi, CACIB, GSBE SE) \u2014 bot flagged at IPTs stage in-thread; state write lost, recording flagged.",
+    "note": "Mandated USD1bn 3y RegS/144A (BR already moved to IPTs SMS+41a). dealHistoryEntry (Mandated) headline/body verbatim from source. banks.active count=3 vs 4 leads in source (BofA, Citi, CACIB, GSBE SE) — bot flagged at IPTs stage in-thread; state write lost, recording flagged.",
     "verdict": "flagged"
   },
   "1788261135.379109": {
@@ -603,7 +603,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T11:29:35Z",
     "issuer": "Autostrade per l'Italia",
-    "note": "Spread set at MS+108bp EUR bmk lg 7y; body/tranche form (MS+108, timing today)/13 JBRs matching source count/deal-level flags all clean; bot already in thread \u2014 skipped repost, state recorded.",
+    "note": "Spread set at MS+108bp EUR bmk lg 7y; body/tranche form (MS+108, timing today)/13 JBRs matching source count/deal-level flags all clean; bot already in thread — skipped repost, state recorded.",
     "verdict": "clean"
   },
   "1788261154.372219": {
@@ -611,7 +611,7 @@
     "category": "em",
     "checked_at": "2026-09-01T11:29:35Z",
     "issuer": "Capri Global Capital",
-    "note": "FPG 7.55% USD300m (capped) 3.25y WAL Sr Sec 144A/RegS; body/tranche form (7.55% no 'a' suffix, timing today, structure 3.25y WAL)/5-lead count/regionAsia=true/feedEmrd=true all clean; bot already in thread \u2014 skipped repost.",
+    "note": "FPG 7.55% USD300m (capped) 3.25y WAL Sr Sec 144A/RegS; body/tranche form (7.55% no 'a' suffix, timing today, structure 3.25y WAL)/5-lead count/regionAsia=true/feedEmrd=true all clean; bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788261215.157629": {
@@ -619,7 +619,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T11:29:35Z",
     "issuer": "CIBC",
-    "note": "Spread set SONIA+55bp GBP bmk 5y Canadian legislative CB; body/tranche form (SONIA+55 no 'a', structure 5y CB FRN, JT-LEADS)/5 JLMs incl CIBC (B&D)/coveredBonds=true/ISIN carried all clean; bot already in thread \u2014 skipped repost.",
+    "note": "Spread set SONIA+55bp GBP bmk 5y Canadian legislative CB; body/tranche form (SONIA+55 no 'a', structure 5y CB FRN, JT-LEADS)/5 JLMs incl CIBC (B&D)/coveredBonds=true/ISIN carried all clean; bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788261296.286689": {
@@ -627,7 +627,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T11:29:35Z",
     "issuer": "Erste Group",
-    "note": "Final terms EUR1.5bn dual-tranche SP (3y MS+37 + 7y MS+70); tranches[] admin panel now includes both Tranches A and B (fixed since earlier IPTs flag on 1788244655); body per-tranche and Common terms verbatim from source; 7 JBRs on A / 8 on B (Jyske added on B) matching source; expectedPageCount=2; deal-level flags all clean; bot already in thread \u2014 skipped repost.",
+    "note": "Final terms EUR1.5bn dual-tranche SP (3y MS+37 + 7y MS+70); tranches[] admin panel now includes both Tranches A and B (fixed since earlier IPTs flag on 1788244655); body per-tranche and Common terms verbatim from source; 7 JBRs on A / 8 on B (Jyske added on B) matching source; expectedPageCount=2; deal-level flags all clean; bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788261812.674979": {
@@ -651,7 +651,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T11:41:00Z",
     "issuer": "Hammerson",
-    "note": "Guidance G+110bp area GBP250m short 7y; body typo \u2014 book-line reads \"Books subject 12.55 UK.\" (source \"12.55 UKT\"; T dropped). Headline/tranche form/flags otherwise clean. Bot already in thread; slack_post skipped.",
+    "note": "Guidance G+110bp area GBP250m short 7y; body typo — book-line reads \"Books subject 12.55 UK.\" (source \"12.55 UKT\"; T dropped). Headline/tranche form/flags otherwise clean. Bot already in thread; slack_post skipped.",
     "verdict": "flagged"
   },
   "1788262711.075709": {
@@ -715,7 +715,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T13:07:40.542053Z",
     "issuer": "BPCE",
-    "note": "Allocations out GBP400m long 11NC6 T2 at G+160bp; bot already in thread from prior tick \u2014 clean.",
+    "note": "Allocations out GBP400m long 11NC6 T2 at G+160bp; bot already in thread from prior tick — clean.",
     "verdict": "clean"
   },
   "1788265160.977739": {
@@ -731,7 +731,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T13:07:40.542053Z",
     "issuer": "Santander UK",
-    "note": "Launched/Final terms USD1.5bn 3y CB at SOFR MS+40bp; bot already in thread from prior tick \u2014 clean.",
+    "note": "Launched/Final terms USD1.5bn 3y CB at SOFR MS+40bp; bot already in thread from prior tick — clean.",
     "verdict": "clean"
   },
   "1788265524.877009": {
@@ -739,7 +739,7 @@
     "category": "em",
     "checked_at": "2026-09-01T13:07:40.542053Z",
     "issuer": "Saudi Arabia",
-    "note": "Book Update NY OPEN books > USD12bn excl JLM; bot already in thread from prior tick \u2014 clean.",
+    "note": "Book Update NY OPEN books > USD12bn excl JLM; bot already in thread from prior tick — clean.",
     "verdict": "clean"
   },
   "1788265608.422139": {
@@ -763,7 +763,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T13:07:40.542053Z",
     "issuer": "Nationale-Nederlanden Bank",
-    "note": "Allocations out EUR500m 5y CB; bot already in thread from prior tick \u2014 clean.",
+    "note": "Allocations out EUR500m 5y CB; bot already in thread from prior tick — clean.",
     "verdict": "clean"
   },
   "1788266513.581459": {
@@ -771,7 +771,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T13:07:40.542053Z",
     "issuer": "JR East",
-    "note": "Launched EUR500m 9y Green at MS+78bp; bot already in thread from prior tick \u2014 clean.",
+    "note": "Launched EUR500m 9y Green at MS+78bp; bot already in thread from prior tick — clean.",
     "verdict": "clean"
   },
   "1788266741.291129": {
@@ -779,7 +779,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T13:07:40.542053Z",
     "issuer": "Toronto-Dominion Bank",
-    "note": "Priced EUR500m 3y FRN Bail-in at 3mE+55bp; bot already in thread from prior tick \u2014 clean.",
+    "note": "Priced EUR500m 3y FRN Bail-in at 3mE+55bp; bot already in thread from prior tick — clean.",
     "verdict": "clean"
   },
   "1788267116.635779": {
@@ -826,49 +826,49 @@
     "br_id": 14640632,
     "checked_at": "2026-09-01T13:40:38Z",
     "issuer": "Manulife Financial",
-    "note": "IPTs \u2014 flagged (Denoms missing from body); recovered via bot_already_in_thread guard",
+    "note": "IPTs — flagged (Denoms missing from body); recovered via bot_already_in_thread guard",
     "verdict": "flagged"
   },
   "1788268632.675619": {
     "br_id": 14640307,
     "checked_at": "2026-09-01T13:40:38Z",
     "issuer": "Eurobank",
-    "note": "Allocations out \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "note": "Allocations out — Perfect; recovered via bot_already_in_thread guard",
     "verdict": "clean"
   },
   "1788268818.715999": {
     "br_id": 14640220,
     "checked_at": "2026-09-01T13:40:38Z",
     "issuer": "Sichuan Naxing",
-    "note": "Priced \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "note": "Priced — Perfect; recovered via bot_already_in_thread guard",
     "verdict": "clean"
   },
   "1788269352.529999": {
     "br_id": 14640297,
     "checked_at": "2026-09-01T13:40:38Z",
     "issuer": "BPCE SA",
-    "note": "Priced \u2014 flagged: opCo=true wrong (French bank, not on OpCo/HoldCo eligible list), plus Reference Gilt date \"06 July 2032\" should be \"07 June 2032\" (MM/DD/YY, matches earlier dealHistory entries)",
+    "note": "Priced — flagged: opCo=true wrong (French bank, not on OpCo/HoldCo eligible list), plus Reference Gilt date \"06 July 2032\" should be \"07 June 2032\" (MM/DD/YY, matches earlier dealHistory entries)",
     "verdict": "flagged"
   },
   "1788269602.526959": {
     "br_id": 14640427,
     "checked_at": "2026-09-01T13:54:35Z",
     "issuer": "Bank Gospodarstwa Krajowego (BGK)",
-    "note": "Guidance \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "note": "Guidance — Perfect; recovered via bot_already_in_thread guard",
     "verdict": "clean"
   },
   "1788269646.291319": {
     "br_id": 14640259,
     "checked_at": "2026-09-01T13:54:35Z",
     "issuer": "CFF (Compagnie de Financement Foncier)",
-    "note": "Priced \u2014 flagged (final-books line still carries pre-Priced language); recovered via bot_already_in_thread guard",
+    "note": "Priced — flagged (final-books line still carries pre-Priced language); recovered via bot_already_in_thread guard",
     "verdict": "flagged"
   },
   "1788269703.345769": {
     "br_id": 14640312,
     "checked_at": "2026-09-01T13:54:35Z",
     "issuer": "KPN",
-    "note": "Priced hybrid \u2014 Perfect; recovered via bot_already_in_thread guard",
+    "note": "Priced hybrid — Perfect; recovered via bot_already_in_thread guard",
     "verdict": "clean"
   },
   "1788270083.813849": {
@@ -876,14 +876,14 @@
     "category": "hg",
     "checked_at": "2026-09-01T14:17:00Z",
     "issuer": "Erste Group",
-    "note": "Allocations out EUR1.5bn dual-tranche SP (3y MS+37 / 7y MS+70) \u2014 Perfect; headline/body/tranche form (v14640574 & 14640575 both launched)/banks.active counts 7 on A and 8 on B (Jyske only on 7y) all match source. Bot already in thread \u2014 skipped repost.",
+    "note": "Allocations out EUR1.5bn dual-tranche SP (3y MS+37 / 7y MS+70) — Perfect; headline/body/tranche form (v14640574 & 14640575 both launched)/banks.active counts 7 on A and 8 on B (Jyske only on 7y) all match source. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788270350.935739": {
     "br_id": 14640318,
     "checked_at": "2026-09-01T13:54:35Z",
     "issuer": "PACCAR Financial Europe",
-    "note": "Priced \u2014 Perfect; single-tranche EUR300m 3y MS+40bp, keepwell-supported, all fields align",
+    "note": "Priced — Perfect; single-tranche EUR300m 3y MS+40bp, keepwell-supported, all fields align",
     "verdict": "clean"
   },
   "1788270497.592139": {
@@ -891,7 +891,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T14:04:51Z",
     "issuer": "La Poste",
-    "note": "Allocations Out EUR500m 5y at MS+65bp \u2014 headline/body/tranche form (v14640588 MS+65 launched)/6-JLM count/deal-level flags all clean; CET carried verbatim from source per cet-cest-by-source rule. Bot already in thread from concurrent tick \u2014 skipped repost.",
+    "note": "Allocations Out EUR500m 5y at MS+65bp — headline/body/tranche form (v14640588 MS+65 launched)/6-JLM count/deal-level flags all clean; CET carried verbatim from source per cet-cest-by-source rule. Bot already in thread from concurrent tick — skipped repost.",
     "verdict": "clean"
   },
   "1788271177.683409": {
@@ -899,7 +899,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T14:17:00Z",
     "issuer": "Eurobank",
-    "note": "Priced EUR600m 7NC6 Grn SP at MS+98bp \u2014 bot flagged HSBC (DM) role drift + book-line 'closed' wording preservation from Allocations. Independent walk also spots 'Yield 4.231%.Settle' missing space after period in priced-form message. priced-deal 14640645 fields otherwise clean (finalBooks=1350, green=true sole UOP flag, holdCo/opCo=false correct \u2014 Greek bank not on whitelist, cuc=true from CUC 75, dealRegsOnly=true, 5 dealBanks). Bot already in thread \u2014 skipped repost.",
+    "note": "Priced EUR600m 7NC6 Grn SP at MS+98bp — bot flagged HSBC (DM) role drift + book-line 'closed' wording preservation from Allocations. Independent walk also spots 'Yield 4.231%.Settle' missing space after period in priced-form message. priced-deal 14640645 fields otherwise clean (finalBooks=1350, green=true sole UOP flag, holdCo/opCo=false correct — Greek bank not on whitelist, cuc=true from CUC 75, dealRegsOnly=true, 5 dealBanks). Bot already in thread — skipped repost.",
     "verdict": "flagged"
   },
   "1788271486.036589": {
@@ -907,7 +907,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T14:17:00Z",
     "issuer": "Santander UK",
-    "note": "Allocations out USD1.5bn 3y CB at SMS+40bp \u2014 bot flagged missing forward-looking timing/pricing statement on the Allocations line. Tranche form v14640601 (USD/1.5bn/3y CB/SMS+40/JT-LEADS/launched); regionAmericas=true + coveredBonds=true correct; ISIN XS3492392488 carried; 5 JLMs incl Santander (B&D). Bot already in thread \u2014 skipped repost.",
+    "note": "Allocations out USD1.5bn 3y CB at SMS+40bp — bot flagged missing forward-looking timing/pricing statement on the Allocations line. Tranche form v14640601 (USD/1.5bn/3y CB/SMS+40/JT-LEADS/launched); regionAmericas=true + coveredBonds=true correct; ISIN XS3492392488 carried; 5 JLMs incl Santander (B&D). Bot already in thread — skipped repost.",
     "verdict": "flagged"
   },
   "1788271988.300329": {
@@ -915,7 +915,7 @@
     "category": "em",
     "checked_at": "2026-09-01T14:34:27.840421Z",
     "issuer": "Banco del Estado de Chile",
-    "note": "Priced JPY5bn 5y at 2.64% (SMBC shibosai-style Yen private placement) \u2014 BR headline null and message body truncated to `Senior Unsecured Notes. Settle 7 July 2026.` on active priced record; priced-deal 14640647 fields otherwise clean. Bot already in thread from concurrent tick \u2014 skipped repost, state recorded.",
+    "note": "Priced JPY5bn 5y at 2.64% (SMBC shibosai-style Yen private placement) — BR headline null and message body truncated to `Senior Unsecured Notes. Settle 7 July 2026.` on active priced record; priced-deal 14640647 fields otherwise clean. Bot already in thread from concurrent tick — skipped repost, state recorded.",
     "verdict": "flagged"
   },
   "1788272557.144019": {
@@ -927,7 +927,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T14:34:27.840421Z",
     "issuer": "La Poste",
-    "note": "Priced EUR500m 5y at MS+65bp \u2014 priced-deal 14640653 finalBooks=null while Allocations dealHistory carries Final books over EUR1.15bn; all other fields clean. Posted flagged finding.",
+    "note": "Priced EUR500m 5y at MS+65bp — priced-deal 14640653 finalBooks=null while Allocations dealHistory carries Final books over EUR1.15bn; all other fields clean. Posted flagged finding.",
     "verdict": "flagged"
   },
   "1788273043.428899": {
@@ -943,7 +943,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T15:01:52.301535Z",
     "issuer": "Hammerson PLC",
-    "note": "Priced GBP250m short 7y at G+107bp \u2014 Perfect; priced-deal 14640654 all fields clean (Case B additionalInfo \"Books last heard over GBP875m\" matches Launched-line 875m; ratings NR on S&P correct \u2014 source names only M/F); posted.",
+    "note": "Priced GBP250m short 7y at G+107bp — Perfect; priced-deal 14640654 all fields clean (Case B additionalInfo \"Books last heard over GBP875m\" matches Launched-line 875m; ratings NR on S&P correct — source names only M/F); posted.",
     "verdict": "clean"
   },
   "1788274097.165359": {
@@ -951,7 +951,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T15:12:02Z",
     "issuer": "BPCE",
-    "note": "CORRECTED COUPON note for GBP400m lg 11NC6 T2 Priced at G+160bp; coupon 6.250% matches BR/priced-deal 14640637; bot already in thread \u2014 skipped repost per never-repost rule.",
+    "note": "CORRECTED COUPON note for GBP400m lg 11NC6 T2 Priced at G+160bp; coupon 6.250% matches BR/priced-deal 14640637; bot already in thread — skipped repost per never-repost rule.",
     "verdict": "clean"
   },
   "1788274365.328879": {
@@ -959,7 +959,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T15:12:02Z",
     "issuer": "CIBC",
-    "note": "GBP850m 5y SONIA-Linked Canadian Legislative Covered Bond Priced; bot already posted flagged finding in thread (book line + additionalInfo) \u2014 skipped repost per never-repost rule.",
+    "note": "GBP850m 5y SONIA-Linked Canadian Legislative Covered Bond Priced; bot already posted flagged finding in thread (book line + additionalInfo) — skipped repost per never-repost rule.",
     "verdict": "flagged"
   },
   "1788274523.432149": {
@@ -967,7 +967,7 @@
     "category": "hg",
     "checked_at": "2026-09-01T15:12:02Z",
     "issuer": "Capri Global Capital",
-    "note": "USD300m 3y WAL 144A/RegS senior secured Priced; bot already posted flagged finding in thread (ISIN + two priced-deal form fields) \u2014 skipped repost per never-repost rule.",
+    "note": "USD300m 3y WAL 144A/RegS senior secured Priced; bot already posted flagged finding in thread (ISIN + two priced-deal form fields) — skipped repost per never-repost rule.",
     "verdict": "flagged"
   },
   "1788274802.539639": {
@@ -979,28 +979,28 @@
     "category": "em",
     "checked_at": "2026-09-01T15:12:02Z",
     "issuer": "CapitaLand Integrated Commercial Trust",
-    "note": "SGD400m 5y Grn Priced at 2.646%; headline/body/priced-deal form 14640658 all clean; Books last heard SGD700m carried forward per Case B; source did not publish ISIN (not flagged per rule 7); bot already in thread \u2014 skipped repost, state recorded.",
+    "note": "SGD400m 5y Grn Priced at 2.646%; headline/body/priced-deal form 14640658 all clean; Books last heard SGD700m carried forward per Case B; source did not publish ISIN (not flagged per rule 7); bot already in thread — skipped repost, state recorded.",
     "verdict": "clean"
   },
   "1788275330.150849": {
     "br_id": 14640328,
     "checked_at": "2026-09-01T15:27:00Z",
     "issuer": "Autostrade per l'Italia",
-    "note": "Bot reply already in thread (state commit lost in prior tick) \u2014 Priced Perfect",
+    "note": "Bot reply already in thread (state commit lost in prior tick) — Priced Perfect",
     "verdict": "clean"
   },
   "1788275487.728109": {
     "br_id": 14640302,
     "checked_at": "2026-09-01T15:28:00Z",
     "issuer": "JR East",
-    "note": "Bot reply already in thread (state commit lost in prior tick) \u2014 Priced Perfect",
+    "note": "Bot reply already in thread (state commit lost in prior tick) — Priced Perfect",
     "verdict": "clean"
   },
   "1788275877.140999": {
     "br_id": 14640273,
     "checked_at": "2026-09-01T15:32:54Z",
     "issuer": "Santander UK",
-    "note": "Priced flagged \u2014 Book Update: prefix at Priced + finalBooks=null (source had final over USD2.5bn)",
+    "note": "Priced flagged — Book Update: prefix at Priced + finalBooks=null (source had final over USD2.5bn)",
     "reply_ts": "1788276774.554129",
     "verdict": "flagged"
   },
@@ -1041,7 +1041,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T06:50:46Z",
     "issuer": "NADB",
-    "note": "IPTs SARON+47/52bp CHF100m+ 8y \u2014 flagged: bare SARON+ should read SARON MS+ per CHF house-style precedent (BPCE ids 14640278/14640297). Body/tranche form/deal-level flags otherwise clean.",
+    "note": "IPTs SARON+47/52bp CHF100m+ 8y — flagged: bare SARON+ should read SARON MS+ per CHF house-style precedent (BPCE ids 14640278/14640297). Body/tranche form/deal-level flags otherwise clean.",
     "reply_ts": "1788331846.451239",
     "verdict": "flagged"
   },
@@ -1050,7 +1050,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T06:50:56Z",
     "issuer": "NORD/LB",
-    "note": "Guidance MS+30bp area EUR750m WNG 7y Mortgage CB Hypothekenpfandbrief \u2014 Perfect; 6 JLMs with UniCredit (B&D), coveredBonds=true, ISIN DE000NLB57X5, all fields clean.",
+    "note": "Guidance MS+30bp area EUR750m WNG 7y Mortgage CB Hypothekenpfandbrief — Perfect; 6 JLMs with UniCredit (B&D), coveredBonds=true, ISIN DE000NLB57X5, all fields clean.",
     "reply_ts": "1788331856.176149",
     "verdict": "clean"
   },
@@ -1059,7 +1059,7 @@
     "category": "em",
     "checked_at": "2026-09-02T06:51:18Z",
     "issuer": "Saudi Arabia",
-    "note": "Priced dual-tranche Sukuk (5y tranche PDF): USD1.25bn 5.257% 2 Sep 2031 UST+70bp \u2014 Perfect; priced-deal 14640736 all fields clean (ISIN XS3498812844, FIGI, BB code, ratings Aa3/NR/A+ correct with S&P NR per rule 7, deal144aRegs sole Format flag, no additional-info flags, 5 dealBanks, additionalInfo=\"Sukuk ; Books last heard above USD7bn \").",
+    "note": "Priced dual-tranche Sukuk (5y tranche PDF): USD1.25bn 5.257% 2 Sep 2031 UST+70bp — Perfect; priced-deal 14640736 all fields clean (ISIN XS3498812844, FIGI, BB code, ratings Aa3/NR/A+ correct with S&P NR per rule 7, deal144aRegs sole Format flag, no additional-info flags, 5 dealBanks, additionalInfo=\"Sukuk ; Books last heard above USD7bn \").",
     "reply_ts": "1788331878.221729",
     "verdict": "clean"
   },
@@ -1068,7 +1068,7 @@
     "category": "em",
     "checked_at": "2026-09-02T06:51:34Z",
     "issuer": "Saudi Arabia",
-    "note": "Priced dual-tranche Sukuk (10y tranche PDF): USD2bn 5.598% 9 Sep 2036 UST+80bp \u2014 Perfect; priced-deal 14640737 all fields clean (ISIN XS3498813222, FIGI BBG024TCV6B1, BB code DQ2579877, ratings Aa3/NR/A+, deal144aRegs sole Format flag, no additional-info flags, 5 dealBanks, additionalInfo=\"Sukuk ; Books last heard above USD8bn \").",
+    "note": "Priced dual-tranche Sukuk (10y tranche PDF): USD2bn 5.598% 9 Sep 2036 UST+80bp — Perfect; priced-deal 14640737 all fields clean (ISIN XS3498813222, FIGI BBG024TCV6B1, BB code DQ2579877, ratings Aa3/NR/A+, deal144aRegs sole Format flag, no additional-info flags, 5 dealBanks, additionalInfo=\"Sukuk ; Books last heard above USD8bn \").",
     "reply_ts": "1788331894.730279",
     "verdict": "clean"
   },
@@ -1077,18 +1077,18 @@
     "category": "em",
     "checked_at": "2026-09-02T06:51:51Z",
     "issuer": "Bangkok Bank",
-    "note": "Book update USD dual-tranche 5y+10y at T+105a / T+130a \u2014 flagged: Tranche A body typo `1-montn Par Call` should read `1-month Par Call` (persists across message + all dealHistoryEntries[] from IPTs). Headline/Tranche B body/both tranche form details/3 JBRs incl MS (B&D)/regionAsia+feedEmrd flags all clean.",
+    "note": "Book update USD dual-tranche 5y+10y at T+105a / T+130a — flagged: Tranche A body typo `1-montn Par Call` should read `1-month Par Call` (persists across message + all dealHistoryEntries[] from IPTs). Headline/Tranche B body/both tranche form details/3 JBRs incl MS (B&D)/regionAsia+feedEmrd flags all clean.",
     "reply_ts": "1788331911.136699",
     "verdict": "flagged"
   },
   "1788331151.517069": {
     "checked_at": "2026-09-02T07:34:27Z",
-    "note": "Empty message text, no files, no BBG term-sheet body \u2014 not QA-able",
+    "note": "Empty message text, no files, no BBG term-sheet body — not QA-able",
     "verdict": "skipped"
   },
   "1788331154.401129": {
     "checked_at": "2026-09-02T07:34:27Z",
-    "note": "Empty message text, no files, no BBG term-sheet body \u2014 not QA-able",
+    "note": "Empty message text, no files, no BBG term-sheet body — not QA-able",
     "verdict": "skipped"
   },
   "1788331384.366599": {
@@ -1184,7 +1184,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T07:53:04Z",
     "issuer": "Kingspan",
-    "note": "IPTs dual EUR300m 4y + EUR500m 7y Green Sr Unsec at MS+100a/MS+125a; 4 JBRs UniCredit (B&D)+BNPP+BofA+ING (Sole ESG Structuring Coord ING). Headline/body/tranche form (both JT-LEADS, structure 4y Grn / 7y Grn)/deal flags (expectedPageCount=2 IGRB26) all clean. Bot already in thread \u2014 skipped repost.",
+    "note": "IPTs dual EUR300m 4y + EUR500m 7y Green Sr Unsec at MS+100a/MS+125a; 4 JBRs UniCredit (B&D)+BNPP+BofA+ING (Sole ESG Structuring Coord ING). Headline/body/tranche form (both JT-LEADS, structure 4y Grn / 7y Grn)/deal flags (expectedPageCount=2 IGRB26) all clean. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788333154.657439": {
@@ -1208,7 +1208,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T07:53:04Z",
     "issuer": "OPEC Fund",
-    "note": "Guidance USD1bn 3y SOFR MS+39a; prior BR QA bot post already in thread flagged tranche form active bookrunner count. My rewalk also noted ISINs XS3487861562/US683483AE11 present in source but missing from BR body \u2014 not surfaced by earlier post. Skipped repost per bot-already-in-thread rule.",
+    "note": "Guidance USD1bn 3y SOFR MS+39a; prior BR QA bot post already in thread flagged tranche form active bookrunner count. My rewalk also noted ISINs XS3487861562/US683483AE11 present in source but missing from BR body — not surfaced by earlier post. Skipped repost per bot-already-in-thread rule.",
     "verdict": "flagged"
   },
   "1788333523.462619": {
@@ -1232,7 +1232,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T07:53:04Z",
     "issuer": "Nexans",
-    "note": "IPTs EUR500m 5y HY-routed at 4.625/4.75%; prior BR QA bot post already in thread flagged CoC/Squeeze-out-related detail. Rewalk shows BR body carries CoC (put) \u2014 my read is body clean, but keeping bot verdict as-is. Skipped repost per bot-already-in-thread rule.",
+    "note": "IPTs EUR500m 5y HY-routed at 4.625/4.75%; prior BR QA bot post already in thread flagged CoC/Squeeze-out-related detail. Rewalk shows BR body carries CoC (put) — my read is body clean, but keeping bot verdict as-is. Skipped repost per bot-already-in-thread rule.",
     "verdict": "flagged"
   },
   "1788334243.974959": {
@@ -1256,7 +1256,7 @@
     "category": "em",
     "checked_at": "2026-09-02T08:14:04Z",
     "issuer": "Tharisa",
-    "note": "Mandated USD300m 5y Sr Sec HY EM (South Africa) \u2014 body Guarantor line spelled `Garantor` (missing `u`); tranche form + JBRs (DNB Carnegie, HSBC) + Co-Manager Absa + em flags all clean. Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "Mandated USD300m 5y Sr Sec HY EM (South Africa) — body Guarantor line spelled `Garantor` (missing `u`); tranche form + JBRs (DNB Carnegie, HSBC) + Co-Manager Absa + em flags all clean. Bot already in thread — slack_post skipped repost.",
     "verdict": "flagged"
   },
   "1788334947.117019": {
@@ -1264,7 +1264,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T08:14:04Z",
     "issuer": "Rothesay Life",
-    "note": "IPTs GBP bmk 10.5y T2 at G+170/175bp; 4 JLMs Barclays (B&D)/BNPP/Lloyds/Santander (JT-LEADS); M/F ratings only (no S&P/DBRS); flags feedIgrd+expectedPageId IGRB39 clean. Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "IPTs GBP bmk 10.5y T2 at G+170/175bp; 4 JLMs Barclays (B&D)/BNPP/Lloyds/Santander (JT-LEADS); M/F ratings only (no S&P/DBRS); flags feedIgrd+expectedPageId IGRB39 clean. Bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788334970.092649": {
@@ -1272,7 +1272,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T08:14:04Z",
     "issuer": "Banca MPS",
-    "note": "IPTs EUR500m WNG 10.5NC5.5 Grn T2 at MS+165bp area; 7 JLMs incl UniCredit (B&D) + GC Mediobanca (JT-LEADS); M/F ratings only (DBRS dropped); tranche struct 10.5NC5.5 (9-char cap); flags IGRB37 clean. Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "IPTs EUR500m WNG 10.5NC5.5 Grn T2 at MS+165bp area; 7 JLMs incl UniCredit (B&D) + GC Mediobanca (JT-LEADS); M/F ratings only (DBRS dropped); tranche struct 10.5NC5.5 (9-char cap); flags IGRB37 clean. Bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788335007.667429": {
@@ -1280,7 +1280,7 @@
     "category": "em",
     "checked_at": "2026-09-02T08:14:04Z",
     "issuer": "Pakistan",
-    "note": "IPTs USD bmk dual-tranche Long 5y+10y at 8.00%/8.50% area \u2014 Tranches A+B banks.active still [11943,47727] (Logistics MUFG+ENBD carried from Investors call); should be all 5 JBRs. Body JLM line missing (B&D) per tranche (SCB=Tranche A, Citi=Tranche B per source Billing&Delivery). Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "IPTs USD bmk dual-tranche Long 5y+10y at 8.00%/8.50% area — Tranches A+B banks.active still [11943,47727] (Logistics MUFG+ENBD carried from Investors call); should be all 5 JBRs. Body JLM line missing (B&D) per tranche (SCB=Tranche A, Citi=Tranche B per source Billing&Delivery). Bot already in thread — slack_post skipped repost.",
     "verdict": "flagged"
   },
   "1788335374.394579": {
@@ -1288,7 +1288,7 @@
     "category": "em",
     "checked_at": "2026-09-02T08:14:04Z",
     "issuer": "Capri Global Capital",
-    "note": "Book stats \u2014 priced USD300m 3Y WAL @ 7.55%; priced-deal form 14640656 fully populated (moodys/snp/fitch BA3/NR/BB_MINUS, deal144aRegs=T single Format flag, opCo/holdCo=F correct Indian NBFC, coc=T COC 101, nonBullet=N amortiser without call, finalBooks=700, statsCategories GEOGRAPHY+INVESTOR both 100%). Bot already in thread.",
+    "note": "Book stats — priced USD300m 3Y WAL @ 7.55%; priced-deal form 14640656 fully populated (moodys/snp/fitch BA3/NR/BB_MINUS, deal144aRegs=T single Format flag, opCo/holdCo=F correct Indian NBFC, coc=T COC 101, nonBullet=N amortiser without call, finalBooks=700, statsCategories GEOGRAPHY+INVESTOR both 100%). Bot already in thread.",
     "verdict": "clean"
   },
   "1788335403.208419": {
@@ -1296,7 +1296,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T08:30:58Z",
     "issuer": "Ethniki",
-    "note": "IPTs EUR dual-tranche (T2 + RT1) \u2014 Tranche A T2 forwarded, EUR100m WNG 10.25NC5 MS+230bp area; RT1 tranche 7.25% area from mandate. All fields match: structure 10NC5 T2 / PNC5.5 (9-char cap), JT-LEADS valid on IG, banks=[Goldman, Piraeus, UBS]x2, expectedPageId=IGRB54, expectedPageCount=2, feedIgrd=T, regionAmericas=F, coveredBonds=F. Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "IPTs EUR dual-tranche (T2 + RT1) — Tranche A T2 forwarded, EUR100m WNG 10.25NC5 MS+230bp area; RT1 tranche 7.25% area from mandate. All fields match: structure 10NC5 T2 / PNC5.5 (9-char cap), JT-LEADS valid on IG, banks=[Goldman, Piraeus, UBS]x2, expectedPageId=IGRB54, expectedPageCount=2, feedIgrd=T, regionAmericas=F, coveredBonds=F. Bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788335612.578599": {
@@ -1304,7 +1304,7 @@
     "category": "em",
     "checked_at": "2026-09-02T08:14:04Z",
     "issuer": "Capri Global Capital",
-    "note": "Duplicate Bloomberg BOOKSTATS forward for same BR deal 14561630 (Book stats). Same clean verdict as sibling 1788335374.394579. Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "Duplicate Bloomberg BOOKSTATS forward for same BR deal 14561630 (Book stats). Same clean verdict as sibling 1788335374.394579. Bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788336962.311269": {
@@ -1360,7 +1360,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T09:19:00Z",
     "issuer": "ACOSS",
-    "note": "Spread set at OAT+15bp (equiv. MS+11) EUR bmk 2y Soc; headline/body/tranche form (OAT+15 no 'a', timing today, JT-LEADS 5 leads)/deal flags all clean. Bot already in thread \u2014 skip repost.",
+    "note": "Spread set at OAT+15bp (equiv. MS+11) EUR bmk 2y Soc; headline/body/tranche form (OAT+15 no 'a', timing today, JT-LEADS 5 leads)/deal flags all clean. Bot already in thread — skip repost.",
     "verdict": "clean"
   },
   "1788339712.966509": {
@@ -1368,7 +1368,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T09:19:00Z",
     "issuer": "Santander Totta",
-    "note": "Final terms EUR500m 3y CB at MS+14bp; headline/body/tranche form (MS+14 no 'a', launched, JT-LEADS 5 leads)/coveredBonds=true/deal flags all clean. Bot already in thread \u2014 skip repost.",
+    "note": "Final terms EUR500m 3y CB at MS+14bp; headline/body/tranche form (MS+14 no 'a', launched, JT-LEADS 5 leads)/coveredBonds=true/deal flags all clean. Bot already in thread — skip repost.",
     "verdict": "clean"
   },
   "1788339721.706599": {
@@ -1376,7 +1376,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T09:19:00Z",
     "issuer": "Volksbank Wien",
-    "note": "Book update EUR500m 6NC5 Grn SNP; IPTs MS+150/155 preserved (Case B, source silent on level); Books over EUR1bn matches source Orderbooks above \u20ac1bn (Excl. JLMs optional); 6 JLMs; tranche/deal flags all clean. Bot already in thread \u2014 skip repost.",
+    "note": "Book update EUR500m 6NC5 Grn SNP; IPTs MS+150/155 preserved (Case B, source silent on level); Books over EUR1bn matches source Orderbooks above €1bn (Excl. JLMs optional); 6 JLMs; tranche/deal flags all clean. Bot already in thread — skip repost.",
     "verdict": "clean"
   },
   "1788339927.553809": {
@@ -1384,7 +1384,7 @@
     "category": "em",
     "checked_at": "2026-09-02T09:19:00Z",
     "issuer": "Israel Discount Bank",
-    "note": "Book update EUR bmk 5y Structured Covered Bond; Guidance MS+73a preserved (Case B); Books over EUR1.5bn incl 325m JLM matches source; Aa3//AA- (EM triplet); regionCeemea=true; all clean. Bot already in thread \u2014 skip repost.",
+    "note": "Book update EUR bmk 5y Structured Covered Bond; Guidance MS+73a preserved (Case B); Books over EUR1.5bn incl 325m JLM matches source; Aa3//AA- (EM triplet); regionCeemea=true; all clean. Bot already in thread — skip repost.",
     "verdict": "clean"
   },
   "1788340304.550879": {
@@ -1408,7 +1408,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T09:44:00Z",
     "issuer": "NORD/LB",
-    "note": "Final terms EUR750m 7y CB at MS+24bp; body Spread set + size set (WNG) \u2192 Final terms; 6 JLMs UniCredit (B&D); Aaa (Moody's) only; book line matches source; tranche form (JT-LEADS, MS+24, launched) / coveredBonds=true / flags all clean; bot already in thread, skipped repost.",
+    "note": "Final terms EUR750m 7y CB at MS+24bp; body Spread set + size set (WNG) → Final terms; 6 JLMs UniCredit (B&D); Aaa (Moody's) only; book line matches source; tranche form (JT-LEADS, MS+24, launched) / coveredBonds=true / flags all clean; bot already in thread, skipped repost.",
     "verdict": "clean"
   },
   "1788341085.980489": {
@@ -1432,7 +1432,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T09:44:00Z",
     "issuer": "NADB",
-    "note": "Priced CHF125m 8y at SARON MS+50bp \u2014 body reads bare `SARON+50bp / Govt+76.8bp` (missing MS per SARON house style, headline correctly has MS) AND body has duplicate `Settle 29 September 2026.` sentence. Priced-deal 14650128 fields all clean (spread=SARON+50, isin=CH1604760905, figi=BBG024TTFK94, moodys=AA1/snp=NR/fitch=AA, dealRegsOnly=true, holdCo/opCo=false (supranational not on whitelist), leagueTable=true, additionalInfo carries `Books last heard over CHF100m`, banks.active=1 Deutsche Bank, finalBooks=null OK \u2014 source silent at pricing). expectedPageId=null correct at Priced. Bot already in thread, skipped repost.",
+    "note": "Priced CHF125m 8y at SARON MS+50bp — body reads bare `SARON+50bp / Govt+76.8bp` (missing MS per SARON house style, headline correctly has MS) AND body has duplicate `Settle 29 September 2026.` sentence. Priced-deal 14650128 fields all clean (spread=SARON+50, isin=CH1604760905, figi=BBG024TTFK94, moodys=AA1/snp=NR/fitch=AA, dealRegsOnly=true, holdCo/opCo=false (supranational not on whitelist), leagueTable=true, additionalInfo carries `Books last heard over CHF100m`, banks.active=1 Deutsche Bank, finalBooks=null OK — source silent at pricing). expectedPageId=null correct at Priced. Bot already in thread, skipped repost.",
     "verdict": "flagged"
   },
   "1788341442.325719": {
@@ -1440,7 +1440,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T09:44:00Z",
     "issuer": "DZ HYP",
-    "note": "Mandated EUR500m WNG short 5y Mortgage Pfandbrief; body verbatim mandate quote wrapped in quotes (correct for bank-received mandate); Aaa/AAA (Moody's/S&P) \u2014 no Fitch in source, correct; 6 leads CACIB/DB/DZBK/Helaba/StanChart/Swedbank; tranche form (structure=`shrt 5yCB` at 9-char cap, timing=this week, JT-LEADS)/coveredBonds=true/expectedPageId=IGRB25/flags all clean; bot already in thread, skipped repost.",
+    "note": "Mandated EUR500m WNG short 5y Mortgage Pfandbrief; body verbatim mandate quote wrapped in quotes (correct for bank-received mandate); Aaa/AAA (Moody's/S&P) — no Fitch in source, correct; 6 leads CACIB/DB/DZBK/Helaba/StanChart/Swedbank; tranche form (structure=`shrt 5yCB` at 9-char cap, timing=this week, JT-LEADS)/coveredBonds=true/expectedPageId=IGRB25/flags all clean; bot already in thread, skipped repost.",
     "verdict": "clean"
   },
   "1788341837.008409": {
@@ -1448,7 +1448,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T09:44:00Z",
     "issuer": "Dexia",
-    "note": "Final Terms USD1bn 3y guaranteed senior unsecured at SOFR MS+50bp; body opens spread set + size set \u2192 Final Terms per WNG/size-set rule; ratings A1/A+/A+ \u2713; guarantors Belgium 53%/France 47% under first demand guarantee \u2713; 5 Bookrunners Barclays/Citi/HSBC/JPM/SG (source silent on B&D); IOIs over USD1.4bn incl 100m JLM matches source; tranche form (SMS+50, launched)/regionAmericas=true (USD+144A)/expectedPageId=IGRB71/flags all clean; bot already in thread, skipped repost.",
+    "note": "Final Terms USD1bn 3y guaranteed senior unsecured at SOFR MS+50bp; body opens spread set + size set → Final Terms per WNG/size-set rule; ratings A1/A+/A+ ✓; guarantors Belgium 53%/France 47% under first demand guarantee ✓; 5 Bookrunners Barclays/Citi/HSBC/JPM/SG (source silent on B&D); IOIs over USD1.4bn incl 100m JLM matches source; tranche form (SMS+50, launched)/regionAmericas=true (USD+144A)/expectedPageId=IGRB71/flags all clean; bot already in thread, skipped repost.",
     "verdict": "clean"
   },
   "1788341916.212469": {
@@ -1488,7 +1488,7 @@
     "category": "em",
     "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "Ceska sporitelna",
-    "note": "Final Terms EUR500m 5.25y Mortgage CB at MS+30bp; all six checks clean (bot post from prior tick already in thread; state.json missed the record \u2014 backfilling).",
+    "note": "Final Terms EUR500m 5.25y Mortgage CB at MS+30bp; all six checks clean (bot post from prior tick already in thread; state.json missed the record — backfilling).",
     "verdict": "clean"
   },
   "1788344183.834789": {
@@ -1496,7 +1496,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "DBJ",
-    "note": "Final Terms EUR550m 4y Sust at MS+23bp; flagged by prior tick \u2014 Bookrunner role tag missing on Mizuho. Backfilling state.",
+    "note": "Final Terms EUR550m 4y Sust at MS+23bp; flagged by prior tick — Bookrunner role tag missing on Mizuho. Backfilling state.",
     "verdict": "flagged"
   },
   "1788344193.849129": {
@@ -1504,7 +1504,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "Islamic Dev Bank",
-    "note": "Spread set USD bmk 5y Sukuk at SMS+48bp; flagged by prior tick \u2014 stale JLM interest figure & lingering \"area\" suffix in Book update line. Backfilling state.",
+    "note": "Spread set USD bmk 5y Sukuk at SMS+48bp; flagged by prior tick — stale JLM interest figure & lingering \"area\" suffix in Book update line. Backfilling state.",
     "verdict": "flagged"
   },
   "1788344359.253419": {
@@ -1512,7 +1512,7 @@
     "category": "em",
     "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "Dev Bank of Kazakhstan",
-    "note": "FPG CNH bmk dual-tranche 5y/10y; flagged by prior tick \u2014 tranche volume stale, active-bank count short vs 12-name source. Backfilling state.",
+    "note": "FPG CNH bmk dual-tranche 5y/10y; flagged by prior tick — tranche volume stale, active-bank count short vs 12-name source. Backfilling state.",
     "verdict": "flagged"
   },
   "1788344398.026539": {
@@ -1520,7 +1520,7 @@
     "category": "em",
     "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "UniCredit Bank Czech Rep & Slovakia",
-    "note": "Mandated EUR bmk 5y Mortgage CB; flagged by prior tick \u2014 tranche currency set to USD on a EUR deal. Backfilling state.",
+    "note": "Mandated EUR bmk 5y Mortgage CB; flagged by prior tick — tranche currency set to USD on a EUR deal. Backfilling state.",
     "verdict": "flagged"
   },
   "1788344656.318699": {
@@ -1528,7 +1528,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T10:36:45Z",
     "issuer": "3M Company",
-    "note": "Timing update EUR1.5bn (exp.) multi-tranche 2/5/8y; flagged by prior tick \u2014 Tranches B & C still carry stale investor-call timing (`i/c 01-02 Sep` / `i/c 01-02 Sep>`). Backfilling state.",
+    "note": "Timing update EUR1.5bn (exp.) multi-tranche 2/5/8y; flagged by prior tick — Tranches B & C still carry stale investor-call timing (`i/c 01-02 Sep` / `i/c 01-02 Sep>`). Backfilling state.",
     "verdict": "flagged"
   },
   "1788344974.971619": {
@@ -1536,7 +1536,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T10:52:48Z",
     "issuer": "MuniFin",
-    "note": "Mandated EUR bmk 5y Green; Aa1/AA+; 4 JLMs Danske/DZ/JPM/SEB; verbatim mandate quote; tranche form (5y Grn JT-LEADS this week)/deal flags (IGRB40) all clean. Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "Mandated EUR bmk 5y Green; Aa1/AA+; 4 JLMs Danske/DZ/JPM/SEB; verbatim mandate quote; tranche form (5y Grn JT-LEADS this week)/deal flags (IGRB40) all clean. Bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788345083.971169": {
@@ -1544,7 +1544,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T10:52:48Z",
     "issuer": "ACOSS",
-    "note": "Final terms EUR2bn 2y Soc at OAT+15bp; Aa3/A+/A+; 5 BRs incl SG (B&D); Books over EUR2.5bn incl EUR225m JLM (Case B \u2014 \"over\" carried from Spread set); tranche form (OAT+15 launched)/deal flags all clean. Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "Final terms EUR2bn 2y Soc at OAT+15bp; Aa3/A+/A+; 5 BRs incl SG (B&D); Books over EUR2.5bn incl EUR225m JLM (Case B — \"over\" carried from Spread set); tranche form (OAT+15 launched)/deal flags all clean. Bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788345430.458609": {
@@ -1552,7 +1552,7 @@
     "category": "em",
     "checked_at": "2026-09-02T10:52:48Z",
     "issuer": "Hon Hai Precision Industry",
-    "note": "FPG (Final Price Guidance) JPY multi-tranche Euro-Yen 3y/5y/7y/10y at YMS+90/100/110/120bp (# = the number); Mizuho(B&D)/Nomura JBRs&JLMs + KDB JLM; Guarantor A- (Positive) S&P only; all 4 tranche forms (TMS+level, /A-/, Friday, banks.active=3) match; regionAsia=true/feedEmrd=true/expectedPageCount=4/EMRH36 clean. Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "FPG (Final Price Guidance) JPY multi-tranche Euro-Yen 3y/5y/7y/10y at YMS+90/100/110/120bp (# = the number); Mizuho(B&D)/Nomura JBRs&JLMs + KDB JLM; Guarantor A- (Positive) S&P only; all 4 tranche forms (TMS+level, /A-/, Friday, banks.active=3) match; regionAsia=true/feedEmrd=true/expectedPageCount=4/EMRH36 clean. Bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788345877.857549": {
@@ -1633,7 +1633,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:00:48Z",
     "issuer": "UBS Group AG",
-    "note": "GBP/EUR2.75bn dual-tranche Final terms (dual-tranche 6NC5/11NC10, UBS TLAC senior). Source (Slack) is Tranche B only (EUR1.75bn 11NC10 at MS+112bp). Flag: Tranche A body benchmark shorthand `UKT 0.25% 07/31/31+98bp` should be house-style `UKT 0.25% 31 July 2031+98bp`. Tranche form/deal flags otherwise clean. Bot already in thread from prior tick whose state write was lost \u2014 skipped repost per never-repost rule.",
+    "note": "GBP/EUR2.75bn dual-tranche Final terms (dual-tranche 6NC5/11NC10, UBS TLAC senior). Source (Slack) is Tranche B only (EUR1.75bn 11NC10 at MS+112bp). Flag: Tranche A body benchmark shorthand `UKT 0.25% 07/31/31+98bp` should be house-style `UKT 0.25% 31 July 2031+98bp`. Tranche form/deal flags otherwise clean. Bot already in thread from prior tick whose state write was lost — skipped repost per never-repost rule.",
     "verdict": "flagged"
   },
   "1788347609.264779": {
@@ -1657,7 +1657,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "EIB",
-    "note": "bot_already_in_thread; deal since progressed to PRICED \u2014 walked current state clean (headline/body/priced-deal form/deal-level flags all match source; ggb=false, dealRegsOnly=true, banks.active=4, finalBooks=46500)",
+    "note": "bot_already_in_thread; deal since progressed to PRICED — walked current state clean (headline/body/priced-deal form/deal-level flags all match source; ggb=false, dealRegsOnly=true, banks.active=4, finalBooks=46500)",
     "verdict": "clean"
   },
   "1788348471.534539": {
@@ -1665,7 +1665,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Hamburg Commercial Bank",
-    "note": "bot_already_in_thread; HCOB EUR500m 3y Ship Pfandbrief Allocations Out, BR now Priced at MS+25bp \u2014 all headline/body/priced-deal fields match, no flags",
+    "note": "bot_already_in_thread; HCOB EUR500m 3y Ship Pfandbrief Allocations Out, BR now Priced at MS+25bp — all headline/body/priced-deal fields match, no flags",
     "verdict": "clean"
   },
   "1788348758.772649": {
@@ -1681,7 +1681,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:00:48Z",
     "issuer": "Banco Santander Totta",
-    "note": "Priced EUR500m 3y CB at MS+14bp. Flag: Priced body dropped 'with extended maturity 9 September 2030' clause that all earlier stages (Guidance / Spread set / Allocations) carried; hgDetails.hgExtendableDate on priced-deal form 14650223 also null (should be 2030-09-09). Priced-deal form otherwise clean incl covered=true, dealRegsOnly=true, finalBooks=2450. Bot already in thread from prior tick whose state write was lost \u2014 skipped repost.",
+    "note": "Priced EUR500m 3y CB at MS+14bp. Flag: Priced body dropped 'with extended maturity 9 September 2030' clause that all earlier stages (Guidance / Spread set / Allocations) carried; hgDetails.hgExtendableDate on priced-deal form 14650223 also null (should be 2030-09-09). Priced-deal form otherwise clean incl covered=true, dealRegsOnly=true, finalBooks=2450. Bot already in thread from prior tick whose state write was lost — skipped repost.",
     "verdict": "flagged"
   },
   "1788348816.909939": {
@@ -1689,7 +1689,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:00:48Z",
     "issuer": "Bureau Veritas SA",
-    "note": "Final Terms EUR700m 8y at MS+87bp. Headline / body / tranche form (v14650224 EUR/700m/8y/MS+87/JT-LEADS/launched, 7 active JLMs BofA(B&D)+HSBC+SocGen GCs, Barclays/Commerzbank/NatWest/UniCredit ABs) / deal flags all clean. Book Update line preserved with Pre-rec note (source 'pre-rec, at tight end of guidance' \u2014 latter dropped as-expected). No pricedDeals yet (not Priced). Bot already in thread from prior tick whose state write was lost \u2014 skipped repost.",
+    "note": "Final Terms EUR700m 8y at MS+87bp. Headline / body / tranche form (v14650224 EUR/700m/8y/MS+87/JT-LEADS/launched, 7 active JLMs BofA(B&D)+HSBC+SocGen GCs, Barclays/Commerzbank/NatWest/UniCredit ABs) / deal flags all clean. Book Update line preserved with Pre-rec note (source 'pre-rec, at tight end of guidance' — latter dropped as-expected). No pricedDeals yet (not Priced). Bot already in thread from prior tick whose state write was lost — skipped repost.",
     "verdict": "clean"
   },
   "1788349147.806699": {
@@ -1705,7 +1705,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:00:48Z",
     "issuer": "NORD/LB",
-    "note": "Priced EUR750m 7y Mortgage Covered Bond (Hypothekenpfandbrief) at MS+24bp. Prior tick flagged priced-deal form 14650226 opCo=true incorrectly (German Landesbank covered bond, not on UK/Swiss/US/Japan/ING/Nationwide/Softbank whitelist and outside senior-unsecured cap-structure framework anyway) \u2014 desk has since fixed opCo=false, holdCo=false. Priced-deal form otherwise clean (covered=true, dealRegsOnly=true, ratings AAA/NR/NR matching Aaa Moody's only source, isin/figi/bbg code populated, finalBooks=1100 matching source 'above EUR1.1bn'). Bot already in thread from prior tick whose state write was lost \u2014 skipped repost.",
+    "note": "Priced EUR750m 7y Mortgage Covered Bond (Hypothekenpfandbrief) at MS+24bp. Prior tick flagged priced-deal form 14650226 opCo=true incorrectly (German Landesbank covered bond, not on UK/Swiss/US/Japan/ING/Nationwide/Softbank whitelist and outside senior-unsecured cap-structure framework anyway) — desk has since fixed opCo=false, holdCo=false. Priced-deal form otherwise clean (covered=true, dealRegsOnly=true, ratings AAA/NR/NR matching Aaa Moody's only source, isin/figi/bbg code populated, finalBooks=1100 matching source 'above EUR1.1bn'). Bot already in thread from prior tick whose state write was lost — skipped repost.",
     "verdict": "flagged"
   },
   "1788349441.043969": {
@@ -1713,7 +1713,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "OBERBANK",
-    "note": "bot_already_in_thread; PRICED Oberbank EUR300m 8yr CB MS+33 \u2014 all headline/body/priced-deal/deal-level fields match source",
+    "note": "bot_already_in_thread; PRICED Oberbank EUR300m 8yr CB MS+33 — all headline/body/priced-deal/deal-level fields match source",
     "verdict": "clean"
   },
   "1788349802.827169": {
@@ -1721,7 +1721,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Rothesay Life",
-    "note": "Final terms at G+160bp / GBP500m / Books closed over GBP1bn \u2014 all fields match; bot already replied in thread",
+    "note": "Final terms at G+160bp / GBP500m / Books closed over GBP1bn — all fields match; bot already replied in thread",
     "verdict": "clean"
   },
   "1788349818.988079": {
@@ -1737,7 +1737,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "New Immo Holding",
-    "note": "bot_already_in_thread; Final terms match \u2014 headline, body, tranche v2 (EUR/500m/6y/6%/JT-LEADS/launched), deal flags all consistent",
+    "note": "bot_already_in_thread; Final terms match — headline, body, tranche v2 (EUR/500m/6y/6%/JT-LEADS/launched), deal flags all consistent",
     "verdict": "clean"
   },
   "1788349951.844759": {
@@ -1745,12 +1745,12 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Nexans",
-    "note": "Final terms EUR500m 5y at 4.25% \u2014 headline/body/tranche all match; bot already in thread so post skipped",
+    "note": "Final terms EUR500m 5y at 4.25% — headline/body/tranche all match; bot already in thread so post skipped",
     "verdict": "clean"
   },
   "1788350109.429849": {
     "checked_at": "2026-09-02T13:41:39Z",
-    "note": "Chat instruction \"Needs done on 9fin too ^\" \u2014 not a Bloomberg term sheet.",
+    "note": "Chat instruction \"Needs done on 9fin too ^\" — not a Bloomberg term sheet.",
     "verdict": "skipped"
   },
   "1788350443.914279": {
@@ -1766,12 +1766,12 @@
     "category": "em",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Ceska sporitelna",
-    "note": "bot_already_in_thread; Allocations stage clean \u2014 headline/body/tranche v4/deal-level flags all match",
+    "note": "bot_already_in_thread; Allocations stage clean — headline/body/tranche v4/deal-level flags all match",
     "verdict": "clean"
   },
   "1788350645.634629": {
     "checked_at": "2026-09-02T13:41:39Z",
-    "note": "Short \"Royal bank of Canada / Overnight Books @ $1.7bn+\" note \u2014 no BBG forward markers, no file attachment.",
+    "note": "Short \"Royal bank of Canada / Overnight Books @ $1.7bn+\" note — no BBG forward markers, no file attachment.",
     "verdict": "skipped"
   },
   "1788350671.298579": {
@@ -1779,7 +1779,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Hamburg Commercial Bank",
-    "note": "bot_already_in_thread \u2014 Priced EUR500m 3y Ship Covered Bond fully matches BR record; dealRegsOnly true, finalBooks=2500.0, all flags/booleans consistent",
+    "note": "bot_already_in_thread — Priced EUR500m 3y Ship Covered Bond fully matches BR record; dealRegsOnly true, finalBooks=2500.0, all flags/booleans consistent",
     "verdict": "clean"
   },
   "1788350818.347089": {
@@ -1803,7 +1803,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Kingspan",
-    "note": "bot_already_in_thread; dual-tranche Green Final terms \u2014 both tranches (350m 4y MS+63, 500m 7y MS+95) match BR exactly, all flags correct",
+    "note": "bot_already_in_thread; dual-tranche Green Final terms — both tranches (350m 4y MS+63, 500m 7y MS+95) match BR exactly, all flags correct",
     "verdict": "clean"
   },
   "1788351026.960269": {
@@ -1811,7 +1811,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Banco Santander Totta",
-    "note": "bot_already_in_thread; Priced walk clean \u2014 headline/body/priced-deal form all match, single EUR500m 3y covered tranche, Final books EUR2.45bn, ggb false, dealRegsOnly only true reg flag",
+    "note": "bot_already_in_thread; Priced walk clean — headline/body/priced-deal form all match, single EUR500m 3y covered tranche, Final books EUR2.45bn, ggb false, dealRegsOnly only true reg flag",
     "verdict": "clean"
   },
   "1788351032.980079": {
@@ -1819,7 +1819,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "EIB",
-    "note": "Priced EIB EUR5bn 5y CAB EARN at MS+6bp \u2014 headline/body/priced-deal form all match; bot_already_in_thread so no post",
+    "note": "Priced EIB EUR5bn 5y CAB EARN at MS+6bp — headline/body/priced-deal form all match; bot_already_in_thread so no post",
     "verdict": "clean"
   },
   "1788351226.384809": {
@@ -1827,7 +1827,7 @@
     "category": "em",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Israel Discount Bank",
-    "note": "Final Terms EUR500m 5y CB at MS+67bp \u2014 headline/body/tranche fields all align; no pricedDeal yet. Bot already in thread, post skipped.",
+    "note": "Final Terms EUR500m 5y CB at MS+67bp — headline/body/tranche fields all align; no pricedDeal yet. Bot already in thread, post skipped.",
     "verdict": "clean"
   },
   "1788351288.611469": {
@@ -1843,7 +1843,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "ACOSS",
-    "note": "bot_already_in_thread; priced-deal walk clean \u2014 social:true set, dealRegsOnly sole true, finalBooks=2500, banks.active=5, all deal-level flags match",
+    "note": "bot_already_in_thread; priced-deal walk clean — social:true set, dealRegsOnly sole true, finalBooks=2500, banks.active=5, all deal-level flags match",
     "verdict": "clean"
   },
   "1788351673.127489": {
@@ -1851,13 +1851,13 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Eika Boligkreditt AS",
-    "note": "bot_already_in_thread; Priced walk clean \u2014 headline/body/priced-deal form/deal-level flags all match",
+    "note": "bot_already_in_thread; Priced walk clean — headline/body/priced-deal form/deal-level flags all match",
     "verdict": "clean"
   },
   "1788351703.680819": {
     "checked_at": "2026-09-02T12:39:35.979187Z",
     "issuer": "Bpifrance",
-    "note": "Investor presentation + social framework + allocation report links and roadshow schedule; no new bond/term-sheet update \u2014 paired with earlier Bpifrance mandate.",
+    "note": "Investor presentation + social framework + allocation report links and roadshow schedule; no new bond/term-sheet update — paired with earlier Bpifrance mandate.",
     "verdict": "skipped"
   },
   "1788351992.773469": {
@@ -1881,7 +1881,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:52:54Z",
     "issuer": "AIIB",
-    "note": "Final terms USD2bn 3y SDB at SOFR MS+23bp \u2014 headline stage word `Book update` should be `Final terms` per Rule 4 (body opens Spread set + size set); Joint Leads line missing (B&D/DM) marker after Citi. Tranche form/deal flags all clean. Posted flag.",
+    "note": "Final terms USD2bn 3y SDB at SOFR MS+23bp — headline stage word `Book update` should be `Final terms` per Rule 4 (body opens Spread set + size set); Joint Leads line missing (B&D/DM) marker after Citi. Tranche form/deal flags all clean. Posted flag.",
     "verdict": "flagged"
   },
   "1788352638.500539": {
@@ -1897,7 +1897,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T12:52:54Z",
     "issuer": "Dexia",
-    "note": "Allocations USD1bn 3y at SOFR MS+50bp \u2014 book-line `Book update: Books over` at Allocations Out stage should be `Final books over` per checklist rule 73; Bookrunners line missing (B&D) marker after Citi. Tranche form/deal flags all clean. Posted flag.",
+    "note": "Allocations USD1bn 3y at SOFR MS+50bp — book-line `Book update: Books over` at Allocations Out stage should be `Final books over` per checklist rule 73; Bookrunners line missing (B&D) marker after Citi. Tranche form/deal flags all clean. Posted flag.",
     "verdict": "flagged"
   },
   "1788353605.823859": {
@@ -1909,7 +1909,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T13:05:03Z",
     "issuer": "PACCAR Financial Corp.",
-    "note": "IPTs USD300m 3y T+60a; headline/body/tranche form (JT-LEADS, T+60a)/deal-level flags (regionAmericas=true, IGRB18, count=1) all clean. Bot already in thread from prior tick (state write lost) \u2014 skipped repost.",
+    "note": "IPTs USD300m 3y T+60a; headline/body/tranche form (JT-LEADS, T+60a)/deal-level flags (regionAmericas=true, IGRB18, count=1) all clean. Bot already in thread from prior tick (state write lost) — skipped repost.",
     "verdict": "clean"
   },
   "1788354003.883949": {
@@ -1937,7 +1937,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T13:41:39Z",
     "issuer": "Banca MPS",
-    "note": "Allocations EUR500m 10.5NC5.5 Grn T2 at MS+145bp; headline/body/tranche form (JT-LEADS 7 leads, structure 10.5NC5.5 at 9-char cap, priceEvolution MS+145 launched)/deal-level flags all clean; bot already in thread \u2014 slack_post skipped repost.",
+    "note": "Allocations EUR500m 10.5NC5.5 Grn T2 at MS+145bp; headline/body/tranche form (JT-LEADS 7 leads, structure 10.5NC5.5 at 9-char cap, priceEvolution MS+145 launched)/deal-level flags all clean; bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788355467.749339": {
@@ -1945,7 +1945,7 @@
     "category": "em",
     "checked_at": "2026-09-02T13:41:39Z",
     "issuer": "Kuwait International Bank",
-    "note": "Allocations USD500m 5y Sukuk at T+95bp; hedge deadline in body reads \"14:50 UKT / 09:50 NYT\" but source term sheet says \"14.45 UKT / 16.45 Kuwait\" \u2014 both time and secondary zone wrong (likely leaked from concurrent AIIB Allocations forward). Rest of headline/body/tranche form (NR/NR/A, priceEvolution T+95 launched)/12-JLM count/deal-level flags clean. Bot already in thread \u2014 slack_post skipped repost.",
+    "note": "Allocations USD500m 5y Sukuk at T+95bp; hedge deadline in body reads \"14:50 UKT / 09:50 NYT\" but source term sheet says \"14.45 UKT / 16.45 Kuwait\" — both time and secondary zone wrong (likely leaked from concurrent AIIB Allocations forward). Rest of headline/body/tranche form (NR/NR/A, priceEvolution T+95 launched)/12-JLM count/deal-level flags clean. Bot already in thread — slack_post skipped repost.",
     "verdict": "flagged"
   },
   "1788355506.199889": {
@@ -1953,7 +1953,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T13:41:39Z",
     "issuer": "AIIB",
-    "note": "Allocations USD2bn 3y SDB at MS+23bp; headline/body/tranche form (JT-LEADS 4 leads, priceEvolution SMS+23 launched)/deal-level flags (regionAmericas=true SEC-registered)/hedge deadline 14.50 UKT / 09.50 NYT match source all clean; bot already in thread \u2014 slack_post skipped repost.",
+    "note": "Allocations USD2bn 3y SDB at MS+23bp; headline/body/tranche form (JT-LEADS 4 leads, priceEvolution SMS+23 launched)/deal-level flags (regionAmericas=true SEC-registered)/hedge deadline 14.50 UKT / 09.50 NYT match source all clean; bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788356446.835609": {
@@ -2045,7 +2045,7 @@
     "category": "hg",
     "checked_at": "2026-09-02T14:42:00Z",
     "issuer": "Kingspan",
-    "note": "Allocations out EUR850m dual-tranche Green (4y+7y); bot already in thread with clean verdict. Independent walk noted minor body issues (Allocation vs Allocations plural, above EUR1.65bn vs source exact, dangling comma) \u2014 below bot threshold; recording clean per bot verdict.",
+    "note": "Allocations out EUR850m dual-tranche Green (4y+7y); bot already in thread with clean verdict. Independent walk noted minor body issues (Allocation vs Allocations plural, above EUR1.65bn vs source exact, dangling comma) — below bot threshold; recording clean per bot verdict.",
     "verdict": "clean"
   },
   "1788359484.585479": {
@@ -2189,7 +2189,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:34:21.192775Z",
     "issuer": "Commerzbank",
-    "note": "IPTs 6.625% area EUR750m (max) PNC7.5 AT1; body has minor `2034..` double-period typo but headline+ccy+size+structure+stage+tranche form (PNC7.5AT1 at 9-char cap, 6.625%a, JT-LEADS 4 leads)+deal flags (feedIgrd, no CB/RegAm)+ISIN DE000CZ45WE9+4 JLMs Commerzbank(B&D)/ING/Santander/UBS all clean; max qualifier present (parenthesized). Bot already in thread \u2014 skipped repost.",
+    "note": "IPTs 6.625% area EUR750m (max) PNC7.5 AT1; body has minor `2034..` double-period typo but headline+ccy+size+structure+stage+tranche form (PNC7.5AT1 at 9-char cap, 6.625%a, JT-LEADS 4 leads)+deal flags (feedIgrd, no CB/RegAm)+ISIN DE000CZ45WE9+4 JLMs Commerzbank(B&D)/ING/Santander/UBS all clean; max qualifier present (parenthesized). Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788419227.520839": {
@@ -2203,7 +2203,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:34:21.192775Z",
     "issuer": "Credit Agricole Public Sector SCF",
-    "note": "Guidance MS+40bp area EUR750m (max) 6y CB (Obligations Foncieres, ECB Eligible, Premium CB Label); headline+body+tranche form (6y CB, MS+40a, JT-LEADS, 7 leads=source count)+deal flags (coveredBonds=T, IGRB23) all clean. Bot already in thread \u2014 skipped repost.",
+    "note": "Guidance MS+40bp area EUR750m (max) 6y CB (Obligations Foncieres, ECB Eligible, Premium CB Label); headline+body+tranche form (6y CB, MS+40a, JT-LEADS, 7 leads=source count)+deal flags (coveredBonds=T, IGRB23) all clean. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788419444.943159": {
@@ -2211,7 +2211,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:34:21.192775Z",
     "issuer": "Accru Partners",
-    "note": "Mandate EUR550m 4y senior secured HY (S&P B prelim / Moody's B3); body verbatim mandate quote; tranche form (JT-LEADS, 6 leads=source count, i/m 07 Sep, no priceEvolution)+HY routing (hyExpectedPageId HYRE7, highYield=true)+deal flags all clean. Bot already in thread \u2014 skipped repost.",
+    "note": "Mandate EUR550m 4y senior secured HY (S&P B prelim / Moody's B3); body verbatim mandate quote; tranche form (JT-LEADS, 6 leads=source count, i/m 07 Sep, no priceEvolution)+HY routing (hyExpectedPageId HYRE7, highYield=true)+deal flags all clean. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788419646.090739": {
@@ -2219,7 +2219,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:34:21.192775Z",
     "issuer": "Hurtigruten Group",
-    "note": "Mandate EUR100m 5y senior unsecured FRN HY (via file attachment); body reflects source with MWC 30m/COC 101/Oslo listing/Norwegian law; Sole GC DNB Carnegie + JLMs (4) DNB/Danske/Nordea/SEB; tranche form clean; HY routing (hyExpectedPageId HYRE4, highYield=true) correct. Bot already in thread \u2014 skipped repost.",
+    "note": "Mandate EUR100m 5y senior unsecured FRN HY (via file attachment); body reflects source with MWC 30m/COC 101/Oslo listing/Norwegian law; Sole GC DNB Carnegie + JLMs (4) DNB/Danske/Nordea/SEB; tranche form clean; HY routing (hyExpectedPageId HYRE4, highYield=true) correct. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788419651.559729": {
@@ -2227,7 +2227,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:34:21.192775Z",
     "issuer": "SEK",
-    "note": "Guidance SOFR MS+37bp area USD bmk 5-year SEC Registered Global (via file attachment); headline+body+tranche form (SMS+37a, 4 leads Barclays/BNPP/BofA/Scotia)+deal flags (regionAmericas=true correct for USD+SEC-registered global, IGRB35) all clean; IOI update EUR1.5bn+ carried. Bot already in thread \u2014 skipped repost.",
+    "note": "Guidance SOFR MS+37bp area USD bmk 5-year SEC Registered Global (via file attachment); headline+body+tranche form (SMS+37a, 4 leads Barclays/BNPP/BofA/Scotia)+deal flags (regionAmericas=true correct for USD+SEC-registered global, IGRB35) all clean; IOI update EUR1.5bn+ carried. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788419716.949779": {
@@ -2235,7 +2235,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:34:21.192775Z",
     "issuer": "Argenta Spaarbank",
-    "note": "Mandate EUR325m WNG 5NC4 EuGB SNP; dealHistoryEntry (Mandated) body verbatim from source; tranche form v1 (structure `5NC4 SNP` under 9-char cap, ticker shorthand ABN/BNPP/MIZ for \u22643 leads, timing `this week`)+3 JLMs+deal flags (feedIgrd, no CB, IGRB36) all clean. Bot already in thread \u2014 skipped repost.",
+    "note": "Mandate EUR325m WNG 5NC4 EuGB SNP; dealHistoryEntry (Mandated) body verbatim from source; tranche form v1 (structure `5NC4 SNP` under 9-char cap, ticker shorthand ABN/BNPP/MIZ for ≤3 leads, timing `this week`)+3 JLMs+deal flags (feedIgrd, no CB, IGRB36) all clean. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788419866.066989": {
@@ -2243,7 +2243,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:34:21.192775Z",
     "issuer": "Swiss Life",
-    "note": "Mandate EUR600m (WNG) 20NC10 RegS Sub Cap Securities; Issuer Swiss Life Finance II AG (Liechtenstein), guaranteed by Swiss Life AG (A+ S&P) + Holding AG (A- S&P), exp A- S&P; body verbatim mandate quote; tranche form (structure 20NC10Sub at 9-char cap, timing September, JT-LEADS with 3 leads DB/Natixis/UBS \u2014 borderline but not flagged per book_or_rating rule)+3 JLMs+deal flags (IGRB38, feedIgrd, notifyMobile) all clean. Bot already in thread \u2014 skipped repost.",
+    "note": "Mandate EUR600m (WNG) 20NC10 RegS Sub Cap Securities; Issuer Swiss Life Finance II AG (Liechtenstein), guaranteed by Swiss Life AG (A+ S&P) + Holding AG (A- S&P), exp A- S&P; body verbatim mandate quote; tranche form (structure 20NC10Sub at 9-char cap, timing September, JT-LEADS with 3 leads DB/Natixis/UBS — borderline but not flagged per book_or_rating rule)+3 JLMs+deal flags (IGRB38, feedIgrd, notifyMobile) all clean. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788420076.104669": {
@@ -2251,7 +2251,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:34:21.192775Z",
     "issuer": "Sage Group",
-    "note": "IPTs MS+135/140bp area EUR500m (no grow) 5.5y sr unsec; body/tranche v3 (MS+135/140bp, today)/4 JBRs BofA(B&D)/HSBC/JPM/NatWest/ISIN XS3491327378/deal flags (IGRB50, feedIgrd, no CB/RegAm) all clean; Canadian sales boilerplate correctly dropped from body. Bot already in thread \u2014 skipped repost.",
+    "note": "IPTs MS+135/140bp area EUR500m (no grow) 5.5y sr unsec; body/tranche v3 (MS+135/140bp, today)/4 JBRs BofA(B&D)/HSBC/JPM/NatWest/ISIN XS3491327378/deal flags (IGRB50, feedIgrd, no CB/RegAm) all clean; Canadian sales boilerplate correctly dropped from body. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788420223.954549": {
@@ -2259,7 +2259,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:34:21.192775Z",
     "issuer": "Argenta Spaarbank",
-    "note": "IPTs MS+110/115bp EUR325m (WNG) 5NC4 EuGB SNP; body+tranche v2 (MS+110/115, today, ticker shorthand ABN/BNPP/MIZ for 3 leads)+expected rating /BBB/ (only S&P, M+F slots empty per only-three-agencies rule)+deal flags (IGRB36, feedIgrd, no CB) all clean. Bot already in thread \u2014 skipped repost.",
+    "note": "IPTs MS+110/115bp EUR325m (WNG) 5NC4 EuGB SNP; body+tranche v2 (MS+110/115, today, ticker shorthand ABN/BNPP/MIZ for 3 leads)+expected rating /BBB/ (only S&P, M+F slots empty per only-three-agencies rule)+deal flags (IGRB36, feedIgrd, no CB) all clean. Bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788420384.858829": {
@@ -2267,7 +2267,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:52:25.827979Z",
     "issuer": "Swiss Life",
-    "note": "IPTs MS+170a EUR600m 20NC10 T2 subordinated. Independently walked \u2014 my read matches source. Bot already flagged in-thread: tranche structure=20NC10Sub should be 20NC10T2 to carry specific tier suffix (agree, minor). Skip repost per never-repost rule.",
+    "note": "IPTs MS+170a EUR600m 20NC10 T2 subordinated. Independently walked — my read matches source. Bot already flagged in-thread: tranche structure=20NC10Sub should be 20NC10T2 to carry specific tier suffix (agree, minor). Skip repost per never-repost rule.",
     "verdict": "flagged"
   },
   "1788420566.326589": {
@@ -2275,12 +2275,12 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:52:25.827979Z",
     "issuer": "Mizuho Bank Sydney",
-    "note": "Book stats AUD1bn 3y FRN at BBSW+63. Priced-deal form (14650417) statsCategories both sum 100 \u2713, finalBooks=1536.0 \u2713, 8 JLMs \u2713, all format flags correct. Bot flagged bracket placeholders in body `A$[2.32]bn (including A$[95]m JLM)` never resolved to final A$1.536bn incl A$45m per STATS source \u2014 agree. Skip repost.",
+    "note": "Book stats AUD1bn 3y FRN at BBSW+63. Priced-deal form (14650417) statsCategories both sum 100 ✓, finalBooks=1536.0 ✓, 8 JLMs ✓, all format flags correct. Bot flagged bracket placeholders in body `A$[2.32]bn (including A$[95]m JLM)` never resolved to final A$1.536bn incl A$45m per STATS source — agree. Skip repost.",
     "verdict": "flagged"
   },
   "1788420598.558199": {
     "checked_at": "2026-09-03T07:52:25.827979Z",
-    "note": "Empty message (no text, no file attachments) with \u2705 reaction \u2014 not a term-sheet forward, nothing to QA.",
+    "note": "Empty message (no text, no file attachments) with ✅ reaction — not a term-sheet forward, nothing to QA.",
     "verdict": "skipped"
   },
   "1788420631.336249": {
@@ -2288,7 +2288,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:52:25.827979Z",
     "issuer": "M&G European Property Fund",
-    "note": "IPTs MS+130/135bp EUR500m 5y Grn inaugural. Headline/body/tranche v5 (MS+130/135, JT-LEADS 4 leads ABN/BBVA/HSBC/ING(B&D))/deal flags (IGRB68, feedIgrd, no CB/RegAm) all clean. Bot already posted Perfect! in thread \u2014 skip repost per never-repost rule.",
+    "note": "IPTs MS+130/135bp EUR500m 5y Grn inaugural. Headline/body/tranche v5 (MS+130/135, JT-LEADS 4 leads ABN/BBVA/HSBC/ING(B&D))/deal flags (IGRB68, feedIgrd, no CB/RegAm) all clean. Bot already posted Perfect! in thread — skip repost per never-repost rule.",
     "verdict": "clean"
   },
   "1788420684.876199": {
@@ -2304,7 +2304,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T07:52:25.827979Z",
     "issuer": "Muehlhan Holding GmbH",
-    "note": "IPTs 102.25/102.50 EUR63.9m May 2030 tap HY (senior secured, HYRE12). Bot flagged in thread: timing 'today's business' stuck on IPTs paragraph instead of moving to the Book update line \u2014 house-style ordering. Skip repost per never-repost rule.",
+    "note": "IPTs 102.25/102.50 EUR63.9m May 2030 tap HY (senior secured, HYRE12). Bot flagged in thread: timing 'today's business' stuck on IPTs paragraph instead of moving to the Book update line — house-style ordering. Skip repost per never-repost rule.",
     "verdict": "flagged"
   },
   "1788421248.695399": {
@@ -2325,7 +2325,7 @@
   },
   "1788422995.623379": {
     "checked_at": "2026-09-03T08:31:45Z",
-    "note": "bot_already_in_thread \u2014 findings drafted but skipped by slack_post.py idempotency guard",
+    "note": "bot_already_in_thread — findings drafted but skipped by slack_post.py idempotency guard",
     "verdict": "flagged"
   },
   "1788423964.632289": {
@@ -2333,7 +2333,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T08:46:25Z",
     "issuer": "MuniFin",
-    "note": "Rev Guidance MS+9bp area / Book update EUR1bn 5y Green \u2014 headline/body/tranche form (5y Grn, MS+9a, JT-LEADS 4 leads)/deal-level flags (feedIgrd=T, coveredBonds=F, regionAmericas=F, expectedPageId=IGRB40, expectedPageCount=1) all clean; book size EUR4.8bn incl EUR250m JLM matches source. Bot already in thread \u2014 slack_post skipped.",
+    "note": "Rev Guidance MS+9bp area / Book update EUR1bn 5y Green — headline/body/tranche form (5y Grn, MS+9a, JT-LEADS 4 leads)/deal-level flags (feedIgrd=T, coveredBonds=F, regionAmericas=F, expectedPageId=IGRB40, expectedPageCount=1) all clean; book size EUR4.8bn incl EUR250m JLM matches source. Bot already in thread — slack_post skipped.",
     "verdict": "clean"
   },
   "1788424541.084949": {
@@ -2341,7 +2341,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T08:46:25Z",
     "issuer": "DZ HYP",
-    "note": "Book update EUR500m short 5y Mortgage Pfandbrief \u2014 headline/body/tranche form (5y CB, MS+20a, JT-LEADS 6 leads DZ BANK (B&D))/deal-level flags (coveredBonds=T, regionAmericas=F, expectedPageId=IGRB25) all clean; book size EUR2bn incl EUR455m JLM matches source verbatim. Bot already in thread \u2014 slack_post skipped.",
+    "note": "Book update EUR500m short 5y Mortgage Pfandbrief — headline/body/tranche form (5y CB, MS+20a, JT-LEADS 6 leads DZ BANK (B&D))/deal-level flags (coveredBonds=T, regionAmericas=F, expectedPageId=IGRB25) all clean; book size EUR2bn incl EUR455m JLM matches source verbatim. Bot already in thread — slack_post skipped.",
     "verdict": "clean"
   },
   "1788424575.049379": {
@@ -2349,7 +2349,7 @@
     "category": "em",
     "checked_at": "2026-09-03T08:46:25Z",
     "issuer": "UniCredit Bank Czech Republic and Slovakia",
-    "note": "Book update EUR bmk 5y Mortgage CB \u2014 headline/body/tranche form (5y CB, MS+40a, Aa1// EM triplet, 7 leads)/deal-level flags (regionCeemea=T, feedEmrd=T, expectedPageId=EMRH63) all clean; UniCredit GC (B&D) + 7 JBRs verbatim from source; book size EUR2.1bn incl EUR270m JLM matches source. Bot already in thread \u2014 slack_post skipped.",
+    "note": "Book update EUR bmk 5y Mortgage CB — headline/body/tranche form (5y CB, MS+40a, Aa1// EM triplet, 7 leads)/deal-level flags (regionCeemea=T, feedEmrd=T, expectedPageId=EMRH63) all clean; UniCredit GC (B&D) + 7 JBRs verbatim from source; book size EUR2.1bn incl EUR270m JLM matches source. Bot already in thread — slack_post skipped.",
     "verdict": "clean"
   },
   "1788425177.203049": {
@@ -2357,7 +2357,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T08:59:03.339367Z",
     "issuer": "Banco de Sabadell",
-    "note": "Book update EUR bmk 5y CB C\u00e9dulas Hipotecarias MS+28a; headline/body/tranche form (14650456 MS+28a JT-LEADS 6 leads)/coveredBonds=true/all deal flags clean; book line \"Books over EUR1.75bn (incl. EUR180m JLM interest)\" matches source per Case A. Bot already in thread; slack_post skipped.",
+    "note": "Book update EUR bmk 5y CB Cédulas Hipotecarias MS+28a; headline/body/tranche form (14650456 MS+28a JT-LEADS 6 leads)/coveredBonds=true/all deal flags clean; book line \"Books over EUR1.75bn (incl. EUR180m JLM interest)\" matches source per Case A. Bot already in thread; slack_post skipped.",
     "verdict": "clean"
   },
   "1788425455.842869": {
@@ -2365,7 +2365,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T08:59:03.339367Z",
     "issuer": "NWB Bank",
-    "note": "IPTs CHF100m+ Jun 2035 0.735% Soc tap; source Spread/Yield SARON MS +27.0 but BR headline+body use bare SARON+27bp \u2014 should be SARON MS+27bp per house style (tranche form bare SARON+27 correct per house convention). Rest of body/tranche form/deal flags clean.",
+    "note": "IPTs CHF100m+ Jun 2035 0.735% Soc tap; source Spread/Yield SARON MS +27.0 but BR headline+body use bare SARON+27bp — should be SARON MS+27bp per house style (tranche form bare SARON+27 correct per house convention). Rest of body/tranche form/deal flags clean.",
     "verdict": "flagged"
   },
   "1788425843.649479": {
@@ -2373,7 +2373,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T09:11:11Z",
     "issuer": "MuniFin",
-    "note": "Final terms EUR1bn 5-year Grn at MS+8bp \u2014 headline/body/tranche form (14650534: EUR/1bn/5y Grn/MS+8/JT-LEADS/launched; 4 leads Danske/DZ BANK/JPM/SEB)/deal-level flags (feedIgrd=T, coveredBonds=F, regionAmericas=F, expectedPageId=IGRB40, expectedPageCount=1) all clean. Book line \"Books over EUR7.2bn (incl. EUR250m JLM interest). Books to close at 10:15 LDN / 11:15 CET\" matches source verbatim (Case A book update prefix, source silent on final/closed). Bot already in thread \u2014 slack_post skipped.",
+    "note": "Final terms EUR1bn 5-year Grn at MS+8bp — headline/body/tranche form (14650534: EUR/1bn/5y Grn/MS+8/JT-LEADS/launched; 4 leads Danske/DZ BANK/JPM/SEB)/deal-level flags (feedIgrd=T, coveredBonds=F, regionAmericas=F, expectedPageId=IGRB40, expectedPageCount=1) all clean. Book line \"Books over EUR7.2bn (incl. EUR250m JLM interest). Books to close at 10:15 LDN / 11:15 CET\" matches source verbatim (Case A book update prefix, source silent on final/closed). Bot already in thread — slack_post skipped.",
     "verdict": "clean"
   },
   "1788426665.440229": {
@@ -2381,7 +2381,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T09:23:41.609332Z",
     "issuer": "Muehlhan Holding",
-    "note": "Guidance 102.50/102.75% EUR63.9m May 2030 tap HY-routed; headline/body/tranche form v14650538/2-JLM/deal flags (hyExpectedPageId=HYRE12, feedIgrd+highYield=true) all clean; bot already in thread \u2014 slack_post skipped repost.",
+    "note": "Guidance 102.50/102.75% EUR63.9m May 2030 tap HY-routed; headline/body/tranche form v14650538/2-JLM/deal flags (hyExpectedPageId=HYRE12, feedIgrd+highYield=true) all clean; bot already in thread — slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788427331.373189": {
@@ -2413,7 +2413,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T09:50:17Z",
     "issuer": "DZ HYP AG",
-    "note": "Final Terms EUR500m short 5y CB at MS+13bp; bot already in thread from prior tick (state write lost); re-verified clean \u2014 headline/body/tranche form (MS+13, JT-LEADS 6 leads)/coveredBonds=true/JLM count 6/deal-level flags all match source.",
+    "note": "Final Terms EUR500m short 5y CB at MS+13bp; bot already in thread from prior tick (state write lost); re-verified clean — headline/body/tranche form (MS+13, JT-LEADS 6 leads)/coveredBonds=true/JLM count 6/deal-level flags all match source.",
     "verdict": "clean"
   },
   "1788428026.872639": {
@@ -2421,7 +2421,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T09:50:17Z",
     "issuer": "TenneT NL",
-    "note": "Final terms EUR2.5bn dual-tranche Grn (1.5bn 7y MS+15 + 1bn 15y MS+37); bot already in thread from prior tick (state write lost); re-verified clean \u2014 both tranches spread set, JT-LEADS 6 bookrunners per tranche, expectedPageCount=2, ISINs XS3495741525/XS3495741798, state-guaranteed 0% RW HQLA1 present.",
+    "note": "Final terms EUR2.5bn dual-tranche Grn (1.5bn 7y MS+15 + 1bn 15y MS+37); bot already in thread from prior tick (state write lost); re-verified clean — both tranches spread set, JT-LEADS 6 bookrunners per tranche, expectedPageCount=2, ISINs XS3495741525/XS3495741798, state-guaranteed 0% RW HQLA1 present.",
     "verdict": "clean"
   },
   "1788428114.125049": {
@@ -2429,7 +2429,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T09:50:17Z",
     "issuer": "CCF Holding",
-    "note": "Book Update EUR200m 2y SP; bot already in thread from prior tick (state write lost); re-verified clean \u2014 IPTs MS+90a carried, Sole Lead GS, Baa3, ISIN FR001401ASU7, book line \"Books over EUR330m, today's business.\" verbatim from source with over/+ swap.",
+    "note": "Book Update EUR200m 2y SP; bot already in thread from prior tick (state write lost); re-verified clean — IPTs MS+90a carried, Sole Lead GS, Baa3, ISIN FR001401ASU7, book line \"Books over EUR330m, today's business.\" verbatim from source with over/+ swap.",
     "verdict": "clean"
   },
   "1788428260.546939": {
@@ -2437,7 +2437,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T09:50:17Z",
     "issuer": "Raiffeisen Schweiz",
-    "note": "Book update EUR500m 8NC7 Bail-in at MS+125bp area; bot already in thread from prior tick (state write lost). Flagged: tranche priceEvolution missing `a` suffix (MS+125 vs MS+125a) + body book-line missing period between figure and timing. Both fixes have since landed in BR \u2014 priceEvolution now MS+125a and book line reads \"Books over EUR1.5bn. Books open, today's business.\" Recorded flagged for audit trail.",
+    "note": "Book update EUR500m 8NC7 Bail-in at MS+125bp area; bot already in thread from prior tick (state write lost). Flagged: tranche priceEvolution missing `a` suffix (MS+125 vs MS+125a) + body book-line missing period between figure and timing. Both fixes have since landed in BR — priceEvolution now MS+125a and book line reads \"Books over EUR1.5bn. Books open, today's business.\" Recorded flagged for audit trail.",
     "verdict": "flagged"
   },
   "1788429271.267989": {
@@ -2460,7 +2460,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T10:19:22.820712Z",
     "issuer": "Banco Sabadell",
-    "note": "Final terms EUR750m 5y CB at MS+22bp; body/tranche v14650558 (MS+22, launched)/6 JLMs with Santander (B&D)/coveredBonds=true/regionAmericas=false/ISIN ES0413860943 all clean; bot already in thread \u2014 skipped repost.",
+    "note": "Final terms EUR750m 5y CB at MS+22bp; body/tranche v14650558 (MS+22, launched)/6 JLMs with Santander (B&D)/coveredBonds=true/regionAmericas=false/ISIN ES0413860943 all clean; bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788429660.757279": {
@@ -2468,7 +2468,7 @@
     "category": "em",
     "checked_at": "2026-09-03T10:19:22.820712Z",
     "issuer": "Al Rajhi Bank",
-    "note": "Book update USD bmk 10.5NC5.5 T2 Social Sukuk \u2014 Books over USD1.6bn (Excl. JLM), pricing today; body/tranche v14650422 (T+200a carried, Baa2//BBB+ M/F only)/9 JLMs with StanChart (B&D)/regionCeemea=true/feedEmrd=true all clean; bot already in thread \u2014 skipped repost.",
+    "note": "Book update USD bmk 10.5NC5.5 T2 Social Sukuk — Books over USD1.6bn (Excl. JLM), pricing today; body/tranche v14650422 (T+200a carried, Baa2//BBB+ M/F only)/9 JLMs with StanChart (B&D)/regionCeemea=true/feedEmrd=true all clean; bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788429667.956349": {
@@ -2476,7 +2476,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T10:19:22.820712Z",
     "issuer": "SEK",
-    "note": "Spread set SMS+35bp USD bmk 5y SEC Registered Global; body/tranche v14650556 (SMS+35 no 'a', today)/4 JBRs Barclays/BNPP/BofA/Scotiabank/regionAmericas=true/feedIgrd=true all clean; Rule 5 book line carry Books over USD2bn (incl USD100m JLM) plus EMEA/Asia + Americas close windows verbatim; bot already in thread \u2014 skipped repost.",
+    "note": "Spread set SMS+35bp USD bmk 5y SEC Registered Global; body/tranche v14650556 (SMS+35 no 'a', today)/4 JBRs Barclays/BNPP/BofA/Scotiabank/regionAmericas=true/feedIgrd=true all clean; Rule 5 book line carry Books over USD2bn (incl USD100m JLM) plus EMEA/Asia + Americas close windows verbatim; bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788429762.560569": {
@@ -2484,7 +2484,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T10:19:22.820712Z",
     "issuer": "Commerzbank",
-    "note": "Book update EUR750m (max) PNC7.5 AT1 \u2014 Books above EUR3bn today's business; body carries IPTs 6.625% area/tranche v14650466 (6.625%a, structure PNC7.5AT1 at 9-char cap)/4 JLMs incl Commerzbank (B&D)/CUC 75/CET1 5.125% write-down with write-up/ISIN DE000CZ45WE9/regionAmericas=false all clean; bot already in thread \u2014 skipped repost.",
+    "note": "Book update EUR750m (max) PNC7.5 AT1 — Books above EUR3bn today's business; body carries IPTs 6.625% area/tranche v14650466 (6.625%a, structure PNC7.5AT1 at 9-char cap)/4 JLMs incl Commerzbank (B&D)/CUC 75/CET1 5.125% write-down with write-up/ISIN DE000CZ45WE9/regionAmericas=false all clean; bot already in thread — skipped repost.",
     "verdict": "clean"
   },
   "1788429818.978619": {
@@ -2534,7 +2534,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T11:07:00Z",
     "issuer": "NWB Bank",
-    "note": "Priced tap CHF130m 0.735% NWB Bank Social 2035 at SARON MS+27bp. Priced-deal 14650572: isin=CH1415780126 (WRONG \u2014 original ISIN, new tap ISIN per source is CH1605365068); spread=SARON+27 (missing MS); opCo=true (Dutch issuer NOT on UK/Swiss/US/JP+ING/Nationwide/Softbank whitelist \u2014 should be false); social=true correct; dealRegsOnly=true correct. Bot already in thread from prior tick, state write lost; independently re-verified flagged.",
+    "note": "Priced tap CHF130m 0.735% NWB Bank Social 2035 at SARON MS+27bp. Priced-deal 14650572: isin=CH1415780126 (WRONG — original ISIN, new tap ISIN per source is CH1605365068); spread=SARON+27 (missing MS); opCo=true (Dutch issuer NOT on UK/Swiss/US/JP+ING/Nationwide/Softbank whitelist — should be false); social=true correct; dealRegsOnly=true correct. Bot already in thread from prior tick, state write lost; independently re-verified flagged.",
     "verdict": "flagged"
   },
   "1788432084.355529": {
@@ -2578,7 +2578,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T11:07:00Z",
     "issuer": "3M Company",
-    "note": "Guidance EUR1.5bn multi-tranche 2y/5y/8y at MS+40/+70/+90bp area; 4 JBRs DB(B&D)/BofA/Citi/JPM; ratings A3/BBB+/A-; SEC Registered EUR (regionAmericas=false correct \u2014 no USD tranche); expectedPageCount=3; ISINs XS3460877650/734/8203; books EUR1.8/2.8/2.8bn; all clean. Bot already in thread from prior tick, state write lost; independently re-verified clean.",
+    "note": "Guidance EUR1.5bn multi-tranche 2y/5y/8y at MS+40/+70/+90bp area; 4 JBRs DB(B&D)/BofA/Citi/JPM; ratings A3/BBB+/A-; SEC Registered EUR (regionAmericas=false correct — no USD tranche); expectedPageCount=3; ISINs XS3460877650/734/8203; books EUR1.8/2.8/2.8bn; all clean. Bot already in thread from prior tick, state write lost; independently re-verified clean.",
     "verdict": "clean"
   },
   "1788433326.412229": {
@@ -2713,7 +2713,7 @@
     "category": "em",
     "checked_at": "2026-09-03T13:50:46Z",
     "issuer": "Jinan Lixia Holding Group",
-    "note": "Launched USD300m 3y at 4.90%; bot already in thread from prior tick (Perfect verdict) \u2014 state write lost, recording clean.",
+    "note": "Launched USD300m 3y at 4.90%; bot already in thread from prior tick (Perfect verdict) — state write lost, recording clean.",
     "verdict": "clean"
   },
   "1788441017.592279": {
@@ -2721,7 +2721,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "EXMAR NV",
-    "note": "Final terms USD150m 5y Sr Unsec at 7.75% \u2014 bot already in thread from prior tick (Perfect); state write lost. Recording clean.",
+    "note": "Final terms USD150m 5y Sr Unsec at 7.75% — bot already in thread from prior tick (Perfect); state write lost. Recording clean.",
     "verdict": "clean"
   },
   "1788441368.716699": {
@@ -2738,7 +2738,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T13:50:46Z",
     "issuer": "Sage Group",
-    "note": "Priced EUR500m 5.5y at MS+105bp; bot already in thread from prior tick (Perfect verdict) \u2014 state write lost, recording clean.",
+    "note": "Priced EUR500m 5.5y at MS+105bp; bot already in thread from prior tick (Perfect verdict) — state write lost, recording clean.",
     "verdict": "clean"
   },
   "1788441526.785759": {
@@ -2746,7 +2746,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "Raiffeisen Schweiz",
-    "note": "Allocations EUR500m 8NC7 Rate Bail-in at MS+97 \u2014 bot already in thread from prior tick (Perfect); state write lost.",
+    "note": "Allocations EUR500m 8NC7 Rate Bail-in at MS+97 — bot already in thread from prior tick (Perfect); state write lost.",
     "verdict": "clean"
   },
   "1788441703.157279": {
@@ -2754,7 +2754,7 @@
     "category": "em",
     "checked_at": "2026-09-03T13:50:46Z",
     "issuer": "Bank Mandiri",
-    "note": "Priced USD750m PerpNC5 AT1 at 7.35%; bot already in thread flagging benchmark bond coupon typo \u2014 state write lost, recording flagged.",
+    "note": "Priced USD750m PerpNC5 AT1 at 7.35%; bot already in thread flagging benchmark bond coupon typo — state write lost, recording flagged.",
     "verdict": "flagged"
   },
   "1788442088.076299": {
@@ -2762,7 +2762,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "M&G European Property Fund",
-    "note": "Allocations EUR500m 5y Grn at MS+100 \u2014 bot already in thread (Perfect); state write lost.",
+    "note": "Allocations EUR500m 5y Grn at MS+100 — bot already in thread (Perfect); state write lost.",
     "verdict": "clean"
   },
   "1788442271.355489": {
@@ -2770,7 +2770,7 @@
     "category": "em",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "Guangdong",
-    "note": "Guangdong CNH7.5bn multi-tranche ALLOX OUT \u2014 bot already in thread with Flag (BR lagging at Final terms; body typo at1.42%; missing ISIN; banks.active 27 vs 28 in source); state write lost.",
+    "note": "Guangdong CNH7.5bn multi-tranche ALLOX OUT — bot already in thread with Flag (BR lagging at Final terms; body typo at1.42%; missing ISIN; banks.active 27 vs 28 in source); state write lost.",
     "verdict": "flagged"
   },
   "1788442362.601529": {
@@ -2778,7 +2778,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "Credit Agricole PS SCF",
-    "note": "Priced EUR500m 6y CB at MS+35 \u2014 bot already in thread (Perfect); state write lost.",
+    "note": "Priced EUR500m 6y CB at MS+35 — bot already in thread (Perfect); state write lost.",
     "verdict": "clean"
   },
   "1788442601.657369": {
@@ -2786,7 +2786,7 @@
     "category": "em",
     "checked_at": "2026-09-03T13:50:46Z",
     "issuer": "Guangdong Province",
-    "note": "Launched CNH7.5bn multi-tranche 3y+5y Grn/Bl+10y; body Tranche A opener \"Yield is set at1.42%\" missing space; headline/other tranches/tranche forms (3\u00d7 at launched)/27-bank JLM count/deal flags (regionAsia/feedEmrd/EMRH51/expectedPageCount=3) all clean.",
+    "note": "Launched CNH7.5bn multi-tranche 3y+5y Grn/Bl+10y; body Tranche A opener \"Yield is set at1.42%\" missing space; headline/other tranches/tranche forms (3× at launched)/27-bank JLM count/deal flags (regionAsia/feedEmrd/EMRH51/expectedPageCount=3) all clean.",
     "verdict": "flagged"
   },
   "1788442764.670489": {
@@ -2802,7 +2802,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "3M Company",
-    "note": "Allocations EUR1.5bn multi-tranche at MS+38/68/88 \u2014 bot already in thread (Perfect); state write lost.",
+    "note": "Allocations EUR1.5bn multi-tranche at MS+38/68/88 — bot already in thread (Perfect); state write lost.",
     "verdict": "clean"
   },
   "1788442829.369589": {
@@ -2810,7 +2810,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T13:50:46Z",
     "issuer": "Credit Agricole Public Sector SCF",
-    "note": "Priced EUR500m 6y CB at MS+35bp; headline/body verbatim from source; priced-deal 14650641 (covered=T, additionalInfo=PC, banks.active=7, finalBooks=1100.0, opCo/holdCo=F correct \u2014 French issuer not on whitelist)/deal flags (coveredBonds=T, feedIgrd=T, regionAmericas=F) all clean. Newly posted.",
+    "note": "Priced EUR500m 6y CB at MS+35bp; headline/body verbatim from source; priced-deal 14650641 (covered=T, additionalInfo=PC, banks.active=7, finalBooks=1100.0, opCo/holdCo=F correct — French issuer not on whitelist)/deal flags (coveredBonds=T, feedIgrd=T, regionAmericas=F) all clean. Newly posted.",
     "verdict": "clean"
   },
   "1788443005.265379": {
@@ -2818,7 +2818,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "DZ HYP AG",
-    "note": "Priced EUR500m short 5y CB (Pfandbrief) at MS+13 \u2014 bot already in thread with Flag (Final books line missing \"over\" per house style); state write lost.",
+    "note": "Priced EUR500m short 5y CB (Pfandbrief) at MS+13 — bot already in thread with Flag (Final books line missing \"over\" per house style); state write lost.",
     "verdict": "flagged"
   },
   "1788443017.898059": {
@@ -2826,7 +2826,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "Swiss Life Finance II AG",
-    "note": "Priced EUR600m 20NC10 T2 Sub Cap Securities at MS+143 \u2014 verified clean via priced-form 14650645 walk. Bot already in thread from prior tick (state write lost); slack_post skipped repost.",
+    "note": "Priced EUR600m 20NC10 T2 Sub Cap Securities at MS+143 — verified clean via priced-form 14650645 walk. Bot already in thread from prior tick (state write lost); slack_post skipped repost.",
     "verdict": "clean"
   },
   "1788443111.269149": {
@@ -2834,7 +2834,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "Argenta Spaarbank",
-    "note": "Priced EUR325m 5NC4 EuGB SNP at MS+90 \u2014 bot already in thread with Flag (priced-form finalBooks=null should be 1200); state write lost.",
+    "note": "Priced EUR325m 5NC4 EuGB SNP at MS+90 — bot already in thread with Flag (priced-form finalBooks=null should be 1200); state write lost.",
     "verdict": "flagged"
   },
   "1788443287.386989": {
@@ -2842,7 +2842,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:06:27Z",
     "issuer": "Compass Group PLC",
-    "note": "Priced tap EUR250m Jan 2035 at MS+80 \u2014 priced-form 14650646 fpr=0.0/spread=null/yield=null all empty despite body carrying full pricing; finalBooks=null vs Allocations disclosed EUR340m. Newly posted.",
+    "note": "Priced tap EUR250m Jan 2035 at MS+80 — priced-form 14650646 fpr=0.0/spread=null/yield=null all empty despite body carrying full pricing; finalBooks=null vs Allocations disclosed EUR340m. Newly posted.",
     "verdict": "flagged"
   },
   "1788443763.875819": {
@@ -2878,7 +2878,7 @@
     "category": "em",
     "checked_at": "2026-09-03T14:39:13.875660Z",
     "issuer": "Guangdong PRC",
-    "note": "Priced CNH7.5bn multi-tranche (2.6bn 3y + 3.5bn 5y G&B + 1.4bn 10y); bot already in thread flagging stale \"Pricing shortly.\" timing left over from Final Terms stage \u2014 verdict recorded flagged. Priced-deal forms 14650661/14650662/14650663 clean incl green=true only on tranche B + Blue Bond additionalInfo (correct). Skip repost.",
+    "note": "Priced CNH7.5bn multi-tranche (2.6bn 3y + 3.5bn 5y G&B + 1.4bn 10y); bot already in thread flagging stale \"Pricing shortly.\" timing left over from Final Terms stage — verdict recorded flagged. Priced-deal forms 14650661/14650662/14650663 clean incl green=true only on tranche B + Blue Bond additionalInfo (correct). Skip repost.",
     "verdict": "flagged"
   },
   "1788444388.676929": {
@@ -2909,7 +2909,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:39:13.875660Z",
     "issuer": "HSBC Holdings",
-    "note": "Priced GBP750m 9NC8 HoldCo Sr SEC Reg'd at G+103bp (UKT 4.50 07 Sep 2034); bot already in thread verified clean. Priced-deal 14650665 (secRegistered=true, holdCo=true, mwc=true, isin XS3487885405, sole HSBC) all correct. finalBooks null OK \u2014 source silent. Skip repost.",
+    "note": "Priced GBP750m 9NC8 HoldCo Sr SEC Reg'd at G+103bp (UKT 4.50 07 Sep 2034); bot already in thread verified clean. Priced-deal 14650665 (secRegistered=true, holdCo=true, mwc=true, isin XS3487885405, sole HSBC) all correct. finalBooks null OK — source silent. Skip repost.",
     "verdict": "clean"
   },
   "1788445601.146629": {
@@ -2922,7 +2922,7 @@
     "category": "em",
     "checked_at": "2026-09-03T14:55:24Z",
     "issuer": "Tencent Music",
-    "note": "Launched USD1bn dual-tranche (5y at T+60 / 10y at T+95); headline/body/tranche-forms (2\u00d7 at T+60/T+95, timing=launched, banks 3 active JBRs + 3 passive JLMs per tranche = 6 total) / deal flags (EMRH40, feedEmrd=T, regionAsia=T) all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
+    "note": "Launched USD1bn dual-tranche (5y at T+60 / 10y at T+95); headline/body/tranche-forms (2× at T+60/T+95, timing=launched, banks 3 active JBRs + 3 passive JLMs per tranche = 6 total) / deal flags (EMRH40, feedEmrd=T, regionAsia=T) all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
     "verdict": "clean"
   },
   "1788446060.120379": {
@@ -2946,7 +2946,7 @@
     "category": "hg",
     "checked_at": "2026-09-03T14:55:24Z",
     "issuer": "Banco de Sabadell",
-    "note": "Priced EUR750m 5y CB (C\u00e9dulas Hipotecarias) at MS+22bp; headline/body verbatim; priced-form 14650674 (fpr=99.625, spread=MS+22, yield=3.458%, isin=ES0413860943, figi=BBG024W02ZP6, moodys/snp/fitch=AAA/NR/NR, covered=T, dealRegsOnly=T, mwc=F, opCo/holdCo=F correct \u2014 Spanish issuer, additionalInfo=MC, banks.active=6 matches source 6 JBRs, finalBooks=2100.0)/deal flags (coveredBonds=T, expectedPageId=null cleared on Priced, feedIgrd=T) all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
+    "note": "Priced EUR750m 5y CB (Cédulas Hipotecarias) at MS+22bp; headline/body verbatim; priced-form 14650674 (fpr=99.625, spread=MS+22, yield=3.458%, isin=ES0413860943, figi=BBG024W02ZP6, moodys/snp/fitch=AAA/NR/NR, covered=T, dealRegsOnly=T, mwc=F, opCo/holdCo=F correct — Spanish issuer, additionalInfo=MC, banks.active=6 matches source 6 JBRs, finalBooks=2100.0)/deal flags (coveredBonds=T, expectedPageId=null cleared on Priced, feedIgrd=T) all clean. Bot already in thread from prior tick, state write lost. Skip repost.",
     "verdict": "clean"
   },
   "1788446997.128999": {
@@ -3014,7 +3014,7 @@
     "category": "hg",
     "checked_at": "2026-09-04T08:22:50Z",
     "issuer": "Volksbank Wien",
-    "note": "Book stats EUR500m WNG 6NC5 Green SNP (Danske recap tearsheet source); bot already in thread from concurrent tick \u2014 state write lost, recording clean.",
+    "note": "Book stats EUR500m WNG 6NC5 Green SNP (Danske recap tearsheet source); bot already in thread from concurrent tick — state write lost, recording clean.",
     "verdict": "clean"
   },
   "1788508815.929379": {
@@ -3022,7 +3022,7 @@
     "category": "hg",
     "checked_at": "2026-09-04T08:22:50Z",
     "issuer": "ASFINAG",
-    "note": "Book stats EUR500m (no-grow) 5y Gtd (Danske recap tearsheet source); bot already in thread from concurrent tick flagging headline format + stats mismatch \u2014 state write lost, recording flagged.",
+    "note": "Book stats EUR500m (no-grow) 5y Gtd (Danske recap tearsheet source); bot already in thread from concurrent tick flagging headline format + stats mismatch — state write lost, recording flagged.",
     "verdict": "flagged"
   },
   "1788508842.999089": {
@@ -3030,7 +3030,7 @@
     "category": "hg",
     "checked_at": "2026-09-04T08:22:50Z",
     "issuer": "Erste Group",
-    "note": "Book Stats EUR1.5bn dual-tranche SP (750m 3y MS+37 + 750m 7y MS+70); Danske recap tearsheet source; priced-deals 14640649/14640650 all fields (M/S/F=A1/A+/A, dealRegsOnly, seniorPreferred, holdCo/opCo=false correct \u2014 Austrian bank not on whitelist, finalBooks=1200/1000, banks.active 7/8, statsCategories geo+investor sum 100 all rows match image) all clean. Newly posted 1788510150.582979.",
+    "note": "Book Stats EUR1.5bn dual-tranche SP (750m 3y MS+37 + 750m 7y MS+70); Danske recap tearsheet source; priced-deals 14640649/14640650 all fields (M/S/F=A1/A+/A, dealRegsOnly, seniorPreferred, holdCo/opCo=false correct — Austrian bank not on whitelist, finalBooks=1200/1000, banks.active 7/8, statsCategories geo+investor sum 100 all rows match image) all clean. Newly posted 1788510150.582979.",
     "verdict": "clean"
   },
   "1788508983.628379": {
@@ -3038,17 +3038,17 @@
     "category": "hg",
     "checked_at": "2026-09-04T08:22:50Z",
     "issuer": "Pilgrim's Pride Corp",
-    "note": "Mandated EUR500m long 7y RegS/144A senior unsecured (Ba2 pos/BBB- stb/BBB- stb); 8 JBRs BBVA/BMO/Citi/ING/Mizuho/Rabo/RBC/TD; bot already in thread from concurrent tick flagging regionAmericas=true (should be false on EUR deal) + tranche timing 07/08 slash\u2192hyphen \u2014 state write lost, recording flagged. BR has since fixed both (regionAmericas=false, timing=`i/m 07-08 Sep>`).",
+    "note": "Mandated EUR500m long 7y RegS/144A senior unsecured (Ba2 pos/BBB- stb/BBB- stb); 8 JBRs BBVA/BMO/Citi/ING/Mizuho/Rabo/RBC/TD; bot already in thread from concurrent tick flagging regionAmericas=true (should be false on EUR deal) + tranche timing 07/08 slash→hyphen — state write lost, recording flagged. BR has since fixed both (regionAmericas=false, timing=`i/m 07-08 Sep>`).",
     "verdict": "flagged"
   },
   "1788512404.928409": {
     "checked_at": "2026-09-04T09:07:54Z",
-    "note": "Bot instruction \"Send EM Pipeline\" \u2014 not a term sheet, no BR deal to QA.",
+    "note": "Bot instruction \"Send EM Pipeline\" — not a term sheet, no BR deal to QA.",
     "verdict": "skipped"
   },
   "1788512406.949919": {
     "checked_at": "2026-09-04T09:07:54Z",
-    "note": "Bot instruction \"Send European Pipeline\" \u2014 not a term sheet, no BR deal to QA.",
+    "note": "Bot instruction \"Send European Pipeline\" — not a term sheet, no BR deal to QA.",
     "verdict": "skipped"
   },
   "1788513137.989919": {
@@ -3063,12 +3063,17 @@
     "checked_at": "2026-09-04T09:32:46Z",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-04T11:16Z",
+  "1788522310.744029": {
+    "checked_at": "2026-09-04T12:09:00Z",
+    "note": "Human question about CCF Holdings final book (recorded 38m vs 200m size); not a BBG term-sheet body and no file attached — not a BR update to QA.",
+    "verdict": "skipped"
+  },
+  "_last_tick": "2026-09-04T12:19Z",
   "_tick": {
-    "at": "2026-09-04T11:16Z",
-    "checkmarked": 10,
-    "in_window": 33,
+    "at": "2026-09-04T12:19Z",
+    "checkmarked": 11,
+    "in_window": 41,
     "new_to_check": 0,
-    "note": "all in state"
+    "note": "All 11 white_check_mark messages already in state; no new BBG term-sheets to QA."
   }
 }
