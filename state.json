@@ -3337,6 +3337,22 @@
     "checked_at": "2026-09-07T10:43:32Z",
     "verdict": "skipped"
   },
+  "1788777613.582859": {
+    "br_id": 14650945,
+    "category": "hg",
+    "checked_at": "2026-09-07T10:54:01.356274+00:00",
+    "issuer": "Banco BPM",
+    "note": "Final Terms EUR750m 6NC5 EuGB SNP at MS+85bp; body/tranche form (v14650947 MS+85 launched, 6NC5 within 9-char cap)/7 JLMs HSBC (B&D) match source/CUC 75/UOP EuGB/EUR only regionAmericas=false all clean; posted clean.",
+    "verdict": "clean"
+  },
+  "1788777897.949689": {
+    "br_id": 14650856,
+    "category": "hg",
+    "checked_at": "2026-09-07T10:54:01.356274+00:00",
+    "issuer": "ING Bank N.V.",
+    "note": "Final terms EUR1.75bn dual-tranche CB (8y MS+27 + 12y MS+38); headline/body/tranche form (v14650858+v14650859 both launched)/7 JBR count/coveredBonds=true/expectedPageCount=2 all clean; posted clean.",
+    "verdict": "clean"
+  },
   "_last_tick": {
     "bbg_with_check": 4,
     "clean": 0,
@@ -3344,85 +3360,5 @@
     "new": 0,
     "ts": "2026-09-07T08:37:52Z",
     "window_msgs": 70
-  },
-  "1788777613.582859": {
-    "checked_at": "2026-09-07T11:01:00Z",
-    "verdict": "skipped"
-  },
-  "1788777897.949689": {
-    "checked_at": "2026-09-07T11:02:45Z",
-    "verdict": "skipped"
-  },
-  "1788779175.553679": {
-    "checked_at": "2026-09-07T11:12:59Z",
-    "verdict": "clean"
-  },
-  "1788779307.399929": {
-    "checked_at": "2026-09-07T11:12:41Z",
-    "verdict": "clean"
-  },
-  "1788779487.688029": {
-    "checked_at": "2026-09-07T11:21:00Z",
-    "verdict": "clean"
-  },
-  "1788779812.670239": {
-    "checked_at": "2026-09-07T11:22:43Z",
-    "verdict": "clean"
-  },
-  "1788780338.039659": {
-    "checked_at": "2026-09-07T11:33:31Z",
-    "verdict": "flagged"
-  },
-  "1788780462.340029": {
-    "checked_at": "2026-09-07T11:31:00Z",
-    "verdict": "clean"
-  },
-  "1788780739.991939": {
-    "checked_at": "2026-09-07T11:43:05Z",
-    "verdict": "clean"
-  },
-  "1788781134.496419": {
-    "checked_at": "2026-09-07T11:55:00Z",
-    "verdict": "flagged"
-  },
-  "1788781611.860289": {
-    "checked_at": "2026-09-07T11:55:00Z",
-    "verdict": "flagged"
-  },
-  "1788781249.495339": {
-    "checked_at": "2026-09-07T12:50:24Z",
-    "verdict": "clean"
-  },
-  "1788781624.758949": {
-    "checked_at": "2026-09-07T12:50:24Z",
-    "verdict": "clean"
-  },
-  "1788781460.893749": {
-    "checked_at": "2026-09-07T11:53:00Z",
-    "verdict": "clean"
-  },
-  "1788781556.287119": {
-    "checked_at": "2026-09-07T11:53:00Z",
-    "verdict": "clean"
-  },
-  "1788782592.976519": {
-    "checked_at": "2026-09-07T12:23:34Z",
-    "verdict": "flagged"
-  },
-  "1788783533.727789": {
-    "checked_at": "2026-09-07T12:23:34Z",
-    "verdict": "skipped"
-  },
-  "1788783233.245579": {
-    "checked_at": "2026-09-07T12:23:22Z",
-    "verdict": "clean"
-  },
-  "1788783322.134219": {
-    "checked_at": "2026-09-07T13:23:00Z",
-    "verdict": "flagged"
-  },
-  "1788783518.832139": {
-    "checked_at": "2026-09-07T12:22:42Z",
-    "verdict": "flagged"
   }
 }
