@@ -38,7 +38,7 @@ Before posting any Fix bullet, check it against this list. If it matches, DELETE
 
 - **Tranche form `timing: "launched"` at Allocations Out** — correct carry-forward, never flag. `launched` describes the prior stage-action, not the current stage. Same for other prior-action `timing` carries at any post-Launched stage.
 - **Timezone labels** (CET/CEST/UKT/BST/EST/EDT/JST/HKT) — never check, never flag in any direction. Do not compare source to BR on timezones.
-- **`Grn` vs `Green`** in headline — interchangeable. Never propose one for the other.
+- **ESG label short vs long form** in headline (`Grn`↔`Green`, `Soc`↔`Social`, `Sus`↔`Sustainable`) — interchangeable. Never propose one form for the other.
 - **`(equiv. MS+X)` / `SOFR equivalent` / `EURIBOR equivalent`** in body — optional, carry verbatim or drop. Never flag presence or absence.
 - **WNG marker missing from headline** — optional, never flag.
 - **Level embed missing at Book Update or Allocations headline** — optional, never flag.

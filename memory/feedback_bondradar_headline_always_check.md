@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-02T10:48:26.379Z
+  modified: 2026-09-07T08:27:35.449Z
 ---
 
 Every BR QA tick must include an explicit headline check — the title is a first-class QA target, not an afterthought. Do not mark a finding clean until you have walked all eight elements of the headline against the source term sheet AND the BR body:
@@ -71,7 +71,10 @@ Concrete patterns to match — anything else on a QA is a candidate flag.
 - `Priced` for `Priced tap` / dual-tranche without level.
 
 **Format flags (order matters — appear right after tenor):**
-- ESG: `Grn` / `Green` / `Soc` / `Sus` / `SLB` / `EuGB` / `SDB` — `Grn` and `Green` are interchangeable in the headline; do NOT flag one against the other. Finn on MuniFin EUR bmk 5-year Green Mandated (id 14650171): "Grn and green mean the same thing!" — I had proposed rewriting `Green` to `Grn`; that's not a defect.
+- ESG: `Grn` / `Green` / `Soc` / `Social` / `Sus` / `Sustainable` / `SLB` / `EuGB` / `SDB` — short and long forms are interchangeable in the headline; do NOT flag one against the other. Finn corrections:
+  - MuniFin EUR bmk 5-year Green Mandated (id 14650171): I proposed rewriting `Green` to `Grn`. Finn: "Grn and green mean the same thing!"
+  - `social` → `Soc` on another headline: I proposed the shortening. Finn: "this is uneccesary social and soc is fine for headline don't get why this was flagged".
+  General rule: ESG label short/long forms (`Grn`↔`Green`, `Soc`↔`Social`, `Sus`↔`Sustainable`) are cosmetic — flag substance, not surface.
 - Covered: `CB` (`Grn CB` / `Green CB` = Green Covered Bond, both flags can chain)
 - Ranking: `SP` (Senior Preferred), `SNP`, `Sub`
 - Capital tier: `T2`, `AT1`, `RT1`, `Hybrid`, `Hybrid EuGB`
