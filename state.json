@@ -3354,11 +3354,10 @@
     "verdict": "clean"
   },
   "_last_tick": {
-    "bbg_with_check": 4,
-    "clean": 0,
-    "flagged": 0,
     "new": 0,
-    "ts": "2026-09-07T08:37:52Z",
-    "window_msgs": 70
+    "processed": 0,
+    "qualified": 5,
+    "ts": "2026-09-07T12:05:27Z",
+    "window_msgs": 118
   }
 }
