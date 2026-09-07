@@ -3424,6 +3424,22 @@
     "note": "Spread set MS+11bp EUR bmk 4y CB Public Sector Pfandbrief; headline/body/tranche form (14651032 MS+11 launched/JT-LEADS 6 leads)/deal-level flags (coveredBonds=true, expectedPageId=IGRB23, regionAmericas=false, feedIgrd=true) all clean; 6 JBRs BMO/Erste/LBBW(B&D)/Nordea/RBC/Santander match source; Book update EUR1.8bn incl 150m JLM + Books to be closed 13:00 CET verbatim.",
     "verdict": "clean"
   },
+  "1788776811.092099": {
+    "br_id": 14650839,
+    "category": "hg",
+    "checked_at": "2026-09-07T10:37:00Z",
+    "issuer": "Nordea Mortgage Bank",
+    "note": "Spreads set dual-tranche 3y FRN E+16 / 7y MS+24 EUR1.25bn Covered; bot already in thread from concurrent tick flagging headline stuck one stage behind (WNG + spread set = size confirmed \u2192 should be Final terms per rule 4). Skip repost, state recorded.",
+    "verdict": "flagged"
+  },
+  "1788777037.011139": {
+    "br_id": 14650894,
+    "category": "hg",
+    "checked_at": "2026-09-07T10:37:00Z",
+    "issuer": "DekaBank",
+    "note": "Final terms EUR500m 3y SNP at MS+43bp; headline/body (DekaBank (B&D) matches source `DekaBank B&D`)/tranche form v14651038 (structure=3y SNP priceEvolution=MS+43 timing=launched JT-LEADS)/6-JBR count/deal-level flags all clean. Posted.",
+    "verdict": "clean"
+  },
   "_last_tick": {
     "bbg_with_check": 4,
     "clean": 0,
