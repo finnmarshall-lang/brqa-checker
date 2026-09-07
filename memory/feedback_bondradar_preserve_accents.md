@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-07T08:44:17.187Z
+  modified: 2026-09-07T08:46:58.207Z
 ---
 
 **BR body does NOT preserve accents / diacritics — flag when they remain in the message.** Source names come with `é`, `ü`, `ö`, `ß`, `ñ`, `å`, `ç`, `ï`, etc.; the BR body carries the ASCII-folded equivalent. If a source proper-name still shows its diacritics in the outgoing message, that's a defect.
@@ -28,10 +28,11 @@ metadata:
 
 **How to apply:**
 
-1. When walking the body, scan for any non-ASCII character in proper-names, listing venues, JLM lists, UOP prose.
-2. If any are present, flag with a Fix bullet:
+1. **Do NOT run this check at the Mandated stage.** Mandate bodies are cleaned through the mandate cleaner (which handles the ASCII-fold automatically), so accents at Mandated aren't a defect the tick should flag. Finn: "for this rule you don't need to flag at mandates as they are cleaned through the mandate cleaner". Skip the accent check on any finding whose stage word is `Mandated`.
+2. On any other stage (IPTs / Guidance / Revised guidance / Book Update / Spread set / Final terms / Launched / Allocations / Priced / Book stats / Priced tap), scan the body for any non-ASCII character in proper-names, listing venues, JLM lists, UOP prose.
+3. If any are present, flag with a Fix bullet:
    `• Body — "Société Générale" → "Societe Generale". BR body strips diacritics; ASCII-fold the source name.`
-3. Applies to every body field: issuer, guarantor, bookrunner list, listing venue, law jurisdiction, UOP prose, anywhere source diacritics appear.
+4. Applies to every body field EXCEPT at Mandated: issuer, guarantor, bookrunner list, listing venue, law jurisdiction, UOP prose, anywhere source diacritics appear.
 4. Common characters to fold:
    - `é/è/ê/ë` → `e`, `É/È/Ê/Ë` → `E`
    - `à/á/â/ä/å` → `a`, `À/Á/Â/Ä/Å` → `A`
