@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-08-19T14:17:51.740Z
+  modified: 2026-09-07T12:27:15.874Z
 ---
 
 BR house style uses compressed shorthand for common phrases. Don't flag missing periods, dropped filler words, or minor case variations on established forms — those are stylistic latitude, not bugs.
@@ -18,6 +18,7 @@ BR house style uses compressed shorthand for common phrases. Don't flag missing 
 - **`bp` vs `bps`** — both fine. `48bp` and `48bps` are equivalent.
 - **`Aug 2029`** / **`26 August 2029`** — either date form is fine.
 - **`Book update:` vs `Books update:`** — both fine at pre-Priced stages.
+- **`COC 101.` vs `COC put 101%.` vs `Change of Control put at 101%`** — all valid house forms. Never flag one against the other. Finn on a Chinese CNY LGFV FPG update: I flagged `COC 101.` as needing `COC put 101%.` citing an earlier stage's use of the longer form. Finn: "both are fine no need to flag". Same principle applies to `CUC 75` / `CUC put 75%` / `Clean-up call 75%`, `MWC` / `Make-whole call`, and other call-feature abbreviations — abbreviated and expanded forms coexist.
 
 ## What IS worth flagging
 
