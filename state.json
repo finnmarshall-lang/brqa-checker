@@ -3217,8 +3217,7 @@
     "verdict": "clean"
   },
   "1788767250.842069": {
-    "checked_at": "2026-09-07T09:14:58.917865Z",
-    "note": "Chat instruction: update settlement date for Engie to 14 September; not a term sheet.",
+    "checked_at": "2026-09-07T08:57:18Z",
     "verdict": "skipped"
   },
   "1788767263.919529": {
@@ -3226,25 +3225,16 @@
     "verdict": "flagged"
   },
   "1788767699.128049": {
-    "checked_at": "2026-09-07T09:14:58.917865Z",
-    "note": "Banco BPM cash tender offer for EUR500m 2027 Social SP (IT0005572166); liability management, not a new-issue term sheet.",
+    "checked_at": "2026-09-07T08:54:41Z",
     "verdict": "skipped"
   },
   "1788768048.207389": {
-    "br_id": 14650385,
-    "category": "hg",
-    "checked_at": "2026-09-07T08:48:03Z",
-    "issuer": "Community Housing Funding Agency",
-    "note": "Priced NZD200m 5y Soc at MS+77bp \u2014 body trailing double period `NZCHFD0931L0..`; tranches[] admin panel empty on live Priced deal; priced-deal 14650950 all fields clean (social=true, dealRegsOnly=true, opCo/holdCo=false correct \u2014 NZ agency not on whitelist, additionalInfo Case B carries Book update 260m figure). Bot already in thread from prior tick (state write lost); slack_post skipped repost, state recorded.",
-    "verdict": "flagged"
+    "checked_at": "2026-09-07T08:51:00Z",
+    "verdict": "skipped"
   },
   "1788768469.138719": {
-    "br_id": 14650952,
-    "category": "hg",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "Uber Technologies",
-    "note": "Mandated; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (Perfect).",
-    "verdict": "clean"
+    "checked_at": "2026-09-07T08:54:41Z",
+    "verdict": "skipped"
   },
   "1788768893.595149": {
     "checked_at": "2026-09-07T08:27:15.561823Z",
@@ -3252,241 +3242,28 @@
     "verdict": "flagged"
   },
   "1788768914.317759": {
-    "br_id": 14650965,
-    "category": "em",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "Erste Bank Hungary",
-    "note": "Mandated; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (Tranche form volume flag).",
-    "verdict": "flagged"
-  },
-  "1788769295.210079": {
-    "checked_at": "2026-09-07T09:14:58.917865Z",
-    "note": "Empty message body (no text, no files); nothing to QA.",
-    "verdict": "skipped"
-  },
-  "1788769786.906079": {
-    "br_id": 14650980,
-    "category": "hg",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "Loomis AB",
-    "note": "Mandated; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (Accents stripped).",
-    "verdict": "flagged"
-  },
-  "1788769924.666079": {
-    "br_id": 14650989,
-    "category": "em",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "OTP Bank",
-    "note": "Mandated; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (Ratings triplet mismatch).",
-    "verdict": "flagged"
-  },
-  "1788770057.823979": {
-    "br_id": 14650851,
-    "category": "hg",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "SR-Boligkreditt",
-    "note": "Book Update; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (Book Update finding).",
-    "verdict": "flagged"
-  },
-  "1788770552.279069": {
-    "br_id": 14650253,
-    "category": "hg",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "Bpifrance",
-    "note": "Revised Guidance; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (Perfect).",
-    "verdict": "clean"
-  },
-  "1788771164.121069": {
-    "br_id": 14650997,
-    "category": "hg",
-    "checked_at": "2026-09-07T09:03:57Z",
-    "issuer": "Net Zero Properties",
-    "note": "Mandated / investor calls EUR550m WNG 4y Green HY BB+ ZAGA Capital Partners portfolio co; 2 leads Citi+GS as JGCs/JBRs/Joint Sustainability Framework Structurers; source has no Key Terms block so verbatim body OK per HY-mandate rule; tranche form (4y GRN structure casing acceptable per casing-and-synonyms rule, i/c 07 Sep>, JLM=CITI/GS ticker for 2 leads) all clean; hyExpectedPageId=HYRE8, highYield=true, HY-routed; expectedPageId=null OK for HY route. Bot already in thread \u2014 skipped repost per never-repost rule.",
-    "verdict": "clean"
-  },
-  "1788771575.638279": {
-    "br_id": 14650856,
-    "category": "hg",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "ING Bank",
-    "note": "Book Update; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (BR stuck stage).",
-    "verdict": "flagged"
-  },
-  "1788771594.423639": {
-    "br_id": 14651006,
-    "category": "hg",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "Lagardere SA",
-    "note": "Mandated; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (Active bookrunner list).",
-    "verdict": "flagged"
-  },
-  "1788771986.898709": {
-    "br_id": 14631071,
-    "category": "em",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "Shinhan Bank",
-    "note": "Book update; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (Accent not stripped).",
-    "verdict": "flagged"
-  },
-  "1788772162.251459": {
-    "br_id": 14650894,
-    "category": "hg",
-    "checked_at": "2026-09-07T09:17:18.807531Z",
-    "issuer": "DekaBank",
-    "note": "Book Update; bot already in thread from concurrent tick \u2014 skipped repost, state recorded (Perfect).",
-    "verdict": "clean"
-  },
-  "1788772360.917539": {
-    "br_id": 14650846,
-    "category": "hg",
-    "checked_at": "2026-09-07T09:18:44.886973Z",
-    "issuer": "LBBW",
-    "note": "Book update EUR bmk 4y Public Sector Pfandbrief at MS+17bp area; headline/body (accents ASCII-folded, single-agency Aaa CB rating, 6 JBRs LBBW (B&D), book line EUR1.5bn Incl. EUR150m JLM)/tranche form 14650849 (JT-LEADS, MS+17a, today)/deal flags (coveredBonds=true, expectedPageId=IGRB23, feedIgrd=true, regionAmericas=false) all clean.",
-    "verdict": "clean"
-  },
-  "1788773252.505119": {
-    "br_id": 14650839,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:14:39.194875Z",
-    "issuer": "Nordea Mortgage Bank",
-    "note": "Book Update dual-tranche EUR1.25bn 3y FRN (E+23a) + 7y CB (MS+27a). Bot already in thread flagging timing dropped from Book Update line; independent re-check shows BR body carries \"Today's business.\" \u2014 BR may have been updated after bot posted. Skipping repost.",
-    "verdict": "flagged"
-  },
-  "1788773259.199939": {
-    "br_id": 14650253,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:14:39.194875Z",
-    "issuer": "Bpifrance",
-    "note": "Final Terms EUR1.25bn lg 4y Social at OATs+15bp \u2014 independently re-verified clean; bot already in thread from concurrent tick.",
-    "verdict": "clean"
-  },
-  "1788773604.255749": {
-    "br_id": 14651013,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:14:39.194875Z",
-    "issuer": "Helaba",
-    "note": "Mandated EUR bmk 5y Public Sector Pfandbrief CB (Aaa Moody's); bot already in thread \u2014 clean.",
-    "verdict": "clean"
-  },
-  "1788773742.551679": {
-    "br_id": 14650851,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:14:39.194875Z",
-    "issuer": "SR-Boligkreditt",
-    "note": "Final Terms EUR750m 5y CB at MS+17bp \u2014 bot flagged ISIN missing from body; source silent on ISIN so per rule 7-style, may be false-positive; bot already in thread \u2014 no repost.",
-    "verdict": "flagged"
-  },
-  "1788774213.200169": {
-    "br_id": 14650889,
-    "category": "em",
-    "checked_at": "2026-09-07T10:14:39.194875Z",
-    "issuer": "OTP Mortgage Bank",
-    "note": "Final Terms EUR750m lg 5y CB at MS+44bp \u2014 independently re-verified clean; bot already in thread from concurrent tick.",
-    "verdict": "clean"
-  },
-  "1788774712.117329": {
-    "br_id": 14651022,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:14:39.194875Z",
-    "issuer": "NWB Bank",
-    "note": "Mandated EUR bmk 5y Social \u2014 bot already in thread \u2014 clean.",
-    "verdict": "clean"
-  },
-  "1788775361.212599": {
-    "br_id": 14650856,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:14:39.194875Z",
-    "issuer": "ING Bank",
-    "note": "Spread Set EUR bmk 8y CB MS+27 + 12y CB MS+38 dual-tranche \u2014 independently re-verified clean; bot already in thread from concurrent tick.",
-    "verdict": "clean"
-  },
-  "1788775489.432489": {
-    "br_id": 14650945,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:14:39.194875Z",
-    "issuer": "Banco BPM",
-    "note": "Book Update EUR bmk 6NC5 SNP EuGB \u2014 bot already in thread \u2014 clean.",
-    "verdict": "clean"
-  },
-  "1788775770.310149": {
-    "br_id": 14631071,
-    "category": "em",
-    "checked_at": "2026-09-07T10:14:39.194875Z",
-    "issuer": "Shinhan Bank",
-    "note": "Final Terms EUR600m 3.5y Green CB at MS+19bp \u2014 independently re-verified clean; bot already in thread from concurrent tick.",
-    "verdict": "clean"
-  },
-  "1788776416.950729": {
-    "br_id": 14650846,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:26:43Z",
-    "issuer": "LBBW",
-    "note": "Spread set MS+11bp EUR bmk 4y CB Public Sector Pfandbrief; headline/body/tranche form (14651032 MS+11 launched/JT-LEADS 6 leads)/deal-level flags (coveredBonds=true, expectedPageId=IGRB23, regionAmericas=false, feedIgrd=true) all clean; 6 JBRs BMO/Erste/LBBW(B&D)/Nordea/RBC/Santander match source; Book update EUR1.8bn incl 150m JLM + Books to be closed 13:00 CET verbatim.",
-    "verdict": "clean"
-  },
-  "1788776811.092099": {
-    "br_id": 14650839,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:37:00Z",
-    "issuer": "Nordea Mortgage Bank",
-    "note": "Spreads set dual-tranche 3y FRN E+16 / 7y MS+24 EUR1.25bn Covered; bot already in thread from concurrent tick flagging headline stuck one stage behind (WNG + spread set = size confirmed \u2192 should be Final terms per rule 4). Skip repost, state recorded.",
-    "verdict": "flagged"
-  },
-  "1788777037.011139": {
-    "br_id": 14650894,
-    "category": "hg",
-    "checked_at": "2026-09-07T10:37:00Z",
-    "issuer": "DekaBank",
-    "note": "Final terms EUR500m 3y SNP at MS+43bp; headline/body (DekaBank (B&D) matches source `DekaBank B&D`)/tranche form v14651038 (structure=3y SNP priceEvolution=MS+43 timing=launched JT-LEADS)/6-JBR count/deal-level flags all clean. Posted.",
-    "verdict": "clean"
-  },
-  "_last_tick": {
-    "bbg_with_check": 4,
-    "clean": 0,
-    "flagged": 0,
-    "new": 0,
-    "ts": "2026-09-07T08:37:52Z",
-    "window_msgs": 70
-  },
-  "1788767250.842069": {
     "checked_at": "2026-09-07T08:57:18Z",
-    "verdict": "skipped"
-  },
-  "1788768914.317759": {
-    "checked_at": "2026-09-07T08:57:18Z",
-    "verdict": "skipped"
-  },
-  "1788770057.823979": {
-    "checked_at": "2026-09-07T08:57:18Z",
-    "verdict": "skipped"
-  },
-  "1788767699.128049": {
-    "checked_at": "2026-09-07T08:54:41Z",
     "verdict": "skipped"
   },
   "1788769295.210079": {
     "checked_at": "2026-09-07T08:54:41Z",
     "verdict": "skipped"
   },
-  "1788770552.279069": {
-    "checked_at": "2026-09-07T08:54:41Z",
-    "verdict": "clean"
-  },
-  "1788768048.207389": {
-    "checked_at": "2026-09-07T08:51:00Z",
-    "verdict": "skipped"
-  },
   "1788769786.906079": {
     "checked_at": "2026-09-07T08:51:00Z",
-    "verdict": "skipped"
-  },
-  "1788768469.138719": {
-    "checked_at": "2026-09-07T08:54:41Z",
     "verdict": "skipped"
   },
   "1788769924.666079": {
     "checked_at": "2026-09-07T08:54:41Z",
     "verdict": "skipped"
+  },
+  "1788770057.823979": {
+    "checked_at": "2026-09-07T08:57:18Z",
+    "verdict": "skipped"
+  },
+  "1788770552.279069": {
+    "checked_at": "2026-09-07T08:54:41Z",
+    "verdict": "clean"
   },
   "1788771164.121069": {
     "checked_at": "2026-09-07T09:03:19Z",
@@ -3558,6 +3335,22 @@
   },
   "1788777037.011139": {
     "checked_at": "2026-09-07T10:43:32Z",
+    "verdict": "skipped"
+  },
+  "_last_tick": {
+    "bbg_with_check": 4,
+    "clean": 0,
+    "flagged": 0,
+    "new": 0,
+    "ts": "2026-09-07T08:37:52Z",
+    "window_msgs": 70
+  },
+  "1788777613.582859": {
+    "checked_at": "2026-09-07T11:01:00Z",
+    "verdict": "skipped"
+  },
+  "1788777897.949689": {
+    "checked_at": "2026-09-07T11:02:45Z",
     "verdict": "skipped"
   }
 }
