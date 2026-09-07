@@ -3104,106 +3104,70 @@
     "note": "Chat request to CEEMEA bot user to send weekly \u2014 not a term sheet, no BR deal to QA.",
     "verdict": "skipped"
   },
-  "_last_tick": {
-    "checked_at": "2026-09-07T06:32:33Z",
-    "window_msgs": 11,
-    "new_checked": 0,
-    "note": "11 msgs in 6h window, 0 with white_check_mark \u2014 Nordea covered bond just started Books open but not yet reacted; nothing to QA"
-  },
   "1788762452.732859": {
-    "checked_at": "2026-09-07T07:05:10Z",
+    "checked_at": "2026-09-07T06:45:33.108251Z",
     "verdict": "flagged"
   },
-  "1788764024.540989": {
-    "checked_at": "2026-09-07T07:05:10Z",
-    "verdict": "clean"
-  },
   "1788763164.582859": {
-    "checked_at": "2026-09-07T07:05:44Z",
-    "verdict": "skipped"
-  },
-  "1788764084.832749": {
-    "checked_at": "2026-09-07T07:05:44Z",
+    "br_id": 14650846,
+    "category": "hg",
+    "checked_at": "2026-09-07T06:58:20.493044Z",
+    "issuer": "LBBW",
+    "note": "Mandate EUR bmk 4y Public Sector Pfandbrief (Aaa Moody's) \u2014 headline/body/tranche form/deal flags all clean; 6 JBRs (BMO/Erste/LBBW/Nordea/RBC/Santander); dealHistoryEntries[0] Mandated headline matches source; bot already in thread from concurrent tick \u2014 skipped repost, state recorded.",
     "verdict": "clean"
   },
   "1788763209.979379": {
-    "checked_at": "2026-09-07T07:02:49Z",
-    "verdict": "skipped"
+    "br_id": 14650846,
+    "category": "hg",
+    "checked_at": "2026-09-07T06:58:20.493044Z",
+    "issuer": "LBBW",
+    "note": "Guidance MS+17bp area EUR bmk 4y Pfandbrief; headline/body/tranche form (MS+17a JT-LEADS)/deal flags all clean; 6 JBRs incl LBBW (B&D); DBRS correctly dropped from issue rating; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
   },
   "1788763467.792169": {
-    "checked_at": "2026-09-07T07:02:48Z",
-    "verdict": "skipped"
+    "br_id": 14650851,
+    "category": "hg",
+    "checked_at": "2026-09-07T06:58:20.493044Z",
+    "issuer": "SR-Boligkreditt",
+    "note": "Guidance MS+23bp area EUR bmk 5y Norwegian CB (ECBP); headline/body/tranche form (MS+23a JT-LEADS)/deal flags all clean; 5 JLMs Barclays/BMO/Commerz/NORD/LB/TD; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "1788764024.540989": {
+    "br_id": 14650856,
+    "category": "hg",
+    "checked_at": "2026-09-07T07:15:45.396007Z",
+    "issuer": "ING Bank",
+    "note": "Mandate EUR bmk dual-tranche Dutch legislative Covered Bond (Aaa/AAA/AAA) \u2014 8y+12y; deal moved to Guidance MS+32a/MS+44a with ISINs XS3503934476/XS3503934559 by post time; headline/body/both-tranche form/deal flags all clean; 7 JBRs (BBVA/Commerz/DZ/Erste/ING/NatWest/Santander); coveredBonds/regionAmericas/expectedPageId/count all correct; bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "1788764084.832749": {
+    "br_id": 14650863,
+    "category": "hg",
+    "checked_at": "2026-09-07T07:15:45.396007Z",
+    "issuer": "HKFoods",
+    "note": "HY IMA/mandate EUR90m (exp) 4NC2 senior secured FRN \u2014 3 JLMs Danske/Nordea/OP; verbatim body (no Key Terms block in source so verbatim wrapping correct); tender-offer paragraph carried; tranche form 4NC2 FRN JT-LEADS i/c 07 Sep>; hyExpectedPageId=HYRE10, feedIgrd+highYield both true (HY on both feeds); bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
   },
   "1788764110.509719": {
-    "checked_at": "2026-09-07T07:12:52Z",
+    "br_id": 14650868,
+    "category": "hg",
+    "checked_at": "2026-09-07T07:15:45.396007Z",
+    "issuer": "OP Bank",
+    "note": "IPTs MS+85bp area EUR500m 7-year Senior Preferred (Restricted SPI); 4 JLMs Barclays/CACIB/Nomura/OP \u2014 JT-LEADS correct >3; tranche form 7y MS+85a today; Aa3/AA- issuer & expected issue ratings (no Fitch in source); Finnish issuer so opCo/holdCo both false; bot already in thread \u2014 skipped repost, state recorded.",
     "verdict": "clean"
   },
   "1788764306.764719": {
-    "checked_at": "2026-09-07T07:14:00Z",
+    "br_id": 14650873,
+    "category": "hg",
+    "checked_at": "2026-09-07T07:15:45.396007Z",
+    "issuer": "Derichebourg",
+    "note": "HY EUR800m dual-tranche Grn Mandated + GIC 07 Sep \u2014 headline/body/deal flags all clean, Tranche A form clean. Tranche B tranche form drift vs A: structure=`7NC3` (should be `7NC3 Grn`; both tranches are Green sr unsecured per source, fits 8-char) AND bookOrRating=`J-LEADS` (invalid value; should be `JT-LEADS` mirroring Tranche A with same 5-bank line-up). BNP Paribas (B&D) + CACIB/CIC/Natixis/SG all treated as active (5 in banks.active[]); bot already in thread \u2014 skipped repost, state recorded.",
     "verdict": "flagged"
   },
-  "1788764669.648209": {
-    "checked_at": "2026-09-07T07:11:00Z",
-    "verdict": "clean"
-  },
-  "1788764987.273389": {
-    "checked_at": "2026-09-07T07:21:00Z",
-    "verdict": "clean"
-  },
-  "1788765125.609529": {
-    "checked_at": "2026-09-07T07:21:00Z",
-    "verdict": "flagged"
-  },
-  "1788765811.457089": {
-    "checked_at": "2026-09-07T07:32:37Z",
-    "verdict": "skipped"
-  },
-  "1788765844.697009": {
-    "checked_at": "2026-09-07T07:33:00Z",
-    "verdict": "flagged"
-  },
-  "1788765973.785629": {
-    "checked_at": "2026-09-07T07:32:15Z",
-    "verdict": "clean"
-  },
-  "1788766132.925919": {
-    "checked_at": "2026-09-07T07:33:00Z",
-    "verdict": "flagged"
-  },
-  "1788766331.619789": {
-    "checked_at": "2026-09-07T07:44:00Z",
-    "verdict": "flagged"
-  },
-  "1788766927.251819": {
-    "checked_at": "2026-09-07T08:53:00Z",
-    "verdict": "flagged"
-  },
-  "1788767250.842069": {
-    "checked_at": "2026-09-07T07:44:36Z",
-    "verdict": "skipped"
-  },
-  "1788767263.919529": {
-    "checked_at": "2026-09-07T08:04:28Z",
-    "verdict": "skipped"
-  },
-  "1788767699.128049": {
-    "checked_at": "2026-09-07T08:01:00Z",
-    "verdict": "skipped"
-  },
-  "1788768048.207389": {
-    "checked_at": "2026-09-07T09:23:47Z",
-    "verdict": "flagged"
-  },
-  "1788768469.138719": {
-    "checked_at": "2026-09-07T08:36:00Z",
-    "verdict": "clean"
-  },
-  "1788768893.595149": {
-    "checked_at": "2026-09-07T08:24:05Z",
-    "verdict": "flagged"
-  },
-  "1788768914.317759": {
-    "checked_at": "2026-09-07T08:23:00Z",
-    "verdict": "flagged"
+  "_last_tick": {
+    "checked_at": "2026-09-07T06:32:33Z",
+    "new_checked": 0,
+    "note": "11 msgs in 6h window, 0 with white_check_mark \u2014 Nordea covered bond just started Books open but not yet reacted; nothing to QA",
+    "window_msgs": 11
   }
 }
