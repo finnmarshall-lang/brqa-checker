@@ -3104,5 +3104,10 @@
     "note": "Chat request to CEEMEA bot user to send weekly \u2014 not a term sheet, no BR deal to QA.",
     "verdict": "skipped"
   },
-  "_last_tick": "2026-09-05T20:56Z"
+  "_last_tick": {
+    "checked_at": "2026-09-07T06:32:33Z",
+    "window_msgs": 11,
+    "new_checked": 0,
+    "note": "11 msgs in 6h window, 0 with white_check_mark \u2014 Nordea covered bond just started Books open but not yet reacted; nothing to QA"
+  }
 }
