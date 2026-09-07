@@ -3546,5 +3546,13 @@
     "note": "IPTs EUR500m lg5NC2 HY at 7/7.25% \u2014 flagged: pre-Priced HY deal has both expectedPageId=null and hyExpectedPageId=null while activeBloomberg=true (BBG page routing empty). Independent walk also spotted feedIgrd=true dual-routing on HY deal but no rule in memory to flag that alone. Bot already in thread from concurrent tick (which flagged a different issue: missing 'area' suffix + missing IPTs sentences) \u2014 slack_post skipped repost, state recorded.",
     "verdict": "flagged"
   },
+  "1788786872.267739": {
+    "br_id": 14650868,
+    "category": "hg",
+    "checked_at": "2026-09-07T13:29:00Z",
+    "issuer": "OP Corporate Bank",
+    "note": "Priced EUR500m 7y SP at MS+62bp; headline/body/priced-deal 14651086 (finalBooks=750, dealRegsOnly=true, opCo/holdCo=false correct \u2014 Finnish bank not on whitelist, all format/additional-info flags correct incl seniorPreferred=true)/deal-level flags all clean. tranches[]=null (single-tranche PRICED; tranche captured in priced-deal form). Bot already in thread \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
   "_last_tick": "2026-09-07T12:45:56Z"
 }
