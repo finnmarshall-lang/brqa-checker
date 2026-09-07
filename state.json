@@ -3353,99 +3353,123 @@
     "note": "Final terms EUR1.75bn dual-tranche CB (8y MS+27 + 12y MS+38); headline/body/tranche form (v14650858+v14650859 both launched)/7 JBR count/coveredBonds=true/expectedPageCount=2 all clean; posted clean.",
     "verdict": "clean"
   },
-  "_last_tick": {
-    "new": 0,
-    "processed": 0,
-    "qualified": 5,
-    "ts": "2026-09-07T12:05:27Z",
-    "window_msgs": 118
-  },
   "1788779175.553679": {
-    "checked_at": "2026-09-07T12:37:36Z",
-    "verdict": "skipped"
-  },
-  "1788780338.039659": {
-    "checked_at": "2026-09-07T12:37:36Z",
-    "verdict": "skipped"
-  },
-  "1788781249.495339": {
-    "checked_at": "2026-09-07T12:37:36Z",
-    "verdict": "skipped"
-  },
-  "1788781624.758949": {
-    "checked_at": "2026-09-07T12:37:36Z",
-    "verdict": "skipped"
-  },
-  "1788783518.832139": {
-    "checked_at": "2026-09-07T12:37:36Z",
-    "verdict": "skipped"
+    "br_id": 14650911,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "Brenntag Finance BV",
+    "note": "Final terms EUR500m 7y at MS+100bp; headline/body/tranche 14650913 (MS+100 launched)/4 JBRs BNP/DB/Helaba/HSBC(B&D)/deal flags all clean. Skip repost bot_already_in_thread.",
+    "verdict": "clean"
   },
   "1788779307.399929": {
-    "checked_at": "2026-09-07T12:39:17Z",
-    "verdict": "skipped"
-  },
-  "1788780462.340029": {
-    "checked_at": "2026-09-07T12:39:17Z",
-    "verdict": "skipped"
-  },
-  "1788781460.893749": {
-    "checked_at": "2026-09-07T12:39:17Z",
-    "verdict": "skipped"
-  },
-  "1788782592.976519": {
-    "checked_at": "2026-09-07T12:39:17Z",
-    "verdict": "skipped"
-  },
-  "1788783533.727789": {
-    "checked_at": "2026-09-07T12:39:17Z",
-    "verdict": "skipped"
+    "br_id": 14650868,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "OP Corporate Bank",
+    "note": "Final terms EUR500m 7y SP at MS+62bp; headline/body/tranche 14650870 (MS+62 launched, 7y SP)/4 JBRs Barclays/CACIB/Nomura/OP(B&D per JT-LEADS)/deal flags all clean. Skip repost.",
+    "verdict": "clean"
   },
   "1788779487.688029": {
-    "checked_at": "2026-09-07T12:35:50Z",
-    "verdict": "clean"
-  },
-  "1788780739.991939": {
-    "checked_at": "2026-09-07T12:35:50Z",
-    "verdict": "clean"
-  },
-  "1788781556.287119": {
-    "checked_at": "2026-09-07T12:35:50Z",
-    "verdict": "clean"
-  },
-  "1788783233.245579": {
-    "checked_at": "2026-09-07T12:35:50Z",
-    "verdict": "clean"
-  },
-  "1788784023.544089": {
-    "checked_at": "2026-09-07T12:35:50Z",
+    "br_id": 14650975,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "SNCF (Societe Nationale)",
+    "note": "SNCF Allocations GBP250m 15y Grn at G+65bp; issuer shortened to `SNCF` in headline (per today's daily QA guidance should be full `Societe Nationale SNCF`), and body reads `Societe Nationale SNCF SA` missing acute accent on `Soci\u00e9t\u00e9`. Tranche 14650977 (G+65, GS/NWG/RBC 3-lead ticker)/deal flags all clean. Skip repost.",
     "verdict": "flagged"
   },
   "1788779812.670239": {
-    "checked_at": "2026-09-07T12:38:57Z",
-    "verdict": "skipped"
+    "br_id": 14651053,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "Kingdom of Spain",
+    "note": "Mandate EUR4bn WNG 20y Green Obligacion; body verbatim from source with DBRS+Scope correctly dropped from rating triplet; 6 DMs Barclays/BBVA/CACIB/JPM/MS/Santander(DM/B&D); tranche 14651055 (20y Grn JT-LEADS)/deal flags all clean. Skip repost.",
+    "verdict": "clean"
+  },
+  "1788780338.039659": {
+    "br_id": 14650851,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "SR-Boligkreditt",
+    "note": "Allocations EUR750m 5y CB; BR has since moved to Priced (record 14651069 active=false, mid-population) but dealHistoryEntry 12:26 UKT captures Allocations content verbatim from source (Final books over EUR1.5bn incl EUR200m JLM, Hedge 13:45 CET, Commerzbank B&D, ISIN XS3504723985). Skip repost.",
+    "verdict": "clean"
+  },
+  "1788780462.340029": {
+    "br_id": 14650889,
+    "category": "em",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "OTP Mortgage Bank Ltd",
+    "note": "Allocations EUR750m lg 5y CB; BR has since moved to Priced; priced-deal 14651068 all fields clean (active=true, fpr=99.991, spread=MS+44, yield=3.695%, ISIN XS3503291026, moodys=A1 S/F=NR, covered=true, dealRegsOnly=true, opCo/holdCo=false Hungarian, additionalInfo=MC, finalBooks=1500.0, 6 JLMs). Skip repost.",
+    "verdict": "clean"
+  },
+  "1788780739.991939": {
+    "br_id": 14650846,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "LBBW",
+    "note": "Final terms/Launched EUR1bn 4y Public Sector Pfandbrief at MS+11bp; headline/body/tranche 14650848 (MS+11 launched, 4y CB)/6 JBRs BMO/Erste/LBBW(B&D)/Nordea/RBC/Santander/coveredBonds=true all clean. Skip repost.",
+    "verdict": "clean"
   },
   "1788781134.496419": {
-    "checked_at": "2026-09-07T12:38:57Z",
-    "verdict": "skipped"
-  },
-  "1788781611.860289": {
-    "checked_at": "2026-09-07T12:38:57Z",
-    "verdict": "skipped"
-  },
-  "1788783322.134219": {
-    "checked_at": "2026-09-07T12:38:57Z",
-    "verdict": "skipped"
-  },
-  "1788784186.597309": {
-    "checked_at": "2026-09-07T13:47:00Z",
+    "br_id": 14650839,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "Nordea Mortgage Bank",
+    "note": "Allocations dual-tranche EUR1.25bn CB (3y FRN E+16 + 7y MS+24); JLM line reads `Commerzbank, DZ BANK, HSBC, Natixis, Nordea.` \u2014 missing (B&D) tag on Nordea despite source explicitly stating `Nordea B&D`. Tranches 14650841/14650842/deal flags otherwise clean. Skip repost.",
     "verdict": "flagged"
   },
-  "1788784300.822419": {
-    "checked_at": "2026-09-07T13:37:00Z",
+  "1788781249.495339": {
+    "br_id": 14650906,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "ENGIE",
+    "note": "Final terms EUR750m PNC8.3 Hybrid Grn at 5.05% yield; body verbatim (first call 7 Oct 2034, first reset 7 Jan 2035, MWC before par call per house style, CUC 75); tranche 14650908 (PNC8.3Grn 9-char cap, 5.05% hybrid yield, JT-LEADS 6 leads: MS Europe+Santander GCs + DB/Mizuho/NatWest/SG JBRs); French issuer so opCo/holdCo=false correct. Skip repost.",
     "verdict": "clean"
   },
-  "1788784457.844129": {
-    "checked_at": "2026-09-07T12:44:00Z",
+  "1788781460.893749": {
+    "br_id": 14631071,
+    "category": "em",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "Shinhan Bank",
+    "note": "Allocations EUR600m 3.5y Green CB at MS+19bp; body verbatim (Korean Covered Bond Act, soft bullet, Green Buildings UOP, Aa3/A+/A M/S/F issuer, Aaa/AAA M/F expected issue); tranche 14631073 (3.5y CB structure, MS+19, Aaa//AAA rating triplet, 6 JLMs BNPP(B&D)/Commerz/CACIB/Natixis/SG/StanChart); ISIN XS3478212924; regionAsia=true. Skip repost.",
     "verdict": "clean"
+  },
+  "1788781556.287119": {
+    "br_id": 14650856,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "ING Bank N.V.",
+    "note": "Allocations dual-tranche EUR1.75bn Dutch legislative CB (8y MS+27 + 12y MS+38); body verbatim, ISINs XS3503934476/XS3503934559; tranches 14650858/14650859 both launched with 7 JBRs each (BBVA/Commerz/DZ/Erste/ING(B&D)/NatWest/Santander); coveredBonds=true, expectedPageCount=2 correct. Skip repost.",
+    "verdict": "clean"
+  },
+  "1788781611.860289": {
+    "br_id": 14650253,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "Bpifrance",
+    "note": "Allocations out EUR1.25bn lg 4y Social at OAT+15bp; body verbatim (FRTR benchmark chain, EPIC guarantee, Just Transition UOP, Aa3//A+ M/F expected issue); tranche 14650255 (lg 4y Soc 9-char cap, OAT+15 launched, JT-LEADS 5 leads: BofA/HSBC/LBP/MS(B&D,DM)/Nomura); ISIN FR001401AQN6; finalBooks EUR5.5bn incl EUR305m JLM. Skip repost.",
+    "verdict": "clean"
+  },
+  "1788781624.758949": {
+    "br_id": 14651062,
+    "category": "hg",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "Euroclear Holding SA/NV",
+    "note": "Mandate EUR600m WNG 10y Sr Unsecured; body verbatim from source; JPM sole GC/Structuring Agent + 5 JLMs DB/JPM/MUFG/SMBC/SG i/c 07 Sep 2026; tranche 14651064 (10y, no level, JT-LEADS, i/c 07 Sep>); Belgian issuer opCo/holdCo=false correct. Skip repost.",
+    "verdict": "clean"
+  },
+  "1788782592.976519": {
+    "br_id": 14650817,
+    "category": "em",
+    "checked_at": "2026-09-07T12:28:50.243430Z",
+    "issuer": "Jinan City Construction Group",
+    "note": "FPG 2.20% CNY bmk 5y RegS Sr Unsecured; body verbatim (COC 101, MOX listing, refinancing offshore indebtedness, Baa1//BBB+ M/S/F); tranche 14650819 (CNY bmk 5y, 2.20% today, NR/NR/NR expected issue rating per source `Unrated`, 26 banks.active \u2014 source names 28 but 2 co-mgrs consolidated per BR bank-master, accepted per prior Chinese-deal reactor pushback pattern); regionAsia=true. Skip repost.",
+    "verdict": "clean"
+  },
+  "_last_tick": {
+    "new": 14,
+    "processed": 14,
+    "qualified": 49,
+    "ts": "2026-09-07T12:28:50.243430Z",
+    "window_msgs": 123
   }
 }
