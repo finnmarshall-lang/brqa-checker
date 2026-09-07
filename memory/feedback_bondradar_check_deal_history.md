@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 173ac7d1-9e30-4326-a6c3-3fdb541b1e25
-  modified: 2026-09-03T07:52:22.886Z
+  modified: 2026-09-07T12:55:36.506Z
 ---
 
 BR update bodies are cumulative in context, not standalone: information disclosed in an earlier stage update (Mandated / IPO / Investor Call / IPTs / etc.) carries forward and doesn't need to be repeated in the current update. Before flagging a field as missing from the current body, walk `dealHistoryEntries[]` (the array of prior BR message versions on the same deal) and check whether the field was already stated.
@@ -68,5 +68,7 @@ Finn correction: I proposed BOTH `finalBooks=1536` AND `additionalInfo="Books la
 6. Same logic for `additionalInfo` on the priced-deal form: only populate with `Books last heard over` when the same conditions all hold.
 
 **Why (Sparkasse Bolzano id 14640124):** I flagged the Priced body's `Final books over EUR2.2bn` as needing to be `Books last heard over` because no message literally said `final books`/`closed`. Finn: "this was final books as the allocation message had it there it was just the person who did the update didn't write final books, if unsure you can tell that it's final books as the volume of books changed from final terms to allocations". So the change in book figure between stages is the implicit signal.
+
+**Reinforced (Nordea Mortgage Bank dual-tranche CB Priced, id 14650839):** same class of miss. Deal history: Guidance → Book Update → Final Terms → Allocations, all just "Books over" with the figures moving (`Combined orderbooks >€2.4bn` at Spread set → different per-tranche figures at Allocations). Priced-stage source silent on books. I flagged Priced body `Books over EUR1.15bn ... and EUR850m respectively` as needing `Books last heard over`. Finn: "this did recieve final books at allocations, if the books are changed at allocations those are the final books so treat it as such the correction should of been should say Final books over... please remember". So the rule stands and the correct rewrite direction is **`Final books over`**, not `Books last heard over`, whenever the book figure moved between Final Terms and Allocations.
 
 See also [[br-qa-checker-project]], [[bondradar-book-line]], and [[feedback-bondradar-no-verify-hedges]].
