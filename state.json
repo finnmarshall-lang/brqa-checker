@@ -3522,5 +3522,29 @@
     "note": "Allocations out EUR1bn 4y Public Sector Pfandbrief at MS+11bp; headline/body/tranche form (v14651057 MS+11/launched/JT-LEADS)/6-JLM count LBBW (B&D)/coveredBonds=true/expectedPageId IGRB23/feedIgrd=true/regionAmericas=false all clean; Rule 4 Launched\u2194Final terms interchangeable via Spread set+size set opener. Bot already in thread \u2014 skipped repost.",
     "verdict": "clean"
   },
+  "1788785763.600349": {
+    "br_id": 14650975,
+    "category": "hg",
+    "checked_at": "2026-09-07T13:16:02Z",
+    "issuer": "SNCF",
+    "note": "Priced GBP250m 15y Grn Sr Uns at G+65bp \u2014 priced-deal 14651078 all fields clean (dealRegsOnly=true, green=true, opCo/holdCo=false correct \u2014 SNCF is French corp, not on OpCo/HoldCo whitelist; finalBooks=null source silent OK). Bot already in thread from concurrent tick \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "1788786062.215979": {
+    "br_id": 14651080,
+    "category": "hg",
+    "checked_at": "2026-09-07T13:16:02Z",
+    "issuer": "Asian Development Bank",
+    "note": "Mandated EUR bmk long 7y \u2014 4 leads BNP/HSBC/MS/Nomura JT-LEADS; body verbatim mandate quote; tranche form/deal-level flags (expectedPageId IGRB20, feedIgrd=true, regionAmericas=false) all clean. Bot already in thread from concurrent tick \u2014 skipped repost, state recorded.",
+    "verdict": "clean"
+  },
+  "1788786263.612769": {
+    "br_id": 14650939,
+    "category": "hg",
+    "checked_at": "2026-09-07T13:16:02Z",
+    "issuer": "Clariane",
+    "note": "IPTs EUR500m lg5NC2 HY at 7/7.25% \u2014 flagged: pre-Priced HY deal has both expectedPageId=null and hyExpectedPageId=null while activeBloomberg=true (BBG page routing empty). Independent walk also spotted feedIgrd=true dual-routing on HY deal but no rule in memory to flag that alone. Bot already in thread from concurrent tick (which flagged a different issue: missing 'area' suffix + missing IPTs sentences) \u2014 slack_post skipped repost, state recorded.",
+    "verdict": "flagged"
+  },
   "_last_tick": "2026-09-07T12:45:56Z"
 }
