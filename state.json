@@ -3109,5 +3109,29 @@
     "window_msgs": 11,
     "new_checked": 0,
     "note": "11 msgs in 6h window, 0 with white_check_mark \u2014 Nordea covered bond just started Books open but not yet reacted; nothing to QA"
+  },
+  "1788762452.732859": {
+    "checked_at": "2026-09-07T07:05:10Z",
+    "verdict": "flagged"
+  },
+  "1788764024.540989": {
+    "checked_at": "2026-09-07T07:05:10Z",
+    "verdict": "clean"
+  },
+  "1788763164.582859": {
+    "checked_at": "2026-09-07T07:05:44Z",
+    "verdict": "skipped"
+  },
+  "1788764084.832749": {
+    "checked_at": "2026-09-07T07:05:44Z",
+    "verdict": "clean"
+  },
+  "1788763209.979379": {
+    "checked_at": "2026-09-07T07:02:49Z",
+    "verdict": "skipped"
+  },
+  "1788763467.792169": {
+    "checked_at": "2026-09-07T07:02:48Z",
+    "verdict": "skipped"
   }
 }
