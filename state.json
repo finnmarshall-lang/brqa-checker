@@ -3416,6 +3416,14 @@
     "note": "Final Terms EUR600m 3.5y Green CB at MS+19bp \u2014 independently re-verified clean; bot already in thread from concurrent tick.",
     "verdict": "clean"
   },
+  "1788776416.950729": {
+    "br_id": 14650846,
+    "category": "hg",
+    "checked_at": "2026-09-07T10:26:43Z",
+    "issuer": "LBBW",
+    "note": "Spread set MS+11bp EUR bmk 4y CB Public Sector Pfandbrief; headline/body/tranche form (14651032 MS+11 launched/JT-LEADS 6 leads)/deal-level flags (coveredBonds=true, expectedPageId=IGRB23, regionAmericas=false, feedIgrd=true) all clean; 6 JBRs BMO/Erste/LBBW(B&D)/Nordea/RBC/Santander match source; Book update EUR1.8bn incl 150m JLM + Books to be closed 13:00 CET verbatim.",
+    "verdict": "clean"
+  },
   "_last_tick": {
     "bbg_with_check": 4,
     "clean": 0,
