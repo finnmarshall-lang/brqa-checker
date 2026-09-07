@@ -3465,11 +3465,25 @@
     "note": "FPG 2.20% CNY bmk 5y RegS Sr Unsecured; body verbatim (COC 101, MOX listing, refinancing offshore indebtedness, Baa1//BBB+ M/S/F); tranche 14650819 (CNY bmk 5y, 2.20% today, NR/NR/NR expected issue rating per source `Unrated`, 26 banks.active \u2014 source names 28 but 2 co-mgrs consolidated per BR bank-master, accepted per prior Chinese-deal reactor pushback pattern); regionAsia=true. Skip repost.",
     "verdict": "clean"
   },
-  "_last_tick": {
-    "new": 14,
-    "processed": 14,
-    "qualified": 49,
-    "ts": "2026-09-07T12:28:50.243430Z",
-    "window_msgs": 123
+  "_last_tick": "2026-09-07T12:45:56Z",
+  "1788783233.245579": {
+    "checked_at": "2026-09-07T12:45:56Z",
+    "verdict": "clean"
+  },
+  "1788783322.134219": {
+    "checked_at": "2026-09-07T12:45:56Z",
+    "verdict": "clean"
+  },
+  "1788784186.597309": {
+    "checked_at": "2026-09-07T12:45:56Z",
+    "verdict": "flagged"
+  },
+  "1788784300.822419": {
+    "checked_at": "2026-09-07T12:45:56Z",
+    "verdict": "clean"
+  },
+  "1788784457.844129": {
+    "checked_at": "2026-09-07T12:45:56Z",
+    "verdict": "clean"
   }
 }
