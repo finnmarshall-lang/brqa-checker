@@ -3465,7 +3465,6 @@
     "note": "FPG 2.20% CNY bmk 5y RegS Sr Unsecured; body verbatim (COC 101, MOX listing, refinancing offshore indebtedness, Baa1//BBB+ M/S/F); tranche 14650819 (CNY bmk 5y, 2.20% today, NR/NR/NR expected issue rating per source `Unrated`, 26 banks.active \u2014 source names 28 but 2 co-mgrs consolidated per BR bank-master, accepted per prior Chinese-deal reactor pushback pattern); regionAsia=true. Skip repost.",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-07T12:45:56Z",
   "1788783233.245579": {
     "checked_at": "2026-09-07T12:45:56Z",
     "verdict": "clean"
@@ -3473,6 +3472,27 @@
   "1788783322.134219": {
     "checked_at": "2026-09-07T12:45:56Z",
     "verdict": "clean"
+  },
+  "1788783518.832139": {
+    "br_id": 14650975,
+    "category": "hg",
+    "checked_at": "2026-09-07T13:00:29Z",
+    "issuer": "SNCF",
+    "note": "Allocations GBP250m 15y Green at G+65bp; bot already in thread flagging Book update: prefix wrongly applied to figure-less block (subsequently cleared in current BR body). Tranche 14650977 v-current GBP/250m/15y Grn/G+65/GS-NWG-RBC ticker shorthand (3 leads)/launched all clean; feedIgrd=true, regionAmericas=false, expectedPageId IGRB39. Skipped repost.",
+    "verdict": "flagged"
+  },
+  "1788783533.727789": {
+    "checked_at": "2026-09-07T13:00:29Z",
+    "note": "Bloomberg-EM bot forwarded identifier block (FIGI BBG024XJS1Q0 / ISIN XS3504723985) as standalone message \u2014 not a term sheet body per filter rule. No BR deal QA needed. Skipped.",
+    "verdict": "skipped"
+  },
+  "1788784023.544089": {
+    "br_id": 14650868,
+    "category": "hg",
+    "checked_at": "2026-09-07T13:00:29Z",
+    "issuer": "OP Corporate Bank",
+    "note": "Allocations out EUR500m 7y SP at MS+62bp; bot already in thread flagging Bookrunners line drops Nomura B&D tag; tranche 14650870 v-current MS+62/launched/JT-LEADS/4 leads/expectedPageId IGRB151/feedIgrd=true all otherwise clean. Skipped repost.",
+    "verdict": "flagged"
   },
   "1788784186.597309": {
     "checked_at": "2026-09-07T12:45:56Z",
@@ -3486,40 +3506,21 @@
     "checked_at": "2026-09-07T12:45:56Z",
     "verdict": "clean"
   },
-  "1788783518.832139": {
-    "checked_at": "2026-09-07T13:06:45Z",
-    "verdict": "skipped"
+  "1788784636.699519": {
+    "br_id": 14650856,
+    "category": "hg",
+    "checked_at": "2026-09-07T13:00:29Z",
+    "issuer": "ING Bank N.V.",
+    "note": "Priced EUR1.75bn dual-tranche CB (8y MS+27 EUR750m + 12y MS+38 EUR1bn); priced-deal 14651074 (finalBooks=1000, dealRegsOnly=true, covered=true, mwc/holdCo/opCo/subordinated all false correct, cpn 3.50, ISIN XS3503934476) and 14651075 (finalBooks=1600, all format+additional-info booleans correct, cpn 3.75, ISIN XS3503934559) \u2014 both clean; dealBanks.active=7 matches 7-JLM source list ING (B&D); coveredBonds=true; regionAmericas=false; expectedPageId auto-cleared at Priced. Bot already in thread \u2014 skipped repost.",
+    "verdict": "clean"
   },
   "1788785193.682769": {
-    "checked_at": "2026-09-07T13:06:45Z",
-    "verdict": "skipped"
-  },
-  "1788783533.727789": {
-    "checked_at": "2026-09-07T13:07:44Z",
+    "br_id": 14650846,
+    "category": "hg",
+    "checked_at": "2026-09-07T13:00:29Z",
+    "issuer": "LBBW",
+    "note": "Allocations out EUR1bn 4y Public Sector Pfandbrief at MS+11bp; headline/body/tranche form (v14651057 MS+11/launched/JT-LEADS)/6-JLM count LBBW (B&D)/coveredBonds=true/expectedPageId IGRB23/feedIgrd=true/regionAmericas=false all clean; Rule 4 Launched\u2194Final terms interchangeable via Spread set+size set opener. Bot already in thread \u2014 skipped repost.",
     "verdict": "clean"
   },
-  "1788785763.600349": {
-    "checked_at": "2026-09-07T13:07:44Z",
-    "verdict": "clean"
-  },
-  "1788784023.544089": {
-    "checked_at": "2026-09-07T13:01:00Z",
-    "verdict": "skipped"
-  },
-  "1788784636.699519": {
-    "checked_at": "2026-09-07T13:05:49Z",
-    "verdict": "skipped"
-  },
-  "1788786062.215979": {
-    "checked_at": "2026-09-07T13:12:37Z",
-    "verdict": "clean"
-  },
-  "1788786263.612769": {
-    "checked_at": "2026-09-07T13:15:47Z",
-    "verdict": "flagged"
-  },
-  "1788786872.267739": {
-    "checked_at": "2026-09-07T13:24:29Z",
-    "verdict": "clean"
-  }
+  "_last_tick": "2026-09-07T12:45:56Z"
 }
