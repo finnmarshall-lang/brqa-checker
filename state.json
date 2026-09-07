@@ -3212,9 +3212,13 @@
     "note": "Mandate EUR/USD multi-tranche (EUR 6.5y+10y + USD lg 5y+7y+10y) SEC-registered Israel CEEMEA; body carried verbatim from source. Flag: bookOrRating=NR/NR/NR on all 5 tranches (14650918-14650922) when source names Baa3/BBB-/BBB- expected \u2014 YPF Mandate at 07:29 UTC carried B1/B/ so pattern is fill expected ratings. banks.active=4 (BNP/Citi/GS/JPM) \u2713, expectedPageCount=5 \u2713, regionCeemea=true \u2713. Skip repost bot_already_in_thread.",
     "verdict": "flagged"
   },
-  "_last_tick": "2026-09-07T07:59:48.451599+00:00",
+  "1788766927.251819": {
+    "checked_at": "2026-09-07T08:12:38Z",
+    "verdict": "clean"
+  },
   "1788767263.919529": {
     "checked_at": "2026-09-07T07:59:48.451386+00:00",
     "verdict": "flagged"
-  }
+  },
+  "_last_tick": "2026-09-07T07:59:48.451599+00:00"
 }
