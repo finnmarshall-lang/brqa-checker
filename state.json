@@ -3554,5 +3554,9 @@
     "note": "Priced EUR500m 7y SP at MS+62bp; headline/body/priced-deal 14651086 (finalBooks=750, dealRegsOnly=true, opCo/holdCo=false correct \u2014 Finnish bank not on whitelist, all format/additional-info flags correct incl seniorPreferred=true)/deal-level flags all clean. tranches[]=null (single-tranche PRICED; tranche captured in priced-deal form). Bot already in thread \u2014 skipped repost, state recorded.",
     "verdict": "clean"
   },
-  "_last_tick": "2026-09-07T12:45:56Z"
+  "_last_tick": "2026-09-07T12:45:56Z",
+  "1788788232.924709": {
+    "checked_at": "2026-09-07T13:43:41Z",
+    "verdict": "skipped"
+  }
 }
