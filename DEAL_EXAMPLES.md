@@ -52,9 +52,9 @@ Flags: emDetails.regionAsia=true, expectedPageId=EMRH45, expectedPageCount=1
 ### Crédit Agricole HL SFH CHF100m+ 8y Green Covered (id 14630381)
 
 ```
-* Credit Agricole HL SFH CHF100m+ 8-year Grn CB: IPTs SARON+45bp area
+* Credit Agricole HL SFH CHF100m+ 8-year Grn CB: IPTs SARON MS+45bp area
 
-IPTs are SARON+45bp area for Credit Agricole Home Loan SFH's minimum CHF100m 8-year Green Public Covered Bonds, due 4 September 2034. Settle 4 September 2026. Issuer Credit Agricole Home Loan SFH. Direct, unconditional, unsubordinated and privileged obligations. RegS. List SIX, denoms 5k. French law. UOP The net proceeds will be used in accordance with the Credit Agricole Group Green Bond Framework dated November 2023 to finance or refinance in whole or in part new or existing Eligible Green residential real estate assets in France included or to be included in the cover pool of Credit Agricole Home Loan SFH. Expected issue ratings Aaa/AAA/AAA. Lead Managers UBS, Commerzbank. Credit Agricole CIB. Books can close at short notice.
+IPTs are SARON MS+45bp area for Credit Agricole Home Loan SFH's minimum CHF100m 8-year Green Public Covered Bonds, due 4 September 2034. Settle 4 September 2026. Issuer Credit Agricole Home Loan SFH. Direct, unconditional, unsubordinated and privileged obligations. RegS. List SIX, denoms 5k. French law. UOP The net proceeds will be used in accordance with the Credit Agricole Group Green Bond Framework dated November 2023 to finance or refinance in whole or in part new or existing Eligible Green residential real estate assets in France included or to be included in the cover pool of Credit Agricole Home Loan SFH. Expected issue ratings Aaa/AAA/AAA. Lead Managers UBS, Commerzbank. Credit Agricole CIB. Books can close at short notice.
 
 Tranche A
   currency: CHF
@@ -94,7 +94,7 @@ Flags: coveredBonds=false, regionAmericas=false, expectedPageId=IGRB28
 ### RLB Steiermark EUR500m 5y Mortgage Covered (id 14630174)
 
 ```
-** RLB Steiermark EUR500m 5-year MC: Guidance MS+27bp area
+** RLB Steiermark EUR500m 5-year CB: Guidance MS+27bp area
 
 Guidance is MS+27bp area for Raiffeisen-Landesbank Steiermark AG's EUR500m (WNG) 5-year Mortgage Covered Bond, due 27 August 2031 (soft bullet). Settle 27 August 2026 (T+5). Issuer Raiffeisen-Landesbank Steiermark AG. Mortgage Covered Bond (Hypothekenpfandbrief), European Covered Bond (Premium). RegS Bearer. List Vienna Stock Exchange Regulated Market, denoms 100k+100k. Austrian law. Expected issue rating Aaa. Joint Bookrunners ABN AMRO, Erste Group, Helaba, LBBW, Raiffeisen Bank International (B&D). Co-Lead CMTA AG. ISIN AT0000A3WQC0. Books open, today's business.
 
