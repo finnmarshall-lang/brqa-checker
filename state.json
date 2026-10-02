@@ -3649,5 +3649,13 @@
     "checked_at": "2026-09-07T15:06:36Z",
     "note": "Bot chat instruction to check EU-hours priced deals; not a term sheet.",
     "verdict": "skipped"
+  },
+  "1790928027.765849": {
+    "checked_at": "2026-10-02T09:22:00Z",
+    "verdict": "skipped"
+  },
+  "1790930522.976689": {
+    "checked_at": "2026-10-02T09:22:01Z",
+    "verdict": "skipped"
   }
 }
