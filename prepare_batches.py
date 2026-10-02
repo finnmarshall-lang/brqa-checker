@@ -79,8 +79,9 @@ def is_qa_candidate(m: dict, state: dict) -> bool:
 
 
 def main(argv: list[str]) -> int:
-    n_shards = int(argv[1]) if len(argv) > 1 else 4
+    max_shards = int(argv[1]) if len(argv) > 1 else 4
     max_msgs = int(argv[2]) if len(argv) > 2 else 40
+    target_per_shard = int(argv[3]) if len(argv) > 3 else 10
 
     state_path = Path("state.json")
     state = json.loads(state_path.read_text()) if state_path.exists() else {}
@@ -97,20 +98,35 @@ def main(argv: list[str]) -> int:
         key=lambda m: float(m["ts"]),
     )[:max_msgs]
 
+    # Scale shard count to the actual queue instead of always spawning
+    # max_shards parallel Claude sessions. Each full session (local +
+    # memory + checklist context) has real cost even when its shard turns
+    # out empty, so a 1-message tick should cost one session, not four.
+    if candidates:
+        n_shards = min(max_shards, -(-len(candidates) // target_per_shard))  # ceil div
+    else:
+        n_shards = 0
+
     shards: list[list[dict]] = [[] for _ in range(n_shards)]
     for i, m in enumerate(candidates):
         shards[i % n_shards].append(m)
+
+    # Clean up any shard files left over from a previous, larger-fanout tick
+    # so a stale shard_3.json doesn't get picked up and reprocessed.
+    for stale in Path(".").glob("shard_*.json"):
+        stale.unlink()
 
     for i, s in enumerate(shards):
         Path(f"shard_{i}.json").write_text(json.dumps(s, indent=2))
 
     Path("queue_meta.json").write_text(json.dumps({
         "total": len(candidates),
-        "shards": n_shards,
+        "shards_used": n_shards,
+        "max_shards": max_shards,
         "per_shard": [len(s) for s in shards],
     }, indent=2))
 
-    print(f"prepared {len(candidates)} messages across {n_shards} shards")
+    print(f"prepared {len(candidates)} messages across {n_shards} shard(s) (max {max_shards})")
     print(f"per-shard counts: {[len(s) for s in shards]}")
 
     # Pre-tick reaction self-heal — mirror of the sweep in merge_deltas.py.

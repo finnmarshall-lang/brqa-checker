@@ -100,12 +100,12 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
         run: |
           mkdir -p logs
-          # 4 shards × up to 10 msgs = up to 40/tick, all pre-fetched once
-          # and split by prepare_batches.py so parallel sessions never
+          # Up to 4 shards x up to 10 msgs = up to 40/tick, all pre-fetched
+          # once and split by prepare_batches.py so parallel sessions never
           # collide on messages or state.
           python3 prepare_batches.py 4 40 | tee -a logs/tick.log
 
-      - name: Run 4 parallel shards
+      - name: Run parallel shards (scaled to queue size)
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
@@ -120,11 +120,17 @@ jobs:
             exit 0
           fi
 
+          # Shard count scales with queue size (prepare_batches.py) — a
+          # 1-message tick spawns 1 Claude session, not a fixed 4, so idle
+          # shards stop costing a full session's context for nothing.
+          SHARDS_USED=$(python3 -c "import json; print(json.load(open('queue_meta.json'))['shards_used'])")
+          echo "spawning $SHARDS_USED shard(s) for $TOTAL message(s)" | tee -a logs/tick.log
+
           # Spawn one Claude session per shard. Each session reads its
           # $SHARD_FILE and writes to $STATE_DELTA_FILE. `wait` blocks
-          # until all four finish; `set -m` gives them proper job control.
+          # until all finish; `set -m` gives them proper job control.
           set -m
-          for i in 0 1 2 3; do
+          for ((i=0; i<SHARDS_USED; i++)); do
             (
               export SHARD_FILE="shard_$i.json"
               export STATE_DELTA_FILE="state_delta_$i.json"
