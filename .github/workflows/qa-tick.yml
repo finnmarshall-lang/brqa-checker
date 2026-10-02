@@ -136,7 +136,7 @@ jobs:
               export STATE_DELTA_FILE="state_delta_$i.json"
               echo "--- shard $i start $(date -u +%H:%M:%SZ) ---" >> logs/shard_$i.log
               claude -p "$(cat tick_shard_prompt.txt)" \
-                --model claude-sonnet-5 \
+                --model claude-haiku-4-5-20251001 \
                 --dangerously-skip-permissions \
                 >> logs/shard_$i.log 2>&1
               echo "--- shard $i done  $(date -u +%H:%M:%SZ) ---" >> logs/shard_$i.log

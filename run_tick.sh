@@ -42,6 +42,7 @@ CLAUDE_BIN="$HOME/.nvm/versions/node/v24.19.0/bin/claude"
 
 echo "=== tick $(date -u +%Y-%m-%dT%H:%M:%SZ) ===" >> "$LOG_FILE"
 "$CLAUDE_BIN" -p "$(cat "$PROMPT_FILE")" \
+  --model claude-haiku-4-5-20251001 \
   --dangerously-skip-permissions \
   >> "$LOG_FILE" 2>&1 || echo "tick failed with exit $?" >> "$LOG_FILE"
 
