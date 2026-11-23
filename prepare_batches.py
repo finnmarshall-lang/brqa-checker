@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -62,6 +63,28 @@ def _get(method: str, params: dict) -> dict:
     return body
 
 
+# Priced / Book-stats messages need the priced-deal form walk, which Haiku
+# tends to skip (the extra API call is the furthest step from the main flow).
+# Route them to Sonnet; everything else stays on Haiku. Over-matching is the
+# safe direction — a false positive just costs one Sonnet message.
+PRICED_RE = re.compile(r"\bpriced\b|\bpricing\b|book\s*stats", re.I)
+MODEL_PRICED = "claude-sonnet-5"
+MODEL_DEFAULT = "claude-haiku-4-5-20251001"
+
+
+def _message_text(m: dict) -> str:
+    parts = [m.get("text") or ""]
+    for a in m.get("attachments") or []:
+        parts += [a.get("text") or "", a.get("fallback") or "", a.get("title") or ""]
+    for f in m.get("files") or []:
+        parts += [f.get("name") or "", f.get("title") or ""]
+    return "\n".join(parts)
+
+
+def is_priced_stage(m: dict) -> bool:
+    return bool(PRICED_RE.search(_message_text(m)))
+
+
 def is_qa_candidate(m: dict, state: dict) -> bool:
     """A message qualifies iff it has a ✅ reaction and isn't already in state.
 
@@ -98,18 +121,28 @@ def main(argv: list[str]) -> int:
         key=lambda m: float(m["ts"]),
     )[:max_msgs]
 
-    # Scale shard count to the actual queue instead of always spawning
-    # max_shards parallel Claude sessions. Each full session (local +
-    # memory + checklist context) has real cost even when its shard turns
-    # out empty, so a 1-message tick should cost one session, not four.
-    if candidates:
-        n_shards = min(max_shards, -(-len(candidates) // target_per_shard))  # ceil div
-    else:
-        n_shards = 0
+    # Split by model tier, then scale shard count to the actual queue instead
+    # of always spawning max_shards parallel Claude sessions. Each full
+    # session (local + memory + checklist context) has real cost even when
+    # its shard turns out empty, so a 1-message tick should cost one session.
+    priced = [m for m in candidates if is_priced_stage(m)]
+    other = [m for m in candidates if not is_priced_stage(m)]
 
-    shards: list[list[dict]] = [[] for _ in range(n_shards)]
-    for i, m in enumerate(candidates):
-        shards[i % n_shards].append(m)
+    def _ceil(n: int) -> int:
+        return -(-n // target_per_shard)
+
+    n_priced = min(max_shards, _ceil(len(priced)))
+    n_other = min(max(max_shards - n_priced, 1), _ceil(len(other))) if other else 0
+
+    shards: list[list[dict]] = []
+    models: list[str] = []
+    for group, n, model in ((priced, n_priced, MODEL_PRICED), (other, n_other, MODEL_DEFAULT)):
+        chunk = [[] for _ in range(n)]
+        for i, m in enumerate(group):
+            chunk[i % n].append(m)
+        shards += chunk
+        models += [model] * n
+    n_shards = len(shards)
 
     # Clean up any shard files left over from a previous, larger-fanout tick
     # so a stale shard_3.json doesn't get picked up and reprocessed.
@@ -124,10 +157,11 @@ def main(argv: list[str]) -> int:
         "shards_used": n_shards,
         "max_shards": max_shards,
         "per_shard": [len(s) for s in shards],
+        "models": models,
     }, indent=2))
 
     print(f"prepared {len(candidates)} messages across {n_shards} shard(s) (max {max_shards})")
-    print(f"per-shard counts: {[len(s) for s in shards]}")
+    print(f"per-shard counts: {[len(s) for s in shards]} models: {models}")
 
     # Pre-tick reaction self-heal — mirror of the sweep in merge_deltas.py.
     # Runs at the START of every tick so any reaction the previous tick's

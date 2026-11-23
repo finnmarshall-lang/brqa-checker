@@ -131,12 +131,13 @@ jobs:
           # until all finish; `set -m` gives them proper job control.
           set -m
           for ((i=0; i<SHARDS_USED; i++)); do
+            SHARD_MODEL=$(python3 -c "import json; print(json.load(open('queue_meta.json'))['models'][$i])")
             (
               export SHARD_FILE="shard_$i.json"
               export STATE_DELTA_FILE="state_delta_$i.json"
-              echo "--- shard $i start $(date -u +%H:%M:%SZ) ---" >> logs/shard_$i.log
+              echo "--- shard $i start $(date -u +%H:%M:%SZ) model=$SHARD_MODEL ---" >> logs/shard_$i.log
               claude -p "$(cat tick_shard_prompt.txt)" \
-                --model claude-haiku-4-5-20251001 \
+                --model "$SHARD_MODEL" \
                 --dangerously-skip-permissions \
                 >> logs/shard_$i.log 2>&1
               echo "--- shard $i done  $(date -u +%H:%M:%SZ) ---" >> logs/shard_$i.log
